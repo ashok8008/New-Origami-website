@@ -16,7 +16,7 @@ import Carousel from 'react-multi-carousel';
 import { ReactComponent as LeftArrow } from "../../images/leftArrow.svg";
 import { ReactComponent as RightArrow } from "../../images/rightArrow.svg";
 import 'react-multi-carousel/lib/styles.css';
-import {isMobile} from 'react-device-detect';
+import { useMediaQuery } from "react-responsive";
 
 
 
@@ -26,6 +26,7 @@ const Staffing = () => {
     const ToggleClass = (e) => {
       setActive(prev => prev===e ? "" : e );  
     };
+    const isMobile = useMediaQuery({ maxWidth: 767 });
 
     const serviceBannerJsonData=[
         {
