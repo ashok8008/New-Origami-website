@@ -4,13 +4,6 @@ import {withRouter } from "react-router-dom";
 import "./styles.scss";
 import horizontalLine from "../../images/horizontalLine.svg"
 import Rectangle from "../../images/Rectangle.svg"
-import Responsive from "../../images/Responsive.svg"
-import Upgradation from "../../images/Upgradation.svg"
-import Security from "../../images/Security.svg"
-import Maintenance from "../../images/Maintenance.svg"
-import Migrations from "../../images/Migrations.svg"
-import PWA from "../../images/PWA.svg"
-import EffectiveLayout from "../../images/EffectiveLayout.svg"
 import DesignSubtract from "../../images/DesignSubtract.svg"
 import Carousel from 'react-multi-carousel';
 import { ReactComponent as LeftArrow } from "../../images/leftArrow.svg";
@@ -76,30 +69,16 @@ const Services = ()=>{
                                         </Container>
                                         <Container>
                                             <Row className="bannerIconsRow">
-                                                <Col className="d-flex">
-                                                    <img src={Responsive} className="bannerIcon" alt="i" />
-                                                    <span>{data?.icons.iconTitle1}</span>
-                                                </Col>
-                                                <Col className="d-flex">
-                                                    <img src={Upgradation} className="bannerIcon" alt="i" />
-                                                    <span>{data.icons.iconTitle2}</span>
-                                                </Col>
-                                                <Col className="d-flex">
-                                                    <img src={Security} className="bannerIcon" alt="i" />
-                                                    <span>{data.icons.iconTitle3}</span>
-                                                </Col>
-                                                <Col className="d-flex">
-                                                    <img src={Maintenance} className="bannerIcon" alt="i" />
-                                                    <span>{data.icons.iconTitle4}</span>
-                                                </Col>
-                                                <Col className="d-flex">
-                                                    <img src={Migrations} className="bannerIcon" alt="i" />
-                                                    <span>{data.icons.iconTitle5}</span>
-                                                </Col>
-                                                <Col className="d-flex">
-                                                    <img src={PWA} className="bannerIcon" alt="i" />
-                                                    <span>{data.icons.iconTitle6}</span>
-                                                </Col>
+                                                {(Array.from(data?.icons || [])).map((items)=>{
+                                                    return(<>  
+                                                        <Col>
+                                                            <div className="d-flex" md={2}>
+                                                                <img src={items.src} className="bannerIcon" alt="i" />
+                                                                <span>{items.icon}</span>
+                                                            </div>
+                                                        </Col>      
+                                                    </>)
+                                                })}      
                                             </Row> 
                                         </Container>
                                     </>)
@@ -182,9 +161,9 @@ const Services = ()=>{
                                                     >
                                                         {item.cardBoxData.map((item)=>{
                                                             return(      
-                                                                <Card className="align-items-center p-3 mx-3 carouselCard">
-                                                                    <img src={item.src} alt="i"  />
+                                                                <Card className=" p-3 mx-3 carouselCard"> 
                                                                     <Card.Body>
+                                                                        <img src={item.src} alt="i" className="caroselImg"  />
                                                                         <Card.Title className="carouselCardTitle">{item.title}</Card.Title>
                                                                         <Card.Text className="carouselCardTitleText">{item.text}</Card.Text>
                                                                     </Card.Body>

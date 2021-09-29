@@ -1,3 +1,10 @@
+import ResponsiveBanner from "../../images/Responsive.svg"
+import Upgradation from "../../images/Upgradation.svg"
+import Security from "../../images/Security.svg"
+import MaintenanceBanner from "../../images/Maintenance.svg"
+import Migrations from "../../images/Migrations.svg"
+import PWA from "../../images/PWA.svg" 
+ 
  import EffectiveLayout from "../../images/benefits/services/EffectiveLayout.svg"
  import Personalization from "../../images/benefits/services/Personalization.svg"
  import EffectiveCallAction from "../../images/benefits/services/EffectiveCallAction.svg"
@@ -12,6 +19,29 @@
  import Testing from "../../images/designProcess/Services/Testing.svg"
  import Maintenancedesign from "../../images/designProcess/Services/Maintenance.svg"
 
+ import ExcellentUIUX from "../../images/benefits/services/ExcellentUIUX.svg" 
+ import ExtensibleSolutions from "../../images/benefits/services/ExtensibleSolutions.svg" 
+ import TechnicalExpertise from "../../images/benefits/services/TechnicalExpertise.svg" 
+ import MobileFriendly from "../../images/benefits/services/MobileFriendly.svg" 
+ import HighAccessibility from "../../images/benefits/services/HighAccessibility.svg"
+ import PlusTechExperts from "../../images/ChooseUs/Service/180PlusTechExperts.svg" 
+ import CostEfficient from "../../images/ChooseUs/Service/CostEfficient.svg" 
+ import SystematicWorkflow from "../../images/ChooseUs/Service/SystematicWorkflow.svg" 
+
+ import Scalable from "../../images/benefits/services/Scalable.svg" 
+ import Responsive from "../../images/benefits/services/Responsive.svg" 
+ import Accessibility from "../../images/benefits/services/Accessibility.svg" 
+ import FastSpeed from "../../images/benefits/services/FastSpeed.svg"
+ 
+ 
+
+
+
+
+
+
+ import SuperEasyNavigation from "../../images/benefits/ecommerce/SuperEasyNavigation.svg" 
+
 
 const jsonData=[
     {
@@ -25,14 +55,32 @@ const jsonData=[
                     "text3" :"Service"
                 },
                 "descritption" : "Origami Softwatre's ensures to deliver custom website design services, globally! We are adept at designing responsive, fast-loading, and user-friendly websites that offer a consistent look and use across different web browsers.",
-                "icons":{
-                    "iconTitle1":"Responsive",
-                    "iconTitle2":"Upgradation",
-                    "iconTitle3":"Security",
-                    "iconTitle4":"Maintenance",
-                    "iconTitle5":"Migrations",
-                    "iconTitle6":"PWA",
-                }
+                "icons":[
+                    {
+                        "icon":"Responsive",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Upgradation",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Security",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"Maintenance",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Migrations",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"PWA",
+                        "src":PWA
+                    }
+                ]
                 
             }
         ],
@@ -244,23 +292,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"Excellent UI/UX",
-                        "text":"Our UI/UX designing team creates a wonderful layout of your website that easily grabs the user’s attention."
+                        "text":"Our UI/UX designing team creates a wonderful layout of your website that easily grabs the user’s attention.",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"Extensible solutions",
-                        "text":"We are experts in designing scalable websites that expand as per the growing requirements of the business."
+                        "text":"We are experts in designing scalable websites that expand as per the growing requirements of the business.",
+                        "src":ExtensibleSolutions
                     },
                     {
                         "title":"Technical Expertise",
-                        "text":"Our designers keep a close check on the latest designing trends and apply them effectively to every project."
+                        "text":"Our designers keep a close check on the latest designing trends and apply them effectively to every project.",
+                        "src":TechnicalExpertise
                     },
                     {
                         "title":"Mobile-friendly",
-                        "text":"Our eCommerce web design company is professionally involved in creating a mobile-responsive design that gives an impeccable browsing experience."
+                        "text":"Our eCommerce web design company is professionally involved in creating a mobile-responsive design that gives an impeccable browsing experience.",
+                        "src":MobileFriendly
                     },
                     {
                         "title":"High Accessibility",
-                        "text":"We strictly adhere to accessibility standards and principles such as WCAG2.0 to design accessible sites."
+                        "text":"We strictly adhere to accessibility standards and principles such as WCAG2.0 to design accessible sites.",
+                        "src":HighAccessibility
                     },                
                 ]
             }
@@ -275,15 +328,18 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"180+ Tech Experts",
-                        "text":"We have a good strength of trained and experienced web designers. They adopt a customer-focused approach while designing the look of an eCommerce site, and maintain a pace with the latest technologies."
+                        "text":"We have a good strength of trained and experienced web designers. They adopt a customer-focused approach while designing the look of an eCommerce site, and maintain a pace with the latest technologies.",
+                        "src":PlusTechExperts
                     },
                     {
                         "title":"Cost-efficient",
-                        "text":"Our developers deeply analyze the project’s requirements and suggest the most suitable solution in a cost-effective manner. Our proposed solutions sync well with diverse business needs optimally."
+                        "text":"Our developers deeply analyze the project’s requirements and suggest the most suitable solution in a cost-effective manner. Our proposed solutions sync well with diverse business needs optimally.",
+                        "src":CostEfficient
                     },
                     {
                         "title":"Systematic Workflow",
-                        "text":"We thoroughly understand the client’s requirements and then map out the designing strategy. Our team of designers are well-coordinated and works with dexterity to bring pleasing results. Our streamlined work process enables us to finish all our projects swiftly."
+                        "text":"We thoroughly understand the client’s requirements and then map out the designing strategy. Our team of designers are well-coordinated and works with dexterity to bring pleasing results. Our streamlined work process enables us to finish all our projects swiftly.",
+                        "src":SystematicWorkflow
                     },              
                 ]
             }
@@ -297,23 +353,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"Discovery",
-                        "text":"We start by requirement gathering, competitive analysis, finding business goals, etc., to discover your project feasibility."
+                        "text":"We start by requirement gathering, competitive analysis, finding business goals, etc., to discover your project feasibility.",
+                        "src":Strategize
                     },
                     {
                         "title":"Wireframe / Design",
                         "text":"After understanding the requirement, we create high fidelity wireframes and prototypes if applicable for your website design.",
+                        "src":Design
                     }, 
                     {
                         "title":"Development",
-                        "text":"We implement all your website pages and content in a CMS. All the webpages and other website components are developed."
+                        "text":"We implement all your website pages and content in a CMS. All the webpages and other website components are developed.",
+                        "src":Development
                     }, 
                     {
                         "title":"Testing",
-                        "text":"Your website goes through a stringent test procedure where various aspects, including appearance & performance, are tested."
+                        "text":"Your website goes through a stringent test procedure where various aspects, including appearance & performance, are tested.",
+                        "src":Testing
                     }, 
                     {
                         "title":"Deployment",
-                        "text":"After creating and testing the website successfully, we help you deploy your site on any desired platform and complete the setup."
+                        "text":"After creating and testing the website successfully, we help you deploy your site on any desired platform and complete the setup.",
+                        "src":Maintenancedesign
                     },               
                 ]
             }
@@ -372,23 +433,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"Scalable",
-                        "text":"We design scalable corporate websites that will quickly adjust to the growing needs of your business."
+                        "text":"We design scalable corporate websites that will quickly adjust to the growing needs of your business.",
+                        "src":Scalable
                     },
                     {
                         "title":"Responsive",
-                        "text":"The corporate website that we will design for you will display perfectly on mobiles, desktops, laptops, & tablets."
+                        "text":"The corporate website that we will design for you will display perfectly on mobiles, desktops, laptops, & tablets.",
+                        "src":Responsive
                     },
                     {
                         "title":"Accessibility",
-                        "text":"Our designers follow accessibility guidelines and standards like WCAG 2.0 to create a highly accessible website."
+                        "text":"Our designers follow accessibility guidelines and standards like WCAG 2.0 to create a highly accessible website.",
+                        "src":Accessibility
                     },
                     {
                         "title":"Superior UI/UX",
-                        "text":"Our web designers research & ideate to create an appealing UI/UX design with impressive user flow."
+                        "text":"Our web designers research & ideate to create an appealing UI/UX design with impressive user flow.",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"Fast Speed",
-                        "text":"We not only design your website for optimal user experience, but we also optimize it for seamless performance."
+                        "text":"We not only design your website for optimal user experience, but we also optimize it for seamless performance.",
+                        "src":FastSpeed
                     },                
                 ]
             }
@@ -1993,94 +2059,82 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/ecommerce/Ecommerce-App-Development",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "ECOMMERCE APPLICATION DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :""
+                    "text1" :"End-To-End",
+                    "text2" :"eCommerce",
+                    "text3" :"App Development Services"
                 },
-                "descritption" : "",
+                "descritption" : "At Origami Softwares, we plan, strategize, and create the best eCommerce mobile apps that provide an engaging and captivating shopping experience. We have an accomplished team of highly skilled and experienced eCommerce mobile app developers. Whether you want an exclusive Android or iOS app or looking for a hybrid or cross-platform mobile app, you can confidently partner with Sparx IT Solutions to get an assured quality solution.",
                 "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
+                    "iconTitle1":"Native/Hybrid App",
+                    "iconTitle2":"Push Notifications",
+                    "iconTitle3":"AR Integration",
+                    "iconTitle4":"ML Implementation",
+                    "iconTitle5":"Material Design",
+                    "iconTitle6":"Offline Sync",
                 }
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":""
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"eCommerce App Development Service"
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text" :"",
+                        "title":"Mobile App Development",
+                        "text" :"We build a prototype of your project by analyzing your project requirements and render amazing web designing solutions. Our highly skilled designers offer scalable solutions in close sync with the specific business needs.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Custom UI/UX Design",
+                        "text":"With mobile apps, businesses can offer a remarkable user experience. We are equipped with a highly efficient team that can build impeccable UX designs in less time. Our designs are perfect to drive the user’s attention online."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"App Store Optimization",
+                        "text":"We have hands-on working experience in building feature-enriched eCommerce apps to provide a user-friendly experience. Our app designs are functional that will enhance the engagement rate to a great extent."
+                    },               
                 ]
             }
         ],
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
-                    "text3":"",
+                    "text1":"How Choosing Us As Your ",
+                    "text2":"eCommerce App Development Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":" you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Super Easy Navigation",
+                        "text":"We create a mobile eCommerce app with easy navigation and predictable user flow.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Easy Checkout",
+                        "text":"We ensure that the checkout process is easy and hassle-free for every user of the app.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Social Media Integration",
+                        "text":"It will provide sharing of product details with others as well as a means for login & registration.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Secure Payment/ Shipping Methods",
+                        "text":"We will create a mobile eCommerce app with multiple payment options and shipping methods.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Advanced Features",
+                        "text":"We add advanced features in the app like search filters, e-catalogs, order tracking, reviews, etc.",
+                        "src":SuperEasyNavigation
                     },                
                 ]
             }
@@ -2088,24 +2142,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
-                    "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"eCommerce App Development",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Excellent Solutions",
+                        "text":"We have experience of more than a decade in the industry of eCommerce app design and development and provide quality solutions. Our developers have in-depth knowledge of the latest mobile app technologies, frameworks, and tools, and they can handle a project with any level of complexity.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Scalable Apps",
+                        "text":"Our mobile app developers not only create a robust eCommerce mobile app for your business, but they also make it scalable. With the potential of scalability, your app will be easy to scale as per your business needs. The app can be adapted easily according to growing business needs.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"User-friendly",
+                        "text":"An app with user-friendly features is more favorable to users than an app with an appealing design but fuzzy navigation. At Sparx IT Solutions, we will build an eCommerce mobile application that will have easy navigation, extensive features, and functionalities providing alluring user experience.",
+                        "src":SuperEasyNavigation
                     },              
                 ]
             }
@@ -2113,29 +2170,34 @@ const jsonData=[
         "designProcess":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Our Seemless",
+                    "text2":"eCommerce App Development Process",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Discovery",
+                        "text":"We start by requirement gathering, competitive analysis, finding business goals, etc., to discover your project feasibility.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Designing",
+                        "text":"After understanding the requirement, we create high fidelity wireframes and prototypes.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Developing",
+                        "text":"At this stage, the developers will work their charm on the CMS, coding, and server realization.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Testing",
+                        "text":"Your website goes through a stringent test procedure where various aspects, including appearance & performance, are tested",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Deployment",
+                        "text":"After creating and testing the website successfully, we help you deploy your site on any desired platform and complete the setup.",
+                        "src":SuperEasyNavigation
                     },              
                 ]
             }
@@ -2143,21 +2205,22 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/ecommerce/Ecommerce-Web-Development",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "ECOMMERCE WEBSITE DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :""
+                    "text1" :"Cutting-Edge",
+                    "text2" :"eCommerce Web Development",
+                    "text3" :"Services"
                 },
-                "descritption" : "",
+                "descritption" : "Origami Softwares is a premier digital solutions provider serving customers across the globe with its astounding set of eCommerce solutions. We tend to hype our growth to new heights in the upcoming years by continuing to use the latest and advanced technology that helps us create competitive and futuristic digital solutions.",
                 "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
+                    "iconTitle1":"Multi-Lingual Support",
+                    "iconTitle2":"Multi-Currency Support",
+                    "iconTitle3":"Installation",
+                    "iconTitle4":"Responsive Design",
+                    "iconTitle5":"Multi-Vendor Marketplace",
                     "iconTitle6":"",
                 }
             }
@@ -2165,72 +2228,71 @@ const jsonData=[
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":""
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"eCommerce Web Development Service"
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text" :"",
+                        "title":"B2C eCommerce Platforms",
+                        "text" :"Creating interactive and feature-packaged web portals where any business can connect directly to its customers to engage in growth. We empower these websites by integrating advanced eCommerce tools that increase their efficiency and productivity",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"B2B Marketplaces",
+                        "text":"Building secured, sustainable and rich-featured B2B marketplaces to allow the businesses to deliver their products or services to other potential businesses in the market. We empower our clients by providing them highly-efficient B2B marketplaces that recur growth."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Multi-Vendor Platforms",
+                        "text":"Bring multiple vendors to a single powering and effective eCommerce platforms that allows every business the opportunity to sell their products or services online. We are using capable technologies to create promising multivendor marketplace solutions."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"CMS Integration",
+                        "text":"Integrating eCommerce platforms like PrestaShop, OpenCart, Zen Cart, osCommerce, Magento, WooCommerce, and Shopify to empower your marketplaces excelling in the capabilities of your business with maximum potential. These platforms enable us to bring eCommerce in a more lucrative form for our clients."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Migration & Upgrade",
+                        "text":"Helping businesses to move their conventional web portals to modern-age, capable, feature-packed, customizable and more secured eCommerce platforms using advanced technology fulfilling the complete aspirations of every business regardless of their sizes or industry-domains."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"API Integration",
+                        "text":"Simplifying eCommerce development solutions by integrating advanced APIs such as PayPal, FedEx, QuickBooks, Google Analytics API for different objectives i.e. payment integration, customer management, billing and order management and enable precise analytics support to the platform as a whole."
+                    },                
                 ]
             }
         ],
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
-                    "text3":"",
+                    "text1":"How Choosing Us As Your",
+                    "text2":"eCommerce Web Development Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":" you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Agile Approach",
+                        "text":"Transformative agile culture of development indulges in maximum growth.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Mobile-Friendly",
+                        "text":"Our eCommerce web solutions appear constantly appealing and the same as scripted.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Appealing UI/UX",
+                        "text":"Designing interactive UI/UX pages that communicate effectively with our customers.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Rich-Featured",
+                        "text":"Empowering our eCommerce web solutions with dynamic features and functionalities to execute complex tasks simpler faster.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Efficient Tech-Stack",
+                        "text":"Using the latest trends and technologies to create fundamentally strong web app architecture.",
+                        "src":SuperEasyNavigation
                     },                
                 ]
             }
@@ -2238,24 +2300,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
-                    "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"eCommerce Web Development ",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Decades Of Experience",
+                        "text":"Sparx IT Solutions is committed to offering quality eCommerce development services. We have a team of highly experienced and certified developers who understand the client’s requirements. We provide full-fledged ecommerce services across the globe..",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"On-time Delivery",
+                        "text":"We follow a smart development approach to meet project deadlines. We have a team of skilled ecommerce website developers who are dedicated to timely delivery of the project. We do not let our clients compromise with quality and give prior importance to their time and money.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Agile Development Process",
+                        "text":"We adopt an agile development methodology for rapid development of an ecommerce website that enables us to deliver high-quality products without any delays. Our team is capable of operating advanced tools and devices to deliver high-end solutions.",
+                        "src":SuperEasyNavigation
                     },              
                 ]
             }
@@ -2263,29 +2328,34 @@ const jsonData=[
         "designProcess":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Our Seemless",
+                    "text2":"eCommerce App Development Process",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Discovery",
+                        "text":"We start by requirement gathering, competitive analysis, finding business goals, etc., to discover your project feasibility.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Designing",
+                        "text":"After understanding the requirement, we create high fidelity wireframes and prototypes.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Developing",
+                        "text":"At this stage, the developers will work their charm on the CMS, coding, and server realization.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Testing",
+                        "text":"Your website goes through a stringent test procedure where various aspects, including appearance & performance, are tested",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Deployment",
+                        "text":"After creating and testing the website successfully, we help you deploy your site on any desired platform and complete the setup.",
+                        "src":SuperEasyNavigation
                     },              
                 ]
             }
@@ -2293,94 +2363,83 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/ecommerce/B2B-Web-Design",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "A RELIABLE B2B ECOMMERCE COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :""
+                    "text1" :"Providing result-oriented",
+                    "text2" :"B2B eCommerce",
+                    "text3" :"Services"
                 },
-                "descritption" : "",
+                "descritption" : "Origami Softwares offers B2B eCommerce solutions to facilitate the lucrative and flawless sale of goods and services between businesses. Our exclusive B2B eCommerce services deliver perfect solutions for all electronic commerce issues and ensure a steady increase in sales. Our modern and unique work approach makes us a top-notch B2B eCommerce company.",
                 "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
+                    "iconTitle1":"Tier Pricing",
+                    "iconTitle2":"Quote Form",
+                    "iconTitle3":"Batch Processing",
+                    "iconTitle4":"Credit System",
+                    "iconTitle5":"Single & Multi-vendor",
+                    "iconTitle6":"Custom Solutions",
+                    "iconTitle7":"App Development", 
                 }
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":""
+                    "text1":"We Deliver Comprehensive ",
+                    "text2":" B2B eCommerce Solutions"
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text" :"",
+                        "title":"Multi-vendors",
+                        "text" :"Creating interactive and feature-packaged web portals where any business can connect directly to its customers to engage in growth. We empower these websites by integrating advanced eCommerce tools that increase their efficiency and productivity",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Marketplace Integration",
+                        "text":"Building secured, sustainable and rich-featured B2B marketplaces to allow the businesses to deliver their products or services to other potential businesses in the market. We empower our clients by providing them highly-efficient B2B marketplaces that recur growth."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"CRM Integration",
+                        "text":"Bring multiple vendors to a single powering and effective eCommerce platforms that allows every business the opportunity to sell their products or services online. We are using capable technologies to create promising multivendor marketplace solutions."
+                    },               
                 ]
             }
         ],
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
-                    "text3":"",
+                    "text1":"How Choosing Us As Your",
+                    "text2":" B2B eCommerce Solution Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":" you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Mobile Compatibility",
+                        "text":"Our websites are responsive in nature that can be accessible to any mobile devices, including Smartphones, Tablets, Desktop, and laptops.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Security",
+                        "text":"Our experts will make sure to create a secure website with updated security plugins. We will make your website’s security strong to handle possible threats.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"UI/UX",
+                        "text":"Our designer will create an alluring website that would be aesthetically pleasing with commendable design. Attracting customers with unique designs is the aim of our experts.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Rapid Development",
+                        "text":"Our proficient B2B eCommerce website development ensures prompt delivery to your project without compromising on quality.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Technology",
+                        "text":"Our B2B eCommerce website development is based on the latest technology that helps in increasing sales and other operations of your B2B eCommerce website.",
+                        "src":SuperEasyNavigation
                     },                
                 ]
             }
@@ -2388,24 +2447,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
-                    "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"eCommerce Web Development ",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Efficient Project Management",
+                        "text":"The accomplishment of a project is tough to achieve but with Sparx IT Solutions this will be a seamless process. Our B2B eCommerce website development company works on the clients’ requirements. From planning the project's budget to delivering high-quality results, we are proficient in everything.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Transparency",
+                        "text":"For Sparx IT Solutions, the client’s needs are the utmost priority. We involve our clients as active participants during the process of fabricating the website. We make sure that there is a transparent communication between our clients from the inception till deployment.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Cost-efficient",
+                        "text":"Cost is a major concern for every entrepreneur but we never allow it to become a hindrance for impeccable B2B eCommerce services. We provide predefined results with bespoke solutions within a stipulated budget.",
+                        "src":SuperEasyNavigation
                     },              
                 ]
             }
@@ -2413,29 +2475,34 @@ const jsonData=[
         "designProcess":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Our Seemless",
+                    "text2":"eCommerce App Development Process",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Discovery",
+                        "text":"We start by requirement gathering, competitive analysis, finding business goals, etc., to discover your project feasibility.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Designing",
+                        "text":"After understanding the requirement, we create high fidelity wireframes and prototypes.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Developing",
+                        "text":"At this stage, the developers will work their charm on the CMS, coding, and server realization.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Testing",
+                        "text":"Your website goes through a stringent test procedure where various aspects, including appearance & performance, are tested",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Deployment",
+                        "text":"After creating and testing the website successfully, we help you deploy your site on any desired platform and complete the setup.",
+                        "src":SuperEasyNavigation
                     },              
                 ]
             }
@@ -2443,94 +2510,94 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/ecommerce/Magento-Development",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "MAGENTO DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :""
+                    "text1" :"We Provide Wide Range of",
+                    "text2" :" Magento eCommerce Development",
+                    "text3" :"Services"
                 },
-                "descritption" : "",
+                "descritption" : "At Origami Softwares, we develop custom websites with advanced features to give you a competitive edge. Our developers are well-experienced and apprised of the latest trends in Magento.",
                 "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
+                    "iconTitle1":"Multi-Lingual Support",
+                    "iconTitle2":"Multi-Currency Support",
+                    "iconTitle3":"Multi-Vendor Support",
+                    "iconTitle4":"Installation",
+                    "iconTitle5":"Responsive Design",
+                    "iconTitle6":"Multi-Vendor Marketplace",
                 }
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":""
+                    "text1":"We Deliver Comprehensive ",
+                    "text2":"Magento eCommerce Development Service"
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text" :"",
+                        "title":"Magento eCommerce Web Design",
+                        "text" :"We will design a state-of-the-art Magento eCommerce website that bears top-notch features and functionality for your business. After listening to your requirements, our web designers and developers employ their skills to render front-end coding, payment methods integration, plugin integration, and do a lot of custom work.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Custom Magento Development",
+                        "text":"You can choose us as your Magento eCommerce development company to build custom websites that include tailored functionalities and meet your business expectations. We come up with the best solutions after analyzing your requirements and the business ecosystem. Our developers integrate the best payment methods, modules, extensions, and more."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Magento Migration Service",
+                        "text":"Forget all the pains of migrating your Magento 1.x website to Magento 2.x as we will help you move your website to the latest Magento 2 platform while ensuring the safety and integrity of your data. Our developers are adept at handling all challenges related to migration and optimize the website for better performance and experience."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Multi-vendor eCommerce Development",
+                        "text":"A multi-vendor e-commerce website allows multiple vendors to sell their products on a single site, and it’s an online marketplace. Our developers can develop an online marketplace website like Amazon, eBay, etc., by harnessing the full potential of the Magento e-commerce platform. With our experience as a trusted Magento development company, we will create the best shopping experience for your customers."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Magento Consulting Service",
+                        "text":"We can guide and support you for running your business successfully. Our professionals provide a clear vision, right direction, and practical strategies to help you get the most out of your investment. We offer an active Magento consultation service."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Magento Upgrade",
+                        "text":"You can experience new features and functionalities by upgrading the existing version of your Magento e-commerce platform to the latest one. We provide end-to-end assistance in updating your e-commerce store to the latest version. The new upgrade will bring improvements in performance, security, and user interface."
+                    },               
                 ]
             }
         ],
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
-                    "text3":"",
+                    "text1":"How Choosing Us As Your",
+                    "text2":"Magento eCommerce Development",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":" you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Best UI/UX",
+                        "text":"We will create custom templates with enthralling UI/UX design providing an attractive look and feel.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"ERP/CRM",
+                        "text":"We will integrate the ERP/CRM system of your choice or integrate to fulfill custom Magento development needs.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"API Integration",
+                        "text":"Our developers can integrate third-party APIs into your site or add your own internal/external APIs.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Payment/Shipping",
+                        "text":"Payment/Shipping will be more manageable as we will integrate the best payment and shipping options on site.",
+                        "src":SuperEasyNavigation
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"PWA Implementation",
+                        "text":"We can create a PWA for your Magento e-commerce website to provide enhanced mobile experience.",
+                        "src":SuperEasyNavigation
                     },                
                 ]
             }
@@ -2538,24 +2605,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
-                    "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"Magento eCommerce Development",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Scalable Solutions",
+                        "text":"Our developers create feature-packed and scalable Magento e-commerce websites for your business that will offer excellent features to manage and control varied aspects of your site. Due to scalability, adapting your website as per growing business needs will be easy.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Secure Websites",
+                        "text":"We employ security extensions and other safety measures to ensure that your website is highly secure and protected. Our developers leave no stone unturned to make sure that your website is protected from all kinds of hacking and malware attacks.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Experience",
+                        "text":"Having a robust experience of over 13 years, we have become a well-established Magento eCommerce development company serving customers across the globe. We are equipped with extensive knowledge and an excellent technical knack. We can handle the most complex Magento development projects and provide quality services.",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -2563,29 +2633,34 @@ const jsonData=[
         "designProcess":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Our Seemless",
+                    "text2":"Magento eCommerce Development Process",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Discovery",
+                        "text":"We start by requirement gathering, competitive analysis, finding business goals, etc., to discover your project feasibility.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Designing",
+                        "text":"After understanding the requirement, we create high fidelity wireframes and prototypes.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Developing",
+                        "text":"At this stage, the developers will work their charm on the CMS, coding, and server realization.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Testing",
+                        "text":"Your website goes through a stringent test procedure where various aspects, including appearance & performance, are tested",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Deployment",
+                        "text":"After creating and testing the website successfully, we help you deploy your site on any desired platform and complete the setup.",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -2593,94 +2668,94 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/ecommerce/WooCommerce-Development",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "Woocommerce DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :""
+                    "text1" :"Offering Exemplary",
+                    "text2" :"WooCommerce Development",
+                    "text3" : "Services"
                 },
-                "descritption" : "",
+                "descritption" : "At Origami Softwares, we strive to deliver optimum WooCommerce development services with our team of certified professionals. We create user-friendly and fully operational eCommerce stores with WooCommerce and its plugins.",
                 "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
+                    "iconTitle1":"Customization",
+                    "iconTitle2":"Secure Themes",
+                    "iconTitle3":"Fully Tested Themes",
+                    "iconTitle4":"eStore Development",
+                    "iconTitle5":"API Integration",
+                    "iconTitle6":"Module Development",
                 }
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":""
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"Woocommerce eCommerce Development Service"
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text" :"",
+                        "title":"Custom Development",
+                        "text" :"Our WooCommerce developer aims to offer tailor-made solutions to our clients with top-tier WooCommerce solutions. We understand the needs and goals of our clients to change their ideas into reality.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Maintainance & Support",
+                        "text":"For your existing WooCommerce website, maintenance and support are crucial for the website to run without a hitch. We can help to improve your website’s performance while inducing the latest updates and enhanced features."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Intuitive Designing",
+                        "text":"Sparx IT Solutions has a team of experienced web & graphics designers who can perform WooCommerce Theme Development. They will make alluring designs including logos, objects, and other creative aspects that would look appealing to the visitors."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Responsive Website",
+                        "text":"We can develop a WooCommerce website that works on mobile devices as flawless as it functions on the desktop website. Sparx IT Solutions has experienced professionals who can create responsive websites that are platform-independent."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"WooCommerce Migration",
+                        "text":"Our professionals can migrate your existing business website to the WooCommerce platform. As an eminent WooCommerce Development Company, we offer assurance for the integrity and proper functioning of your website. Our experts prevent the loss of data during migration."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Integration & Upgradation",
+                        "text":"Sparx IT Solutions can help you with the integration of the latest technology to make sure you are not lacking behind. We can upgrade your existing online shopping website with exceptional features."
+                    },                
                 ]
             }
         ],
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
-                    "text3":"",
+                    "text1":"How Choosing Us As Your",
+                    "text2":"Woocommerce eCommerce Development Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Customer Support",
+                        "text":"We offer continuous communication support that would keep us and the client on the same page through every step of the process.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Payment Integration",
+                        "text":"The process of payment is made easier and more secure with the help of our commendable WooCommerce solutions.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Third-party Vendor",
+                        "text":"We offer bug-free coding and seamless integration with third-party vendors to make a clear path for your business’s success.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Pixel-perfect Themes",
+                        "text":"Quality is a priority to us and we assure you to deliver custom themes without compromising on the pixel of themes.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Easy Deployment",
+                        "text":"Once the project is complete, our team offers the deployment of the WooCommerce website successfully.",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -2688,24 +2763,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
-                    "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"Woocommerce eCommerce Development",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Testing & Quality Check",
+                        "text":"We offer exceptional quality of work. Our experts ensure that every WooCommerce project withstands manifold quality assurance tests before final delivery and launch. Our professionals leave no stone unturned when it comes to quality check",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Free Consultation",
+                        "text":"Free consultation with our developers resolves all the queries related to WooCommerce development. We help in finding answers and choosing the best way out of any problem or confusion you’re facing.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Experienced Developers",
+                        "text":"Every professional working with Sparx IT Solutions has extensive experience in their respective specialization. Our team of experts will understand every nuance of WooCommerce and the requirements of every client.",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -2713,29 +2791,34 @@ const jsonData=[
         "designProcess":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Our Seemless",
+                    "text2":"Magento eCommerce Development Process",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Discovery",
+                        "text":"We start by requirement gathering, competitive analysis, finding business goals, etc., to discover your project feasibility.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Designing",
+                        "text":"After understanding the requirement, we create high fidelity wireframes and prototypes.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Developing",
+                        "text":"At this stage, the developers will work their charm on the CMS, coding, and server realization.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Testing",
+                        "text":"Your website goes through a stringent test procedure where various aspects, including appearance & performance, are tested",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Deployment",
+                        "text":"After creating and testing the website successfully, we help you deploy your site on any desired platform and complete the setup.",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -2743,94 +2826,94 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/ecommerce/Shopify-Development",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "SHOPIFY DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :""
+                    "text1" :"We Provide Wide Range of",
+                    "text2" :"Shopify Development",
+                    "text3" : "Services"
                 },
-                "descritption" : "",
+                "descritption" : "As a credible digital solutions provider, we strive to deliver custom Shopify development services to our clients. With a team of dexterous professionals, we ensure a precise fulfillment of what our customers expect from us in terms of technological expertise and quality. Every professional working with us has shown an extraordinary commitment in their respective department which instills confidence in us being an organization.",
                 "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
+                    "iconTitle1":"Mobile Responsive",
+                    "iconTitle2":"Quick Loading Speed",
+                    "iconTitle3":"Highly Customizable",
+                    "iconTitle4":"SASS/LESS",
+                    "iconTitle5":"Comment Functionality",
+                    "iconTitle6":"Latest Browser Compatibility",
                 }
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":""
+                    "text1":"We Deliver Comprehensive",
+                    "text2":" Shopify Development Service"
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text" :"",
+                        "title":"eCommerce Shopify Development",
+                        "text" :"We will design a state-of-the-art Magento eCommerce website that bears top-notch features and functionality for your business. After listening to your requirements, our web designers and developers employ their skills to render front-end coding, payment methods integration, plugin integration, and do a lot of custom work.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Shopify Migration",
+                        "text":"You can choose us as your Magento eCommerce development company to build custom websites that include tailored functionalities and meet your business expectations. We come up with the best solutions after analyzing your requirements and the business ecosystem. Our developers integrate the best payment methods, modules, extensions, and more."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Custom Shopify Development",
+                        "text":"Forget all the pains of migrating your Magento 1.x website to Magento 2.x as we will help you move your website to the latest Magento 2 platform while ensuring the safety and integrity of your data. Our developers are adept at handling all challenges related to migration and optimize the website for better performance and experience."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Shopify Integration",
+                        "text":"A multi-vendor e-commerce website allows multiple vendors to sell their products on a single site, and it’s an online marketplace. Our developers can develop an online marketplace website like Amazon, eBay, etc., by harnessing the full potential of the Magento e-commerce platform. With our experience as a trusted Magento development company, we will create the best shopping experience for your customers."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Shopify Theme Development",
+                        "text":"We can guide and support you for running your business successfully. Our professionals provide a clear vision, right direction, and practical strategies to help you get the most out of your investment. We offer an active Magento consultation service."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Shopify App Development",
+                        "text":"You can experience new features and functionalities by upgrading the existing version of your Magento e-commerce platform to the latest one. We provide end-to-end assistance in updating your e-commerce store to the latest version. The new upgrade will bring improvements in performance, security, and user interface."
+                    },               
                 ]
             }
         ],
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
-                    "text3":"",
+                    "text1":"How Choosing Us As Your",
+                    "text2":"Shopify Development Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":" you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Industry Experience",
+                        "text":"Our teams have professional Shopify web developers who have extensive experience in distinctive industry domains.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Immersive UI",
+                        "text":"As a premier shopify website development company, craft captivative websites with custom features and themes that are viable to the most complex business processes.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"24*7 Availability",
+                        "text":"Our customer support is to offer optimum convenience which will be accessible for our customers 24*7.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"High-end Security",
+                        "text":"We primarily focus on security to the Shopify website as well as personal information of the clients.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Quality Development",
+                        "text":"We devoid any compromise on quality for any project and offer exceptional Shopify development to a company of any size.",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -2838,24 +2921,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
-                    "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"Shopify eCommerce Development",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Client Satisfaction",
+                        "text":"Our client’s contentment is the first priority for us. We include the latest technologies and frameworks to provide secure and user-friendly solutions in accordance with your requirements.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Transparency",
+                        "text":"We make our clients an integral part of the process of development and take your opinion into consideration. Our teams keep them updated at every phase of their Shopify website. Our objective is to work with integrity and respect.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Specialist Professionals",
+                        "text":"We will assign a dedicated professional Shopify developer to work on your project. Each of these experts has substantial experience in their respectful departments. They can work efficiently with multiple technologies and frameworks. They can style efficient solutions for your business’ demand.",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -2863,29 +2949,34 @@ const jsonData=[
         "designProcess":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Our Seemless",
+                    "text2":"Magento eCommerce Development Process",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Discovery",
+                        "text":"We start by requirement gathering, competitive analysis, finding business goals, etc., to discover your project feasibility.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Designing",
+                        "text":"After understanding the requirement, we create high fidelity wireframes and prototypes.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Developing",
+                        "text":"At this stage, the developers will work their charm on the CMS, coding, and server realization.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Testing",
+                        "text":"Your website goes through a stringent test procedure where various aspects, including appearance & performance, are tested",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Deployment",
+                        "text":"After creating and testing the website successfully, we help you deploy your site on any desired platform and complete the setup.",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -2893,94 +2984,94 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/ecommerce/Prestashop-Development",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "LEADING PRESTASHOP DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :""
+                    "text1" :"Maximize Your Business Growth With Ultimate",
+                    "text2" :"PrestaShop Development",
+                    "text3" :"Services"
                 },
-                "descritption" : "",
+                "descritption" : "We have expertise in creating mobile-friendly, dynamic, secure, and feature-rich PrestaShop e-commerce websites. Being a specialist in PrestaShop, we have in-depth knowledge of this e-commerce platform that allows us to create complex online stores.",
                 "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
+                    "iconTitle1":"Multi-Lingual Support",
+                    "iconTitle2":"Multi-Currency Support",
+                    "iconTitle3":"Multivendor Support",
+                    "iconTitle4":"Installation & Guarantee",
+                    "iconTitle5":"Responsive Design",
+                    "iconTitle6":"Pixel-perfect Design",
                 }
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":""
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"PrestaShop Development Service"
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text" :"",
+                        "title":"Custom PrestaShop Development",
+                        "text" :"Every business has unique requirements, similarly, your target audience has different expectations. At Sparx IT Solutions, we ensure to create an e-commerce store that fulfills your customers’ expectations and business needs with custom PrestaShop web development. We provide a tailored website with bespoken functionality. ",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"PrestaShop Module Development",
+                        "text":"Our PrestaShop developers can create custom PrestaShop modules or add-ons to make clients’ e-commerce websites more effective or to extend existing functionality. Having experience in creating various plugins or modules of different online stores, we have the caliber to develop advanced modules for PrestaShop e-commerce websites. "
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"PrestaShop Theme Development",
+                        "text":"We are adept at creating engaging and quality website themes/templates as well as provide the PrestaShop theme customization service. Our developers can create attractive and user-friendly PrestaShop website templates as per your business requirements. We offer full-scale theme customization service and help to make your website stand out from competitors’."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"PrestaShop Migration Service",
+                        "text":"Whether you want to upgrade your existing website to the latest PrestaShop platform or want to migrate your site to any other e-commerce platform, we help you to accomplish this task successfully. Migration is one of the major challenges faced by online merchants, we employ our expertise to simplify the migration process and help our clients move their websites to a new platform safely and precisely."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"PrestaShop Support & Maintenance",
+                        "text":"We provide all the necessary support and maintenance services to our clients to make sure that their website runs smoothly without a single glitch. We help clients to maintain the quality and performance of their website by making them bug-free, installing essential updates, enhancing overall performance, and providing quick support whenever there is some technical glitch on a website."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Third-Party API Integration",
+                        "text":"We can integrate third-party APIs into your PrestaShop website. And, we also provide support for third-party data integration like CRM, ERP, billing software, cloud service integration, etc. We can also integrate your own API into the website or create a custom API that meets your business requirements."
+                    },                
                 ]
             }
         ],
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
-                    "text3":"",
+                    "text1":"How Choosing Us As Your",
+                    "text2":"PrestaShop Development Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":" you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Shopping Cart Development",
+                        "text":"You can choose us to create a custom shopping cart for your e-commerce website.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Payment Gateway Integration",
+                        "text":"Your website will have multiple payment methods with secure payment gateways.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Easy Backend Management",
+                        "text":"We simplify your backend operations by creating a custom admin panel for your site.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Multi-currency/Multilingual Support",
+                        "text":"Get a multilingual website that will also support multiple currencies for selling worldwide.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"PCI DSS Compliant",
+                        "text":"We create a highly-secured website that will comply with standards like PCI and more.",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -2988,24 +3079,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
-                    "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"Shopify eCommerce Development",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Experienced Developers",
+                        "text":"Being a prominent PrestaShop development company, we have a talented team of PrestaShop developers who are apprised of every nuance of this e-commerce platform. They can build websites with the best quality and features.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"On-Time Delivery",
+                        "text":"Working with an agile development methodology, we accomplish every project in the most efficient way and ensure the delivery of every project on time. Our project managers ensure proper workflow and execute every task seamlessly.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Seamless Communication",
+                        "text":"Our project managers always keep in touch with you throughout the project lifecycle. We have multiple communication options like phone calls, chat, email, Skype, and Project Management System through which clients can communicate with us.",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -3013,29 +3107,34 @@ const jsonData=[
         "designProcess":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Our Seemless",
+                    "text2":"Magento eCommerce Development Process",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Discovery",
+                        "text":"We start by requirement gathering, competitive analysis, finding business goals, etc., to discover your project feasibility.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Designing",
+                        "text":"After understanding the requirement, we create high fidelity wireframes and prototypes.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Developing",
+                        "text":"At this stage, the developers will work their charm on the CMS, coding, and server realization.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Testing",
+                        "text":"Your website goes through a stringent test procedure where various aspects, including appearance & performance, are tested",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Deployment",
+                        "text":"After creating and testing the website successfully, we help you deploy your site on any desired platform and complete the setup.",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }

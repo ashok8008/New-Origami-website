@@ -106,35 +106,39 @@ const DesktopMenu = () => {
               </Container>
             </div>
           </Nav.Link>
-          <Nav.Link className="menu-item eCommerce" href="#">
+          <Nav.Link className="menu-item eCommerce" href="/ecommerce/Ecommerce-App-Development">
             eCommerce
             <div className="navbar-content">
               <Container>
                 <Row className="navbar-content-list">
                   <Col className="navbar-col" xs={12} md={4}>
                     <h5>WEBSITE DESIGN & DEVELOPMENT</h5>
-                    <Nav.Link href="#">
-                      Web Design
+                    <Nav.Link href="/ecommerce/Ecommerce-App-Development">
+                      eCommerce App Development
                       <Icon.ArrowRight />
                     </Nav.Link>
-                    <Nav.Link href="#">
-                      eCommerce Website Design
+                    <Nav.Link href="/ecommerce/Ecommerce-Web-Development">
+                      eCommerce Web Development
                       <Icon.ArrowRight />
                     </Nav.Link>
-                    <Nav.Link href="#">
-                      Corporate Website Design
-                      <Icon.ArrowRight />
-                    </Nav.Link>
-                    <Nav.Link href="#">
+                    <Nav.Link href="/ecommerce/B2B-Web-Design">
                       B2B Website Design
                       <Icon.ArrowRight />
                     </Nav.Link>
-                    <Nav.Link href="#">
-                      Website Maintenance
+                    <Nav.Link href="/ecommerce/Magento-Development">
+                      Magento Development
                       <Icon.ArrowRight />
                     </Nav.Link>
-                    <Nav.Link href="#">
-                      Website Consulting
+                    <Nav.Link href="/ecommerce/WooCommerce-Development">
+                      WooCommerce Development
+                      <Icon.ArrowRight />
+                    </Nav.Link>
+                    <Nav.Link href="/ecommerce/Shopify-Development">
+                      Shopify Development
+                      <Icon.ArrowRight />
+                    </Nav.Link>
+                    <Nav.Link href="/ecommerce/Prestashop-Development">
+                      Prestashop Development
                       <Icon.ArrowRight />
                     </Nav.Link>
                   </Col>
