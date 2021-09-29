@@ -1,0 +1,21 @@
+// Override default variables before the import
+// $body-bg: #000;
+@import "./base.scss";
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";
+
+.btn.btn-primary {
+  color: #fff;
+  background-color: $primary;
+  border-color: $primary;
+}
+@include media(lg-desktop) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1250px !important;
+  }
+}

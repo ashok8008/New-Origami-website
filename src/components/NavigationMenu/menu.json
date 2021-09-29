@@ -1,0 +1,429 @@
+[
+  {
+    "label": "Services",
+    "link": "#",
+    "children": [
+      {
+        "label": "Website Design & Development",
+        "link": "#",
+        "children": [
+          {
+            "label": "Web Design",
+            "link": "#"
+          },
+          {
+            "label": "eCommerce Website Design",
+            "link": "#"
+          },
+          {
+            "label": "Corporate Website Design",
+            "link": "#"
+          },
+          {
+            "label": "B2B Website Design",
+            "link": "#"
+          },
+          {
+            "label": "Website Maintenance",
+            "link": "#"
+          },
+          {
+            "label": "Website Consulting",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "label": "App Development",
+        "link": "#",
+        "children": [
+          {
+            "label": "Hybrid App Development",
+            "link": "#"
+          },
+          {
+            "label": "Wearable App Development",
+            "link": "#"
+          },
+          {
+            "label": "Backend & API",
+            "link": "#"
+          },
+          {
+            "label": "Mobile App Testing",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "label": "Discovery & Design",
+        "link": "#",
+        "children": [
+          {
+            "label": "Research & Planning",
+            "link": "#"
+          },
+          {
+            "label": "Interface Design",
+            "link": "#"
+          },
+          {
+            "label": "User Experience Design",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "label": "Prototyping",
+        "link": "#"
+      },
+      {
+        "label": "MVP",
+        "link": "#"
+      },
+      {
+        "label": "Ouality Assurance",
+        "link": "#"
+      }
+    ]
+  },
+  {
+    "label": "eCommerce",
+    "link": "#",
+    "children": [
+      {
+        "label": "eCommerce App Development",
+        "link": "#",
+        "children": [
+          {
+            "label": "eCommerce Development",
+            "link": "#"
+          },
+          {
+            "label": "Magento Development",
+            "link": "#"
+          },
+          {
+            "label": "WooCommerce Development",
+            "link": "#"
+          },
+          {
+            "label": "Shopify Development",
+            "link": "#"
+          },
+          {
+            "label": "Prestashop Development",
+            "link": "#"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Expertise",
+    "link": "#",
+    "children": [
+      {
+        "label": "Internet of things(IOT)",
+        "link": "#"
+      },
+      {
+        "label": "Artificial Intelligence",
+        "link": "#"
+      },
+      {
+        "label": "Chatbot",
+        "link": "#"
+      },
+      {
+        "label": "Agumented Reality",
+        "link": "#"
+      },
+      {
+        "label": "Virtual Reality",
+        "link": "#"
+      },
+      {
+        "label": "Blpckchain Development",
+        "link": "#",
+        "children": [
+          {
+            "label": "Backchain App Development",
+            "link": "#"
+          },
+          {
+            "label": "Smart Contracts Development & Audit",
+            "link": "#"
+          },
+          {
+            "label": "DApp Development",
+            "link": "#"
+          },
+          {
+            "label": "Enterprise Blockchain Development",
+            "link": "#"
+          },
+          {
+            "label": "Cryptocurrency Wallet Development",
+            "link": "#"
+          },
+          {
+            "label": "Cryptocurrency Exchange Development",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "label": "Data Intelligence",
+        "link": "#",
+        "children": [
+          {
+            "label": "Big Data",
+            "link": "#"
+          },
+          {
+            "label": "Business Intelligence",
+            "link": "#"
+          },
+          {
+            "label": "Machine Learning",
+            "link": "#"
+          },
+          {
+            "label": "Data Mining",
+            "link": "#"
+          },
+          {
+            "label": "Data Analytics",
+            "link": "#"
+          },
+          {
+            "label": "Data consulting",
+            "link": "#"
+          },
+          {
+            "label": "Web Scrapping",
+            "link": "#"
+          },
+          {
+            "label": "Power BI",
+            "link": "#"
+          },
+          {
+            "label": "Tableau",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "label": "Compliances",
+        "link": "#",
+        "children": [
+          {
+            "label": "GDPR",
+            "link": "#"
+          },
+          {
+            "label": "HIPAA",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "label": "Devops Automation",
+        "link": "#",
+        "children": []
+      }
+    ]
+  },
+  {
+    "label": "Technologies",
+    "link": "#",
+    "children": [
+      {
+        "label": "Mobile",
+        "link": "#",
+        "children": [
+          {
+            "label": "IOS App Development",
+            "link": "#"
+          },
+          {
+            "label": "Android App Development",
+            "link": "#"
+          },
+          {
+            "label": "React Native Development",
+            "link": "#"
+          },
+          {
+            "label": "Flutter App Development",
+            "link": "#"
+          },
+          {
+            "label": "Progressive Web App Development",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "label": "Back End",
+        "link": "#",
+        "children": [
+          {
+            "label": "PHP Development",
+            "link": "#"
+          },
+          {
+            "label": "Java Development",
+            "link": "#"
+          },
+          {
+            "label": "Sharepoint",
+            "link": "#"
+          },
+          {
+            "label": ".NET Development",
+            "link": "#"
+          },
+          {
+            "label": "Node js",
+            "link": "#"
+          },
+          {
+            "label": "ROR",
+            "link": "#"
+          },
+          {
+            "label": "Python",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "label": "CMS Development",
+        "link": "#",
+        "children": [
+          {
+            "label": "Wordpress Development",
+            "link": "#"
+          },
+          {
+            "label": "Joomla Development",
+            "link": "#"
+          },
+          {
+            "label": "Drupal Development",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "label": "Front End",
+        "link": "#",
+        "children": [
+          {
+            "label": "Angular js",
+            "link": "#"
+          },
+          {
+            "label": "React js",
+            "link": "#"
+          },
+          {
+            "label": "MEAN Stack",
+            "link": "#"
+          },
+          {
+            "label": "MERN Stack",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "label": "CRM & ERP",
+        "link": "#",
+        "children": [
+          {
+            "label": "Salesforce",
+            "link": "#"
+          },
+          {
+            "label": "Sugar CRM",
+            "link": "#"
+          },
+          {
+            "label": "Odoo",
+            "link": "#"
+          },
+          {
+            "label": "Britix",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "label": "CLOUD",
+        "link": "#",
+        "children": [
+          {
+            "label": "AWS",
+            "link": "#"
+          },
+          {
+            "label": "Google Cloud",
+            "link": "#"
+          },
+          {
+            "label": "Azure",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "label": "Blockchain",
+        "link": "#",
+        "children": [
+          {
+            "label": "Ethereum",
+            "link": "#"
+          },
+          {
+            "label": "Hyperledger",
+            "link": "#"
+          },
+          {
+            "label": "Quorum",
+            "link": "#"
+          },
+          {
+            "label": "Stellar",
+            "link": "#"
+          },
+          {
+            "label": "Hedera Hashgraph",
+            "link": "#"
+          },
+          {
+            "label": "R3 Corda",
+            "link": "#"
+          },
+          {
+            "label": "EOS",
+            "link": "#"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Staffing",
+    "link": "#",
+    "children": []
+  },
+  {
+    "label": "About Us",
+    "link": "#",
+    "children": []
+  }
+]

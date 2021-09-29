@@ -1,0 +1,40 @@
+@import "./styles/base.scss";
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins-Regular";
+  font-weight: 500;
+  color: $black;
+  background-color: $white;
+  scroll-behavior: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins-Regular";
+}
+
+h1 {
+  font-weight: 100;
+}
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.red {
+  color: $primary;
+}

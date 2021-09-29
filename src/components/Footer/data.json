@@ -1,0 +1,107 @@
+[
+  {
+    "title": "Services",
+    "children": [
+      {
+        "title": "Web design & Development",
+        "link": "/"
+      },
+      {
+        "title": "App Development",
+        "link": "/"
+      },
+      {
+        "title": "Quality Assurance",
+        "link": "/"
+      },
+      {
+        "title": "Discover & Design",
+        "link": "/"
+      }
+    ]
+  },
+  {
+    "title": "eCommerce",
+    "children": [
+      {
+        "title": "Web design & Development",
+        "link": "/"
+      },
+      {
+        "title": "App Development",
+        "link": "/"
+      },
+      {
+        "title": "Quality Assurance",
+        "link": "/"
+      },
+      {
+        "title": "Discover & Design",
+        "link": "/"
+      }
+    ]
+  },
+  {
+    "title": "Expertise",
+    "children": [
+      {
+        "title": "Web design & Development",
+        "link": "/"
+      },
+      {
+        "title": "App Development",
+        "link": "/"
+      },
+      {
+        "title": "Quality Assurance",
+        "link": "/"
+      },
+      {
+        "title": "Discover & Design",
+        "link": "/"
+      }
+    ]
+  },
+  {
+    "title": "Technologies",
+    "children": [
+      {
+        "title": "Web design & Development",
+        "link": "/"
+      },
+      {
+        "title": "App Development",
+        "link": "/"
+      },
+      {
+        "title": "Quality Assurance",
+        "link": "/"
+      },
+      {
+        "title": "Discover & Design",
+        "link": "/"
+      }
+    ]
+  },
+  {
+    "title": "Staffing",
+    "children": [
+      {
+        "title": "Web design & Development",
+        "link": "/"
+      },
+      {
+        "title": "App Development",
+        "link": "/"
+      },
+      {
+        "title": "Quality Assurance",
+        "link": "/"
+      },
+      {
+        "title": "Discover & Design",
+        "link": "/"
+      }
+    ]
+  }
+]

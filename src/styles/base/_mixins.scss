@@ -1,0 +1,31 @@
+@mixin media($point) {
+  @if $point == xs-devices {
+    @media only screen and (min-width: 413px) {
+      @content;
+    }
+  } @else if $point == sm-devices {
+    @media only screen and (min-width: 640px) {
+      @content;
+    }
+  } @else if $point == tab {
+    @media only screen and (min-width: 768px) {
+      @content;
+    }
+  } @else if $point == md-desktop {
+    @media only screen and (min-width: 992px) {
+      @content;
+    }
+  } @else if $point == desktop {
+    @media only screen and (min-width: 1025px) {
+      @content;
+    }
+  } @else if $point == lg-desktop {
+    @media only screen and (min-width: 1200px) {
+      @content;
+    }
+  } @else if $point == wd-desktop {
+    @media only screen and (min-width: 1400px) {
+      @content;
+    }
+  }
+}
