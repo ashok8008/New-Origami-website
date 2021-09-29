@@ -202,6 +202,10 @@
     min-height: 410px !important;
 }
 
+.carouselCard .caroselImg{
+    margin-bottom: 10px;
+}
+
 .carouselCardTitle{
     font-weight: 600 !important;
     font-size  : 24px !important;
@@ -285,6 +289,7 @@
     width     : 39% !important;
     max-width : 9% !important;
     padding-bottom: 10%;
+    text-align: right !important;
 }
 
 .designProcessDescptionLine{
