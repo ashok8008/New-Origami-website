@@ -22,14 +22,19 @@ $header-width: 100%;
       .nav-link {
         color: rgba(0, 0, 0, 0.7);
         font-size: 15px;
+        h5.hoverRed:hover{
+          color: $primary;
+        }
         &:hover {
           color: $primary;
           h5 {
             color: $black;
           }
+          
           .navbar-content {
             display: block;
           }
+          
         }
         .navbar-content {
           display: none;
