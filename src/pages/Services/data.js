@@ -52,7 +52,7 @@ const jsonData=[
                 "heading":{
                     "text1" :"Providing Cutting-Edge",
                     "text2" :"Web Design",
-                    "text3" :"Service"
+                    "text3" :"Services"
                 },
                 "descritption" : "Origami Softwatre's ensures to deliver custom website design services, globally! We are adept at designing responsive, fast-loading, and user-friendly websites that offer a consistent look and use across different web browsers.",
                 "icons":[
@@ -80,8 +80,7 @@ const jsonData=[
                         "icon":"PWA",
                         "src":PWA
                     }
-                ]
-                
+                ]     
             }
         ],
         "ourServices":[
@@ -234,7 +233,7 @@ const jsonData=[
                 "heading":{
                     "text1" :"Delivering Full-Suite of",
                     "text2" :"eCommerce Website Design",
-                    "text3" :"Service"
+                    "text3" :"Services"
                 },
                 "descritption" : "At Origami SOFTWARE'S, we are driven towards building powerful, secure, and custom eCommerce websites with high scalability. We are skilled in designing device-friendly websites for businesses of all sizes.",
                 "icons":{
@@ -389,7 +388,7 @@ const jsonData=[
                 "heading":{
                     "text1" :"Top-Notch",
                     "text2" :"Corporate Website Design",
-                    "text3" :"Service"
+                    "text3" :"Services"
                 },
                 "descritption" : "At Origami softwares, we design tailored corporate websites that meet our clients’ expectations and empower their businesses. Pleasant user experience, easy navigation, responsive layout, and effective call-to-actions are at the forefront of our corporate website design services strategy.",
                 "icons":{
@@ -492,7 +491,7 @@ const jsonData=[
                 "heading":{
                     "text1" :"Get Ultimate",
                     "text2" :"B2B Web Design",
-                    "text3" :"Service"
+                    "text3" :"Services"
                 },
                 "descritption" :"Origami Softwares is a prominent B2B web design services provider company, we design the most compelling B2B websites with intuitive navigation and stunning appearances. You can provide us with PSD, Sketch, PNG, AI, other design files and we will create a full-fledged B2B website. Our designers are well-versed in the latest web design tools and technologies, empowering them to deliver the best solutions while rendering a delightful customer experience.",
                 "icons":{
@@ -698,7 +697,7 @@ const jsonData=[
                 "heading":{
                     "text1" :"Highly-Recommended",
                     "text2" :"Website Consulting ",
-                    "text3" :"Service"
+                    "text3" :"Services"
                 },
                 "descritption" : "Origami Softwares provides web consulting services to help clients with their web design and development strategy. We are unbeatable in terms of the value we offer to our clients while removing their hurdles in setting up a brand new website. We have a team of talented in-house web consultants who have extensive experience in providing quality web consulting services. Our smart and modern work approach makes us the most preferred Website Consulting Services provider.",
                 "icons":{
@@ -3142,94 +3141,112 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/expertise/IoT-App-Development",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "EMINENT IOT DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :""
+                    "text1" :"We Provide End to End",
+                    "text2" :" IoT App Development",
+                    "text3" :"Services",
                 },
-                "descritption" : "",
-                "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
-                }
+                "descritption" : "A full-stack IoT company, Sparx IT Solutions offers extensive services that would help customers accelerate the business processes through IoT solutions and connectivity. As a leading IoT development company, we aim to deliver a perfectly-architected IoT application to streamline their operations.",
+                "icons":[
+                    {
+                        "icon":"IoT Consulting",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"IoT Analytics",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Connectivity",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"Testing",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Security & Privacy",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"Scalable",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":""
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"IoT App Development Service"
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text" :"",
+                        "title":"IoT Integration",
+                        "text" :"We develop and integrate your business data across diverse nodes to create a holistic view of a user and operational data. The IoT platform integration solutions, we can embedded software and firmware into a host of M2M devices and IoT.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"IoT Gateway Development",
+                        "text":"We develop a virtual software code or hardware device as an IoT gateway. One can say that it is a communication bridge between the cloud server and IoT sensors or the end-user devices. The integration protocols help you manage storage and facilitate data flow securely."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"IoT Database Solutions",
+                        "text":"We aim to deliver scalable solutions with cloud-enabled database systems. We manage efficient IoT databases that are fault-tolerant and offer optimal results. For delivering exquisite IoT app development services, we have managed MongoDB, Kinesis, DynamoDB and more."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"IoT Consultancy",
+                        "text":"Regardless of the IoT maturity, our team will help you outline a technology roadmap that offers solutions tailor to your business needs. As a prominent IoT app development company, we offer professionals insights about the IoT App Development that would work best for you."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Testing",
+                        "text":"We can offer you error-free solutions with our robust testing methods. This would ensure high-end compatibility and performance with optimum security for your application. We will deliver the final product after going through a series of testing procedures."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Module Development",
+                        "text":"Our developers can cater you with exquisite modules that would offer uninterrupted connectivity irrespective of the type of network or location. As a proficient IoT developer can deliver your modules that even work with a wireless network."
+                    },               
                 ]
             }
         ],
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
-                    "text3":"",
+                    "text1":"How Choosing Us As Your",
+                    "text2":"IoT App Development Services ",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":" you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Software Architecture",
+                        "text":"The architecture Sparx IT Solutions will create will be a smartphone-centric, hub-centric, cloud-centric architecture.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Advanced Technology",
+                        "text":"Our experts take full advantage of the latest technology updates and inculcate them into your project for optimum results.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Analytics",
+                        "text":"We help draw actionable insights by implementing and developing IoT analytics as a service.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Communication",
+                        "text":"We communicate with our clients during each phase of the project, keeping them updated at every stage of the development",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Maintenance",
+                        "text":"We assure you to offer full maintenance and upgrade service for the IoT application. Our professionals will resolve your issues to the best of their knowledge.",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -3237,54 +3254,3535 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
-                    "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"IoT App Development",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Outstanding Connectivity",
+                        "text":"We build an impeccable IoT platform that is capable to get connected with any device, machine, or sensor over any type of network. Our developers can make your internet-connected devices in sync under a real-time range with a wide array of connectivity options ready for you.",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Advanced IoT Application",
+                        "text":"We are a prominent name in the internet of things solutions industry and we have maintained the name with the constant update for the latest technology. We offer flexible deployment choices with SAAS, PAAS, on hybrid, premises or edge. We render advanced solutions for predictive analytics, business integration, and machine learning",
+                        "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Customization & Integration",
+                        "text":"We have exemplary design wizards who can offer utterly customized services with data migration. Our customized IoT Services deliver eminent app development solutions from creative UI designing.",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
         ],
-        "designProcess":[
+    },
+
+    {
+        "pathname":"/expertise/Artificial-Intelligence",
+        "banner":[
+            {
+                "mainHeading"  : "PROMINENT ARTIFICIAL INTELLIGENCE DEVELOPMENT COMPANY",
+                "heading":{
+                    "text1" :"Providing Top-Notch",
+                    "text2" :"Artificial Intelligence",
+                    "text3" :"Development Services"
+                },
+                "descritption" : "Sparx IT Solutions leverages the power of AI to deliver high-end digital solutions. We possess expertise in Computer vision, Machine Learning, and Natural Language Processing. Our team converts your AI vision into reality and provides unrivaled AI development services.",
+                "icons":[
+                    {
+                        "icon":"Machine Learning",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"AI-Powered Chatbot",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Predictive Analysis",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"Image Processing",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Natural Language Processing",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"End to End Security",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"Artificial Intelligence Services"
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Robotic Process Automation (RPA)",
+                        "text" :"As a trusted Artificial Intelligence development company, we provide the best AI-based solutions for clients. We will help you render business process automation technology to minimize the manpower and make processes of your organization run smoother. This would help you eliminate risks associated with human errors.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Natural Language Processing (NLP)",
+                        "text":"Using our artificial intelligence development procedures we ensure to engineer impressive data models that would help you derive analysis solutions and unstructured data that would ease your workflow and enhance customer satisfaction. We utilize NLP in our Artificial Intelligence development services to build smart applications and software."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Cognitive Centre Of Excellence",
+                        "text":"Our cognitive technologies would help you recognize your customer’s needs and render suitable solutions. Our AI services include top-notch CoE solutions to our clients that utilize other AI technologies and in addition, it can automate specific processes across functions such as risk management, regulatory reporting."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Computer Vision",
+                        "text":"We can analyze and interpret digital images and videos. Our AI development services utilize computer vision to accelerate intelligent automation with analyzing objects, image recognition while classifying them into groups and tracking them."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Machine learning",
+                        "text":"Machine learning solutions can hunt insights hidden in data without explicitly being told the exact location to look or what to conclude. In our Artificial Intelligence services we take advantage of intuitive machine learning tools, capable of automated features that can help you make smarter decisions."
+                    },
+                    {
+                        "title":"Predictive Analysis",
+                        "text":"We create and deploy predictive and analytics solutions that focus on predicting various outcomes of a specific event. In addition, it can monitor, track, and analyze the business’s performance and offer accurate insights, which would help you make better decisions."
+                    },                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"Artificial Intelligence Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":" you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Automation",
+                        "text":"Our AI automation will render solutions that would help in reducing the amount it takes of operational expenses and manpower.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Security",
+                        "text":"We employ stringent safety measures into account for every Artificial Intelligence services project. ",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Tailor-made",
+                        "text":"We offer custom-tailored solutions to solve intricate issues and add value to your business efficiency.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Error-free",
+                        "text":"When we serve you as your AI development company, we deliver AI solutions that don't have any room for mistakes.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Result-driven",
+                        "text":"Our AI developers understand that outcomes are the backbone of the AI strategy of your project.",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"Artificial Intelligence",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Seamless Communication",
+                        "text":"Sparx IT Solutions keeps clients on the same page as we are on a project. Communication prevents confusion that might hamper good work progress. As a reliable AI app development company, we keep ourselves updated with the client’s requirements and approvals.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Advanced IoT Application",
+                        "text":"As a proficient artificial intelligence service provider, our experts keep themselves updated with the latest technology in the AI industry. In order to make your project dominate in the market, our professionals try to induce the most efficient tech to enhance our business opportunities.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Customization & Integration",
+                        "text":"Sparx IT Solutions is a leading AI application development company, we assure you to deliver optimum AI solutions for your project. We render hassle-free support & maintenance services to resolve their issue. We work round-the-clock to provide immediate assistance.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/Chatbot",
+        "banner":[
+            {
+                "mainHeading"  : "A TRUSTED CHATBOT DEVELOPMENT COMPANY",
+                "heading":{
+                    "text1" :"Providing Top-Notch",
+                    "text2" :"Chatbot Development",
+                    "text3" :"Services"
+                },
+                "descritption" : "At Sparx IT Solutions, we offer unmatched chatbot development solutions that help your company in streamlining business interactions. We can build smart and sophisticated chatbots for a variety of industry verticals like eCommerce, healthcare, travel, etc.",
+                "icons":[
+                    {
+                        "icon":"Superior UI/UX",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"CRM Integration",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Omni-capable",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"NLP (Natural Language Processing)",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Secure",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"High-performance",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"Chatbot Development Services"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Custom Chatbot Development",
+                        "text" :"We can build functional and high-performance chatbots from scratch that are designed as per the specific requirements of the clients. You just have to discuss your particular needs and we can make it for you at the earliest with superior results.",
+                    },
+                    {
+                        "title":"Conversation Design",
+                        "text":"Our team of designers has expertise in designing interactive interfaces that couple Natural language interfaces with UI elements like buttons, images, and menus. This has leveraged businesses to carry out human-like interaction and deliver a pleasing user experience."
+                    },
+                    {
+                        "title":"Chatbot Architecture",
+                        "text":"We have built numerous chatbots for diverse clients all over the world. Our developers are versed in the latest frameworks, plugins, and APIs that will be suitable for the different use cases. You can rely on us for getting a robust chatbot for your business."
+                    },
+                    {
+                        "title":"Messenger App Development",
+                        "text":"Our developers have immense expertise and knowledge of building messenger apps like a Facebook bot, Telegram bot, Slack bot, and Microsoft bot. Our delivered development solutions have automated the communication system of the businesses."
+                    },
+                    {
+                        "title":"Chatbot Testing",
+                        "text":"Our developers thoroughly inspect the chatbot for its performance and usability. We make sure that our developed bot performs without any glitch and render flawless performance to the users. We are equipped with the latest tools and technologies to achieve this."
+                    },
+                    {
+                        "title":"Chatbot Consultation",
+                        "text":"We offer a free consultation to the clients so they can discuss their chatbot idea with us. If you have any doubts related to chatbot development, you can talk to our expert consultants. We are happy in resolving all your raised queries."
+                    },                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"Chatbot Development Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":" you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Scalability",
+                        "text":"We offer highly scalable chatbot solutions that can be enhanced as per the growing demands of the businesses.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Better User Engagement",
+                        "text":"Our chatbot solutions will provide a distinct touch to businesses by promoting their service offerings and assisting customers.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Improves Efficiency",
+                        "text":"We develop intelligent chatbots that organize and process requests. Thus, automating tasks that increase productivity.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Innovation",
+                        "text":"Our creative approach encourages us to deliver out-of-the-box strategies to help a business to get a competitive edge.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Technical Support",
+                        "text":"We provide effective and valuable technical assistance to our clients even after the successful delivery of the projects.",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"Chatbot Development",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Proficient Bot Developers",
+                        "text":"Our supremely talented developers incorporate their skills and competency to build a modern and advanced chatbot. They utilize AI, Machine Learning, and NLP techniques to build scalable bots. We render solutions that can bring a positive impact on business operations and revenue models.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Prominent Reputation",
+                        "text":"We have a reputation for being the best chatbot web development company in the market. We have gained good expertise due to consistent hard work and served global clients with our high-end bot solutions. This has made us build a functional and flawless chatbot for the business.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Agile Methodology",
+                        "text":"We abide by the agile chatbot development process that empowers us to deliver top-quality solutions swiftly. Our goal is to provide high-grade bot solutions to our global clients by utilizing the resources and tools optimally. This approach has made us acquire a higher client satisfaction rate.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/Agumented-Reality",
+        "banner":[
+            {
+                "mainHeading"  : "A REPUTED AR APP DEVELOPMENT COMPANY",
+                "heading":{
+                    "text1" :"Our",
+                    "text2" :"AR App Development",
+                    "text3" :"services Providing Digital Transformation"
+                },
+                "descritption" : "Sparx IT Solutions is a best Blockchain Development Company offering proficient blockchain development services enhancing the potential of enterprise business applications, and blockchain based business networks.",
+                "icons":[
+                    {
+                        "icon":"Motion Tracking",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Light Estimation",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"AR/VR for eCommerce",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"Training & Simulation",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"VR Gaming",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"Custom Application",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":" AR App Development Services"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"AR Visualization Solutions",
+                        "text" :"Our designers will render creative visualization solutions that would cater to processes such as innovative visual storytelling, control of operations, analysis and more. We will create your app that would enrich user experience.",
+                    },
+                    {
+                        "title":"AR Mobile App Development",
+                        "text":"We will develop scalable and secure Ar apps for android and iOS with the latest OS compatibilities infused. Our designers will create an app that would offer unique, interactive and attractive designs."
+                    },
+                    {
+                        "title":"AR Game App Development",
+                        "text":"We have Ar application developers who specialize in creating an engaging, addictive and entertaining game app. They have outstanding technical skills and proficiency in game development that offers an immersive experience to its users."
+                    },
+                    {
+                        "title":"AR Integration to eCommerce",
+                        "text":"Our Ar app developers will transform your eCommerce business while enhancing the shopping experience for your customers. We aim to drive sales, increase brand awareness, and more which will impact on gaining trust and loyalty."
+                    },
+                    {
+                        "title":"Training & Development Modules",
+                        "text":"Our specialist uses AR tools for building training and development modules that offer vivid and innovative augmented reality training methods. This would be to benefit professionals and students with vital knowledge and insight-full."
+                    },
+                    {
+                        "title":"Location-based AR",
+                        "text":"We can create location-specific AR app development that would employ some of your device features such as GPS, accelerometer, and compass to specify user location. This is an advanced feature that would enhance the user experience by tracking and targeting the live location of the customers."
+                    },                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"AR App Development Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":" you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Exceptionals UI/UX",
+                        "text":"Our designer creates exceptional AR applications with alluring and captative designs to enhance your user experience.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Robust Solutions",
+                        "text":"We ensure you to offer absolute upgraded technology with high-performing robust AR applications.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Customization",
+                        "text":"We will create exactly how you expect your Augmented Reality App Development should be with optimum customization available.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"User-experience",
+                        "text":"We will create AR apps that will have the advantage of being user-friendly with ease of functioning.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Maintenance",
+                        "text":"We will take care of your AR application while keeping it maintained with the latest technology and features.",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"AR App Development",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"SLAM Tracking",
+                        "text":"With our exemplary SLAM technology( mapping and localization), we construct groundbreaking AR apps that can identify the objects and incorporate digital interactive augmentations.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Technical Proficiency",
+                        "text":"As an eminent AR app development company, we have experienced professionals that bring the most technical proficiency across diverse platforms for our customers. They have extensive knowledge of the latest trends and technology in the market.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Competitive Prices",
+                        "text":"We offer top-notch Augmented Reality Apps for Android and iOS at competitive prices. Sparx IT Solutions can deliver solutions that fetch optimal returns and make investments of our customers worthwhile.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/Virtual-Reality",
+        "banner":[
+            {
+                "mainHeading"  : "A PROMINENT VIRTUAL REALITY DEVELOPMENT COMPANY",
+                "heading":{
+                    "text1" :"Our",
+                    "text2" :"VR App Development",
+                    "text3" :"services Providing Digital Transformation"
+                },
+                "descritption" : "Sparx IT Solutions is a most recommended Virtual Reality Development Company across the globe. We ensure to enhance the experience of the smartphone with our mesmerizing VR solutions. Our experienced professionals with the talent of embracing innovations to deliver captative VR applications which would be adding value to the client’s business.",
+                "icons":[
+                    {
+                        "icon":"Motions Simulations",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Realistic Visualizations",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"VR for eCommerce",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"Multiple OS Support",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"360-degree view",
+                        "src":Migrations
+                    },
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"VR App Development Services"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"VR Game App Development",
+                        "text" :"Our VR Development Services offer astonishing gaming experiences that are created with innovative VR technology. Our VR App Development Company have a team of gaming design and development experts who have potential to leverage interactive and engaging VR game apps that will power to mesmerize.",
+                    },
+                    {
+                        "title":"Exemplary Business Solutions",
+                        "text":"Every business is unique and so are our VR app development services for them. Our VR Developers deliver customized solutions tailored to cater to specific requirements of clients. The outcome of our services will be remarkable for both your business revenue and brand image."
+                    },
+                    {
+                        "title":"Marketing and Promotional Tools",
+                        "text":"There are many innovative tools that our VR App Development Company can infuse with the powerful features of our Virtual Reality services. As one of the Top Virtual Reality companies, we will offer you captative walkthroughs, virtual presentations, product demos while using our high-end Virtuality reality technology."
+                    },
+                    {
+                        "title":"3D Modeling",
+                        "text":"A bonus of aiding our interactive content, special effects and 3D animations effects in your VR app development. Our Virtual Reality app developers provide extensive branding and corporate vision of your business."
+                    },
+                    {
+                        "title":"Training & Development Modules",
+                        "text":"Our professionals practice VR for creating informative modules that enable interactive and realistic virtual training, which will be beneficial for learners and educators. Our VR Developers will create innovative solutions that support the business operations of clients."
+                    },
+                    {
+                        "title":"Visualization Solutions",
+                        "text":"Profound experts of Sparx IT Solutions can provide visualization solutions that are both creative & engaging and which will help extend a simple projection system to a sophisticated 3D projection technology. This innovative involvement of VR will deliver data analysis, presentation, control of operations from a captative new vision."
+                    },                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"VR App Development Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":" you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Cost-efficient",
+                        "text":"We ensure competitive prices whilst maintaining the quality of all our projects. We work to fulfill every requirement of our clients in accordance with their budget.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Maintenance & Support",
+                        "text":"VR Developers render hassle-free support & maintenance services to our clients to help them resolve their issues and glitch with their expertise.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Marketing Edge",
+                        "text":"Our adroit VR developers will offer consultation to our clients related to their VR app problems and provide them with great solutions.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"VR Consultant",
+                        "text":"Our Virtual Reality developers will boost your brand image before the target audience.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Immersive Experiences",
+                        "text":"We take pride to deliver the captive VR app to our client. We work to deliver an immersive experience for your customers with our expertise.",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"VR App Development",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Agile Methodology",
+                        "text":"As one of the Top Virtual Reality Development Company, we are prudent to work with an agile methodology in order to deliver optimum solutions within the predefined timelines. Sparx IT Solutions offers nothing but the most efficient development practices.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Technical Proficiency",
+                        "text":"Spark IT Solutions as a Virtual Reality development company have professionals that have expertise in multiple technologies. This brings the capability of crafting exceptional user experience to deliver goal orientated outcomes.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Competitive Prices",
+                        "text":"We are more than a decade-old company, with the expertise of Virtual reality. Our experts have worked with a wide array of clients from distinctive industries which has expanded their proficiency. Our professionals understand every nuance of Virtual Reality development.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/Blockchain-Development",
+        "banner":[
+            {
+                "mainHeading"  : "BLOCKCHAIN DEVELOPMENT COMPANY FOR INNOVATIVE BUSINESS PLAN",
+                "heading":{
+                    "text1" :"Explore New Opportunities With Our",
+                    "text2" :"Blockchain Development",
+                    "text3" :"Services"
+                },
+                "descritption" : "Sparx IT Solutions is a best Blockchain Development Company offering proficient blockchain development services enhancing the potential of enterprise business applications, and blockchain based business networks. We have strong command over a variety of advanced technologies and protocols to develop reliable blockchain-based applications. Our developers are master-minds of the blockchain revolution with great decades of experience in blockchain development.",
+                "icons":[
+                    {
+                        "icon":"Ethereum",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Hedera Hashgraph",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Hyperledger",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"R3 Corda",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Quorum",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"EOS",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"Blockchain Development Service"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Ethereum",
+                        "text" :"Our Blockchain Development Company provides Ethereum blockchain development services to diverse industries and builds DApps, ERC20 contracts, smart contracts, and blockchain solutions for them.",
+                    },
+                    {
+                        "title":"Hyperledger",
+                        "text":"Our developers are skilled at creating Hyperledger blockchain solutions with solidity programming. We are a team of proficient Hyperledger framework on Blockchain technology."
+                    },
+                    {
+                        "title":"R3 Corda",
+                        "text":"We enhance your business operations by bringing R3 Corda development services. Our team has a deep knowledge of developing future-ready apps and digital experience with R3 Corda based applications."
+                    },
+                    {
+                        "title":"Hedera Hashgraph",
+                        "text":"We are the early adopters of Hedera Hashgraph technology. We have proven expertise in developing DApps using hedera. We have the potential to develop Hedera based decentralized applications to make your business productive."
+                    },
+                    {
+                        "title":"Quorum",
+                        "text":"We assist you in developing a secure payment transaction infrastructure using Quorum blockchain. Our professionals always support enterprise needs."
+                    },
+                    {
+                        "title":"EOS",
+                        "text":"We can handle millions of transactions within seconds by using the EOS development. We offer EOS solutions to develop a large-scale enterprise application."
+                    },                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"Blockchain Development Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":" you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Great Transparency",
+                        "text":"We provide Custom Blockchain Services and an unprecedented layer of accountability to let your business activities with integrity for more growth and maximum customer base.",
+                        "src":PWA
+                    },
+                    {
+                        "title":"Contract Execution",
+                        "text":"We provide a platform for contract execution enabling a high level of transparency. As a reliable blockchain service provider, we offer you applications that discover hidden opportunities for you.",
+                        "src":PWA
+                    },
+                    {
+                        "title":"Sensitive Data Protection",
+                        "text":"We follow industry-standard protocols to secure your data from breaches and hacks. We deploy the blockchain data structure to avoid any data leak from your database record.",
+                        "src":PWA
+                    },
+                    {
+                        "title":"Better Security",
+                        "text":"Our services are completely secure and encrypted for your successful transactions. We avail you best solutions free from any falsified information and hacks.",
+                        "src":PWA
+                    },
+                    {
+                        "title":"Increased Efficiency",
+                        "text":"We facilitate you with faster financial transactions using peer-to-peer cross-border transfer with digital currency.",
+                        "src":PWA
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"Blockchain Development",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Our Vision",
+                        "text":"Our vision is to assist our clients anytime, anywhere to remove their complexities. We have excellent years of experience to provide an IT solution that takes your business sot the next level.",
+                        "src":PWA
+                    },
+                    {
+                        "title":"Technical Proficiency",
+                        "text":"We provide cost-effective services to our clients by achieving deadlines without compromising with quality.",
+                        "src":PWA
+                    },
+                    {
+                        "title":"Competitive Prices",
+                        "text":"We are capable to deal with any complex project successfully and deliver the desired output to achieve your business goals. Hire Blockchain Developer from our company to get an error-free product.",
+                        "src":PWA
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/Blockchain-App-Development",
+        "banner":[
+            {
+                "mainHeading"  : "LEADING BLOCKCHAIN APP DEVELOPMENT COMPANY",
+                "heading":{
+                    "text1" :"Providing Cutting-edge",
+                    "text2" :"Blockchain App Development",
+                    "text3" :"Services"
+                },
+                "descritption" : "Sparx IT Solutions offers full-scale Blockchain development services at a cost-efficient price. We have expertise in a variety of technologies like Objective-C, Python, Solidity, etc. We choose the right one based on specific business goals and projects. Having expertise in varied blockchain platforms and technologies, we are capable of delivering custom solutions based on specific requirements of a business.",
+                "icons":[
+                    {
+                        "icon":"Strategy & Consulting",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Enterprise Portals",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Data & Analytics",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"Cloud Technology",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Ledger Management",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"End-to-end Development",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"Blockchain App Development Services"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Smart Contract Development",
+                        "text" :"We are equipped with competent Blockchain developers who are apprised at building secure smart code. This will help in automating the execution process in Ripple, HyperLedger Fabric, Litecoin, Ethereum, etc.",
+                    },
+                    {
+                        "title":"Blockchain App Development",
+                        "text":"We adopt a robust methodology for Blockchain app development services that helps to achieve a higher level of security. With the help of mechanism design, cryptographic algorithms, and distributed computing, we build secure Blockchain apps."
+                    },
+                    {
+                        "title":"Cryptocurrency Development",
+                        "text":"We have built a large number of cryptocurrency platforms that are customized as per the business requirements. Our developed platforms are bestowed with bank-grade security features. You get unbeatable solutions with our blockchain App development services."
+                    },
+                    {
+                        "title":"Wallets Development",
+                        "text":"Our blockchain developers have a solid command in building the top cryptocurrency wallet apps. These are highly compatible with Ethereum, Bitcoin Cash, Stellar, Bitcoin Secure. Storing, sending, trading, and receiving digital currency becomes easy."
+                    },
+                    {
+                        "title":"Hyperledger App Development",
+                        "text":"Our blockchain developers specialize in building decentralized digital community apps by utilizing Blockchain frameworks. These are hosted on Hyperledger that includes Hyperledger Iroha, Hyperledger Burrow, Hyperledger Sawtooth, etc."
+                    },
+                    {
+                        "title":"Consultation",
+                        "text":"Our clients get quality blockchain consultation with our blockchain app development services to get the right piece of advice. Our expert consultants are available to address all your queries like the process of Blockchain implementation, payment initiation, management, etc."
+                    },                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":" Blockchain App Development",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":" you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Steady Results",
+                        "text":"We are known for providing consistent quality in our development services.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Technical Proficiency",
+                        "text":"We are versed in modern and advanced technologies in the industry.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Scalability",
+                        "text":"We render development solutions that scale as the business expands.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Error-free Solutions",
+                        "text":"We build bug-free apps that function seamlessly on different platforms.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Track Progress",
+                        "text":"We offer clients the facility to check their project status via Skype, chat, or call.",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"Blockchain App Development",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Rich Experience",
+                        "text":"With years of experience, we are deployed with a talented workforce with a brilliant technical knack. We have the expertise to tackle complex Blockchain application development projects with efficiency and delivering supreme results.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Strict NDA Terms",
+                        "text":"We respect the confidentiality of our clients. That’s why we pen down the NDA agreement which ensures that the client’s project and their information are completely secure throughout the blockchain development process. We adopt strict security measures.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Responsive Support",
+                        "text":"We have a proactive support team that responds instantly to the client’s queries. They deliver unmatched assistance to the clients to resolve their queries. Our team is an expert in providing on-going support to address issues related to Blockchain technology services.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/Smart-Contracts-Development-&-Audit",
+        "banner":[
+            {
+                "mainHeading"  : "TOP-RANKING SMART CONTRACTS DEVELOPMENT AND AUDIT COMPANY",
+                "heading":{
+                    "text1" :"Delivering Efficient",
+                    "text2" :"Smart Contracts Development & Audit",
+                    "text3" :"Services"
+                },
+                "descritption" : "Sparx IT Solutions is an eminent name in the realm of smart contract development and auditing. We are committed to developing unrivaled smart contracts on famous blockchain platforms such as Ethereum, TRON, EOS, Chaincode, and so on.",
+                "icons":[
+                    {
+                        "icon":"Automation",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Trust",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Accuracy",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"Savings",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Backup",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"Autonomy",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"Smart Contracts Development & Audit Services"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Smart Contract Development",
+                        "text" :"We understand the importance of smart contracts and own a development team who will provide full-suite smart contract development solutions. We adhere to the latest smart contracts guidelines and renders customizable solutions with excellent features.",
+                    },
+                    {
+                        "title":"Smart Contract Audit",
+                        "text":"Within the smart contract audit, the developers thoroughly check the code that is deployed for underwriting the smart contract terms. We are developing and auditing smart contracts on popular blockchain platforms. Our team inspects the smart contract security vulnerabilities beforehand."
+                    },
+                    {
+                        "title":"Smart Contract Optimization",
+                        "text":"Smart contract transactions are done in the absence of third parties. While deploying an implementing smart contract, it will utilize gas cost that will be counted in the smart contract cost. To combat this problem, we will perform the optimization of smart contracts to fix gas issues and decrease network congestion."
+                    },
+                    {
+                        "title":"Smart Contract DApp Development",
+                        "text":"A decentralized app comes with its own backend protocol known as smart contracts. This can be deployed on blockchain platforms such as Ethereum. We offer unmatched smart contract solutions that will ensure superb performance and quality of the DApp."
+                    },
+                    {
+                        "title":"Smart Contract DEX Development",
+                        "text":"We create decentralized exchange smart contracts for big blockchain platforms that will cover aspects like end-user data privacy, business logic, data maintenance, etc. This will provide robust security in exchange business within the decentralized ECO systems."
+                    },
+                    {
+                        "title":"Smart Contract Digital Wallet",
+                        "text":"We are proficient in building smart contracts on digital wallets in less time. This helps in allowing credible transactions without a third party. With some talented developers on-board, we can create multi-signature digital wallets that can securely store digital assets."
+                    },                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"Smart Contracts Development & Audit Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":" you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Scalable Solutions",
+                        "text":"We develop smart contract solutions with the best features and scalability.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Bug-free Solutions",
+                        "text":"We render flawless smart contract security code with full safety and flexibility.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Reliability",
+                        "text":"We build smart contracts that offer a secure transactional experience to the users.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Technical Skill Set",
+                        "text":"Our developers have command on the advanced tech stack for smart contract development.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Optimized Solutions",
+                        "text":"We provide optimized smart contract solutions that help in wasting less Ethereum gas",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"Smart Contracts Development & Audit Services",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Experienced Team",
+                        "text":"With some experienced developers on-board, we have successfully completed several smart contract development projects. They maintain a constant pace with the latest technology trends to provide high-grade results.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Reasonable Hiring Plans",
+                        "text":"Since every project has different requirements, we provide them with varied engagement models. The clients can opt for professionals based on an hourly, weekly, or monthly basis.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Clear Communication",
+                        "text":"A crystal clear communication between clients and the development team leads to successful results. That’s why we provide them timely progress reports to ensure our clients that their project has been handled in the smoothest way possible.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/DApp-Development",
+        "banner":[
+            {
+                "mainHeading"  : "INDUSTRY-LEADING DAPP DEVELOPMENT COMPANY",
+                "heading":{
+                    "text1" :"Providing Growth to Businesses With",
+                    "text2" :"Custom DApp Services"
+                },
+                "descritption" : "Sparx IT Solutions is rendering peerless DApp development services to global clients. We are committed to building powerful, scalable, and extensible decentralized apps by using cutting-edge technology.",
+                "icons":[
+                    {
+                        "icon":"DApp Porting",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Decentralized Storage",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Cloud Services",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"DApp Upgradation",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Decentralized Exchange Development",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"User Interface",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"DApp Services"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"DApp Designing & Integration",
+                        "text" :"We understand the importance of smart contracts and own a development team who will provide full-suite smart contract development solutions. We adhere to the latest smart contracts guidelines and renders customizable solutions with excellent features.",
+                    },
+                    {
+                        "title":"MVP Consultation",
+                        "text":"Within the smart contract audit, the developers thoroughly check the code that is deployed for underwriting the smart contract terms. We are developing and auditing smart contracts on popular blockchain platforms. Our team inspects the smart contract security vulnerabilities beforehand."
+                    },
+                    {
+                        "title":"Decentralized Exchange Development",
+                        "text":"Smart contract transactions are done in the absence of third parties. While deploying an implementing smart contract, it will utilize gas cost that will be counted in the smart contract cost. To combat this problem, we will perform the optimization of smart contracts to fix gas issues and decrease network congestion."
+                    },
+                    {
+                        "title":"Smart Contracts",
+                        "text":"A decentralized app comes with its own backend protocol known as smart contracts. This can be deployed on blockchain platforms such as Ethereum. We offer unmatched smart contract solutions that will ensure superb performance and quality of the DApp."
+                    },
+                    {
+                        "title":"Decentralized Storage",
+                        "text":"We create decentralized exchange smart contracts for big blockchain platforms that will cover aspects like end-user data privacy, business logic, data maintenance, etc. This will provide robust security in exchange business within the decentralized ECO systems."
+                    },
+                    {
+                        "title":"EOS Decentralized Apps",
+                        "text":"We are proficient in building smart contracts on digital wallets in less time. This helps in allowing credible transactions without a third party. With some talented developers on-board, we can create multi-signature digital wallets that can securely store digital assets."
+                    },
+                    {
+                        "title":"DApp Testing",
+                        "text":"We create decentralized exchange smart contracts for big blockchain platforms that will cover aspects like end-user data privacy, business logic, data maintenance, etc. This will provide robust security in exchange business within the decentralized ECO systems."
+                    },
+                    {
+                        "title":"DApp Porting",
+                        "text":"We are proficient in building smart contracts on digital wallets in less time. This helps in allowing credible transactions without a third party. With some talented developers on-board, we can create multi-signature digital wallets that can securely store digital assets."
+                    },                
+                    {
+                        "title":"DApp Upgrade Services",
+                        "text":"For the smooth business operations, it is important to update the app timely. We offer our clients with quality migration and up-gradation services whenever required. Our development is experienced in deploying new smart contracts and making the microservices up-to-date."
+                    },                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"DApp Services Company",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":" you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Security",
+                        "text":"We build DApps that offer a top level of security while transactions.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Speed & Reliability",
+                        "text":"We can create DApps that provide fast and cheaper transactions.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Superb UI/UX",
+                        "text":"Our designers can develop simple and easy to use DApp.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Robust Experience",
+                        "text":"Our developers have expertise in creating a robust experience with DApps.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Higher Satisfaction",
+                        "text":"We build technically advanced DApps to render greater satisfaction.",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"DApp",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Trained DApp Developers",
+                        "text":"We are bestowed with experienced DApp developers who are apprised in modern development trends. They have relevant experience in creating flawless decentralized applications for the business size of all types.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Strong Portfolio",
+                        "text":"Being a leading DApp development service provider, we have successfully completed multiple decentralized app development projects with a higher client satisfaction rate. Just have a look at our portfolio to know our competency.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Affordable Engagement Models",
+                        "text":"Since every business has different requirements, we provide them cost-efficient hiring solutions. They can choose dedicated professionals to work on their projects on hourly, weekly, or monthly basis.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/Enterprise-Blockchain-Development",
+        "banner":[
+            {
+                "mainHeading"  : "A LEADING ENTERPRISE BLOCKCHAIN DEVELOPMENT COMPANY",
+                "heading":{
+                    "text1" :"Providing Growth-driven",
+                    "text2" :"Enterprise Blockchain Development",
+                    "text3" :"Services"
+                },
+                "descritption" : "Sparx IT Solutions is a recognized enterprise Blockchain development firm that has been serving businesses in various industries. We deliver secure and robust products or solutions by harnessing the potential of this advanced technology.",
+                "icons":[
+                    {
+                        "icon":"Speed & Efficiency",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Trust & Reliability",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Security",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"Speed Transactions",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Blockchain Prototyping",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"Cryptocurrency Wallets",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"Enterprise Blockchain Development Services"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"DApp Development",
+                        "text" :"We are proficient in building your business to a decentralized network with the help of p2p DApp’s development. Our developers have rich exposure in handling such types of projects with a higher success rate.",
+                    },
+                    {
+                        "title":"Private Blockchain Development",
+                        "text":"With our private blockchain development, we ensure the safe and secure transactions. We offer high-grade solutions that are equipped with the features such as permission entry, confidential transactions, just to name a few."
+                    },
+                    {
+                        "title":"Crypto Wallet Development",
+                        "text":"Our development professionals have prior knowledge of developing multi-cryptocurrency wallet using 2-factor authentication. We build crypto wallets that support transactions with the help of end-to-end encryption."
+                    },
+                    {
+                        "title":"Exchange Platform Development",
+                        "text":"Our Blockchain developers have extensive experience in developing an effective crypto exchange software. Our rendered solutions are bestowed with features like multi cryptocurrencies trading, order sharing, etc."
+                    },
+                    {
+                        "title":"Smart Contract Development",
+                        "text":"We develop efficient ethereum based smart contract solutions for businesses of varied nature and sizes. This has completely replaced the traditional contract which has ultimately decreased the time and cost."
+                    },
+                    {
+                        "title":"Smart Contract Audit",
+                        "text":"At Sparx IT Solutions, we offer high-grade smart contract validation services to businesses. We also verify that smart contract functions as intended by vigorously auditing it and offer valuable feedback for the issues."
+                    },                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"Enterprise Blockchain Development",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":" you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Security",
+                        "text":"We build DApps that offer a top level of security while transactions.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Speed & Reliability",
+                        "text":"We can create DApps that provide fast and cheaper transactions.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Superb UI/UX",
+                        "text":"Our designers can develop simple and easy to use DApp.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Robust Experience",
+                        "text":"Our developers have expertise in creating a robust experience with DApps.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Higher Satisfaction",
+                        "text":"We build technically advanced DApps to render greater satisfaction.",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"Enterprise Blockchain Development",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Skilled Workforce",
+                        "text":"Our development team is bestowed with experienced and knowledgeable blockchain developers. They have developed several blockchain solutions for any array of industry verticals with a great client satisfaction rate.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Streamlined Operations",
+                        "text":"Our team of developers adopt a systematic work approach when it comes to the development. Right from the ideation to deployment, our business operations are highly streamlined that leads to quality results.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Robust Communication",
+                        "text":"We have a strong communication system that empowers us to maintain good coordination with our clients. We update them regularly with the project reports via mail or call so we both stay on the same path.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/Cryptocurrency-Wallet-Development",
+        "banner":[
+            {
+                "mainHeading"  : "RENOWNED CRYPTOCURRENCY WALLET APP DEVELOPMENT COMPANY",
+                "heading":{
+                    "text1" :"Providing Full-scale",
+                    "text2" :"Cryptocurrency Wallet Development",
+                    "text3" :"Services"
+                },
+                "descritption" : "At Sparx IT Solutions, we are committed to delivering secure storage and management of crypto for a longer span. Our crypto wallets have advanced payment integration solutions that provide flawless transaction facilities. We are the best-in-class Cryptocurrency Wallet App Development Company for all digital currencies transactions.",
+                "icons":[
+                    {
+                        "icon":"Secure & Scalable",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Thorough Quality Tests",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Fast Transactions",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"QR Scanner",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"2-Factor Authentication",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"Customized Solution",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive ",
+                    "text2":"Cryptocurrency Wallet Development"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Cryptocurrency Wallet Development",
+                        "text" :"Our Cryptocurrency Wallet App Development Company have a team of professionals with proven expertise in building multiple cryptocurrency wallets like web, mobile, desktop, and hardware wallets. This has leveraged businesses to make the crypto payments simpler.",
+                    },
+                    {
+                        "title":"Payment Gateway Development",
+                        "text":"We can develop a cryptocurrency wallet that can accept payment on multiple gateways. This has enabled businesses to make payments across different payment platforms without any difficulty."
+                    },
+                    {
+                        "title":"Wallet Integration",
+                        "text":"We offer extended support in the integration of cryptocurrency wallets with POS. This facilitates seamless fund transfer across all your products. The good part is that it eases out the process of making payments."
+                    },             
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"Cryptocurrency Wallet Development",
+                    "text3":"Services Company will",
+                    "text4":"Benefit",
+                    "text5":" you?"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Quality Assurance",
+                        "text":"We offer superior Blockchain wallet development services with 100% satisfaction.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Reliable",
+                        "text":"We offer a safe and secure cryptocurrency wallet development service to our clients.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Superb Product",
+                        "text":"We build a feature-packed digital wallet that is foremost for businesses.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Transparency",
+                        "text":"We provide complete transparency to our clients throughout the development.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Regular Updates",
+                        "text":"Our high-end Cryptocurrency Wallet App Development Company keeps it’s clients updated with the project’s progress status timely.",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"Cryptocurrency Wallet Development",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Highly Customized Solution",
+                        "text":"We are experts in the cryptocurrency exchange platform development that can be integrated without any hassle. This helps in providing error-free virtual transactions to prevent fraudulent activities.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Professional Team",
+                        "text":"We have staffed efficient Cryptocurrency wallet developer who are apprised with the latest emerging trends. They have prior experience in building a fast, secure, and robust cryptocurrency wallet for many businesses.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Swift Response",
+                        "text":"We have a talented and enthusiastic team of cryptocurrency wallet developers. They are highly responsive and resolve all the issues at the earliest. Thus, helping businesses to achieve their goals faster.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/Cryptocurrency-Exchange-Development",
+        "banner":[
+            {
+                "mainHeading"  : "LEADING CRYPTOCURRENCY EXCHANGE DEVELOPMENT COMPANY",
+                "heading":{
+                    "text1" :"Providing Full-scale",
+                    "text2" :"Cryptocurrency Exchange Development",
+                    "text3" :"Services"
+                },
+                "descritption" : "Sparx IT Solutions specializes in rendering fast, scalable, and robust cryptocurrency exchange software development solutions. We cater to diverse requirements with our customized solutions. This makes us a leading Cryptocurrency exchange development company.",
+                "icons":[
+                    {
+                        "icon":"Robust Admin Panel",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Impregnable Security",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Multi-language Support",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"Data encryption",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Customized Solution",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"2-Factor Authentication",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"Cryptocurrency Wallet Development"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Cryptocurrency Wallet Development",
+                        "text" :"Our Cryptocurrency Wallet App Development Company have a team of professionals with proven expertise in building multiple cryptocurrency wallets like web, mobile, desktop, and hardware wallets. This has leveraged businesses to make the crypto payments simpler.",
+                    },
+                    {
+                        "title":"Payment Gateway Development",
+                        "text":"We can develop a cryptocurrency wallet that can accept payment on multiple gateways. This has enabled businesses to make payments across different payment platforms without any difficulty."
+                    },
+                    {
+                        "title":"Wallet Integration",
+                        "text":"We offer extended support in the integration of cryptocurrency wallets with POS. This facilitates seamless fund transfer across all your products. The good part is that it eases out the process of making payments."
+                    },               
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"Cryptocurrency Wallet Development",
+                    "text3":"Services Company will",
+                    "text4":"Benefit",
+                    "text5":" you?"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Quality Assurance",
+                        "text":"We offer superior Blockchain wallet development services with 100% satisfaction.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Reliable",
+                        "text":"We offer a safe and secure cryptocurrency wallet development service to our clients.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Superb Product",
+                        "text":"We build a feature-packed digital wallet that is foremost for businesses.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Transparency",
+                        "text":"We provide complete transparency to our clients throughout the development.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Regular Updates",
+                        "text":"Our high-end Cryptocurrency Wallet App Development Company keeps it’s clients updated with the project’s progress status timely.",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"Cryptocurrency Wallet Development",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Highly Customized Solution",
+                        "text":"We are experts in the cryptocurrency exchange platform development that can be integrated without any hassle. This helps in providing error-free virtual transactions to prevent fraudulent activities.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Professional Team",
+                        "text":"We have staffed efficient Cryptocurrency wallet developer who are apprised with the latest emerging trends. They have prior experience in building a fast, secure, and robust cryptocurrency wallet for many businesses.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Swift Response",
+                        "text":"We have a talented and enthusiastic team of cryptocurrency wallet developers. They are highly responsive and resolve all the issues at the earliest. Thus, helping businesses to achieve their goals faster.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/Data-Intelligence",
+        "banner":[
+            {
+                "mainHeading"  : "TOP-NOTCH DATA INTELLIGENCE COMPANY",
+                "heading":{
+                    "text1" :"A Trusted  Services",
+                    "text2" :"Data Intelligence",
+                    "text3" :"Services"
+                },
+                "descritption" : "Sparx IT Solutions is a highly preferred data intelligence company. We improve business outcomes by bringing together the right data, algorithms, and datasets from different resources. We allow organizations to unlock the value of their business information and turn it into a winning competitive asset. With the advanced experience in diverse fields, our developers help clients to make unstructured data a piece of meaningful information. We are honored to empower a new generation of the digital era and help businesses improve ROI with data intelligence.",
+                "icons":[
+                    {
+                        "icon":"Power BI",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Tableau",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Web Scraping",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"Data Normalisation",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Data Mining",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"Data Studio",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"Data Insights"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Power BI",
+                        "text" :"Our Blockchain Development Company provides Ethereum blockchain development services to diverse industries and builds DApps, ERC20 contracts, smart contracts, and blockchain solutions for them.",
+                    },
+                    {
+                        "title":"Tableau",
+                        "text":"Our developers are skilled at creating Hyperledger blockchain solutions with solidity programming. We are a team of proficient Hyperledger framework on Blockchain technology."
+                    },
+                    {
+                        "title":"Web Scraping",
+                        "text":"We enhance your business operations by bringing R3 Corda development services. Our team has a deep knowledge of developing future-ready apps and digital experience with R3 Corda based applications."
+                    },
+                    {
+                        "title":"Data Mining",
+                        "text":"We are the early adopters of Hedera Hashgraph technology. We have proven expertise in developing DApps using hedera. We have the potential to develop Hedera based decentralized applications to make your business productive."
+                    },
+                    {
+                        "title":"Data Studio",
+                        "text":"We assist you in developing a secure payment transaction infrastructure using Quorum blockchain. Our professionals always support enterprise needs."
+                    },
+                    {
+                        "title":"Big Data",
+                        "text":"We can handle millions of transactions within seconds by using the EOS development. We offer EOS solutions to develop a large-scale enterprise application."
+                    },
+                    {
+                        "title":"Data Strategy And Advisory",
+                        "text":"We assist you in developing a secure payment transaction infrastructure using Quorum blockchain. Our professionals always support enterprise needs."
+                    },
+                    {
+                        "title":"Cloud-Native Development",
+                        "text":"We can handle millions of transactions within seconds by using the EOS development. We offer EOS solutions to develop a large-scale enterprise application."
+                    },                
+                    {
+                        "title":"Augmented Intelligence using AI",
+                        "text":"We assist you in developing a secure payment transaction infrastructure using Quorum blockchain. Our professionals always support enterprise needs."
+                    },                
+                    {
+                        "title":"Data Analytics And Insights",
+                        "text":"We can handle millions of transactions within seconds by using the EOS development. We offer EOS solutions to develop a large-scale enterprise application."
+                    },                
+                    {
+                        "title":"Data Profiling",
+                        "text":"We believe that your business success depends on how optimally you can access your database. Our data profiling service can eliminate oddity in your database offering you a well-structured and less complex database. We provide you access to distinguished data from your large database to execute the business campaigns you need."
+                    },                
+                    {
+                        "title":"AWS Architecture Frameworks",
+                        "text":"Our well-architected framework focuses on monitoring and running systems to deliver data insights to continuously improve data processing. We aim to protect information and systems which include data integrity, managing security, and data control. We offer failure prevention with a modern approach to monitoring and auto-healing mechanisms."
+                    },                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"Data Insights Services ",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":" you?"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Accurate Reporting And Analysis",
+                        "text":"We help you to examine a huge volume of data to unlock the hidden patterns for best insights that lead to strategic business moves. We help you to analyze data and use it for creating business reports and explore new opportunities.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Develop Operational Efficiency",
+                        "text":"Based on the big data analytics and greater precision we forecast and predict results to plan your future steps and decision making more accurately. We believe taking the right decision based on valuable data leads to faster business operations and productivity.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Advance Products And Service",
+                        "text":"With the ability to understand the customer's behavior and demands through analytics, we are capable enough to deliver what they want. By creating clients across the globe for creating advanced products to increase their productivity.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Boost ROI",
+                        "text":"Our services are completely secure and encrypted for your successful transactions. We avail you best solutions free from any falsified information and hacks.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Increase Competitive Advantage",
+                        "text":"We facilitate you with faster financial transactions using peer-to-peer cross-border transfer with digital currency.",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"Data Insights",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Wide Experience In Data Analytics",
+                        "text":"With years of experience, we have proven expertise in big data analytics and advanced technologies. You can expect guaranteed ways to get valuable data insights for all your business needs.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Certified Team of Data Engineers",
+                        "text":"We have a professional team of highly educated and skilled data analysts who are dedicated to their work. We assure you to integrate the massive amount of data and turn into meaningful business information.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Advanced Methodology",
+                        "text":"We are an experienced Business Intelligence company and capable of working with the best software and advanced technologies according to your business needs. We offer function-rich software solutions and that leads to rapid growth in your business productivity.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/Big-Data",
+        "banner":[
+            {
+                "mainHeading"  : "MOST-TRUSTED BIG DATA COMPANY",
+                "heading":{
+                    "text1" :"A Trusted",
+                    "text2" :"Big Data",
+                    "text3" :"Services"
+                },
+                "descritption" : "Sparx IT Solutions as a big data service provider have created tremendous history. Getting valuable information out of your data set is more important now than ever before. We offer both analytics-as-a-service and custom data as per your need to drive actionable business solutions. Our big data engineers are deeply involved in the development of the blueprint, strategy, and roadmaps with optimized operational requirements to maximize your business data investment. We are dedicated to empowering the data-driven intelligent workflow of your business.",
+                "icons":[
+                    {
+                        "icon":"Data Processing",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Cognitive Automation",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"App Modernization",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"Cloud Data Warehouse",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Governed Data Discovery",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"AWS Data Analytics",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"Big Data Services"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Cloud Service",
+                        "text" :"Our Blockchain Development Company provides Ethereum blockchain development services to diverse industries and builds DApps, ERC20 contracts, smart contracts, and blockchain solutions for them.",
+                    },
+                    {
+                        "title":"Big Data Batch Processing",
+                        "text":"Our developers are skilled at creating Hyperledger blockchain solutions with solidity programming. We are a team of proficient Hyperledger framework on Blockchain technology."
+                    },
+                    {
+                        "title":"Real-Time Predictions",
+                        "text":"We enhance your business operations by bringing R3 Corda development services. Our team has a deep knowledge of developing future-ready apps and digital experience with R3 Corda based applications."
+                    },
+                    {
+                        "title":"Data Storage Playback Services",
+                        "text":"We are the early adopters of Hedera Hashgraph technology. We have proven expertise in developing DApps using hedera. We have the potential to develop Hedera based decentralized applications to make your business productive."
+                    },
+                    {
+                        "title":"Big Data Maintenance and Support",
+                        "text":"We assist you in developing a secure payment transaction infrastructure using Quorum blockchain. Our professionals always support enterprise needs."
+                    },
+                    {
+                        "title":"Data Assets Management",
+                        "text":"We can handle millions of transactions within seconds by using the EOS development. We offer EOS solutions to develop a large-scale enterprise application."
+                    },               
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"Big Data Services Company",
+                    "text3":"will",
+                    "text4":"Benefit",
+                    "text5":"you?"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Improved Business Process",
+                        "text":"The prior benefits of our big data service to gain a huge competitive advantage. Our standard practice of deep data analysis results in improvements and optimization of all the business-related operations.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Privacy and Security",
+                        "text":"We mainly emphasize on preventing your business from cyber-attacks. By using GDPR (General Data Protection Regulation) we continuously try to provide big data services with proper protocol and infrastructure.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Technical Expertise",
+                        "text":"We have a professional team of technically sound and proficient data experts. Our certified technical team is familiar with advanced software, tools, and scripting languages like SQL, Hive, Python, and many more.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Maximize Productivity",
+                        "text":"Sparx IT Solutions serves across multiple locations and focuses on product evaluation and performance benchmarks. Our agile methodology and efficient way of working is focused on maximum productivity of your business.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Great Customers Service",
+                        "text":"Analyzing the massive amount of data from various resources like CRM systems and social media we help you to understand the taste and preferences of customers. Based on this we create a responsive, accurate, and personal user experience.",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"Big Data",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Security",
+                        "text":"With years of experience, we have proven expertise in big data analytics and advanced technologies. You can expect guaranteed ways to get valuable data insights for all your business needs.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Professional Team",
+                        "text":"We have a professional team of highly educated and skilled data analysts who are dedicated to their work. We assure you to integrate the massive amount of data and turn into meaningful business information.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"More Business Exposure",
+                        "text":"We are an experienced Business Intelligence company and capable of working with the best software and advanced technologies according to your business needs. We offer function-rich software solutions and that leads to rapid growth in your business productivity.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/Business-Intelligence",
+        "banner":[
+            {
+                "mainHeading"  : "LEADING BUSINESS INTELLIGENCE COMPANY",
+                "heading":{
+                    "text1" :"A Trusted",
+                    "text2" :"Business Intelligence",
+                    "text3" :"Services & Analytics."
+                },
+                "descritption" : "Sparx IT Solutions is a well-known Business Intelligence Services Company worldwide. We offer a wide range of Business Intelligence and Analytics services that help you visualize data to foresee future opportunities and growth perspectives. We help businesses to enhance their decision-making processes with the rational interpretation of data. With our diverse range of enterprise business intelligence solutions, we aim to put data to work leveraging our advanced analytics skills and BI tools.",
+               "icons":[
+                    {
+                        "icon":"Risk Models",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Fraud Models",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Demand Forecasting",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"Consumer & Market Trends",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Salesforce",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"SharePoint",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"Business Intelligence Services"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"BI Consulting Service",
+                        "text" :"Our Business Intelligence Consultants analyze the needs and problems of a business to define a perfect migration, implementation, or improvement strategy. Our Business Intelligence Services Company is deeply involved in designing a hybrid, cloud, or on-premise BI solution. Our BI consulting services cater to your needs for technology recommendation, data modeling, data governance, architecture consultation, and more.",
+                    },
+                    {
+                        "title":"Data Visualization & Reporting",
+                        "text":"We can check the health of existing data visualization solutions or help in developing a data visualization solution from scratch. We help create standardized reports, executive dashboards, collaborative BI reports, self-service dashboards, data recovery, KPI metrics, analytics, and mobile BI. Our Business Intelligence Services Company has a team of experts that develop the right conceptual solutions."
+                    },
+                    {
+                        "title":"Data Warehousing Service",
+                        "text":"No matter if you want data warehouse consulting, development, migration, or other data warehousing support, you can rely on Sparx IT Solutions for the best outcomes. We offer unrivaled data management services and help in dimensional modeling, ETL design/development, metadata and master data management, data mapping, and more."
+                    },
+                    {
+                        "title":"Data Migration Service",
+                        "text":"We not only help in modernizing your existing BI tools but also provide complete assistance in data migration. You can rely on us for a myriad of data migration requirements like technology upgrade, database version upgrade, database platform migration, data migration, and more. Our experts render top-of-the-line services for your business."
+                    },
+                    {
+                        "title":"Data Validation Service",
+                        "text":"Our data validation experts do not just validate your databases but they also make sure that it is authentic. They also ensure the responsiveness of your data. With our data validation service, you get high-quality, error-free, and standardized data for your business. We deliver impeccable data after stringent testing, validation, and sanitization processes."
+                    },
+                    {
+                        "title":"Implementation Service",
+                        "text":"We help in augmentation and integration of prominent business intelligence third-party tools like Microsoft’s Power BI, Tableau, IBM BI, SAP, Qlik, SSAS, etc. And, we can integrate databases like MySQL, Oracle, SQL Server, etc. Through our implementation service, we strive to provide you with the best reporting and analytics environment."
+                    },                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"Business Intelligence Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Result-driven Collaboration",
+                        "text":"When you collaborate with us for BI services, our analysts ensure data completeness and provide the correct interpretation of the data. When upgrading or improving existing BI solutions, we build a centralized BI solution to help you achieve your short and long-term objectives.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Time Is A Priority",
+                        "text":"Time is a crucial factor in deriving useful insights from data. Thus, BI and analytics services should be in sync with schedules to deliver faster results. For us time is important, thus web with BI strategies that deliver results in the least possible time to help you make prompt decisions.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Detailed Insights",
+                        "text":"To derive insights effectively from a certain set of data, both tabulation and graphics are important. We provide analysis results in diverse forms like PDF or PowerPoint presentations, Power BI/Tableau reports and dashboard, Excel or Google Sheets, and more.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Quality Data",
+                        "text":"The quality of data is essential to make error-free and precise predictions or derive clear information. We employ a superior business intelligence and analytics approach to provide neat and accurate data that helps in making the right predictions.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Experienced Staff",
+                        "text":"We have very talented and skilled professionals who have extensive experience in Business Intelligence services. Our staff can handle any kind of challenge and provide the best services to clients. You can rely on our BI team to get better insights into your business.",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"Business Intelligence",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Secured Processes",
+                        "text":"Being fully aware of all security standards and data compliance, we ensure to create standards-compliant and secure data flows.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Transparency",
+                        "text":"We work with a transparent approach and help businesses define strategic goals and achieve their successes.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Modern Tools & Technology",
+                        "text":"We utilize state-of-the-art tools and technologies along with our best approaches to provide unmatchable business intelligence services.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/Machine-Learning",
+        "banner":[
+            {
+                "mainHeading"  : "REPUTED MACHINE LEARNING DEVELOPMENT COMPANY",
+                "heading":{
+                    "text1" :"We Provide End-To-End",
+                    "text2" :"Machine Learning",
+                    "text3" :"Development Services"
+                },
+                "descritption" : "Machine Learning is the future of data modeling and data analysis. As an experienced Machine Learning development company, we help organizations drive breakthrough outcomes and improve operational efficiency. Sparx IT Solutions helps its clients to create future-ready ML-powered business solutions running on mathematical optimization, computational intelligence, pattern recognition, and other emerging technologies.",
+               "icons":[
+                    {
+                        "icon":"Big data analysis",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Customer segmentation",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Predictive modelling",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"Sales forecasting",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Big data analytics",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"Faster decision making",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"Machine Learning Services"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Predictive Analysis",
+                        "text" :"With Predictive Analytics, we help organizations evaluate what will occur in the future by utilizing the data and statistical algorithms. We build up an AI-powered solution that can recognize conceivable future results based on historical data.",
+                    },
+                    {
+                        "title":"Deep Learning",
+                        "text":"We build cognitive business technology frameworks by leveraging our expertise in deep learning. We create an automated business solution that acts like a human being. By deep digging in complex data, we uncover great business opportunities for your business and deliver the best business solution."
+                    },
+                    {
+                        "title":"Video Analytics",
+                        "text":"Using high-level programming languages like Python, frameworks, and Deep Learning libraries such Theano, TensorFlow, and so on, our developers are well-versed in delivering the best video analytics service."
+                    },
+                    {
+                        "title":"Neural Network Development",
+                        "text":"With neural network methodology, our AI engineers produce a deep learning system that can process a bulk amount of data with countless variables. Using neural networks we create exceptional mobile applications."
+                    },
+                    {
+                        "title":"Marketing Automation Solutions",
+                        "text":"We integrate machine learning programs with CRM applications and marketing automation. We execute precise marketing operations, optimized demand forecasting, and improved content delivery for market segments and target audience."
+                    },
+                    {
+                        "title":"Customization",
+                        "text":"We utilize the latest tools and technologies and deep learning packages for ML-powered website development. Our expert developers customize the website development techniques to meet the business objective."
+                    },
+                    {
+                        "title":"Data Analytics Development",
+                        "text":"We are equipped with smart data scientists. They perform deep data analysis, data classification, data mining, and build predictive models to examine the collected data using advanced machine learning algorithms."
+                    },
+                    {
+                        "title":"Business Intelligence",
+                        "text":"Our dedicated Machine Learning experts automate your business operation and help you in the right decision making by envisioning business risk. We utilize business intelligence solutions for a great outcome."
+                    },                
+                    {
+                        "title":"Computer Vision",
+                        "text":"Our experts use computer vision to deliver the best methodology for object detection, image classification for a specific group, analytics, and processing data collected from the real world to generate meaningful information."
+                    },                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your    ",
+                    "text2":"Machine Learning Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Scalability",
+                        "text":"You can easily scale-up your team for Machine Learning development as per your needs. We have a team of skilled ML developers that help you to create your desired business solutions.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Dedicated Team",
+                        "text":"Our certified ML developer upscales your web development process. We are well-known for creating reliable, secure, scalable, and robust Machine Learning business solutions.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Customer Segmentation",
+                        "text":"We offer customer segmentation and value prediction. We use data representing the behavioral pattern of the users that help businesses to predict the possibility of getting conversions.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Fast Development Process",
+                        "text":"We follow the latest web development trends and make the best use of advanced tools and technologies for a fast development process. Our developers are well-aware of developing unique ML-powered websites for every business needs.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Same Time Zone",
+                        "text":"We understand that two-way communication is a must for a seamless work process. We ensure great performance as per your time zone and coordinate during your working hours to remove any communication gap.",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"Enterprise Blockchain Development",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Extensive Domain Expertise",
+                        "text":"The AI developer at Sparx IT Solutions holds great knowledge and experience in catering to a wide array of industry domains. We have worked with numerous businesses working in different domains.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Understanding Data",
+                        "text":"Our data researchers gather data from relevant resources and analyze it to have a clear understanding of business-related complexities. We rely only on refined data that improve business performance.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Assured Quality Satisfaction",
+                        "text":"We know the value of money and time invested. Without extending the deadline, we deliver you high-quality products that match your business specifications.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/Data-Mining",
+        "banner":[
+            {
+                "mainHeading"  : "REPUTED MACHINE LEARNING DEVELOPMENT COMPANY",
+                "heading":{
+                    "text1" :"Providing Result-Driven",
+                    "text2" :"Data Mining",
+                    "text3" :"Services"
+                },
+                "descritption" : "At Sparx IT Solutions, our certified and experienced analysts can assist you with overseeing and extract relevant information from raw data of any size in a convenient and financially savvy way. Our data mining experts adhere to the standard act of data integration, cleaning, selection, transformation, mining, post-processing, visualization, and all other guidelines of data mining by taking care of complex business issues. Our data mining company has a strong team of professionals that works with dedication to help you leverage data for getting a competitive advantage.",
+               "icons":[
+                    {
+                        "icon":"e-Marketplace Data Mining",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Social Media Data Mining",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Data Warehouse",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"Database Server Processing",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Pattern Evaluation",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"Use AI & ML",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"Data Mining Services"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Data Extraction from Scanned Documents",
+                        "text" :"We use Optical Character Recognition (OCR) technology to interpret machine printed text on scanned documents. We help our clients to remove their business complexities. Our expert data diggers are always ready to support you beyond your expectations..",
+                    },
+                    {
+                        "title":"Pre-processing of Data from your Warehouse",
+                        "text":"In our data mining services, we work with smart strategies to transform the huge amount of data in a useful and efficient format. Our data engineers have strong command over data structure and algorithms to serve all your business requirements with the best possible outcome."
+                    },
+                    {
+                        "title":"Data Mining for Fraud Detection",
+                        "text":"We use smart and most appropriate approaches for fraud analysis. We care about your business data confidentiality and find it our duty to keep your business secure from any risk of failure. We take the challenge for fraud disclosure initiatives, offer risk assessment and management service to give your business a glitch-free direction."
+                    },
+                    {
+                        "title":"Online News and Information Research",
+                        "text":"We are well-known in the industry due to our security policy and measures. Our modern researchers are involved in various fields to gather the large set of data and convert them into fruitful information that feeds your business purpose. We follow strict safety measures to avoid risk factors."
+                    },
+                    {
+                        "title":"Competitive Growth Analysis and Tracking",
+                        "text":"We want you to win! By using modern analysis tools and tricks we keep you ahead of your competitors. We develop a growth strategy to understand the weakness and monitor the profitable actions of your competitors. We believe that knowing your competitor's strength is equally important to know your own business objective to grow over a long haul."
+                    },
+                    {
+                        "title":"Analyze and Interpret Industry Data",
+                        "text":"Our data mining company has expert researchers who are deeply involved in data analysis and interpretation of raw data into structured information. We follow standard practice using Machine Learning, Artificial Intelligence, Statistics, Database Technology, and potential patterns to derive insights into industry data."
+                    },                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"Data Mining Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Data modeling",
+                        "text":"We select a high investigation model and criteria to find the appropriate matching information as per your requirements.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Fast Analytics",
+                        "text":"Come aboard and visualize your data in a few seconds. Sparx IT Solutions is 10 to 100x faster than existing solutions.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Big Data, Any Data",
+                        "text":"We explore any kind of data from spreadsheets to data warehouses to Hadoop to cloud services.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Data Preparation",
+                        "text":"Transform a huge amount of scrap or raw data into well-structured information for your business needs.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Update Automatically",
+                        "text":"With the accurate analysis of trends, our data mining services help you in automating data visualization as per the schedule you define.",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"Enterprise Data Mining",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Team of Professionals",
+                        "text":"We are rigged with experienced and talented data mining resources that can deal with a huge volume of data. We address complex data science problems with hypothetical skillset tailored to all the aspects of the right decision making to give new dimensions of your business.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Accurate And Optimal Results",
+                        "text":"The prior requirement of every client! We deliver accurate results to our clients on the estimated time scheduled. In the rapidly maturing research field, we offer guaranteed ways to obtain an optimized result with fast processing time.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Up-to-Date Technology",
+                        "text":"To meet your data mining outsourcing specification we never compromise with the latest tools and technologies. Focusing on your prerequisite we use advanced methodologies to provide agility, efficiency, and speed-up the workflow.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/Data-Analytics",
+        "banner":[
+            {
+                "mainHeading"  : "HIGHLY-PROFESSIONAL DATA ANALYTICS COMPANY",
+                "heading":{
+                    "text1" :"Helping Businesses Mitigate Their Risks With Our",
+                    "text2" :" Data Analysis",
+                    "text3" :"Services"
+                },
+                "descritption" : "Sparx IT Solutions is a prominent Data analytics company. We specialize in advanced analytics tools and data analysis models to address the rapidly-changing demands of small or large organizations. Our highly experienced data scientists use business intelligence techniques for data analysis to assist entrepreneurs in taking the right decision. We focus on market-leading solutions for complex data issues that enable a competitive edge.",
+               "icons":[
+                    {
+                        "icon":"Data Science",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Big Data",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Business Intelligence",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"Data Visualization",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Data Warehouse",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"Artificial Intelligence",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"Data Analysis Services"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Cloud Adoption",
+                        "text" :"We guarantee cloud adoption with built-in security, accessibility, versatility, and scalability. Our experience ranges across Microsoft Azure, S/4 Hana Cloud, Salesforce Cloud, Oracle Cloud, and AWS implementation. We help evaluate the key decision in managing the deployment of cloud in disruptive business models toinnovate the customer's experience.",
+                    },
+                    {
+                        "title":"Internet Of Things",
+                        "text":"We comprehend that the intensity of IoT is released by not just connecting sensors but by mastering advanced analytics models directly at the edge, to empower real-time actions. Our specialized IoT services are coupled with a design thinking centered approach. We provide an end-to-end solution to help you to build your IoT solution in the shortest time frame."
+                    },
+                    {
+                        "title":"Information Strategy & Governance",
+                        "text":"We mainly emphasize on strategic business assessment to grab the business goal. We follow the best practice of information architecture strategy to streamline information and data recovery with guaranteed future versatility without additional capital investment. We ensure the right data valuation, archiving, retrieval, and deletion of information."
+                    },
+                    {
+                        "title":"Business Intelligence",
+                        "text":"Our specialized team provides remarkable data analysis service by up-streaming the data to dashboards like Power BI, Tableau, etc that can help further understand the trend analysis, based on that you can make better decisions to maximize productivity."
+                    },
+                    {
+                        "title":"Application and Infrastructure Optimization",
+                        "text":"Sparx IT Solutions brings infrastructure management and technical support altogether to serve our clients' quick resolution and unified support. Our approach includes the combination of data center management, infrastructure management, and IT application management that leads to proactive and managed infrastructure and technical support."
+                    },
+                    {
+                        "title":"Test Engineering",
+                        "text":"We deliver quality products with a faster and continuous testing approach. Our data engineers have capabilities of superior decision making delivered by high-end data testing services with traditional and emerging data technologies. With the use of automation and effective testing approach, we enhance the web and application performance for the best user experience."
+                    },               
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"Data Analysis Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Visualizing And Analysis",
+                        "text":"With access to the advanced data analytics and data visualization tools we provide insights of heterogeneous or unstructured data in different formats. It helps decision-makers to identify the connection between multi-dimensional data sets and interpret data through graphical representation.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Delivering Relevant Products",
+                        "text":"Products are the reason for the survival of any organization. We collect authentic data from various sources where users publicize their requirements, demand, and thoughts. It helps you to stay hottest in the market when trends and demands changes or new technologies take place.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Mitigate Fraud and Risk Factors",
+                        "text":"With our strict safety measures, we aim to keep all your physical, financial, and intellectual assets safe and secure. Our highly capable data scientists provide the optimum level of fraud detection and complete organizational security.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Operational Efficiency",
+                        "text":"We help your business to identify new exposure and opportunities for effective operation and huge revenue generation. We identify the complex issues or the factors that can lead to any risk and perform the desired operation that ends with the best outcome.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Fast Productivity",
+                        "text":"With accurate market research and customer behavior analysis we deliver data in meaningful ways. Our real-time data analysis approach helps you increase productivity and determine how to improvise the product development cycle.",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"Data Analysis",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Expert Team of Data Analysts",
+                        "text":"Our data scientists are well-qualified and have the skillset in statistics, machine learning, coding, and software engineering. With the strong command over the scientific research process and latest trends, we turn data insights into the best business solution.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Domain Expertise",
+                        "text":"With more than 13 Years of unbeatable experience, we can understand the specification of businesses. Our dedicated researchers always seek new learning opportunities and assess key data to meet the desired goal.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Seamless Communication",
+                        "text":"With excellent communication skills, we can listen and understand your business objective to deliver the expected outcome. Our data analysts are well-versed in different mediums including verbal, written, and visualizing software to report their conclusion and sharing with the team.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/Data-Consulting",
+        "banner":[
+            {
+                "mainHeading"  : "MOST-RELIABLE DATA CONSULTING COMPANY ACROSS THE GLOBE",
+                "heading":{
+                    "text1" :"Our",
+                    "text2" :"Data Consulting",
+                    "text3" :"Services Help You Get Profitable Insights"
+                },
+                "descritption" : "Sparx IT Solutions offers the best data consultancy solutions to meet your leadership requirement in the industry. Using the wide array of the latest technologies and software we provide our clients with industry-leading support. Our professional team of data consultants has adequate experience in machine learning and the automotive industry. We use the most advanced features of data security to keep your highly confidential data safe and secure.",
+               "icons":[
+                    {
+                        "icon":"Business Intelligence",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Supply Chain Analytics",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Big Data",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"Sales And Marketing Analysis",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Data Mining",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"Artificial Intelligence",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"Data Consulting Services"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Statistical Data Analysis",
+                        "text" :"We use modern tools and programming language to perform statistical data operations. Our data engineers are involved in data collection, data validation, data interpretation, and data testing to avail you of the best possible solution to your business needs. We have a proficient team of quantitative analysts to validate complex business issues and quantify them to get the best solution.",
+                    },
+                    {
+                        "title":"Reporting Automation",
+                        "text":"We provide relevant and useful information in an automated way by excluding any manual user interaction and reporting format. We automate the delivery of reports straight to the user's computer and mobile device. We provide automated reports and dashboards that can be generated at any time."
+                    },
+                    {
+                        "title":"Big Data Consulting",
+                        "text":"Our big data consultants are masters in using advanced technologies like AI and ML to process bulk data and drive business insight from it to suggest the best possible solutions and effective business strategy. As a data consulting company, we render unmatched services."
+                    },
+                    {
+                        "title":"Data Integration",
+                        "text":"Our professional approach combines business and technical processes to gather the data from multiple resources and data systems to convert it into structured business information. We offer full-fledged data integration solutions and deliver valuable data. It helps the decision-maker to take the appropriate decision and support businesses to grow in the right direction."
+                    },
+                    {
+                        "title":"Data Visualization",
+                        "text":"We use the best visual elements like scatter plots or maps, bar charts, and data visualization tools to assess market trends, KPI's, and data patterns. Our dedicated team of professionals is capable to visualize and analyze the massive amount of data and process it in complete insights. We offer trusted data that supports you to take the data-driven decision."
+                    },
+                    {
+                        "title":"AI Consultation`",
+                        "text":"We help our clients to gain the maximum volume of informative data with the help of artificial intelligence-driven solutions. This Helps you to automatize the entire data processing and maximize the revenue generation. Our unique AI consultation service serves you with more opportunities that come from the implementation of AI solutions into your business."
+                    },                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"Data Consulting Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Error-Free Dataset",
+                        "text":"Along with data consultation services we also provide efficient data cleaning services to detect and correct errors from your database. This leads to improvise the data quality that consecutively benefits users and business owners. Data clearance often contributes to better productivity.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Strong Security Measures",
+                        "text":"Our strict security measure takes proper care of all your confidential business data. The safety of your business and to prevent it from any fraud or risk factor is our utmost concern.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Valuable Data Asset",
+                        "text":"We process disruptive data and get most of it for business solutions. Our world-class data analysis service supports your business in many ways, gives new dimensions, and accurate analysis of future trends. Choose us as your data consulting company and get accurate business solutions.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Adequate data",
+                        "text":"Our highly-qualified data scientists identify key data domains and design central data repositories where you can integrate and maintain business data. This central warehouse will help you to easily retrieve, update, or delete any specific data.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Improve Operational Efficiency",
+                        "text":"Our data controlling process optimizes business operations and gives the surety of complete customer satisfaction and achieve operational excellence. Our advanced analytics approach offers you organizational workforce optimization in accordance with business needs and customer requirements.",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"Data Consulting",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Dedicated Team",
+                        "text":"Our truly skilled team of professionals have unique dedication towards work. We stand by you at any time you need us. We don't follow the clock timing we follow our client's schedule to assist them in any manner we can.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Smart Work Approach",
+                        "text":"At Sparx IT Solutions we believe in smart work instead of hard work. We follow a result oriented-approach without taking much time. We understand our responsibility for delivering the requirements of the customer promptly.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Value Our Clients",
+                        "text":"We understand it's not only about your business, but it's also about your dreams. With our data consultancy services. we help you to optimize investment and follow the futurist approach to get you constantly maximized revenue.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/Web-Scraping",
+        "banner":[
+            {
+                "mainHeading"  : "LEADING AND RENOWNED WEB SCRAPING COMPANY",
+                "heading":{
+                    "text1" :"We Offer Unrivaled Enterprise-grade",
+                    "text2" :"Web Data Extraction",
+                    "text3" :"Services"
+                },
+                "descritption" : "Sparx IT Solutions helps you extract your valuable website data to get structured information and critical insights that will fuel your decisions. Our web scraping experts utilize the best tools and technologies to derive essential website data from any website to provide you with accurate information. No need for coding, servers, or any expensive software, you can share your data extraction needs and we will provide the right services. As a leading web scraping company, we utilize the best methods for data extraction and provide accurate insights.",
+               "icons":[
+                    {
+                        "icon":"Robust Crawling",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"One-click Data Export",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Well-structured Datasets",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"24*7 Support",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Tailored Crawlers",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"Data Pipeline Management",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"Web Scraping Requirement"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Price Intelligence",
+                        "text" :"We extract pricing data from more than one website in your domain to analyze different price points and deduce the mindset of competitors for your business. By utilizing this data, you can create more effective pricing strategies.",
+                    },
+                    {
+                        "title":"Sentiment Analysis",
+                        "text":"Our web scraping experts evaluate public reviews, tweets, comments, etc to analyze important public opinions and attitudes towards your services and products. They perform comprehensive sentiment analysis."
+                    },
+                    {
+                        "title":"Trend Monitoring",
+                        "text":"With our data extraction services, you get a constant flow of business-specific data accumulated from varied reliable sources. This information helps in growth, R&D, get actionable insights, understand market benchmarks, and more."
+                    },
+                    {
+                        "title":"Lead Generation",
+                        "text":"Our experts can scrape directories, social platforms, forums, event boards, real estate portals, conference websites, recruitment boards, etc, to help marketers generate useful insights. It helps them with more sales leads with likely conversions."
+                    },
+                    {
+                        "title":"Brand Reputation Analysis",
+                        "text":"Our web scraping helps you track your campaign based on relevant data and metrics. It helps in monitoring, conversion, market reach, social media reputation, etc related to your product or services. You get a deeper understanding of what your customers want."
+                    },
+                    {
+                        "title":"Insightful Investments",
+                        "text":"Our custom web scraping services empower you to generate relevant data as well as derive insights about future trends, possible opportunities, buyer reactions, and more information to give you a strategic edge over competitors."
+                    },                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"Web Scraping Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Data Extraction & Interpretation",
+                        "text":"Our experts extract data for competitive analysis and research. Get deeper insights through data collated from forums, blogs, review sites, and many other sites. We harness the data collected from lists, directories, and other resources for your business’s benefits and provide the data in a format of your choice.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Web Data Extraction",
+                        "text":"Don’t be afraid of extracting data from any complicated website, we help in scraping data from all websites irrespective of their complexity. Whether it is AJAX, JavaScript, or a dynamic website, we can derive data from web pages like image, text, URL, HTML, link, etc. With our web data extraction services, you can efficiently extract your website data.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Well-structured Data",
+                        "text":"We never cut corners and always provide befitting solutions. Our QA processes and the expert team makes sure 100% data integrity. You can obtain data in formats like CSV, XML, JSON, etc, which is cleanly organized for quick reference. The data you get will have clear insights and easy to comprehend without much effort.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Get Maximum Coverage",
+                        "text":"With automated keyword searches on popular search engines such as Yahoo, Google, Bing, and more as well as real-time updates about insurance, interest rates, mortgage, etc, you get essential insights quickly and easily. We never let you miss any critical data and enable you to extract data from even complex websites.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Cloud Extraction",
+                        "text":"We can also help you in data extraction on the cloud. Our web scraping experts can work with varied cloud platforms to extract and store data on clouds that you can easily access from anywhere in the world.",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"Web Scraping",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Quality Services",
+                        "text":"We are an ISO certified company and provide the best quality data and technology solutions to our clients. Our clients get the advantage of proficient data experts, best scraping methodologies, dedicated teams, and the latest tools with industry best approaches of data extraction.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Talented Data Extraction Team",
+                        "text":"We are an ISO certified company and provide the best quality data and technology solutions to our clients. Our clients get the advantage of proficient data experts, best scraping methodologies, dedicated teams, and the latest tools with industry best approaches of data extraction. We are a reliable web scraping company.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Proven Approach",
+                        "text":"Having Sparx IT Solutions as your web scraping service provider enables you to get top-of-the-line services modeled to fit all your expectations securely and timely. Our web data extraction experts use machine learning and work with the best approach to provide cost-efficient and accurate information.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/Power-BI",
+        "banner":[
+            {
+                "mainHeading"  : "A REPUTED POWER BI CONSULTING COMPANY",
+                "heading":{
+                    "text1" :"Get Actionable Insights With Our",
+                    "text2" :"BI Consulting",
+                    "text3" :"Services"
+                },
+                "descritption" : "At Sparx IT Solutions we understand the value of data and the importance of data-driven decisions in an organization’s growth and prosperity. Thus we leverage Microsoft’s Power BI business analytics tool to accumulate, analyze, and present data through interactive reports and appealing visuals. By employing this powerful analytics tool, businesses can uncover valuable insights and boost their profitability. ",
+               "icons":[
+                    {
+                        "icon":"Dashboards & Reports",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Analytics & Visualizations",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Predictive Analytics",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"R Script For ML",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Azure Data Factory",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"Power BI Integration",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"BI Consulting"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Power BI Consulting",
+                        "text" :"Our Power BI consultants provide complete guidance from devising a roadmap for creating a data plan for the implementation of the solution. We harness the potential of the Power BI analytics solution to provide a clear picture of your business based on data.",
+                    },
+                    {
+                        "title":"Dashboard Development",
+                        "text":"Our Power BI experts will create interactive reports and customized dashboards that will offer clear and intuitive insights for your business. By using these dashboards and reports, you will be able to make rational decisions quickly for your business."
+                    },
+                    {
+                        "title":"Power BI Embedded",
+                        "text":"With our Power BI embedded services, you will get an interactive reporting solution. And, you can integrate your Power BI reports into existing systems like ERP, CRM, and more. We make it easy for you to get analytics reports easily to get valuable insights."
+                    },
+                    {
+                        "title":"Dedicated Power BI Team",
+                        "text":"ou can enhance your existing Power BI capabilities by hiring our dedicated Power BI team. Our team can understand your requirements and work dedicatedly on your project. The team can provide a Power BI integration service."
+                    },
+                    {
+                        "title":"Data Analytics Workshop",
+                        "text":"We can also provide complete training and an understanding of the analytical tool to your team. Our certified experts provide a workshop according to the needs of your organization to help your team understand the capabilities of Power BI seamlessly."
+                    },
+                    {
+                        "title":"Advanced Analytics",
+                        "text":"Our Power BI experts help you set up an advanced analytics environment by integrating R and Python scripts to leverage the power of data science. The advanced analytics help you access machine learning capabilities that allow optimal use of data in a visual manner."
+                    },                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"BI Consulting Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Data Modeling",
+                        "text":"Our experts help you in data modeling like Schema design, OLAP, Calculated Measures, Tabular Model, and manage data relationships. With this process, our experts transform your raw data into a more useful thing.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Administration",
+                        "text":"You can get help from our Power BI experts for varied administration chores like managing workspace, Single Sign-on (SSO), publish custom visuals, PowerShell script, manage user groups, gateway, usage monitoring, etc.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Performance Tuning",
+                        "text":"We help in increasing your data handling and analytics performance. Our experts perform Data Pipeline Optimization, Data Model Optimization, Code Optimization, improve code reusability, and more to ensure performance tuning.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Data Integration",
+                        "text":"With our Power BI consulting services, data integration is a peace of mind as we provide help in R/Python integration, ETL design & development, data lake, real-time integration, integrate structured & semi-structured data, and more.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Reporting & Visualization",
+                        "text":"We utilize the best data visualization & reporting features of Power BI for presenting data in a better way. By utilizing presentation elements like bar charts, scatter plots or maps, line graphs, etc we analyze trends, patterns, and KPI’s.",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"BI Consulting",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Clear Reporting",
+                        "text":"Using the best features of Power BI, we create interactive and high-quality reports that are easy to comprehend. We ensure that the data presented in reports is understandable and easy to read.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Experienced Team",
+                        "text":"As a seasoned Power BI consulting company, we have a team of well-experienced Power BI professionals who have experience in creating interactive dashboards, reports, and other data visualization chores. Our experts can work with complex datasets.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Secure Collaboration",
+                        "text":"We work with the best analytics approach and work on data to provide clear and accurate insights about your business. We adhere to data security norms and deliver error-free and clean reports and rich visuals from data.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/Tableau",
+        "banner":[
+            {
+                "mainHeading"  : "GLOBALLY-ACCLAIMED TABLEAU ANALYTICS AND CONSULTING COMPANY",
+                "heading":{
+                    "text1" :"We Provide End-to-end",
+                    "text2" :"Tableau Consulting",
+                    "text3" :"Services"
+                },
+                "descritption" : "We leverage the power of Tableau to access and evaluate your heterogeneous data to deduce rational insights for your business. Whether you want quick help or a trusted advisor, we are always at your disposal. By utilizing this interactive data visualization software, we help enterprises to analyze data and present it through intuitive reports to make forecasts regarding their businesses. We have certified Tableau experts who have experience in providing interactive reports and other data visualization tactics.",
+               "icons":[
+                    {
+                        "icon":"ETL & Data Visualization",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Dashboard Development",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Data Enrichment",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"BI Solutions",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Self-service Business Analytics",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"Deeper Insights",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"Tableau Consulting"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Tableau Project Planning",
+                        "text" :"An important step in the data visualization process is to define a roadmap to complete that process seamlessly. Devising a roadmap can be daunting without any help or consultation. We at Sparx IT Solutions, help in your Tableau project planning and defining your business objectives and we will deliver delightful results.",
+                    },
+                    {
+                        "title":"Tableau Server Consulting",
+                        "text":"Tableau Server is the right place to load your Tableau data sources, workbooks, and other content. It is easy to share and access Tableau dashboards across an organization with Tableau Server. It offers robust management and security features that keep your data safe. We help you build an ideal Tableau server environment."
+                    },
+                    {
+                        "title":"Ad Hoc Tableau Analysis",
+                        "text":"Whenever you feel that you are not able to complete Tableau analysis, you can always rely on us to complete the analysis. You can depend on our ad hoc Tableau analysis consulting service whenever you feel the need. Our experts will help you in analytics and create intuitive reports that give clear insights."
+                    },
+                    {
+                        "title":"Tableau Administration & Deployment",
+                        "text":"There are multiple Tableau products and they also come in different versions. Based on the requirement of your business, we provide support for Tableau installation, deployment, integration, and administration. We also take care of your specific BI strategy needs and build the right BI solution."
+                    },
+                    {
+                        "title":"Data Cleansing for Tableau",
+                        "text":"If data is available in a format that cannot be used as is, it requires proper formatting and cleansing. Tableau doesn’t offer many capabilities to handle data level operations. We provide complete assistance in this regard and our Tableau experts take care of data level operations by cleansing and formatting data."
+                    },
+                    {
+                        "title":"Tableau BI Solution Development",
+                        "text":"Developing a BI solution with Tableau involves the creation of various reports and dashboards that offer an intuitive visualization of data. By developing a Tableau BI solution, our experts help you present your data in a meaningful manner. The data is presented with charts, maps, and other visual representations."
+                    },                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"Tableau Consulting Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Uncover Insights",
+                        "text":"We utilize the power of Tableau business analytics software to uncover the hidden patterns and insights from your business data. Our experts are adept at using Tableau features to provide you with proper reports and representation of your data.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Refined Dashboards",
+                        "text":"Having a strong experience in creating intuitive reports and dashboards, our experts cater to your all data visualization needs effectively with the use of Tableau software. We can perform root cause analysis and create reports accordingly.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Data Security",
+                        "text":"The security of essential business data is a prime concern for every organization. As reliable Tableau analytics and consulting company, we understand the importance of data security. Thus we employ stringent measures to protect our clients’ data.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Comprehensive Analysis",
+                        "text":"Our Tableau experts are apt at providing comprehensive analysis based on the combined data from different data sources. By gathering data from multiple sources and then creating a combining analysis, we help you get an intrinsic insight.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Geospatial Visualization",
+                        "text":"Our Tableau experts help you in complex geospatial analysis and provide managed self-service analytics. With geospatial analysis, our experts provide insights through icons, labels, heatmaps, and other elements based on your needs.",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"BI Consulting",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Proven Approach",
+                        "text":"We work with the best analytics approach and provide you with unbiased data results. Working closely with you we get constant feedback to render our services according to your needs and specifications.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Expert Team",
+                        "text":"Our Tableau experts are highly professional and experienced. They can handle any challenging data analysis tasks easily and provide with the right results as per your expectations.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Out-of-the-box Solutions",
+                        "text":"As many people think, Tableau is not straightforward and drawing essential insights can be daunting without any help. We come up with innovative solutions and create an analytics environment that is easy to go with.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/Compliances",
+        "banner":[
+            {
+                "mainHeading"  : "TRUSTED WEB COMPLIANCE SERVICES COMPANY",
+                "heading":{
+                    "text1" :"Get Full-Suite Of",
+                    "text2" :"Web Compliance",
+                    "text3" :"Services To Make Your Site Risk-Free"
+                },
+                "descritption" : "Does your website or app not fulfill varied compliances and regulations? If yes, it’s taking your business at stake. You can save your business from being sued by opting for website and app compliance services from Sparx IT Solutions. We provide end-to-end consultation, support, and technical assistance to make your website or app comply with ADA, Section 508, HIPAA, GDPR, and other regulations. We assess your site or app and implement the right solutions to fulfill varied compliances.",
+               "icons":[
+                    {
+                        "icon":"Web Form Audit",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Web Browser Testing",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"100% Compliance",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"Privacy Compliance",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"AI-based Remediation",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"GDPR Compliance",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"Web Compliance Services"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"GDPR & CCPA Compliance",
+                        "text" :"With the laws like GDPR and CCPA, emerging as a legal protector of users’ personally identifiable information, making your site comply with these regulations is a must. At Sparx IT Solutions, we help you build the right strategy and the checklist of these compliances.",
+                    },
+                    {
+                        "title":"HIPAA Compliance",
+                        "text":"If you hail from the healthcare industry, HIPAA compliance is an important fulfillment for your business. Whether you want to launch a newly designed healthcare website or a mobile app, you need to ensure that it complies with HIPAA compliance to ensure the protection of patients' data."
+                    },
+                    {
+                        "title":"Accessibility Compliance",
+                        "text":"At Sparx IT Solutions, we help you build a highly accessible website or app that meets varied accessibility standards like Section 508, WCAG 2.1 AA, ADA, etc to make sure that your website or app is completely user-friendly for all kinds of users."
+                    },                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"Web Compliance Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Risk Assessment",
+                        "text":"We can help you assess the compliance risk of your site or app to help you find out the weak points.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Consultation",
+                        "text":"You can engage in a one-on-consultation with our experts to get complete support on GDPR, accessibility, and other compliances.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Cost-effective",
+                        "text":"With our cost-effective compliance services, you get best-in-class services to make your digital products standards-compliant.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Compliance Audit",
+                        "text":"We perform a compliance audit on your site and provide necessary recommendations to meet compliance objectives.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Page-by-Page Analysis",
+                        "text":"By performing page-by-page analysis on your site, we can help find out issues and offer remediation for achieving web compliance.",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"BI Consulting",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Experienced Team",
+                        "text":"Our experts have extensive knowledge and experience in creating standards-compliant web or mobile solutions. They can guide you from start to finish in making your website or app fulfills all required compliances.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Easy Communication",
+                        "text":"With our robust and easy communication channels, our clients can conveniently communicate with our experts. They listen to your needs carefully and give you the right solutions.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"In-depth Analysis",
+                        "text":"By performing an in-depth analysis of your site we try to find out any weak points and recommend needed improvements to help your site to be more accessible, user-friendly, and standards-complaint.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/GDPR",
+        "banner":[
+            {
+                "mainHeading"  : "TRUSTED GDPR COMPLIANCE CONSULTING COMPANY",
+                "heading":{
+                    "text1" :"Get",
+                    "text2" :"GDPR Compliance Consulting",
+                    "text3" :"Services For Your Website Or App"
+                },
+                "descritption" : "Sparx IT Solutions helps you make your website, app, or product General Data Protection Regulation (GDPR) compliant. Our GDPR services have been designed to strengthen the data security of users or customers across Europe and help reshape your approach towards data security. Our GDPR implementation and consultation services help you align your business with the General Data Protection Regulation compliance norms. ",
+               "icons":[
+                    {
+                        "icon":"Personal Data Audit",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Privacy Impact Assessment",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Policy Reviews",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"Notifications Reviews",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"GDPR Readiness Review",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"Analytics Consulting",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"GDPR Compliance Services"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Assessment Of Compliance",
+                        "text" :"We start by analyzing the existing policies, procedures, and mechanisms for security that an organization utilizes for data processing. Depending on an organization’s needs, we create a roadmap to build a GDPR compliance solution from scratch or give guidance to enhance the existing system if possible.",
+                    },
+                    {
+                        "title":"Internal Audit",
+                        "text":"In the course of GDPR compliance services, we also perform post-compliance audits internal to an organization to ensure it is fully compliant. Any findings are presented to management and final solutions are provided that are meant to fill the gap. We ensure complete compliance with your business."
+                    },
+                    {
+                        "title":"Discovery of Personal Data",
+                        "text":"Our GDPR experts come up with an excellent technological and process set up to help businesses discover Personally Identifiable Information (PII) that is used across an organization. The use of the set up will empower organizations to govern the usage and management of such information."
+                    },
+                    {
+                        "title":"Process Modeling",
+                        "text":"By leveraging modern technologies, we facilitate process modeling to help in your GDPR compliance strategy. We aim to create a system that offers complete data protection and helps in detecting data breaches at every point of the application cycle. We create robust solutions that help pinpoint challenges."
+                    },
+                    {
+                        "title":"Data Control Assessment",
+                        "text":"In our data control assessment service, we ascertain and analyze the whole ecosystem of a company for controlling data and build a robust GDPR compliance strategy. Our GDPR compliance advisory services experts accomplish this task by identifying key metrics that help discover a business’s compliance level with the law."
+                    },
+                    {
+                        "title":"Support For Implementation",
+                        "text":"We help in identifying requisite technical and security controls to ensure GDPR compliance in action. We also provide complete help and support to fulfill any additional business requirements to meet the goal of GDPR compliance as per your unique business context. Our experts provide the best results."
+                    },                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"GDPR Compliance Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Risk Management",
+                        "text":"We assess your data security requirements and implement strong measures that help you in risk management.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Strong Data Protection",
+                        "text":"Our GDPR experts take every measure to integrate the best security measures to protect individual data.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Effective Responsive Planning",
+                        "text":"We provide you with effective incident response planning to help handle any incident of a data breach.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Increased Reputation",
+                        "text":"Our strong and effective GDPR compliance services will enable you to enhance your organization's reputation.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Secured Data Processing",
+                        "text":"We set up a system and data processing environment that is fully secure and complies with GDPR law.",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":" GDPR Compliance",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Smooth Compliance",
+                        "text":"By crafting a clear plan of action and implementing it as a customized compliance solution, we ensure streamlined compliance for clients. Our experts ensure a proper procedure and plan to accomplish compliance.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Holistic Approach",
+                        "text":"We follow a holistic approach and whatever services and solutions we offer are focused on providing a central system that helps regulate the usage of personal data as well as provide reports and quick alerts for a data breach.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Adaptable Solutions",
+                        "text":"We offer tailored solutions to our clients that are adaptable to the future needs of their businesses. The future needs may be due to changes in GDPR law or any infrastructural requirements. With our GDPR compliance advisory services, you get complete solutions.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/HIPAA",
+        "banner":[
+            {
+                "mainHeading"  : "RELIABLE HIPAA COMPLIANCE CONSULTING COMPANY",
+                "heading":{
+                    "text1" :"Offering",
+                    "text2" :" HIPAA Compliance Consulting",
+                    "text3" :"Services to Healthcare Businesses"
+                },
+                "descritption" : "We help you overcome the challenges in acquiring HIPAA compliance and manage associated risks. You can rely on us to make your app or website HIPAA compliant and secure your healthcare businesses and its sensitive medical information.",
+               "icons":[
+                    {
+                        "icon":"Risk Analysis",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Advisory Service",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"HIPAA Onsite Audit",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"HIPAA Assessment",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Effectiveness Review",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"Lasting Data Security",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"HIPAA Compliance Services"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Healthcare Compliance Program",
+                        "text" :"We come up with an effective healthcare compliance program that is aimed at protecting healthcare organizations from fraud, squandering, possible liability areas, and abuse. Our healthcare compliance program focuses on risk assessment and management, due diligence reviews, claims data analysis, and compliance program productiveness analysis.",
+                    },
+                    {
+                        "title":"HIPAA Security & Privacy Services",
+                        "text":"With our effective HIPAA compliance solutions, we help healthcare organizations to take all corrective actions to protect their data. Our experts assist in privacy protection and help enhance data security. They offer training, advisory services, cloud security assessment, risk analysis, and ensure that your systems are strong against any data breach."
+                    },
+                    {
+                        "title":"Consulting And Assessment",
+                        "text":"We provide robust HIPAA compliance services that fortify your HIPAA compliance program as well as protect your organization from any violation. Our HIPAA compliance consulting and assessment service comprises system assessment, advisory services, and onsite assessment. We protect your organization through HIPAA compliance."
+                    },               
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"HIPAA Compliance Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Security From Intrusions",
+                        "text":"Our experts identify network intrusions as well as track any misconfiguration & vulnerability to ensure the security of medical data and avoid its exposure.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Avert Breaches",
+                        "text":"Our experts work actively to help you find ways to avert any active breach or any suspicious activity with our security operations.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Complete Assistance",
+                        "text":"We provide 24/7 expert analysis, monitoring of network security, and other support by providing essential IT resources that are not available with you.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"HIPAA-HITECH Compliance",
+                        "text":"We provide our healthcare business clients with HIPAA and HITECH compliant administrative and technical safeguard solutions.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Guaranteed Solutions",
+                        "text":"At Sparx IT Solutions, we don’t just make promises, we deliver the right solutions that enable you to be in sync with HIPAA HITECH compliance",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":" HIPAA Compliance",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Expert Team",
+                        "text":"Our professional compliance experts are well-experienced to provide full support and guidance to ensure that your business is in-line with the HIPAA-HITECH regulation.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Robust Solutions",
+                        "text":"Our HIPAA compliance experts and consultants help you create a robust system that effectively safeguards Personal Health Information (PHI) and other shareable details.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Proven Approach",
+                        "text":"As a trusted HIPAA compliance service provider, we work with the best approach and provide timely, accurate, hassle-free, and comprehensive implementation of HIPAA security to protect critical data of patients.",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"/expertise/Devops-Automation",
+        "banner":[
+            {
+                "mainHeading"  : "WE ARE A TRUSTED DEVOPS AUTOMATION SERVICE COMPANY",
+                "heading":{
+                    "text1" :"Top",
+                    "text2" :"DevOps",
+                    "text3" :"Automation Services"
+                },
+                "descritption" : "Sparx IT Solutions provides DevOps automation service by adopting an approach that focuses on collaboration, communication, integration, and automation. We help you integrate the required changes in your technology landscape and culture. We leverage monitoring, collaboration, tool-chain pipelines, automation, and cloud adoption to ensure the rapid-onboarding of applications. With our DevOps consulting service, we help startups and enterprises to align their operations and development to get higher efficiency.",
+               "icons":[
+                    {
+                        "icon":"Quality CI/CD Pipelines",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Resilient Systems",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Automate Deployment",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"Configure Automated Alerts",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"High Security",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"Disaster Management",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":"DevOps Automation Services"
+                },
+                "cardBoxData":[
+                    {
+                        "title":"DevOps Assessment",
+                        "text" :"With our DevOps assessment services, we audit your existing infrastructure, assess DevOps practices, identify the right tools, list redundant tasks, and assess development tasks. We also create an assessment report that outlines the points for Continuous Delivery roadmaps, automation, and DevOps Quotient Scorecard.",
+                    },
+                    {
+                        "title":"DevOps Management",
+                        "text":"We not only help you automate your processes but we also assist in managing your Continuous Delivery pipeline’s health. At Sparx IT Solutions, we ensure the replica environment, Continuous Deployment, change management, new server set up, release management, and performance optimization."
+                    },
+                    {
+                        "title":"DevOps Automation",
+                        "text":"Once we audit the existing setup and outline a perfect workflow, we establish and automate a continuous delivery pipeline for you. We employ a robust environment of licensed and open-sourced tools to increase productivity and prevent risky deployment when automating the pipeline."
+                    },               
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"DevOps Automation Services",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Faster Turnaround",
+                        "text":"Through DevOps automation, your team becomes more efficient due to less time spent in reinventing the wheel.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Quality & Stability",
+                        "text":"The application or software quality is improved with the standardization of processes and reduction in errors through our DevOps solutions services.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Less Time To Market",
+                        "text":"Quickly respond to users’ requests about features and functionalities as well as quick onboarding to new platforms and apps.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Reduced Friction",
+                        "text":"The friction between the operations and IT team is reduced significantly due to the active integration of the development process with the operations team.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Reduced Manpower",
+                        "text":"Due to the optimization of processes and efficient utilization of resources, your office can be operated with a small team instead of lots of manpower.",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":" BI Consulting",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"Automotive Software Updates",
+                        "text":"Due to the use of servers in cloud computing which is off the on-premise environment, security management and operational software updates are handled automatically. Consequently, it reduces management costs and removes the hassle of having an on-premise storage infrastructure.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Better Security",
+                        "text":"We integrate the best security features into DevOps solutions from the beginning of your project and ensure secure processes. We do this through automated security tests and compliance processes. With more processes becoming automated the risk of human error is reduced. We also utilize shared tools that give a comprehensive overview of the development cycle.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Better ROI",
+                        "text":"We enable you to realize better ROI with our DevOps services due to the quick monetization of your data. Data is essential for every organization that is collected from multiple sources. We help in making optimal use of the data through an agile and automated approach. By choosing us as your DevOps automation service company, you can ensure maximum ROI.",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -3298,23 +6796,42 @@ const jsonData=[
                 "mainHeading"  : "",
                 "heading":{
                     "text1" :"",
-                    "text2" :""
+                    "text2" :"",
+                    "text3" :"Services"
                 },
                 "descritption" : "",
-                "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
-                }
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"We Deliver Comprehensive",
                     "text2":""
                 },
                 "cardBoxData":[
@@ -3356,30 +6873,37 @@ const jsonData=[
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"How Choosing Us As Your",
                     "text2":"",
-                    "text3":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -3387,24 +6911,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
                     "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -3418,23 +6945,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -3448,23 +6980,42 @@ const jsonData=[
                 "mainHeading"  : "",
                 "heading":{
                     "text1" :"",
-                    "text2" :""
+                    "text2" :"",
+                    "text3" :"Services"
                 },
                 "descritption" : "",
-                "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
-                }
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"We Deliver Comprehensive",
                     "text2":""
                 },
                 "cardBoxData":[
@@ -3506,30 +7057,37 @@ const jsonData=[
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"How Choosing Us As Your",
                     "text2":"",
-                    "text3":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -3537,24 +7095,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
                     "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -3568,23 +7129,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -3598,23 +7164,42 @@ const jsonData=[
                 "mainHeading"  : "",
                 "heading":{
                     "text1" :"",
-                    "text2" :""
+                    "text2" :"",
+                    "text3" :"Services"
                 },
                 "descritption" : "",
-                "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
-                }
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"We Deliver Comprehensive",
                     "text2":""
                 },
                 "cardBoxData":[
@@ -3656,30 +7241,37 @@ const jsonData=[
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"How Choosing Us As Your",
                     "text2":"",
-                    "text3":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -3687,24 +7279,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
                     "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -3718,7 +7313,84 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
                     },
                     {
                         "title":"",
@@ -3735,6 +7407,119 @@ const jsonData=[
                     {
                         "title":"",
                         "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -3748,23 +7533,42 @@ const jsonData=[
                 "mainHeading"  : "",
                 "heading":{
                     "text1" :"",
-                    "text2" :""
+                    "text2" :"",
+                    "text3" :"Services"
                 },
                 "descritption" : "",
-                "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
-                }
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"We Deliver Comprehensive",
                     "text2":""
                 },
                 "cardBoxData":[
@@ -3806,30 +7610,37 @@ const jsonData=[
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"How Choosing Us As Your",
                     "text2":"",
-                    "text3":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -3837,24 +7648,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
                     "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -3868,23 +7682,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -3898,23 +7717,42 @@ const jsonData=[
                 "mainHeading"  : "",
                 "heading":{
                     "text1" :"",
-                    "text2" :""
+                    "text2" :"",
+                    "text3" :"Services"
                 },
                 "descritption" : "",
-                "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
-                }
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"We Deliver Comprehensive",
                     "text2":""
                 },
                 "cardBoxData":[
@@ -3956,30 +7794,37 @@ const jsonData=[
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"How Choosing Us As Your",
                     "text2":"",
-                    "text3":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -3987,24 +7832,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
                     "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -4018,23 +7866,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -4048,23 +7901,42 @@ const jsonData=[
                 "mainHeading"  : "",
                 "heading":{
                     "text1" :"",
-                    "text2" :""
+                    "text2" :"",
+                    "text3" :"Services"
                 },
                 "descritption" : "",
-                "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
-                }
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"We Deliver Comprehensive",
                     "text2":""
                 },
                 "cardBoxData":[
@@ -4106,30 +7978,37 @@ const jsonData=[
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"How Choosing Us As Your",
                     "text2":"",
-                    "text3":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -4137,24 +8016,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
                     "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -4168,23 +8050,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -4198,23 +8085,42 @@ const jsonData=[
                 "mainHeading"  : "",
                 "heading":{
                     "text1" :"",
-                    "text2" :""
+                    "text2" :"",
+                    "text3" :"Services"
                 },
                 "descritption" : "",
-                "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
-                }
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"We Deliver Comprehensive",
                     "text2":""
                 },
                 "cardBoxData":[
@@ -4256,30 +8162,37 @@ const jsonData=[
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"How Choosing Us As Your",
                     "text2":"",
-                    "text3":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -4287,24 +8200,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
                     "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -4318,23 +8234,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -4348,23 +8269,42 @@ const jsonData=[
                 "mainHeading"  : "",
                 "heading":{
                     "text1" :"",
-                    "text2" :""
+                    "text2" :"",
+                    "text3" :"Services"
                 },
                 "descritption" : "",
-                "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
-                }
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"We Deliver Comprehensive",
                     "text2":""
                 },
                 "cardBoxData":[
@@ -4406,30 +8346,37 @@ const jsonData=[
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"How Choosing Us As Your",
                     "text2":"",
-                    "text3":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -4437,24 +8384,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
                     "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -4468,7 +8418,84 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
                     },
                     {
                         "title":"",
@@ -4485,6 +8512,119 @@ const jsonData=[
                     {
                         "title":"",
                         "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -4498,23 +8638,42 @@ const jsonData=[
                 "mainHeading"  : "",
                 "heading":{
                     "text1" :"",
-                    "text2" :""
+                    "text2" :"",
+                    "text3" :"Services"
                 },
                 "descritption" : "",
-                "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
-                }
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"We Deliver Comprehensive",
                     "text2":""
                 },
                 "cardBoxData":[
@@ -4556,30 +8715,37 @@ const jsonData=[
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"How Choosing Us As Your",
                     "text2":"",
-                    "text3":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -4587,24 +8753,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
                     "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -4618,23 +8787,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -4648,23 +8822,42 @@ const jsonData=[
                 "mainHeading"  : "",
                 "heading":{
                     "text1" :"",
-                    "text2" :""
+                    "text2" :"",
+                    "text3" :"Services"
                 },
                 "descritption" : "",
-                "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
-                }
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"We Deliver Comprehensive",
                     "text2":""
                 },
                 "cardBoxData":[
@@ -4706,30 +8899,37 @@ const jsonData=[
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"How Choosing Us As Your",
                     "text2":"",
-                    "text3":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -4737,24 +8937,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
                     "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -4768,23 +8971,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -4798,23 +9006,42 @@ const jsonData=[
                 "mainHeading"  : "",
                 "heading":{
                     "text1" :"",
-                    "text2" :""
+                    "text2" :"",
+                    "text3" :"Services"
                 },
                 "descritption" : "",
-                "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
-                }
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"We Deliver Comprehensive",
                     "text2":""
                 },
                 "cardBoxData":[
@@ -4856,30 +9083,37 @@ const jsonData=[
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"How Choosing Us As Your",
                     "text2":"",
-                    "text3":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -4887,24 +9121,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
                     "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -4918,23 +9155,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -4948,23 +9190,42 @@ const jsonData=[
                 "mainHeading"  : "",
                 "heading":{
                     "text1" :"",
-                    "text2" :""
+                    "text2" :"",
+                    "text3" :"Services"
                 },
                 "descritption" : "",
-                "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
-                }
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"We Deliver Comprehensive",
                     "text2":""
                 },
                 "cardBoxData":[
@@ -5006,30 +9267,37 @@ const jsonData=[
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"How Choosing Us As Your",
                     "text2":"",
-                    "text3":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -5037,24 +9305,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
                     "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -5068,23 +9339,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -5098,23 +9374,42 @@ const jsonData=[
                 "mainHeading"  : "",
                 "heading":{
                     "text1" :"",
-                    "text2" :""
+                    "text2" :"",
+                    "text3" :"Services"
                 },
                 "descritption" : "",
-                "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
-                }
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"We Deliver Comprehensive",
                     "text2":""
                 },
                 "cardBoxData":[
@@ -5156,30 +9451,37 @@ const jsonData=[
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"How Choosing Us As Your",
                     "text2":"",
-                    "text3":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -5187,24 +9489,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
                     "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -5218,23 +9523,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -5248,23 +9558,42 @@ const jsonData=[
                 "mainHeading"  : "",
                 "heading":{
                     "text1" :"",
-                    "text2" :""
+                    "text2" :"",
+                    "text3" :"Services"
                 },
                 "descritption" : "",
-                "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
-                }
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"We Deliver Comprehensive",
                     "text2":""
                 },
                 "cardBoxData":[
@@ -5306,30 +9635,37 @@ const jsonData=[
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"How Choosing Us As Your",
                     "text2":"",
-                    "text3":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -5337,24 +9673,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
                     "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -5368,23 +9707,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -5398,23 +9742,42 @@ const jsonData=[
                 "mainHeading"  : "",
                 "heading":{
                     "text1" :"",
-                    "text2" :""
+                    "text2" :"",
+                    "text3" :"Services"
                 },
                 "descritption" : "",
-                "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
-                }
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"We Deliver Comprehensive",
                     "text2":""
                 },
                 "cardBoxData":[
@@ -5456,30 +9819,37 @@ const jsonData=[
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"How Choosing Us As Your",
                     "text2":"",
-                    "text3":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -5487,24 +9857,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
                     "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -5518,23 +9891,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -5548,23 +9926,42 @@ const jsonData=[
                 "mainHeading"  : "",
                 "heading":{
                     "text1" :"",
-                    "text2" :""
+                    "text2" :"",
+                    "text3" :"Services"
                 },
                 "descritption" : "",
-                "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
-                }
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"We Deliver Comprehensive",
                     "text2":""
                 },
                 "cardBoxData":[
@@ -5606,30 +10003,37 @@ const jsonData=[
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"How Choosing Us As Your",
                     "text2":"",
-                    "text3":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -5637,24 +10041,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
                     "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -5668,23 +10075,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -5698,23 +10110,42 @@ const jsonData=[
                 "mainHeading"  : "",
                 "heading":{
                     "text1" :"",
-                    "text2" :""
+                    "text2" :"",
+                    "text3" :"Services"
                 },
                 "descritption" : "",
-                "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
-                }
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"We Deliver Comprehensive",
                     "text2":""
                 },
                 "cardBoxData":[
@@ -5756,30 +10187,37 @@ const jsonData=[
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"How Choosing Us As Your",
                     "text2":"",
-                    "text3":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -5787,24 +10225,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
                     "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -5818,23 +10259,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -5848,23 +10294,42 @@ const jsonData=[
                 "mainHeading"  : "",
                 "heading":{
                     "text1" :"",
-                    "text2" :""
+                    "text2" :"",
+                    "text3" :"Services"
                 },
                 "descritption" : "",
-                "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
-                }
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"We Deliver Comprehensive",
                     "text2":""
                 },
                 "cardBoxData":[
@@ -5906,30 +10371,37 @@ const jsonData=[
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"How Choosing Us As Your",
                     "text2":"",
-                    "text3":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -5937,24 +10409,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
                     "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -5968,23 +10443,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -5998,23 +10478,42 @@ const jsonData=[
                 "mainHeading"  : "",
                 "heading":{
                     "text1" :"",
-                    "text2" :""
+                    "text2" :"",
+                    "text3" :"Services"
                 },
                 "descritption" : "",
-                "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
-                }
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"We Deliver Comprehensive",
                     "text2":""
                 },
                 "cardBoxData":[
@@ -6056,30 +10555,37 @@ const jsonData=[
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"How Choosing Us As Your",
                     "text2":"",
-                    "text3":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -6087,24 +10593,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
                     "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -6118,23 +10627,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -6148,23 +10662,42 @@ const jsonData=[
                 "mainHeading"  : "",
                 "heading":{
                     "text1" :"",
-                    "text2" :""
+                    "text2" :"",
+                    "text3" :"Services"
                 },
                 "descritption" : "",
-                "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
-                }
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"We Deliver Comprehensive",
                     "text2":""
                 },
                 "cardBoxData":[
@@ -6206,30 +10739,37 @@ const jsonData=[
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"How Choosing Us As Your",
                     "text2":"",
-                    "text3":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -6237,24 +10777,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
                     "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -6268,23 +10811,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -6298,23 +10846,42 @@ const jsonData=[
                 "mainHeading"  : "",
                 "heading":{
                     "text1" :"",
-                    "text2" :""
+                    "text2" :"",
+                    "text3" :"Services"
                 },
                 "descritption" : "",
-                "icons":{
-                    "iconTitle1":"",
-                    "iconTitle2":"",
-                    "iconTitle3":"",
-                    "iconTitle4":"",
-                    "iconTitle5":"",
-                    "iconTitle6":"",
-                }
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"We Deliver Comprehensive",
                     "text2":""
                 },
                 "cardBoxData":[
@@ -6356,30 +10923,37 @@ const jsonData=[
         "benefits":[
             {   
                 "subheading":{
-                    "text1":"",
+                    "text1":"How Choosing Us As Your",
                     "text2":"",
-                    "text3":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },                
                 ]
             }
@@ -6387,24 +10961,27 @@ const jsonData=[
         "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
                     "text3":"",
-                    "text4":"",
-                    "text5":"",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -6418,7 +10995,83 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"",
-                        "text":""
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
                     },
                     {
                         "title":"",
@@ -6435,6 +11088,8951 @@ const jsonData=[
                     {
                         "title":"",
                         "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+    },
+
+    {
+        "pathname":"",
+        "banner":[
+            {
+                "mainHeading"  : "",
+                "heading":{
+                    "text1" :"",
+                    "text2" :"",
+                    "text3" :"Services"
+                },
+                "descritption" : "",
+               "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
+            }
+        ],
+        "ourServices":[
+            {   
+                "subheading":{
+                    "text1":"We Deliver Comprehensive",
+                    "text2":""
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text" :"",
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    },
+                    {
+                        "title":"",
+                        "text":""
+                    }                
+                ]
+            }
+        ],
+        "benefits":[
+            {   
+                "subheading":{
+                    "text1":"How Choosing Us As Your",
+                    "text2":"",
+                    "text3":"Company will",
+                    "text4":"Benefit",
+                    "text5":"you?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },                
+                ]
+            }
+        ],
+        "whyChooseUs":[
+            {   
+                "subheading":{
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"",
+                    "text4":"Services",
+                    "text5":"?",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },              
+                ]
+            }
+        ],
+        "designProcess":[
+            {   
+                "subheading":{
+                    "text1":"",
+                    "text2":"",
+                },
+                "cardBoxData":[
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"",
+                        "text":"",
+                        "src":ExcellentUIUX
                     },              
                 ]
             }
