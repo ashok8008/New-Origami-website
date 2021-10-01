@@ -13,11 +13,14 @@ import PWA from "../../images/PWA.svg"
  import ProfessionalDesigner from "../../images/ChooseUs/Service/ProfessionalDesigner.svg"
  import Reputation from "../../images/ChooseUs/Service/Reputation.svg"
  import WellOrganizedProjectPlan from "../../images/ChooseUs/Service/WellOrganizedProjectPlan.svg"
- import Strategize from "../../images/designProcess/Services/Strategize.svg"
- import Design from "../../images/designProcess/Services/Design.svg"
- import Development from "../../images/designProcess/Services/Development.svg"
- import Testing from "../../images/designProcess/Services/Testing.svg"
- import Maintenancedesign from "../../images/designProcess/Services/Maintenance.svg"
+
+ import Strategize from "../../images/designProcess/Strategize.svg"
+ import Design from "../../images/designProcess/Design.svg"
+ import Development from "../../images/designProcess/Development.svg"
+ import Testing from "../../images/designProcess/Testing.svg"
+ import Maintenancedesign from "../../images/designProcess/Maintenance.svg"
+ import DeliverySupport from "../../images/designProcess/DeliverySupport.svg"
+
 
  import ExcellentUIUX from "../../images/benefits/services/ExcellentUIUX.svg" 
  import ExtensibleSolutions from "../../images/benefits/services/ExtensibleSolutions.svg" 
@@ -6790,39 +6793,39 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/iOS-App-Development",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "IOS APP DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
+                    "text1" :"Delivering Result-Driven",
+                    "text2" :"iOS App Development",
                     "text3" :"Services"
                 },
-                "descritption" : "",
+                "descritption" : "We can transform your idea into secure and scalable iOS mobile apps. Our expertise in iOS app design and development spans the entire Apple ecosystem. We build custom products that encompass the entire range of iOS devices, including iPad, Apple TV, Watch.",
                "icons":[
                     {
-                        "icon":"",
+                        "icon":"Apple TV",
                         "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Apple Watch",
                         "src":Upgradation
                     },
                     {
-                        "icon":"",
+                        "icon":"iPad",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"iPhone",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"iPod",
                         "src":Migrations
                     },
                     {
-                        "icon":"",
+                        "icon":"Apple Wearable",
                         "src":PWA
                     }
                 ]
@@ -6832,41 +6835,33 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":" iOS App Development"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Custom iOS App Development",
+                        "text" :"We are adept at building custom iOS apps that meet clients’ needs and packed with modern features. You can share your app idea and we will turn it into a secure, scalable, and robust iOS app. Having expertise in varied iOS technologies, our developers craft bespoke apps for varied business verticals.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Native iOS App Development",
+                        "text":"Our developers have an in-depth understanding of native iOS technologies like Swift, Objective-C, C++, Cocoa Touch UI, etc and they can create high-end platform-specific apps. We create native mobile apps for iOS that are interactive, intuitive, and user-friendly. Your app will have a consistent look across different iOS devices."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"iOS App Upgrade",
+                        "text":"With a full-scale knowledge of the iOS ecosystem, we can provide a hassle-free iOS App Upgrade under our iOS app development services. We upgrade your app to the latest iOS platform and make sure that the app is compatible with the newest Apple devices. We ensure that your app meets the required trends in technology."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Hybrid iOS App Development",
+                        "text":"We craft cutting-edge hybrid iOS apps that will work consistently on different mobile platforms. Our developers make the best use of frameworks like Flutter, Sencha Touch, React Native, Ionic, PhoneGap, etc to develop fully-functional hybrid apps. We integrate user-friendly app features that are optimized for varied mobile platforms."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"iOS App UI/UX Designing",
+                        "text":"Our UI/UX designers create beautiful and awe-inspiring app designs that add charm to your iOS mobile app. Our experts not only focus on creating a simple UI but they also ensure an enthralling UX. We design iOS apps that catch everyone’s attention while keeping the performance & functionality at its best."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"iOS App Testing/Portability",
+                        "text":"As an experienced iPhone App Development Company, we port your iOS app to different Apple devices. Using the best portability approach, they ensure the smooth and quick portability of your application. We perform thorough tests on every iOS app to ensure the best quality, performance, and full compatibility with different iOS devices."
+                    },                
                 ]
             }
         ],
@@ -6874,35 +6869,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"iOS App Development Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Consistent Quality",
+                        "text":"Our processes are ISO certified and we maintain quality standards.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"100% Satisfaction",
+                        "text":"We provide 100% guaranteed satisfaction to our clients.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Flexible Engagement Model",
+                        "text":"Hire for full-time, part-time, fixed-cost, or developer by the hour.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Years Industry Experience",
+                        "text":"We have been providing cutting-edge solutions for years.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"On Top of Technologies",
+                        "text":"We are apprised of the latest technologies & trends in the industry.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -6913,24 +6908,24 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"iOS App Development",
                     "text4":"Services",
                     "text5":"?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Security",
+                        "text":"Our iOS development service is completely secure and reliable. We create an iOS app with robust security features ensuring that the users’ private information will remain completely secure from threats like malware and hacking attempts.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Agile Process",
+                        "text":"All of our iOS app development services are completed through a custom agile process which enables us to work swiftly while minimizing risks and maximizing our velocity. Our process of delivering iPhone app development services also promotes higher work transparency.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Specialized Developers",
+                        "text":"Experienced iOS developers who are highly specialized in the relevant technologies are designated to your project. They comprehend your needs and add any functionality as per your requirements to develop a feature-rich app.",
                         "src":ExcellentUIUX
                     },              
                 ]
@@ -6939,34 +6934,34 @@ const jsonData=[
         "designProcess":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Our Seemless",
+                    "text2":"IOS App Development Process",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "title":"Analysis",
+                        "text":"We start by requirement gathering, competitive analysis, finding business goals, etc., to discover your project feasibility.",
+                        "src":Strategize
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "title":"Designing",
+                        "text":"After understanding the requirement, we create high fidelity wireframes and prototypes.",
+                        "src":Design
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "title":"Developing",
+                        "text":"At this stage,  we implement our technical skills to build your solution as per your needs and requirements.",
+                        "src":Development
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "title":"Testing",
+                        "text":"Our QA team performs various tests stringently using different tools to ensure that the final product meets expectations.",
+                        "src":Testing
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "title":"Delivery & Support",
+                        "text":"When all the tests are passed, we provide assistance for project deployment, server management, and post-deployment support.",
+                        "src":DeliverySupport
                     },              
                 ]
             }
@@ -6974,39 +6969,39 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/Android-App-Development",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "ANDroid APP DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
+                    "text1" :"Delivering Result-Driven",
+                    "text2" :"Android App Development",
                     "text3" :"Services"
                 },
-                "descritption" : "",
+                "descritption" : "Sparx IT Solutions delivers Android app development solutions to startups, SMBs, and enterprises. Our Android app developers have years of expertise in developing custom, secure, fully-functional, and futuristic mobile apps for the entire range of Android devices.",
                "icons":[
                     {
-                        "icon":"",
+                        "icon":"Smartphones",
                         "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Tablet",
                         "src":Upgradation
                     },
                     {
-                        "icon":"",
+                        "icon":"Android TV",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"earables",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"IOT",
                         "src":Migrations
                     },
                     {
-                        "icon":"",
+                        "icon":"AR/VR",
                         "src":PWA
                     }
                 ]
@@ -7016,41 +7011,33 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"Android App Development"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Custom Android Apps Development ",
+                        "text" :"Our Android developers are adept at fulfilling the diverse set of business requirements. They have brilliantly developed numerous custom Android apps for a mix of industry verticals in the least possible time. They know the art of developing applications that shine and stand apart from others.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Android UI/UX Design",
+                        "text":"We are focused on creating powerful and reliable Android devices that render an amazing user experience. Our expert designers make diligent use of the functionality and skillfulness of the Android platform to craft alluring designs. We have developed Android apps with an impeccable UI/UX design for various business niches."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Android Web-based Apps",
+                        "text":"We are proficient in developing easy to install, maintain and highly secure Android web-based applications. By choosing our Android-web based development services, you can get a flexible application that will expand easily as your business grows. Our innovative web-based app solutions have been admired by the clients worldwide."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Android App Porting",
+                        "text":"We offer a comprehensive porting service for your Android app with the latest industry standards and features. With this service, our ultimate goal is to build your effective presence on various devices and OS through which you can garner more clients and elevate your business growth."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Android App Testing",
+                        "text":"To make your app market-ready, we perform vigorous testing to check for any bugs that can halt the operation. Our team of quality inspectors works relentlessly to make your Android app run without a glitch and you can get your hands on a highly-functional app."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Android App Consultation",
+                        "text":"We will be there with you from start to finish as your Android app development company. If you have an app idea in mind, then feel free to share it with us. We are here to convert your vision into a reality. Our developers carefully analyze your requirements and then kick start the Android development process."
+                    },               
                 ]
             }
         ],
@@ -7058,35 +7045,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Android App Development Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Consistent Quality",
+                        "text":"Our processes are ISO certified and we maintain quality standards.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"100% Satisfaction",
+                        "text":"We provide 100% guaranteed satisfaction to our clients.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Flexible Engagement Model",
+                        "text":"Hire for full-time, part-time, fixed-cost, or developer by the hour.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Years Industry Experience",
+                        "text":"We have been providing cutting-edge solutions for years.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"On Top of Technologies",
+                        "text":"We are apprised of the latest technologies & trends in the industry.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -7097,24 +7084,24 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"Android App Development",
                     "text4":"Services",
                     "text5":"?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Reliable & Skilled Developers",
+                        "text":"Being a leading Android app development company, we offer the finest and dexterous team of developers to all our clients. Their skillsets will sync with your project’s requirements. Once you hire them, they reliably and dedicatedly start working for you.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Robust Architecture",
+                        "text":"Our developers are apprised at the security cracks of the Android platform. To fix this, they employ top security protocols that seal the app’s architecture with strong security layers throughout.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Full Transparency",
+                        "text":"We offer transparency throughout our Android app development process. That is why we report our clients on a daily and weekly basis to inform them about the project’s progress and take suggestions whenever required.",
                         "src":ExcellentUIUX
                     },              
                 ]
@@ -7123,34 +7110,34 @@ const jsonData=[
         "designProcess":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Our Seemless",
+                    "text2":"Android App Development Process",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "title":"Analysis",
+                        "text":"We start by requirement gathering, competitive analysis, finding business goals, etc., to discover your project feasibility.",
+                        "src":Strategize
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "title":"Designing",
+                        "text":"After understanding the requirement, we create high fidelity wireframes and prototypes.",
+                        "src":Design
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "title":"Developing",
+                        "text":"At this stage,  we implement our technical skills to build your solution as per your needs and requirements.",
+                        "src":Development
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "title":"Testing",
+                        "text":"Our QA team performs various tests stringently using different tools to ensure that the final product meets expectations.",
+                        "src":Testing
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "title":"Delivery & Support",
+                        "text":"When all the tests are passed, we provide assistance for project deployment, server management, and post-deployment support.",
+                        "src":DeliverySupport
                     },              
                 ]
             }
@@ -7158,39 +7145,39 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/React-Native-App-Development",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "RENOWNED REACT NATIVE APP DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
+                    "text1" :"Delivering Result-Driven",
+                    "text2" :"React Native App Development",
                     "text3" :"Services"
                 },
-                "descritption" : "",
+                "descritption" : "At Sparx IT Solutions, we harness the React Native framework to create high-performance cross-platform mobile applications. We are adept at creating apps with the intuitive user experience across multiple platforms like iOS, Android, and Windows.",
                "icons":[
                     {
-                        "icon":"",
+                        "icon":"Cross-platform Development",
                         "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Rigorous Updates",
                         "src":Upgradation
                     },
                     {
-                        "icon":"",
+                        "icon":"Modular Architecture",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"Pre-Built Components",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Single & Reusable Codebase",
                         "src":Migrations
                     },
                     {
-                        "icon":"",
+                        "icon":"Better UI",
                         "src":PWA
                     }
                 ]
@@ -7200,41 +7187,33 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"React Native App Development"
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text" :"",
+                        "title":"React Native Development",
+                        "text" :"From designing an intuitive UI, developing cross-platform apps for mobile OS like iOS, Android, and Windows, React Native consultancy to customization, we provide a complete range of React Native app development solutions. Having plenty of experience, our developers render unmatched solutions.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"React Native Consulting",
+                        "text":"Our astute React Native consultants stay in touch with you to understand your mobile application development goals with precision and provide proper guidance. With a proper roadmap and advice, we help you to achieve your goals ensuring the maximum ROI on investment."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"React Native Migration",
+                        "text":"Whether you want your legacy mobile application to be reengineered or looking to migrate the existing app to React Native with enhanced UI/UX design, our experts have the caliber to deliver the desired solutions with React Native consultancy, custom designing, and development."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"React Native Customization",
+                        "text":"As a reliable React Native development company, we offer the best React Native app customization service and builds native-like mobile apps that meet your business expectations. Whether you want a brand new custom app or modernize the existing React Native app, our developers can make it happen."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"React Native support & Maintenance",
+                        "text":"Get complete support from our React Native consultants regarding all kinds of issues and hassles with your app. We are also here to provide quality maintenance services for your app. We provide assistance regarding app up-gradation, bug fixing, security, and more."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"React Native Team Augmentation",
+                        "text":"We can become your extended arm by providing our experienced and talented React Native app developers who will work in collaboration with your in-house team. Our experts provide end-to-end React Native consulting to help build the right solutions. You can scale down or up the team anytime as per the needs of your project."
+                    },               
                 ]
             }
         ],
@@ -7242,35 +7221,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":" Your React Native App Development Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Consistent Quality",
+                        "text":"Our processes are ISO certified and we maintain quality standards.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"100% Satisfaction",
+                        "text":"We provide 100% guaranteed satisfaction to our clients.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Flexible Engagement Model",
+                        "text":"Hire for full-time, part-time, fixed-cost, or developer by the hour.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Years Industry Experience",
+                        "text":"We have been providing cutting-edge solutions for years.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"On Top of Technologies",
+                        "text":"We are apprised of the latest technologies & trends in the industry.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -7281,24 +7260,24 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":" React Native App Development",
                     "text4":"Services",
                     "text5":"?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Performance",
+                        "text":"The slow loading app leads to disappointing user experience. Our React Native app developers make the optimal use of the architecture of this framework along with optimal use of memory, CPU, and GPU (Graphical Processing Unit) to build high-performance apps.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Scalability",
+                        "text":"With our React Native app development services, you get scalable mobile apps that will run flawlessly forever with well structured and quality code empowering the app architecture. We also ensure app scalability by creating applications while keeping the future requirements of your business in mind.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Quality Assurance",
+                        "text":"We build cross-platform apps that meet various standards related to accessibility, usability, data & privacy security, data encryption, and other industry standards. We do complete testing i.e. components, performance, integration, and functional testing to deliver quality solutions.",
                         "src":ExcellentUIUX
                     },              
                 ]
@@ -7307,34 +7286,34 @@ const jsonData=[
         "designProcess":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Our Seemless",
+                    "text2":"React Native App Development Process",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "title":"Analysis",
+                        "text":"We start by requirement gathering, competitive analysis, finding business goals, etc., to discover your project feasibility.",
+                        "src":Strategize
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "title":"Designing",
+                        "text":"After understanding the requirement, we create high fidelity wireframes and prototypes.",
+                        "src":Design
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "title":"Developing",
+                        "text":"At this stage,  we implement our technical skills to build your solution as per your needs and requirements.",
+                        "src":Development
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "title":"Testing",
+                        "text":"Our QA team performs various tests stringently using different tools to ensure that the final product meets expectations.",
+                        "src":Testing
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "title":"Delivery & Support",
+                        "text":"When all the tests are passed, we provide assistance for project deployment, server management, and post-deployment support.",
+                        "src":DeliverySupport
                     },              
                 ]
             }
@@ -7343,39 +7322,39 @@ const jsonData=[
 
 
     {
-        "pathname":"",
+        "pathname":"/technologies/Flutter-App-Development",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "LEADING FLUTTER APP DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
+                    "text1" :"Delivering Result-Driven",
+                    "text2" :"Flutter App Development",
                     "text3" :"Services"
                 },
-                "descritption" : "",
+                "descritption" : "At Sparx IT Solutions, we utilize Google’s UI toolkit, Flutter to create apps for Android, iOS, Desktop, and Web with a single codebase. Our Flutter app developers are adept at cross-platform app development using this SDK.",
                "icons":[
                     {
-                        "icon":"",
+                        "icon":"Powerful Rendering Engine",
                         "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Speed",
                         "src":Upgradation
                     },
                     {
-                        "icon":"",
+                        "icon":"Flexible UI",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"One Codebase",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Ideal For MVP",
                         "src":Migrations
                     },
                     {
-                        "icon":"",
+                        "icon":"Better UI/UX",
                         "src":PWA
                     }
                 ]
@@ -7385,41 +7364,21 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"Flutter App Development"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Flutter App Consulting",
+                        "text" :"If you want to consult regarding your hybrid or Flutter application, you can speak to any of our experts for end-to-end consulting. They will provide answers to your queries and give the assistance that you need for your project.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Flutter App Development",
+                        "text":"Our developers are proficient in Dart language used in Flutter and they can create applications for various platforms like iOS, Android, desktop, and web. You can also hire a Flutter app developer from Sparx IT Solutions to work on your dedicated cross platform app development project."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Flutter Testing & Maintenance",
+                        "text":"As a reliable Flutter app development company, we utilize manual and automated testing methods to test your Flutter app and provide support for the software upgrade, code maintenance, bug fixes, performance optimization, etc. We provide a complete solution from widget implementation, UI design, to app maintenance."
+                    },               
                 ]
             }
         ],
@@ -7427,35 +7386,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Flutter App Development Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Single Codebase",
+                        "text":"We write a single codebase that is compiled to run over different desktop and mobile platforms.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"User-first UI/UX",
+                        "text":"Our developers leverage the flexibility and elegance of Flutter to create appealing UI/UX.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Easy & Quick Coding",
+                        "text":"We utilize the various features of the framework to hand-code your app quickly.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Create Custom Widgets",
+                        "text":"If you want custom widgets, our developers can provide this with widget development.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Excellent User Experience",
+                        "text":"We build every Flutter app user-friendly that offers an impressive user experience.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -7466,24 +7425,24 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"React Native App Development",
                     "text4":"Services",
                     "text5":"?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Vast Experience",
+                        "text":"Choosing Sparx IT Solutions enables you to obtain services from developers who have years of industry experience. With that experience and skills, our Flutter app developers provide excellent solutions that meet clients’ expectations.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Secure Applications",
+                        "text":"When it comes to app security, we are a fully reliable Flutter app development company. App security is our prime concern and we secure your app with various methods like identity management, session management, device security along with security technologies like AES secret key, OAuth 2.0 keychain & authorization, etc.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Scalable Solutions",
+                        "text":"We care about scalability and provide our clients with apps that are ready for future expansion. Our developers create a robust app architecture that empowers the app to work smoothly even for high traffic. Adding new features & upgrades will be possible.",
                         "src":ExcellentUIUX
                     },              
                 ]
@@ -7492,34 +7451,34 @@ const jsonData=[
         "designProcess":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Our Seemless",
+                    "text2":"Flutter App Development Process",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "title":"Analysis",
+                        "text":"We start by requirement gathering, competitive analysis, finding business goals, etc., to discover your project feasibility.",
+                        "src":Strategize
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "title":"Designing",
+                        "text":"After understanding the requirement, we create high fidelity wireframes and prototypes.",
+                        "src":Design
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "title":"Developing",
+                        "text":"At this stage,  we implement our technical skills to build your solution as per your needs and requirements.",
+                        "src":Development
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "title":"Testing",
+                        "text":"Our QA team performs various tests stringently using different tools to ensure that the final product meets expectations.",
+                        "src":Testing
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "title":"Delivery & Support",
+                        "text":"When all the tests are passed, we provide assistance for project deployment, server management, and post-deployment support.",
+                        "src":DeliverySupport
                     },              
                 ]
             }
@@ -7527,39 +7486,39 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/Progressive-Web-App-Development",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "PROGRESSIVE WEB APP DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
+                    "text1" :"We Provide",
+                    "text2" :"Progressive Web App Development",
                     "text3" :"Services"
                 },
-                "descritption" : "",
+                "descritption" : "Sparx IT Solutions has been providing bespoke progressive web app development services worldwide for many years. We have created fast, reliable, and secure progressive web applications for myriads of industry verticals with a 100% success rate. Our progressive web app developers are highly proficient in creating enterprise-grade feature-rich PWAs for varied businesses.",
                "icons":[
                     {
-                        "icon":"",
+                        "icon":"Zero Install",
                         "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"No App Store Submission",
                         "src":Upgradation
                     },
                     {
-                        "icon":"",
+                        "icon":"Higher Conversions",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"Improved Performance",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Cost-efficient",
                         "src":Migrations
                     },
                     {
-                        "icon":"",
+                        "icon":"Hardware Integrations",
                         "src":PWA
                     }
                 ]
@@ -7569,41 +7528,21 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"Progressive Web App Development"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Progressive Web App Design",
+                        "text" :"We build mockups of the design to give a gist to the clients of how the app will look like. Our progressive web design is scalable and easy to maintain. We render PWA solutions that are lightweight, intuitive, and flexible.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Progressive Plugin Development",
+                        "text":"We are proficient in creating and deploying a vast variety of plugins to provide your PWAs a competitive edge in the market. Our plugins are highly customizable to suit the growing needs of the business."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"PWA Support and Maintenance",
+                        "text":"We have a dedicated support team that is working tirelessly to handle all the technical issues. With regular updates, we make sure that your web app stays up-to-date with the latest security guidelines."
+                    },               
                 ]
             }
         ],
@@ -7611,35 +7550,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Web App Development Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Fast Performance",
+                        "text":"Our PWAs respond quickly to user interactions with smooth navigation.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Mobile Compatible",
+                        "text":"We build adaptive progressive web apps for superb experience on any device.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Native App Feel",
+                        "text":"Our functionality-rich PWAs are a strong blend of native and mobile browser apps.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Scalability",
+                        "text":"Our rendered PWA solutions scale with the growing business demands.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"SEO-friendliness",
+                        "text":"We adhere to the latest SEO protocols to create robust PWAs.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -7650,100 +7589,65 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
+                    "text3":"Progressive",
+                    "text4":"Web App Development Services",
                     "text5":"?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Skilled Workforce",
+                        "text":"At Sparx IT Solutions, we have talented and experienced PWA developers who can create web apps based on your requirements. We provide custom development services to small, mid, and large scale enterprises.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Advanced Methodology",
+                        "text":"Our PWA developers have enormous knowledge of handling powerful web app development tools like Google developers, knock, webpack, etc to render unmatched PWA services. This has provided us an upper edge over our competitors.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Expeditious Support",
+                        "text":"We ensure round the clock assistance after the successful deployment of web apps. Our tech experts are always available to offer quality support for resolving issues. They have an apt solution for all your concerns.",
                         "src":ExcellentUIUX
                     },              
                 ]
             }
         ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/PHP-Development",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "PHP DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
+                    "text1" :"Providing Cutting-edge",
+                    "text2" :"PHP Development",
+                    "text3" :"Services On Global Scale"
                 },
-                "descritption" : "",
+                "descritption" : "Sparx IT Solutions is a leading digital solutions provider with a team of highly qualified and skilled professionals. We provide robust and unparalleled web development solutions to our clients with our proficiency in this programming language and its frameworks. We have excelled in a notable expertise in developing dynamic, high-performance, & database-driven PHP solutions that are conducive to the growth of your business.",
                "icons":[
                     {
-                        "icon":"",
+                        "icon":"DevOps Enablement",
                         "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"MVC Approach",
                         "src":Upgradation
                     },
                     {
-                        "icon":"",
+                        "icon":"Server Configuration",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"UI/UX Design",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Quick Delivery",
                         "src":Migrations
                     },
                     {
-                        "icon":"",
+                        "icon":"Competent Resources",
                         "src":PWA
                     }
                 ]
@@ -7753,41 +7657,33 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"PHP Development"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Custom PHP Apps",
+                        "text" :"Using our comprehensive skills of OOP, MVC, and core PHP, we build and deliver static, dynamic, and integrated PHP web apps. Our PHP development company works with the most suitable PHP frameworks like CodeIgniter, CakePHP, Laravel, Zend, Yii, Symfony, etc to develop the enterprise apps.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"eCommerce PHP Solutions",
+                        "text":"We are apt in using the right combination of technologies to build world-class eCommerce solutions that bear modern features and functionalities. We have the skills and capabilities to create highly customized eCommerce portals."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"CMS Development",
+                        "text":"With our full-scale expertise in open-source CMS like WordPress, Drupal, Joomla, Magento, etc. we create highly customized websites. Our PHP developers harness the full potential of CMSs to build successful websites."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Social Networking Solutions",
+                        "text":"We utilize the latest trends of the PHP effectively to develop highly engaging, attractive, and collaborative social networking websites. Our developers also integrate topmost features into the websites."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"API Integration",
+                        "text":"We can integrate your public, private, or internal APIs into your PHP system and CMS. We also integrate third-party APIs into your PHP websites as per your needs and requirements using various interfaces provided by the APIs."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Custom Web Portals",
+                        "text":"Our developers have a good experience and expertise in creating business-specific web portals using PHP like B2C portals, B2B portals, enterprise, and corporate portals. We are a reliable website development company that meets the complete needs of the clients."
+                    },                
                 ]
             }
         ],
@@ -7795,35 +7691,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"PHP Development Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Responsive",
+                        "text":"We create PHP websites that the end-users can easily access from mobiles, tablets, laptops, and desktops.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Scalable",
+                        "text":"We develop scalable websites and apps that would be adjustable as per the requirements of your business.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Fast",
+                        "text":"We will perform all the optimizations to make your website & app fast-loading for better user experience.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"SEO-friendly",
+                        "text":"Our developers adhere to SEO guidelines & optimize the website to enhance visibility in search results pages.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Tailored Solutions",
+                        "text":"We deliver highly customized websites that are tailor-made as per the needs of your business and users.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -7834,60 +7730,25 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"PHP Development",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Agile Methodology",
+                        "text":"Our well-trained team of PHP professionals has learned different agile methodologies and implemented them in our projects successfully. We use an agile development approach that provides us with a dynamic environment for PHP development, foster creativity, and bring excellence in both long and short term project",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Long-Term Experience",
+                        "text":"We have been creating quality PHP web apps for more than a decade. We have certified developers who have a deeper knowledge of PHP that allows them to handle the most complex projects while maintaining all vital performance, scalability, and security aspects.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Flexible Approach",
+                        "text":"We offer different engagement models that enable us to meet the diverse needs of businesses for PHP development. Our proficient developers work with the best development approaches and follow all the guidelines that are set for quality maintenance.",
                         "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -7895,39 +7756,39 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/Java-Development",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "JAVA DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
+                    "text1" :"Providing Cutting-edge",
+                    "text2" :"Java Development",
+                    "text3" :"Services On Global Scale"
                 },
-                "descritption" : "",
+                "descritption" : "Sparx IT Solutions is a globally acclaimed digital solutions provider providing end-to-end Java development services that include web, mobile, and desktop software solutions. Our Java developers are highly proficient in developing solutions that are result-oriented, feature-rich, high-performance, and reliable with a blend of innovation and design thinking.",
                "icons":[
                     {
-                        "icon":"",
+                        "icon":"Program Structure & Interfaces",
                         "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Tamper-free & Distributed",
                         "src":Upgradation
                     },
                     {
-                        "icon":"",
+                        "icon":"Robust & Secure",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"Architecture Design",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Cloud Integration",
                         "src":Migrations
                     },
                     {
-                        "icon":"",
+                        "icon":"API integration",
                         "src":PWA
                     }
                 ]
@@ -7937,41 +7798,33 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"Java Development"
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text" :"",
+                        "title":"Custom Java Software Development",
+                        "text" :"Our team of Java specialists consisting of UI/UX designers, developers, and QA testers will create an exceptional Java application as per your requirements. They can create complex banking systems, ERPs, large-scale enterprise applications, and other software solutions that require high-end security. ",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Java Web Development",
+                        "text":"Our team of Java developers are well-versed in Java web architecture and its engineering ecosystem, so they are well-equipped to provide cutting-edge java software development services. Our developers work with the best multithreading, user interface, and resource management methodologies to develop web solutions."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"J2EE Development",
+                        "text":"We create Java Enterprise solutions by making the best use of the J2EE platform. We are a reliable enterprise service provider that builds feature-rich applications for small, medium, and large-scale enterprises. Our applications give your business an edge in the market."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Java Mobile Development",
+                        "text":"We have a professional team of expert developers creating lightweight, fast, and feature-packed mobile applications using Java programming language for your business. Tailored to your business needs, we develop multi-tiered enterprise applications, cross-platform apps, and provide app integration using services like REST, SOAP, XML-RPC, etc."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Java App Support & Maintenance",
+                        "text":"At Sparx IT Solutions, our professional Java engineers help you to set up and run your Java app seamlessly. We tender tailored support & maintenance services to ensure agility, performance, and compatibility of your app. We provide comprehensive application support, application management, and performance management services."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Java Migration & Integration",
+                        "text":"We offer expertise in migrating your existing business application platform to Java. We are a full-service Java application development company and help in migration as well as integration with Java systems. We perform all the tedious jobs of importing, exporting, and migrating your data to Java ensuring quality."
+                    },                
                 ]
             }
         ],
@@ -7979,35 +7832,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Java Development Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Expertise in Technology",
+                        "text":"We are experts in JSP, Servlet, CDI, JMS, EJB, Tomcat, Spring MVC, Hibernate, Google Web Toolkit, Maven, ORM, etc.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Certified Java Developers",
+                        "text":"Our team consists of certified Java developers who can cater to all the software requirements for startups, SMEs, & enterprises.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Secure Application",
+                        "text":"We develop highly secure and reliable Java applications for clients implementing robust and fool-proof security features.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"100% Customer Satisfaction",
+                        "text":"Customers are a priority for us and we are committed to delivering solutions that provide a delightful experience to clients.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Scrum Methodology",
+                        "text":"We offer Scrum methodology in our Java application development process for a transparent and efficient development process.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -8018,59 +7871,24 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"Java Development",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Top Java Developers",
+                        "text":"We have well-experienced and highly skilled Java developers in our team who can work on any project irrespective of its complexity. Working with the best development practices, our Java developers accomplish every project aptly and deliver on time.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Truly Agile Methodology",
+                        "text":"We foster our projects with an agile approach and adopt the best plans for developing applications. As we believe in the philosophy of quality service, therefore, we handle the complexity of software development with extended support and commitment.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Quality Services",
+                        "text":"Our approaches and work methods comply with ISO 9001, CMMI-3 norms, and several other standards. We ensure that quality is maintained at the maximum level with every project we deliver and also adopt measures to safeguard project confidentiality.",
                         "src":ExcellentUIUX
                     },              
                 ]
@@ -8079,39 +7897,39 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/Sharepoint",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "SharePoint DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
+                    "text1" :"Providing Cutting-edge",
+                    "text2" :"SharePoint Development",
+                    "text3" :"Services  On Global Scale"
                 },
-                "descritption" : "",
+                "descritption" : "At Sparx IT Solutions, we are committed to streamlining business operations with our effective SharePoint development solutions. Our experts will couple the platform’s versatility and tech stack to efficiently handle projects of diverse scale and complexity. Our SharePoint app developers are highly proficient in creating top-of-the-line SharePoint apps for businesses. We deliver the best solutions to our clients and ensure greater customer satisfaction",
                "icons":[
                     {
-                        "icon":"",
+                        "icon":"Upgrade/Migration",
                         "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Reporting And BI",
                         "src":Upgradation
                     },
                     {
-                        "icon":"",
+                        "icon":"Consulting And Advisory",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"Workflow/Collaboration Solutions",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"SharePoint Integration",
                         "src":Migrations
                     },
                     {
-                        "icon":"",
+                        "icon":"Business App",
                         "src":PWA
                     }
                 ]
@@ -8121,41 +7939,33 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"SharePoint Development"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"SharePoint Implementation",
+                        "text" :"We offer complete assistance in choosing the right SharePoint implementation- cloud or on-premise. Hire SharePoint developer from us and avail the best implementation approach that is customized to match with the business needs.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"SharePoint Development & Customization",
+                        "text":"Being a reputed custom SharePoint development company, we have immense expertise in building custom SharePoint apps like Intranet, Extranet, business process management, etc. We bring the benefits of both the .NET framework and custom coding to build robust solutions."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"SharePoint Consultation",
+                        "text":"SharePoint offers quality SharePoint consultation services to improve collaboration, engagement, and automate work operations. We helped businesses to maximize the advantages using the SharePoint features."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"SharePoint Integration",
+                        "text":"We offer SharePoint integration services to help you integrate SharePoint with CRM, ERP, and custom apps within the present business sphere. We have proven expertise in the seamless integration of existing enterprise apps with no risks."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"SharePoint Migration",
+                        "text":"Do you want to migrate to SharePoint or upgrade it to the latest version? We aimed at providing smooth and efficient migration with no user disruption or downtime. Improve your business connection by opting for our SharePoint web development company."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"SharePoint Support & Maintenance",
+                        "text":"At Sparx IT Solutions, we offer ongoing support and maintenance services after the successful deployment of a SharePoint solution. Hire our dedicated team to get quality support for the SharePoint implementation."
+                    },               
                 ]
             }
         ],
@@ -8163,35 +7973,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"SharePoint Development Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"End-to-end Service",
+                        "text":"Right from the SharePoint integration to its deployment, we offer unmatched support.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Scalability",
+                        "text":"We render outstanding scalable solutions that grow as the business develops.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Focus on Innovation",
+                        "text":"We render highly creative SharePoint solutions by utilizing our expertise.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Smart Add-ins",
+                        "text":"Our experts can provide feature-rich add-ins that let you extend SharePoint capabilities.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Seamless Integration",
+                        "text":"We help you connect your SharePoint solution to third-party tools based on SharePoint.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -8202,60 +8012,25 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"SharePoint Development",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Experienced Developers",
+                        "text":"We are equipped with a team of skilled & experienced SharePoint app developers who stay abreast of the latest technologies. They own prior working experience in SharePoint development for a large array of business verticals.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Rich Portfolio",
+                        "text":"We have helped many businesses in the successful implementation of the SharePoint. We have served a plethora of industries like healthcare, travel, manufacturing, etc in streamlining their work operations.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Flexible Hiring Plans",
+                        "text":"Since every project requirement is different, we have designed several hiring plans. We have hourly, weekly, and monthly plans to cater various needs of our clients. You can save hire SharePoint developers based on the size of the project.",
                         "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -8263,39 +8038,39 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/DotNET-Development",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "A RELIABLE .NET DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
+                    "text1" :"We Offer Robust",
+                    "text2" :".Net Development",
+                    "text3" :"Services Across the Globe"
                 },
-                "descritption" : "",
+                "descritption" : "Sparx IT Solutions is a trusted and well-acclaimed ASP.NET development company. We offer full-scale .net application development and web solutions by creating powerful, interactive, and high-performance digital products for startups, small businesses, and enterprises. Our .Net development team is highly proficient in developing exclusive websites and apps with an excellent track record of delivering tons of successful projects.",
                "icons":[
                     {
-                        "icon":"",
+                        "icon":"Strict NDA Policy",
                         "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"On-Time Delivery",
                         "src":Upgradation
                     },
                     {
-                        "icon":"",
+                        "icon":"Agile Development Process",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"Security & Robustness",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"CRM/ERP Development",
                         "src":Migrations
                     },
                     {
-                        "icon":"",
+                        "icon":"Obsessive Testing",
                         "src":PWA
                     }
                 ]
@@ -8305,41 +8080,33 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":".NET Development"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Custom ASP.NET Development",
+                        "text" :"Our full-scale expertise in .Net technology enables us to build scalable, secure, and best-in-class websites and web apps. Whatever your business’s need is, we fulfill it by creating the right solutions as per your specific needs and requirements. We provide you with unrivaled ASP.NET web development that meets your expectations.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Enterprise ASP.NET Development",
+                        "text":"We are specialized in creating enterprise-grade .Net web and mobile app solutions that meet their specific business needs. We have a good experience in delivering robust enterprise-oriented solutions as per the specifications of our clients. We create highly secure and fast-performing solutions for enterprises. "
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Third-Party .NET Customization",
+                        "text":"We not only specialize in .NET mobile app development and web development but we also provide third-party .NET customization solutions to adapt them according to your business specifications. We take care of all aspects like UI improvement, enhancement of functionality, technical support, API development, etc. "
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Migration & Upgradation Service",
+                        "text":"As a full-scale dot net development company, we also help you to migrate your website or application to the .NET platform or upgrade the existing application or website to the newest version of .NET. We provide a technological transformation for your legacy system and migrate to the latest .ASP.NET platform. "
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":".NET Integration Service",
+                        "text":"You can choose our .NET development services for .NET integration to get help to implement .NET solutions to your business environment. Our ASP.NET developers will take care of everything that it takes for the integration of the .NET platform with your application ecosystem. With a proper process and method, our developers make integration seamless and quick."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":".NET Mobile App Development",
+                        "text":"Hire ASP.NET developers to create functionality-rich and high-performance dot net mobile and desktop applications. Our developers have extensive experience in creating CRM, ERP, or other software solutions using .NET technology. We are adept at application development in .NET and deliver tailored mobile and desktop solutions."
+                    },                
                 ]
             }
         ],
@@ -8347,35 +8114,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":".NET Development Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"End-to-end Service",
+                        "text":"We build .NET websites & apps that run very fast and render a greater user experience.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Scalability",
+                        "text":"Hire ASP.NET developers from us to build scalable and secure web solutions for your business.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Advanced Security",
+                        "text":"We develop highly secure websites & apps by integrating advanced security features.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Mobile-friendly Websites",
+                        "text":"By optimizing your website for mobile devices, we ensure better viewing on mobiles.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Excellent UI/UX",
+                        "text":"Our UI/UX designers will create an excellent look and feel for your website or app.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -8386,59 +8153,24 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":".NET Development",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Experienced Developers",
+                        "text":"Being a years old ASP.NET development company we have earned a lot of experience and have expertise in dot net development. You can hire ASP.NET developers or avail our expertise to provide you with advanced and complex .NET solutions.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Search Engine Optimization",
+                        "text":"All the websites that we create leveraging the .NET technology come with clear codes, simple navigation, user-friendly and responsive design while optimized for search engines. So search engines will easily crawl to your website.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"End-To-End Development",
+                        "text":"As a reliable .Net development company we deliver the best quality solutions and provide end-to-end .NET development services from ideation, prototyping, MVP, UI/UX designing, development, to deployment. We build top-of-the-line websites and apps catering to all your.NET development needs.",
                         "src":ExcellentUIUX
                     },              
                 ]
@@ -8448,39 +8180,39 @@ const jsonData=[
 
 
     {
-        "pathname":"",
+        "pathname":"/technologies/Node-js",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "PROMINENT NODE JS DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
+                    "text1" :"We Offer Robust",
+                    "text2" :"Node JS Development",
                     "text3" :"Services"
                 },
-                "descritption" : "",
+                "descritption" : "Sparx IT Solutions is a world-class Node.js development company. We build high-performance, scalable, and feature-enriched Node.js server-side applications and backend solutions. Our developers have an in-depth understanding of the NodeJS runtime environment.",
                "icons":[
                     {
-                        "icon":"",
+                        "icon":"Performance",
                         "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"SEO Friendly",
                         "src":Upgradation
                     },
                     {
-                        "icon":"",
+                        "icon":"Speed & Performance",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"Asynchronous & Event-Driven",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Fast & No Buffer",
                         "src":Migrations
                     },
                     {
-                        "icon":"",
+                        "icon":"Highly Scalable",
                         "src":PWA
                     }
                 ]
@@ -8490,41 +8222,33 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"Node JS Development"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Custom Node JS App Development",
+                        "text" :"NodeJS is a robust JavaScript-based and event-driven server that works on multiple platforms. Sparx IT Solutions is a renowned Node.js development company and we offer top-notch custom Node JS development services. After gathering all your requirements, we come up with a perfect solution tailored to your needs.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"NodeJS API Integration & Development",
+                        "text":"Our node.js development company is equipped with a highly-skilled development team that can precisely fulfill your API requirements by creating a secure and powerful NodeJS API that will also function with other systems. Our Node JS development services also provide support and assistance."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Node JS Migration Service",
+                        "text":"You can migrate your existing backend system or application system to NodeJS with the help of our team. They provide complete assistance in moving your application data, set up and configuration while ensuring that all the functionality is working perfectly. With the help of our team, migrating your legacy system to NodeJS becomes painless."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Node JS Website Development",
+                        "text":"Our node js development company offers comprehensive Node.js development services including NodeJS website development. Our development team is adept at creating full-fledged NodeJS websites integrating the best security features and user-friendly functionality. "
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Real-time NodeJS App Development",
+                        "text":"If you want to develop real-time web, mobile, or desktop NodeJS applications, Sparx IT Solutions is the right partner. Our node.js development company can provide the best real-time NodeJS mobile app development, desktop development, and web applications for your business. We can create real-time chat apps, SPAs, collaboration tools, etc."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"NodeJS Plugin Development",
+                        "text":"Our skilled team of NodeJS developers can fulfill your requirement of a custom Node JS plugin development, as well as, help you to integrate the plugin. By using the plugin you can enhance the existing functionality of your NodeJS website, system, or application. "
+                    },               
                 ]
             }
         ],
@@ -8532,35 +8256,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Node JS Development Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"End-to-end Service",
+                        "text":"We are the top-rated nodejs web development company leveraging Ajax, caching JSON, and other methods to create lightning applications.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Scalability",
+                        "text":"Our node js application development company leverages the best functionality of NodeJS and creates scalable applications.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Advanced Security",
+                        "text":"We take all the measures for security and create a highly secured web application for clients.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"NDA Policy",
+                        "text":"Our node js application development company respects the confidentiality and privacy of data, so we offer NDA to assure your data safety.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"On-Time Delivery",
+                        "text":"At Sparx IT Solutions, we never miss deadlines and deliver projects on time so you launch on time.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -8571,60 +8295,25 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"Node JS Development",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Experienced Developers",
+                        "text":"We are a full-stack node js web development company, whether it’s about front-end or back-end solutions, you can rely on Sparx IT Solutions for world-class solutions. Our team has strong technological competence and worked on complex projects for varied business verticals.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Cost-Effective Solutions",
+                        "text":"Our key goal is to help your business grow and obtain success. We utilize our expertise in technology, agile methodology, and efficient development processes to bring the best solutions for your business in a cost-effective fashion. Our node js web development company delivers solutions that provide a competitive edge.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Customized Solutions",
+                        "text":"We understand that every business has unique requirements, challenges, and expectations, so we create tailored solutions that fulfill your needs. Our experienced and talented NodeJS developers build dynamic, secure, and robust solutions to cater to your business needs.",
                         "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -8632,39 +8321,39 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/ROR",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "PROMINENT Ruby on Rails DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
+                    "text1" :"We Offer Robust",
+                    "text2" :"Ruby on Rails Web Development",
                     "text3" :"Services"
                 },
-                "descritption" : "",
+                "descritption" : "Sparx IT Solutions has talented and well-experienced Ruby on Rails developers who provide scalable, secure, and fast-performing web apps to clients. We deliver out-of-the-box ROR solutions to diverse business verticals and ensure complete customer satisfaction.",
                "icons":[
                     {
-                        "icon":"",
+                        "icon":"Performance",
                         "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Agility",
                         "src":Upgradation
                     },
                     {
-                        "icon":"",
+                        "icon":"Quality",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"Debugging",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Scalable",
                         "src":Migrations
                     },
                     {
-                        "icon":"",
+                        "icon":"Secure",
                         "src":PWA
                     }
                 ]
@@ -8674,41 +8363,45 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"Ruby on Rails Web Development"
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text" :"",
+                        "title":"ROR Custom Application Development",
+                        "text" :"We understand that your creative web app will define your identity so we build ROR solutions that meet this goal. Our ROR developers leverage all the power vested in this framework to bring you the best solution in the form of a custom, dynamic, and powerful web application. We also cater to your ROR theme and widget development needs.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"ROR Portal Development",
+                        "text":"Our team of ROR developers consists of experts who have extensive experience and knowledge of the ROR framework. Our team is well-versed in creating feature-rich and advanced web portals for startups and enterprises. They are also proficient in developing highly productive, and user-friendly web portals for startups and early-stage businesses. "
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"ROR eCommerce Development",
+                        "text":"Our professional designers and developers craft outstanding e-commerce websites that provide eye-catching design, easy-to-use features, secure back-end, mesmerizing UI/UX, and much more. We develop high-end eCommerce websites with top-notch security, smooth checkout, multiple payment options, custom shopping cart, and other functionality."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"ROR CMS Development",
+                        "text":"As a well-established Ruby on Rails web development company, we have enough experience to deliver dynamic, reliable, and custom ROR CMS development solutions. We offer unrivaled Ruby on Rails website development service to build excellent websites and portals using ROR CMS like Locomotive, Refinery, Radiant, Alchemy, and more. "
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Complex SAAS Systems",
+                        "text":"Ruby on Rails allows creating sophisticated applications and digital products including Software-as-a-Service solutions. We are adept at creating advanced and complex applications like HRM, CRM, ERP, Accounting software, Project Management systems, and more. With our Ruby on Rails development services, you get the right solutions for your enterprise."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"ROR Social Networking Development",
+                        "text":"As a trusted ROR development company, we develop and deliver the most reliable social networking solutions, team collaboration, forums, and other web applications that facilitate people to people connection. Our developers integrate all the crucial features that enhance connectivity functionality and provide an efficient communication channel."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"ROR API Development & Integration",
+                        "text":"If you want to integrate a third-party API with your ROR web application or system, we can help you to do this with the best results. Our ROR developers are also proficient in creating custom APIs as per your specific requirements. We provide the best services, whether it’s about 3rd API integration or developing a tailored API for your existing application."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"ROR Porting & Migration Service",
+                        "text":"Whatever your Ruby on Rails application development needs are, we fulfill them with our expertise and technical knack. Migrating your ROR system or application can be painstaking. At Sparx IT Solutions, we have experienced professionals who help you to migrate ROR applications to other CMS, framework, or system, without breaking any functionality."
+                    },                
+                    {
+                        "title":"ROR Support & Maintenance",
+                        "text":"Our expert and experienced team of ROR techies is always at your disposal when you need support and maintenance services for your ROR application or website. We not only provide best-in-class Ruby on Rails website development service but also provide full-fledged support to make sure that your website or application works seamlessly. "
+                    },               
                 ]
             }
         ],
@@ -8716,35 +8409,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Ruby on Rails Web Development Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"High Performance Apps",
+                        "text":"Using the best coding features of the ROR framework, we create fast and quality apps or websites.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Scalability",
+                        "text":"With the effective use of ready-made modules, we develop a scalable app or website.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Advanced Security",
+                        "text":"We build solutions while ensuring robust security features for the safety of data and credentials.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"NDA Policy",
+                        "text":"The confidentiality of your project or idea is protected with a non-disclosure agreement.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"On-Time Delivery",
+                        "text":"At Sparx IT Solutions, we never miss deadlines and deliver projects on time so you launch on time.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -8755,102 +8448,67 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"Ruby on Rails Web Development",
                     "text4":"Services",
                     "text5":"?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Experienced Developers",
+                        "text":"Our versatile ROR developers have vast experience and outstanding technical knack that enables them to handle and accomplish successfully complex projects. We keep our developers updated with the latest trends and technology in the industry to bring in them more proficiency.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Obsessive Testing",
+                        "text":"We realize that a single glitch in your app or website could cost a lot. So we ensure that every end product is fully tested to ensure the best performance and functionality. With our world-class Ruby on Rails development services and testing methodologies, you can rest assured of the quality of your web app.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Agile Development Process",
+                        "text":"At Sparx IT Solutions, we follow agile development principles and work with an efficient process that allows us to design, develop, test, and launch every single application or website in a time-efficient fashion. We make on-time delivery of projects with our development approaches.",
                         "src":ExcellentUIUX
                     },              
                 ]
             }
         ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
+    },
+
+    {
+        "pathname":"/technologies/Python",
+        "banner":[
+            {
+                "mainHeading"  : "PROMINENT Python DEVELOPMENT COMPANY",
+                "heading":{
+                    "text1" :"We Offer Robust",
+                    "text2" :"Python Development",
+                    "text3" :"Services"
                 },
-                "cardBoxData":[
+                "descritption" : "Being a top-notch Python Development Company, Sparx IT Solutions has a rich experience in delivering feature-packed, dynamic, and robust desktop, mobile, web-based applications, and backend Python Development Services. We have a strong team of veteran Python developers who have worked on tons of projects. Our developers utilize advanced features of Python in conjunction with the object-oriented capability to deliver best-in-class solutions.",
+               "icons":[
+                   {
+                       "icon":"Swift Coding",
+                       "src":Upgradation
+                   },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "icon":"Enhanced UI/UX",
+                        "src":ResponsiveBanner,
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
+                        "icon":"Easy Code Maintenance",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"High-end Scalability",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
-                        "src":Migrations
+                        "icon":"ERP Development",
+                        "src":PWA
                     },
                     {
-                        "icon":"",
-                        "src":PWA
-                    }
+                        "icon":"Migration To Python",
+                        "src":Migrations
+                    },
                 ]
             }
         ],
@@ -8858,40 +8516,44 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"Python Development"
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text" :"",
+                        "title":"Python Software Development",
+                        "text" :"We adhere to all quality and coding standards for python and offer advanced Python Development Services for desktops and mobiles. Our Python developers are proficient in numerous mobile app Python frameworks and they build exclusive solutions as per your requirements.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Enterprise Web Application Development",
+                        "text":"When you need an enterprise-grade Python web application, Sparx IT Solutions is a reliable Python web development company and delivers top-notch solutions as per clients’ requirements. Our Python Development Company crafts high-performing and scalable web apps for enterprises."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Dynamic Website Development",
+                        "text":"As a reputed Python web development company, we have enough experience of creating cutting-edge dynamic websites utilizing frameworks like Django, Zope, Flask, Tornado, Web2py, Pyramid, etc. We create competitive websites and apps that offer an excellent user experience."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Python Game Development",
+                        "text":"Our python web development company has a team of versatile Python developers who are well-versed in creating engaging, addictive, and fun games that offer mesmerizing user experience. Using the latest gaming methods and technologies like AR/VR, our developers can build new-age games that offer the next level user experience."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Backend System",
+                        "text":"We leverage the excellent features, vast library, and frameworks offered by Python to build secure and powerful backends for web apps, e-commerce websites, and enterprise portals. Our python web development company has extensive experience in backend coding and developing relevant solutions."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Maintenance & Support Service",
+                        "text":"We are not only a full-stack Python application development company, but we also provide cost-effective support and maintenance service for Python-based solutions. We ensure that the functionality and performance of your website or application remain bug-free and running."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"ML/IoT/Data Science Solutions",
+                        "text":"Python is widely used for IoT, Data Science, and Machine Learning to build data-driven solutions. At Sparx IT Solutions, we have Data Science experts, Machine Learning and IoT experts, who utilize Python programming to deliver data-driven solutions for businesses."
                     },
+                    {
+                        "title":"Migration & Upgradation Service",
+                        "text":"Whether you want to migrate your web app to Python from another platform or want to upgrade your existing application to another version of Python, Sparx IT Solutions can provide the best results. We also help in the migration or upgradation of your applications."
+                    },                
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Python CMS Development",
+                        "text":"Our Python developers can create secure, scalable, fast, and feature-packed CMS (Content Management System) leveraging the advanced features of the Python programming language. Our developers are adept at creating web solutions using custom Python CMS."
                     }                
                 ]
             }
@@ -8900,35 +8562,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Python Development Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"High Performance Apps",
+                        "text":"Our developed Python solutions deliver a pleasing experience with high performance & speed.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Scalability",
+                        "text":"With the effective use of ready-made modules, we develop a scalable app or website.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Advanced Security",
+                        "text":"We build solutions while ensuring robust security features for the safety of data and credentials.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"NDA Policy",
+                        "text":"The confidentiality of your project or idea is protected with a non-disclosure agreement.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"On-Time Delivery",
+                        "text":"At Sparx IT Solutions, we never miss deadlines and deliver projects on time so you launch on time.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -8939,60 +8601,25 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"Python Development",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Experienced Developers",
+                        "text":"Our versatile Python developers have vast experience and outstanding technical knack that enables them to handle and accomplish successfully complex projects. We keep our developers updated with the latest trends and technology in the industry to bring in them more proficiency.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Obsessive Testing",
+                        "text":"We realize that a single glitch in your app or website could cost a lot. So we ensure that every end product is fully tested to ensure the best performance and functionality. With our world-class Python development services and testing methodologies, you can rest assured of the quality of your web app.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Agile Development Process",
+                        "text":"At Sparx IT Solutions, we follow agile development principles and work with an efficient process that allows us to design, develop, test, and launch every single application or website in a time-efficient fashion. We make on-time delivery of projects with our development approaches.",
                         "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -9000,41 +8627,41 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/Wordpress-Development",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "PROMINENT Wordpress DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
+                    "text1" :"Leverage fast & secure",
+                    "text2" :"web solutions",
+                    "text3" :"with our expertise"
                 },
-                "descritption" : "",
+                "descritption" : "We are a premier web development company carving digital solutions from their conceptualization to deployment, data migration, API integrations, and plugin development with dexterity. We develop high-performing and easy-to-manage WordPress websites for clients with better business results.",
                "icons":[
+                   {
+                       "icon":"Responsive",
+                       "src":Upgradation
+                   },
                     {
-                        "icon":"",
+                        "icon":"Upgradation",
                         "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
+                        "icon":"Security",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"Maintenance",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
-                        "src":Migrations
+                        "icon":"PWA",
+                        "src":PWA
                     },
                     {
-                        "icon":"",
-                        "src":PWA
-                    }
+                        "icon":"Migration ",
+                        "src":Migrations
+                    },
                 ]
             }
         ],
@@ -9042,41 +8669,45 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"Wordpress Development"
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text" :"",
+                        "title":"Installation & Configuration",
+                        "text" :"We make the installation and configuration a stress-free process owing to our rich industrial experience. Our development team deploys its skills and experience to make this process simple.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Responsive Design",
+                        "text":"As a trusted web design company, we develop web solutions that offer a pleasing look and feel using WordPress. We ensure the best functionality and appearance of the website over different browsers and devices."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Migration",
+                        "text":"WordPress Migration is a complex job but we can make it easy for you. We can swiftly switch your website to a new host with no loss of data. Our expertise empowers us to accelerate the entire migration process."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Plugin Development",
+                        "text":"We address diverse business needs and provide them tailor-made plugins and extensions on the WordPress platform. With the help of plugins, we extend the functionality of your website as per your business needs."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"eCommerce Solutions",
+                        "text":"We are adept at integrating WooCommerce and creating a tailored eCommerce website for your business. We also integrate necessary plugins and features to build a fully-functional eCommerce website that will give a robust online presence."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"CMS Development",
+                        "text":"We specialize in making the content creation process simpler and quicker to keep your site updated all the time. By leveraging the features of WP CMS, we craft a website which is easy to manage and comply with standards."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Payment Solutions",
+                        "text":"We are experts in the integration of various payment gateways and methods to a WordPress website, so as to ensure the seamless transactional experience for the users all over the world. We also implement stringent security measures."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Support",
+                        "text":"We have technically sound developers who will work efficiently to update and maintain your site. They have prior experience in offering technical support and maintenance services to keep pace with the updates."
+                    },                
+                    {
+                        "title":"Bug Fixation",
+                        "text":"We can fix all the flaws related to your existing WordPress site, so it can run without any glitch. Our quality analysts work dedicatedly to check the functionality and usability of the website and ensure its optimum performance."
+                    },                
                 ]
             }
         ],
@@ -9084,35 +8715,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Wordpress Development Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Server Handling",
+                        "text":"Get reliable assistance for server handling / maintenance service",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Upgradation",
+                        "text":"We help you upgrade your WordPress website in a hassle-free way",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Small / Daily / Weekly Tasks",
+                        "text":"We perform all small/daily/weekly tasks with utter perfection",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Small Or Big Changes",
+                        "text":"Our developers can make desired changes whether big or small",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Maintenance",
+                        "text":"Make your WordPress maintenance hassle-free with our services",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -9123,59 +8754,24 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":" Wordpress Development",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Experienced Developers",
+                        "text":"We have a team of highly experienced WordPress developers who have a deep understanding of the platform. Our team can accomplish every WordPress development project with utter perfection irrespective of the complexity.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Lightning Fast Pages",
+                        "text":"We optimize images, fonts, and other features of your website to ensure faster page loading speed. Our WordPress development services take care of everything from website optimization to server tuning to deliver a fast-loading site.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Intuitive Admin Panel",
+                        "text":"We create simple and intuitive admin panels that are easy-to-use for webmasters. Managing and maintaining websites becomes easy with the custom admin panel we create with our WordPress website design service.",
                         "src":ExcellentUIUX
                     },              
                 ]
@@ -9184,41 +8780,41 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/Joomla-Development",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "PROMINENT Joomla DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
+                    "text1" :"Elevating Business Performance With Our ",
+                    "text2" :"Joomla Development",
                     "text3" :"Services"
                 },
-                "descritption" : "",
+                "descritption" : "Sparx IT Solutions is aimed at building world-class Joomla websites for varied business nature and size. We have proven expertise in creating a feature-packed site that helps to scale any brand in the online marketplace. Join hands with us to take your business to new heights.",
                "icons":[
+                   {
+                       "icon":"Fast Upgrade",
+                       "src":Upgradation
+                   },
                     {
-                        "icon":"",
+                        "icon":"Speed",
                         "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
                     },
                     {
-                        "icon":"",
+                        "icon":"Secure",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"Performance",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
-                        "src":Migrations
+                        "icon":"Highly Scalable",
+                        "src":PWA
                     },
                     {
-                        "icon":"",
-                        "src":PWA
-                    }
+                        "icon":"Responsive",
+                        "src":Migrations
+                    },
                 ]
             }
         ],
@@ -9226,41 +8822,33 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"Joomla Development"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Joomla Website Development",
+                        "text" :"We make the installation and configuration a stress-free process owing to our rich industrial experience. Our development team deploys its skills and experience to make this process simple.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Custom Joomla Web Development",
+                        "text":"As a trusted web design company, we develop web solutions that offer a pleasing look and feel using WordPress. We ensure the best functionality and appearance of the website over different browsers and devices."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Joomla Portal Development",
+                        "text":"WordPress Migration is a complex job but we can make it easy for you. We can swiftly switch your website to a new host with no loss of data. Our expertise empowers us to accelerate the entire migration process."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Joomla Template Design",
+                        "text":"We address diverse business needs and provide them tailor-made plugins and extensions on the WordPress platform. With the help of plugins, we extend the functionality of your website as per your business needs."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Joomla App Development",
+                        "text":"We are adept at integrating WooCommerce and creating a tailored eCommerce website for your business. We also integrate necessary plugins and features to build a fully-functional eCommerce website that will give a robust online presence."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Joomla Maintenance Services",
+                        "text":"We specialize in making the content creation process simpler and quicker to keep your site updated all the time. By leveraging the features of WP CMS, we craft a website which is easy to manage and comply with standards."
+                    },               
                 ]
             }
         ],
@@ -9268,35 +8856,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Joomla Development Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Mobile-friendly",
+                        "text":"We create a mobile-friendly Joomla website design that runs seamlessly on all devices.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Latest Tech Stack",
+                        "text":"We implement the latest technologies to meet the users’ expectations.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Scalable Solutions",
+                        "text":"Our render Joomla development solutions that grow with business expansion.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Powerful Extensions",
+                        "text":"We enhance the functionality set of a site using the strong extensions.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Quality Results",
+                        "text":"We are driven towards delivering consistent quality in our Joomla services.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -9307,59 +8895,24 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"Joomla Development",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Experienced Developers",
+                        "text":"We are equipped with skilled and experienced Joomla developers who stay one step ahead in the tech curve. They are versed in the latest tools and technologies required for carrying a flawless Joomla web development.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Prompt Delivery",
+                        "text":"Our team is proactive and well-coordinated when it comes to the delivery of the projects. They first discuss the project in detail with the clients and provide an apt solution accordingly. We have never exceeded the deadline of the project submission",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Effective Communication",
+                        "text":"We always stay connected with our clients right from the project inception to its execution. Our Joomla developers regularly update them about the project’s progress. This aligned communication has helped us in establishing good business relations with our clients.",
                         "src":ExcellentUIUX
                     },              
                 ]
@@ -9368,41 +8921,41 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/Drupal-Development",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "PROMINENT Drupal DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
+                    "text1" :"Delivering Premium",
+                    "text2" :"Drupal Development",
+                    "text3" :"Services Globally"
                 },
-                "descritption" : "",
+                "descritption" : "Sparx IT Solutions is the leading drupal web development company. We leverage our expertise for building, customizing, and migrating sites to reap positive business outcomes. We have provided growth to several industry verticals with our innovative Drupal development solutions.",
                "icons":[
+                   {
+                       "icon":"Fast Upgrade",
+                       "src":Upgradation
+                   },
                     {
-                        "icon":"",
+                        "icon":"Speed",
                         "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
+                        "icon":"Secure",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"Performance",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
-                        "src":Migrations
+                        "icon":"Highly Scalable",
+                        "src":PWA
                     },
                     {
-                        "icon":"",
-                        "src":PWA
-                    }
+                        "icon":"Responsive",
+                        "src":Migrations
+                    },
                 ]
             }
         ],
@@ -9410,41 +8963,33 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"Drupal Development"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Strategy and Consultation Services",
+                        "text" :"We carefully understand your business vision and prepare our plan of action for development accordingly. This has proved effective in providing Drupal web solutions that match with client’s interests.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Drupal Development",
+                        "text":"Our Drupal experts utilize their experience and skillset in the Drupal development framework for creating robust web apps and modules. This has helped us in meeting the distinct requirements of the variety of enterprises with an efficacy."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Drupal Theme Development",
+                        "text":"Being a leading Drupal web development company, we have immense expertise in creating multilingual and feature-enriched themes. We make sure that our custom themes complement your brand image well."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Drupal API Integration",
+                        "text":"To enhance the security and functionality of your site, we will brilliantly integrate third-party API into it. Our provided Drupal solutions will add more power and flexibility to your websites."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Drupal 7 and 8 Development",
+                        "text":"We are a verified Drupal development company and have enormous experience in building sites on the Drupal 7 and 8 platforms. Our proposed solutions are highly secure and optimized for the search engines."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Drupal Migration and Upgrade",
+                        "text":"We are proficient in Drupal backup and migration processes. Irrespective of the type, size, and complexity of the migration, we can handle everything smoothly. Our developers utilize proper backup before effectively shifting content and database."
+                    },               
                 ]
             }
         ],
@@ -9452,35 +8997,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Drupal Development Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Mobile-friendly",
+                        "text":"We create a mobile-friendly Drupal website design that runs seamlessly on all devices.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Latest Tech Stack",
+                        "text":"We implement the latest technologies to meet the users’ expectations.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Scalable Solutions",
+                        "text":"Our render Drupal development solutions that grow with business expansion.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Secured Solutions",
+                        "text":"We have substantial experience in developing secure Drupal sites that strictly abide by the latest development standards",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"High-grade Performance",
+                        "text":"We are expert in developing websites that have quick load time and provide a seamless browsing experience to the users.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -9491,59 +9036,24 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"Drupal Development",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Experienced Developers",
+                        "text":"We are equipped with skilled and experienced Drupal developers who stay one step ahead in the tech curve. They are versed in the latest tools and technologies required for carrying a flawless Drupal web development.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Prompt Delivery",
+                        "text":"Our team is proactive and well-coordinated when it comes to the delivery of the projects. They first discuss the project in detail with the clients and provide an apt solution accordingly. We have never exceeded the deadline of the project submission",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Effective Communication",
+                        "text":"We always stay connected with our clients right from the project inception to its execution. Our Drupal developers regularly update them about the project’s progress. This aligned communication has helped us in establishing good business relations with our clients.",
                         "src":ExcellentUIUX
                     },              
                 ]
@@ -9552,41 +9062,41 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/Angular-js",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "PROMINENT Angular JS DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
+                    "text1" :"Delivering Cost Effective",
+                    "text2" :"Angular JS Development",
+                    "text3" :"Services Globally"
                 },
-                "descritption" : "",
+                "descritption" : "We are proficient in developing feature-packed, dynamic, and cutting-edge AngularJS web applications for diverse business verticals. We use advanced and latest technologies to tailor-made web solutions. Our AngularJS developers are apprised of every nuance of this framework. They have the caliber to create complex web solutions ranging across different project scales and geography while ensuring on-time delivery of projects and quality of code.",
                "icons":[
+                   {
+                       "icon":"Dynamic Web Apps",
+                       "src":Upgradation
+                   },
                     {
-                        "icon":"",
+                        "icon":"Efficient Data Binding",
                         "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
                     },
                     {
-                        "icon":"",
+                        "icon":"Productivity",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"Optimum Architecture",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
-                        "src":Migrations
+                        "icon":"Speed",
+                        "src":PWA
                     },
                     {
-                        "icon":"",
-                        "src":PWA
-                    }
+                        "icon":"Reusable Components",
+                        "src":Migrations
+                    },
                 ]
             }
         ],
@@ -9594,41 +9104,45 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"Angular JS Development"
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text" :"",
+                        "title":"AngularJS UI/UX Development",
+                        "text" :"Whether you want to create a web portal, application, or widget, we build an engaging UI/UX design that is intuitive, visually appealing, and eye-catching. Our UI/UX designers create a beautiful design while keeping usability in their minds.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Web Portal Development",
+                        "text":"Our AngularJS developers can deliver unrivaled solutions for your business whether your need is for a customized web portal for customers or a web portal for internal use. We come up with innovative ideas and handle all challenges in your project aptly."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Real-Time Chat Apps",
+                        "text":"At Sparx IT Solutions, we have plenty of experience in designing and creating speedy, lightweight, and efficient real-time chat applications that provide excellent features and functionality. We build chat apps as per your business requirements."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Custom AngularJS Development",
+                        "text":"With our years of experience and proficiency in AngularJS web application development, we can build secure, fast, and versatile web applications for clients. We utilize the best features of this web framework to develop end-to-end solutions."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"eCommerce App Development",
+                        "text":"We create robust e-commerce websites and applications that are easy-to-use, intuitive, and user-friendly by combining AngularJS with other front-end and back-end technologies. Our developers implement the best features and functionality that engage in enhanced personalization."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"API Development",
+                        "text":"We create customized APIs that meet your business requirements. With our custom API, your in-house team will be able to manage work and update the workflow to make it more productive and quick. We create APIs that will be easier to work with."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"AJAX Development",
+                        "text":"Our developers are adept at handling different AJAX development services like XHTML, CSS, JavaScript, XML, XHR, etc. We take advantage of AngularJS with AJAX web development techniques to create asynchronous web applications for clients."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Plugin Development",
+                        "text":"We design and develop custom plugins for your AngularJS web application to extend the existing functionality of the app. Our developers understand your development needs and build the right solution that meets your business requirements."
+                    },                
+                    {
+                        "title":"AngularJS Porting & Migration",
+                        "text":"We also provide porting and migration services. Our team of AngularJS developers helps you to port or migrate your existing web application from one platform to another platform seamlessly with the shortest turnaround time."
+                    },                
                 ]
             }
         ],
@@ -9636,35 +9150,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Angular JS Development Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Cross-Platform Development",
+                        "text":"We create a Platform-friendly Angular website design that runs seamlessly on all devices.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Superior UI/UX Design",
+                        "text":"Your web app will have an attractive user interface with a pleasing user experience.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"SEO Friendly",
+                        "text":"Our developers create search engine friendly single-page applications (SPAs)",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"NDA Policy",
+                        "text":"By including NDAs, we showcase our care for the confidentiality of our customers’ ideas and vision.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"100% Satisfaction",
+                        "text":"We ensure 100% customer satisfaction by delivering quality solutions to clients.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -9675,102 +9189,67 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"Angular JS Development",
                     "text4":"Services",
                     "text5":"?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Experienced Developers",
+                        "text":"Our certified AngularJS developers have extensive experience in creating a variety of solutions. They create every application with utter care and optimize it to the highest standards. Our developers have delivered many innovative solutions to different businesses around the world.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Scalable Web Apps",
+                        "text":"We build AngularJS web applications while keeping the future requirements of a business in mind. Thus we focus on creating scalable web applications that will handle huge traffic as well as will be extensible as per the growing needs of the business.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Faster Loading Time",
+                        "text":"Performance is key to higher user engagement, thus we take it very seriously and develop your AngularJS application while ensuring the fastest loading time. We focus on optimizing the application and integrating features that help to enhance the performance of the app.",
                         "src":ExcellentUIUX
                     },              
                 ]
             }
         ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/React-js",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "PROMINENT React JS DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
+                    "text1" :"Get User-Oriented Results With Best",
+                    "text2" :"React JS Development",
                     "text3" :"Services"
                 },
-                "descritption" : "",
+                "descritption" : "Sparx IT Solutions provides end-to-end development services and creates innovative web applications for startups and large-scale enterprises. Having full-scale expertise in this JavaScript library, our professionals create exceptional user interfaces for web & mobile applications. We provide dynamic and business-specific React JS solutions that handle synchronization and data updates without reloading.",
                "icons":[
                     {
-                        "icon":"",
-                        "src":ResponsiveBanner,
+                       "icon":"Performance",
+                       "src":Upgradation
                     },
                     {
-                        "icon":"",
-                        "src":Upgradation
+                        "icon":"Fast Rendering",
+                        "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Stable Code",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"SEO-Friendly",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
-                        "src":Migrations
+                        "icon":"Simplicity",
+                        "src":PWA
                     },
                     {
-                        "icon":"",
-                        "src":PWA
-                    }
+                        "icon":"User-Friendly",
+                        "src":Migrations
+                    },
                 ]
             }
         ],
@@ -9778,41 +9257,33 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"React JS Development"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"React JS UI/UX Development",
+                        "text" :"Whether you want to create a web portal, application, or widget, we build an engaging UI/UX design that is intuitive, visually appealing, and eye-catching. Our UI/UX designers create a beautiful design while keeping usability in their minds.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Custom ReactJS Development",
+                        "text":"Our AngularJS developers can deliver unrivaled solutions for your business whether your need is for a customized web portal for customers or a web portal for internal use. We come up with innovative ideas and handle all challenges in your project aptly."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"ReactJS Plugin Development",
+                        "text":"At Sparx IT Solutions, we have plenty of experience in designing and creating speedy, lightweight, and efficient real-time chat applications that provide excellent features and functionality. We build chat apps as per your business requirements."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"ReactJS Web App Development",
+                        "text":"With our years of experience and proficiency in AngularJS web application development, we can build secure, fast, and versatile web applications for clients. We utilize the best features of this web framework to develop end-to-end solutions."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"ReactJS Migration Service",
+                        "text":"We create robust e-commerce websites and applications that are easy-to-use, intuitive, and user-friendly by combining AngularJS with other front-end and back-end technologies. Our developers implement the best features and functionality that engage in enhanced personalization."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"ReactJS Support & Maintenance",
+                        "text":"We create customized APIs that meet your business requirements. With our custom API, your in-house team will be able to manage work and update the workflow to make it more productive and quick. We create APIs that will be easier to work with."
+                    },               
                 ]
             }
         ],
@@ -9820,35 +9291,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"React JS Development Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Responsive Apps",
+                        "text":"We build ReactJS apps that will run seamlessly on multiple browsers and devices.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Superior UI/UX Design",
+                        "text":"Your web app will have an attractive user interface with a pleasing user experience.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"SEO Friendly",
+                        "text":"Our developers create search engine friendly single-page applications (SPAs)",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"NDA Policy",
+                        "text":"By including NDAs, we showcase our care for the confidentiality of our customers’ ideas and vision.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"100% Satisfaction",
+                        "text":"We ensure 100% customer satisfaction by delivering quality solutions to clients.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -9859,144 +9330,101 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"React JS Development",
                     "text4":"Services",
                     "text5":"?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Experienced Developers",
+                        "text":"Our certified React JS developers have extensive experience in creating a variety of solutions. They create every application with utter care and optimize it to the highest standards. Our developers have delivered many innovative solutions to different businesses around the world.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Scalable Web Apps",
+                        "text":"We build React JS web applications while keeping the future requirements of a business in mind. Thus we focus on creating scalable web applications that will handle huge traffic as well as will be extensible as per the growing needs of the business.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Effective Communication",
+                        "text":"We have multiple communication methods such as phone calls, Skype, email, chat, and project management system that enable our clients to easily connect with us. We also provide regular reports on the progress of their projects.",
                         "src":ExcellentUIUX
                     },              
                 ]
             }
         ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
+    },
+
+    {
+        "pathname":"/technologies/MEAN-Stack",
+        "banner":[
+            {
+                "mainHeading"  : "PROMINENT MEAN STACK WEB DEVELOPMENT COMPANY",
+                "heading":{
+                    "text1" :"Our",
+                    "text2" :"MEAN Stack Development",
+                    "text3" :"Services Help You Develop Robust Applications"
                 },
-                "cardBoxData":[
+                "descritption" : "Sparx IT Solutions has proficient MEAN Stack developers who are well-versed MongoDB, ExpressJS, AngularJS, and Node.js. With our extensive technical knack and experience, we build bespoke web apps by leveraging the potential of MEAN Stack technologies.",
+               "icons":[
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "icon":"Performance",
+                        "src":Upgradation
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "icon":"Fast Rendering",
+                        "src":ResponsiveBanner,
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "icon":"Single Page Applications",
+                        "src":Security,
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "icon":"SEO-Friendly",
+                        "src":MaintenanceBanner,
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
+                        "icon":"Simplicity",
+                        "src":PWA
+                    },
+                    {
+                        "icon":"User-Friendly",
+                        "src":Migrations
+                    },
                 ]
             }
         ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
         "ourServices":[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"Mean Stack Development"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Custom MEAN Stack Development",
+                        "text" :"We offer customized MEAN Stack Web Development Services according to your need. You can hire any MEAN Stack developer from Sparx IT Solutions to develop custom solutions that meet your business requirements. ",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Enterprise MEAN Stack Development",
+                        "text":"Our MEAN Stack developers have an in-depth JavaScript language and they can handle any complex project. Our developers can develop scalable and performance-driven web apps and backend solutions for enterprises."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"MEAN Stack CMS Development",
+                        "text":"We will utilize our skills and expertise in MEAN Stack development to create robust, scalable, efficient, and intuitive CMS for clients. Our developers integrate the best security features to ensure that the CMS is highly secured."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"MEAN Stack Web Development",
+                        "text":"Our MEAN Stack Web Development Company harnesses the power of MVC (Model-View-Controller) to create swift, flexible, and robust web apps, Single Page Applications, and CRUD (Create, Read, Update, Delete) applications, dynamic websites and more."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Porting & Migration To MEAN Stack",
+                        "text":"Our MEAN Stack developers help you to migrate or port your business applications and platforms to the MEAN Stack framework. Migration is made easy with the help of the NoSQL database, MongoDB."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"MEAN Stack API Development",
+                        "text":"We can create custom MEAN Stack based APIs or a RESTful API server that will work as an interface for persisting and querying data in MongoDB. Our developers create secure, fast, and flexible APIs."
+                    },               
                 ]
             }
         ],
@@ -10004,35 +9432,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Mean Stack Development Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Cloud Integration",
+                        "text":"We help you save your time & money through cloud integration of your software system.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Fast Performance",
+                        "text":"We create MEAN Stack solutions that will be high performing and responsive.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Versatile Solution",
+                        "text":"We create solutions that will be compatible with different hardware and software.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Full-stack Development",
+                        "text":"Our MEAN Stack Development Services provide complete front-end & back-end solutions for your business.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Scalability",
+                        "text":"We develop web apps with scalable architecture that allows for easy future expansion.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -10043,59 +9471,24 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"Mean Stack Development",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Experienced Developers",
+                        "text":"Our certified Mean Stack developers have extensive experience in creating a variety of solutions. They create every application with utter care and optimize it to the highest standards. Our developers have delivered many innovative solutions to different businesses around the world.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Highest Quality Solutions",
+                        "text":"We have a commitment to provide every client with the best quality products as well as quickly address their issues until the project requirements are met.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Security",
+                        "text":"Security is a prime concern for us and we take it seriously by integrating the best security features in every MEAN Stack solution we deliver to clients.",
                         "src":ExcellentUIUX
                     },              
                 ]
@@ -10104,41 +9497,41 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/MERN-Stack",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "PROMINENT MERN STACK WEB DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
+                    "text1" :"Our",
+                    "text2" :"MERN Stack Development",
+                    "text3" :"Services Help You Develop Robust Applications"
                 },
-                "descritption" : "",
+                "descritption" : "At Sparx IT Solutions, we have expertise in underlying technologies of MERN Stack that are MongoDB, Express.js, React.js, and NodeJS. We employ the best features of the MERN technology stack to build customized solutions for our clients. We provide suitable web solutions that best fit your business.",
                "icons":[
                     {
-                        "icon":"",
-                        "src":ResponsiveBanner,
+                        "icon":"Performance",
+                        "src":Upgradation
                     },
                     {
-                        "icon":"",
-                        "src":Upgradation
+                        "icon":"Reliability",
+                        "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Open Source",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"Highly Flexible",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
-                        "src":Migrations
+                        "icon":"Cloud Compatible",
+                        "src":PWA
                     },
                     {
-                        "icon":"",
-                        "src":PWA
-                    }
+                        "icon":"Speed",
+                        "src":Migrations
+                    },
                 ]
             }
         ],
@@ -10146,41 +9539,33 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"MERN Stack Development"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Enterprise Application Development",
+                        "text" :"Choose Sparx IT Solutions for enterprise-grade web application development. We can develop cutting-edge enterprise solutions making the best use of MERN technologies. We are adept at creating tailored enterprise solutions specially designed for high-intensive workloads.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Custom Application Development",
+                        "text":"We utilize MERN Stack to build state-of-the-art dynamic web applications and websites for diverse business verticals. Our MERN stack developers work with the best coding approaches and methodologies to deliver quality and standards-compliant solutions tailored as per your needs."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Web Application Development",
+                        "text":"We create fast, secure, dynamic, and best-suited web applications for various businesses. Our MERN developers are well-versed in the underlying technologies and they can build any complex web application for your business that will deliver rich user experience with excellent functionality."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"CMS Development",
+                        "text":"Using our in-depth knowledge and expertise in MERN stack development, we will create a high-performance, feature-rich, secure, user-friendly, scalable custom content management system or CMS for your business. We will create a robust CMS with excellent functionality."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"eCommerce Application Development",
+                        "text":"We leverage our experience we’ve gained as a MERN stack development company to create a wide range of solutions. Our MERN stack developers are also adept at creating ecommerce solutions. Our developers can build intuitive, responsive, and secure dashboards for ecommerce sites."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Migration & Porting",
+                        "text":"We have extensive experience in migrating and porting business platforms and applications to MERN Stack-based frameworks. You can hire MERN Stack developer for migration or port of your application. We can provide complete assistance for migrating and porting your app safely."
+                    },                
                 ]
             }
         ],
@@ -10188,35 +9573,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"MERN Stack Development Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Cloud Integration",
+                        "text":"We help you save your time & money through cloud integration of your software system.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Fast Performance",
+                        "text":"We create MERN Stack solutions that will be high performing and responsive.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Versatile Solution",
+                        "text":"We create solutions that will be compatible with different hardware and software.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Best UI/UX",
+                        "text":"Your web app or website will have an excellent look and feel that will entice users.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Scalability",
+                        "text":"We develop web apps with scalable architecture that allows for easy future expansion.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -10227,60 +9612,25 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"MERN Stack Development",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Experienced Developers",
+                        "text":"Our certified MERN Stack developers have extensive experience in creating a variety of solutions. They create every application with utter care and optimize it to the highest standards. Our developers have delivered many innovative solutions to different businesses around the world.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Highest Quality Solutions",
+                        "text":"We have a commitment to provide every client with the best quality products as well as quickly address their issues until the project requirements are met.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Security",
+                        "text":"Security is a prime concern for us and we take it seriously by integrating the best security features in every MERN Stack solution we deliver to clients.",
                         "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -10288,41 +9638,41 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/SalesForce",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "TOP SALESFORCE DEVELOPMENT COMPANY",
                 "heading":{
                     "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
+                    "text2" :"Salesforce Development",
+                    "text3" :"Services Anytime, Anywhere"
                 },
-                "descritption" : "",
+                "descritption" : "Sparx IT Solutions offers competent Salesforce CRM solutions to grow your business sales, service, and marketing. With the extensive domain expertise, we provide cloud-based customer relationship management solutions to build strong communication between you and your customers. Our extremely experienced CRM developers help clients in different business operational tasks and increase your customer's engagements, conversions, and retention.",
                "icons":[
                     {
-                        "icon":"",
-                        "src":ResponsiveBanner,
+                        "icon":"Sales Cloud",
+                        "src":Upgradation
                     },
                     {
-                        "icon":"",
-                        "src":Upgradation
+                        "icon":"Marketing Cloud",
+                        "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Service Analytics",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"IOT",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
-                        "src":Migrations
+                        "icon":"Customer Service Integration",
+                        "src":PWA
                     },
                     {
-                        "icon":"",
-                        "src":PWA
-                    }
+                        "icon":"Community Cloud",
+                        "src":Migrations
+                    },
                 ]
             }
         ],
@@ -10330,41 +9680,33 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"Salesforce Development"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Salesforce Implementation Strategy",
+                        "text" :"To develop the right strategy for salesforce implementation we proficiently identify your present business status and understand your business objectives for future growth. Our experienced salesforce partners mainly emphasize your requirements and strategize business-specific workflows.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Cloud & Web Strategy",
+                        "text":"At Sparx IT Solutions our end-to-end cloud experts work with dedication to meet client's needs. We help you to move your present project set-up to Cloud and create a new cloud-based project from initials."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Salesforce Migration",
+                        "text":"Migrate your on-premises software resources to Salesforce, the technology. We provide packaging solutions to enable the business of different sizes and scopes to utilize the rich-featured tools, user-experience and applications of Salesforce in their day-to-day business tasks."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"deation And requirement Elaboration",
+                        "text":"With years of remarkable experience in business process modeling and developing technology, architecture made us capable of gathering necessary business information and turning it into an innovation. We ideate to fleshed out with productive outcomes to solve complex business problems."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Salesforce Integration",
+                        "text":"We empower different business processes by providing them a smooth, flexible, and safe integration of Salesforce services. We ensure that our clients get maximum support on integration through APIs, custom solution packages, and third-party tools."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Live Data Analytics",
+                        "text":"We help our clients to translate real-time data onto actions. We provide factful insights of data to help decision-makers to take a fruitful decision that leads to improving development service and business productivity."
+                    },                
                 ]
             }
         ],
@@ -10372,35 +9714,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Salesforce Development Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Improve Customer Service",
+                        "text":"We help you to build strong communication with your customers once they turn into sales from lead. Our advanced methodology will always give you the best solution to keep your customer happy and satisfied.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Automated Service and AI",
+                        "text":"To manage your customers’ queries and complaints you will be allowed to set your own automated rule to ensure that your agents are always active and assigned to serve your customers' needs as per their query.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Tools & Apps Integration",
+                        "text":"We offer seamless workflow by integrating external apps and tools to maximize your sales. You will be able to create your high functioning apps, use apps that are already integrated or you can build a self-service community that works as per your business model.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Field Service Connectivity",
+                        "text":"Having a mobile agent for field service in your business is the primary reason to go with Salesforce solutions to connect mobile agents with customers and cloud service.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"In-depth Customer Insights",
+                        "text":"By analyzing voluminous data from a different resource, creating KPIs, prediction of future issues, or data patterns using existing information and trends. It will keep you ahead of your competitors in the market.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -10411,60 +9753,25 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"Salesforce Development",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Industry Expertise",
+                        "text":"We are an industry leader to provide wide digital transformation via advisory, organizational change management, and unique cloud solutions to help businesses establish unbeatable growth and get you a competitive advantage.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Certified Team",
+                        "text":"We have years of experience in optimizing business processes and maximize their salesforce investments. We support your business in all aspects you want.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Time Management",
+                        "text":"Our experienced team of professionals dedicated to scoping put the world-class solution that best fits your business on-time and on-budget. Our service ranges from non-profit to highest profit business earners to take their businesses to the next level",
                         "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -10472,41 +9779,41 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/Sugar-CRM",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "MOST-TRUSTED SUGARCRM WEB DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
+                    "text1" :"We Offers",
+                    "text2" :"SugarCRM Development",
+                    "text3" :"Services For Various Business Needs"
                 },
-                "descritption" : "",
+                "descritption" : "Sparx IT Solutions is equipped with SugarCRM professionals to create and maintain a multiway communication channel with your customers. We are best in the industry to re-define your CRM for a never-ending relationship with your patrons. Our development experts are honored to assist you with SugarCRM consultation, customization, and implementation as per your business specifications. We are a reputed SugarCRM web development company and provide befitting solutions to businesses.",
                "icons":[
                     {
-                        "icon":"",
-                        "src":ResponsiveBanner,
+                        "icon":"Application Integration",
+                        "src":Upgradation
                     },
                     {
-                        "icon":"",
-                        "src":Upgradation
+                        "icon":"Module Development",
+                        "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Plugin Development",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"E-commerce Solutions",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
-                        "src":Migrations
+                        "icon":"Support & Maintenance",
+                        "src":PWA
                     },
                     {
-                        "icon":"",
-                        "src":PWA
-                    }
+                        "icon":"Customization",
+                        "src":Migrations
+                    },
                 ]
             }
         ],
@@ -10514,41 +9821,33 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"SugarCRM Development"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"SugarCRM Customization",
+                        "text" :"We believe that customization is a key factor to keep you ahead of your competitors in the digital realm. With our dynamic performance ability, we can align your business and provide customized solutions according to the growing demands of customers.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"SugarCRM Integration",
+                        "text":"We integrate your existing applications with SugarCRM to enhance your business process and create an integrated system. We integrate your marketing, sales, and business development application with open-source SugarCRM to remove complexities and increase conversion rates."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"SugarCRM Migration",
+                        "text":"Our proficient SugarCRM migration service helps you to migrate your existing business data from existing CRM platforms to SugarCRM quickly and efficiently. We follow the zero-error policy and plan an optimized strategy to achieve the expected results."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"SugarCRM Implementation",
+                        "text":"We understand the complexities occur while implementing SugarCRM. To overcome any complexity we mainly emphasize on proper planning, preparation, and choosing the appropriate solution to implement SugarCRM tailored to your business needs."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"SugarCRM Module Development",
+                        "text":"Our world-class team of qualified developers extends the responsiveness and functionality and increases the conversion count and productivity of your business."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"SugarCRM Consultancy",
+                        "text":"Our customer relationship management consultancy service offers business-oriented open source CRM solutions from easy installation, marketing to business process or workflow, and sales automation."
+                    },                
                 ]
             }
         ],
@@ -10556,35 +9855,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Sugar CRM Development Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Retain More Customers",
+                        "text":"Our advanced marketing automation tool empowers customer retention. We help you to build a non-breakable relationship with your customers to re-sell, cross-sell/up-sell your services or products.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Improve In-house Communication",
+                        "text":"We help you to improve interdepartmental collaboration and create a progressive workflow. We provide integration of other business systems to have seamless communication.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Cost-Effective",
+                        "text":"We understand the value of your hard-earned money. Our team works in collaboration to ensure the delivery of rich quality products with optimized cost. We never compromise with the functionality and maintenance over cost.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Flexible Solution",
+                        "text":"We follow a flexible work approach to serve all sizes of businesses small, medium, and large. We are capable enough to handle the projects of distinct types.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Productive Workflow",
+                        "text":"Our SugarCRM solution allocates the task to the employees as per their skillset using automatic workflow. It leads to better productivity and uninterrupted business processes.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -10595,59 +9894,24 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"SugarCRM Development",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Industry Expertise",
+                        "text":"We are an industry leader to provide wide digital transformation via advisory, organizational change management, and unique cloud solutions to help businesses establish unbeatable growth and get you a competitive advantage.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Certified Team",
+                        "text":"We have years of experience in optimizing business processes and maximize their investments. We support your business in all aspects you want.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Time Management",
+                        "text":"Our experienced team of professionals dedicated to scoping put the world-class solution that best fits your business on-time and on-budget. Our service ranges from non-profit to highest profit business earners to take their businesses to the next level",
                         "src":ExcellentUIUX
                     },              
                 ]
@@ -10656,41 +9920,37 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/Odoo",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "PROMINENT ODOO DEVELOPMENT SERVICE COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
+                    "text1" :"Providing End-to-end",
+                    "text2" :"Odoo Implementation",
+                    "text3" :"And Development Solutions"
                 },
-                "descritption" : "",
+                "descritption" : "At Sparx IT Solutions, we develop world-class enterprise solutions by using Odoo business management software. Our experienced Odoo developers harness the potential of this software suite to build scalable, secure, and robust web solutions that meet your specific business needs. Our Odoo Development Company can help you in implementing the Odoo solutions both on the technical and the business ground.",
                "icons":[
                     {
-                        "icon":"",
-                        "src":ResponsiveBanner,
+                        "icon":"Odoo Implementation",
+                        "src":Upgradation
                     },
                     {
-                        "icon":"",
-                        "src":Upgradation
+                        "icon":"Hosting Services",
+                        "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Easy Customization",
                         "src":Security,
                     },
                     {
-                        "icon":"",
-                        "src":MaintenanceBanner,
+                        "icon":"Automate Reporting",
+                        "src":PWA
                     },
                     {
-                        "icon":"",
+                        "icon":"Odoo Migration",
                         "src":Migrations
                     },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
                 ]
             }
         ],
@@ -10698,40 +9958,40 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"Odoo Implementation"
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text" :"",
+                        "title":"Odoo App Development",
+                        "text" :"We create user-friendly Odoo Development Solutions that extend the functionality of your Odoo store. We develop highly usable and customized Odoo apps for our clients that are laced with various features.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Odoo Website Development",
+                        "text":"Our Odoo developers are adept at developing feature-rich and high-end websites using the best functionalities of Odoo. We provide Odoo web development services as per your requirements."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Odoo Theme Development",
+                        "text":"As a trusted Odoo development company, we have experience in creating top-notch custom Odoo themes. Our Odoo developers can build Odoo themes for front-end and back-end as per your requirements."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Odoo Store Development",
+                        "text":"We provide Odoo ecommerce store services to provide you with attractive stores that are highly engaging and generate more revenue. Your Odoo ERP is synched with ecommerce store for an optimized solution."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Odoo Module Development",
+                        "text":"We can create Odoo Development Solutions with dynamic functionality to enhance your eCommerce features as well as add additional functionality with our Odoo module development service."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Odoo Migration",
+                        "text":"Our Odoo Development Company has a team of professional Odoo experts who deploy a perfect migration approach that entails field mapping, data cleansing, data extraction, and checking integrity. Our developers perform Odoo migration smoothly."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Odoo Implementation",
+                        "text":"Remove all your hurdles of Odoo implementation by choosing us for this task. With our Odoo deployment service, you can easily and seamlessly implement this technology to your web application."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Odoo Integration",
+                        "text":"Our Odoo Development Service Company provides complete assistance in sales order integration, inventory management, POS integration, and other similar functionality to your eCommerce store."
                     }                
                 ]
             }
@@ -10740,35 +10000,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Odoo Implementation Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Boost Sales",
+                        "text":"We help in boosting your sales through Odoo CRM, Odoo POS, and Odoo sales implementation.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Flexible Solution",
+                        "text":"Get dynamic and robust web based ERP that is in line with the context of your business.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Faster Performance",
+                        "text":"We provide you with high-performing Odoo solutions that are better both in terms of quality and features.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Clean Code",
+                        "text":"Keeping future maintenance in mind, we create clean code to deliver the best possible results.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Best ROI",
+                        "text":"We take ROI as the key proposition in our work and create solutions that bring best ROI for businesses.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -10779,60 +10039,25 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"Odoo Implementation",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Industry Expertise",
+                        "text":"We are an industry leader to provide wide digital transformation via advisory, organizational change management, and unique cloud solutions to help businesses establish unbeatable growth and get you a competitive advantage.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Certified Team",
+                        "text":"We have years of experience in optimizing business processes and maximize their investments. We support your business in all aspects you want.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Time Management",
+                        "text":"Our experienced team of professionals dedicated to scoping put the world-class solution that best fits your business on-time and on-budget. Our service ranges from non-profit to highest profit business earners to take their businesses to the next level",
                         "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -10840,41 +10065,41 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/Britix",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "LEADING BITRIX DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
+                    "text1" :"Get Unique",
+                    "text2" :"Bitrix Development",
                     "text3" :"Services"
                 },
-                "descritption" : "",
+                "descritption" : "Sparx IT Solutions facilitates businesses with splendid Bitrix development services and helps MSME clients for various business purposes. Our Bitrix Development Company provides advanced tools for collaboration and handles different aspects of daily business operational tasks. You can rely on our service due to quality products which are specifically designed to remove your business complexities. We offer a complete suite of social collaboration and management tools to give new dimensions to your business.",
                "icons":[
                     {
-                        "icon":"",
-                        "src":ResponsiveBanner,
+                        "icon":"Email Marketing",
+                        "src":Upgradation
                     },
                     {
-                        "icon":"",
-                        "src":Upgradation
+                        "icon":"Social Media Integration",
+                        "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Standalone Apps",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"Module Customization",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
-                        "src":Migrations
+                        "icon":"Theme Integration",
+                        "src":PWA
                     },
                     {
-                        "icon":"",
-                        "src":PWA
-                    }
+                        "icon":"Business Process Automation",
+                        "src":Migrations
+                    },
                 ]
             }
         ],
@@ -10882,41 +10107,21 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"Bitrix Development"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Sales & Consulting",
+                        "text" :"We offer a wide range of high functioning business tools to operate your business on a unique level of advancements. Our sales booster product may help you to overcome the challenges you face on a daily basis. ",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Project Implementation",
+                        "text":"Out of thousands of business models, we offer unique work strategies and customized solutions to our clients. We provide value-added services like product installation, customization, integration, and migration of existing information to other 3D solutions."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Standalone Apps Incorporation",
+                        "text":"Sparx IT Solutions have the potential team of experts who are capable enough to integrate all your running and existing platforms on Bitrix solution by following standard practice to increase your business productivity."
+                    },                
                 ]
             }
         ],
@@ -10924,35 +10129,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Bitrix Development Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Improve Collaboration",
+                        "text":"We are equipped with advanced tools empowered with instant messaging and phone calls to have seamless communication between clients and customers.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Increase Workflow",
+                        "text":"Our extensive project management solutions offer versatile task management features to support task scheduling on a daily basis. It creates transparency in your business work process and will act as a productivity-posting time tracker.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Task Supervision And Monitoring",
+                        "text":"We help you to supervise your employees' efficiency and monitor daily status reports of project tasks with a task supervision deck. This will help you to get a clear picture of each employee's work status.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Progress Accountability",
+                        "text":"Sparx IT Solutions allow you to improvise accountability in your work culture. We enforce the work process to run without any glitch. This leads to the delivery of the project on-time as the software will keep the employees updated about what next milestone they need to achieve.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Fast Project Delivery",
+                        "text":"We automate your business in such a way that it helps you to enable a clear project approval hierarchy as the concerned person to grant approval will be automatically notified and sees where the project is going on.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -10963,7094 +10168,67 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"Bitrix Development",
                     "text4":"Services",
                     "text5":"?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Industry Expertise",
+                        "text":"We are an industry leader to provide wide digital transformation via advisory, organizational change management, and unique cloud solutions to help businesses establish unbeatable growth and get you a competitive advantage.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Certified Team",
+                        "text":"We have years of experience in optimizing business processes and maximize their investments. We support your business in all aspects you want.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Time Management",
+                        "text":"Our experienced team of professionals dedicated to scoping put the world-class solution that best fits your business on-time and on-budget. Our service ranges from non-profit to highest profit business earners to take their businesses to the next level",
                         "src":ExcellentUIUX
                     },              
                 ]
             }
         ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
+    },
+
+    {
+        "pathname":"/technologies/AWS",
+        "banner":[
+            {
+                "mainHeading"  : "MOST DEPENDABLE AWS CLOUD HOSTING COMPANY",
+                "heading":{
+                    "text1" :"We Offer 24*7 Seamless",
+                    "text2" :"AWS",
+                    "text3" :"Services"
                 },
-                "cardBoxData":[
+                "descritption" : "Sparx IT Solutions render sustainable AWS services successfully to numerous clients worldwide. We cater Amazon Web Services ensuring scalability, proficiency and cost-effectiveness without compromising with quality for all your business needs. We are the best choice in the industry for cloud operations to double your return of investments. Our expert team is porcatively updated with latest trends and technologies to deliver as per the clients requirements.",
+               "icons":[
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "icon":"AWS Lambda",
+                        "src":Upgradation
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "icon":"Amazon Glacier",
+                        "src":ResponsiveBanner,
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "icon":"Amazon SNS",
+                        "src":Security,
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
+                        "icon":"Amazon EBS",
+                        "src":MaintenanceBanner,
                     },
                     {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Migrations
-                    },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
-                ]
-            }
-        ],
-        "ourServices":[
-            {   
-                "subheading":{
-                    "text1":"We Deliver Comprehensive",
-                    "text2":""
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
-                ]
-            }
-        ],
-        "benefits":[
-            {   
-                "subheading":{
-                    "text1":"How Choosing Us As Your",
-                    "text2":"",
-                    "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-    },
-
-    {
-        "pathname":"",
-        "banner":[
-            {
-                "mainHeading"  : "",
-                "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
-                },
-                "descritption" : "",
-               "icons":[
-                    {
-                        "icon":"",
-                        "src":ResponsiveBanner,
-                    },
-                    {
-                        "icon":"",
-                        "src":Upgradation
-                    },
-                    {
-                        "icon":"",
-                        "src":Security,
-                    },
-                    {
-                        "icon":"",
-                        "src":MaintenanceBanner,
+                        "icon":"Amazon EC2",
+                        "src":PWA
                     },
                     {
-                        "icon":"",
+                        "icon":"Amazon VPC",
                         "src":Migrations
                     },
-                    {
-                        "icon":"",
-                        "src":PWA
-                    }
                 ]
             }
         ],
@@ -18058,41 +10236,33 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"AWS Services"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"AWS EC2",
+                        "text" :"We offer Elastic Compute Cloud web solutions to avail you secure, efficient, and resizable compute capacity in an open source cloud system. Our EC2 service offloads many of the traditional visualization functions to offer high performance and security. We have a dedicated team of cloud experts for rapid delivery of new EC2 instances.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Amazon Kinesis",
+                        "text":"We handle your large volume of data without any hassle with our Amazon Kinesis services. Our data engineers help you to integrate data from different sources of information to run on EC2 instances."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Amazon Relational Database",
+                        "text":"We offer a fully SQL database cloud service to provide users a flexible way of creating relational databases. It allows you efficient and scalable accessibility of database from anywhere, anytime as per your requirement."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Amazon S3",
+                        "text":"Sometimes data storage and data retrieval plays an eminent role in cloud computing. Our Amazon Simple Storage Service or Amazon S3 allows users to store and upload large files and easy retrieval from the cloud. We offer our clients an easy accessibility of the same system that Amazon uses to run their website."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Amazon CloudFront",
+                        "text":"The ultimate advantage of our Amazon CloudFron service is that it makes the faster sharing of your static and dynamic web content to your users. We follow complete security measures to deliver your images, videos, data applications."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Amazon SQS",
+                        "text":"Our certified cloud professionals offer simple queue service of SQS that manages the message queue. It helps you to migrate your information or messages from an existing application to another even though it is in an idle state."
+                    },                
                 ]
             }
         ],
@@ -18100,35 +10270,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"AWS Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Security",
+                        "text":"Sparx IT solutions is equipped with AWS security experts to assist you in building proficient and secure AWS foundation. Also, we help you to deploy and run sensitive system on cloud.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Migration",
+                        "text":"With our strong security measure, your data can successfully migrate into the cloud by reducing risk of failure. During the migration process we take proper care of great user experience, backup and disaster recovery.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Optimization",
+                        "text":"We analyze your business model to optimize the performance and expense to maximize efficiency with optimized architecture. We are focused on AWS auto-scaling and monitoring production workloads.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Architecture",
+                        "text":"We are highly experienced in adopting cloud based IT infrastructure to avoid the glitch of maintaining the hardware infrastructure.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Deployment",
+                        "text":"Our extremely qualified AWS experts provides user management, advanced AWS service integration, and scalable AWS cloud service to our clients for constantly increasing productivity.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -18139,59 +10309,24 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"AWS",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Industry Expertise",
+                        "text":"We are an industry leader to provide wide digital transformation via advisory, organizational change management, and unique cloud solutions to help businesses establish unbeatable growth and get you a competitive advantage.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Certified Team",
+                        "text":"We have years of experience in optimizing business processes and maximize their salesforce investments. We support your business in all aspects you want.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Time Management",
+                        "text":"Our experienced team of professionals dedicated to scoping put the world-class solution that best fits your business on-time and on-budget. Our service ranges from non-profit to highest profit business earners to take their businesses to the next level",
                         "src":ExcellentUIUX
                     },              
                 ]
@@ -18200,41 +10335,41 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/Google-Cloud",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "GROW YOUR BUSINESS WITH OUR GOOGLE CLOUD SERVICES",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
+                    "text1" :"Providing Cutting-Edge",
+                    "text2" :"Google Cloud",
+                    "text3" :"Solutions"
                 },
-                "descritption" : "",
+                "descritption" : "Sparx IT Solutions have a dedicated team of experts with splendid knowledge of developing cloud-based solutions. We are capable of delivering wonderful user experience across on-premises, public, or private clouds without worrying about security. You can trust us to get competent Google could solutions. Our certified engineers provide easy-to-use artificial intelligence and machine learning solutions to automate your business growth and productivity.",
                "icons":[
                     {
-                        "icon":"",
-                        "src":ResponsiveBanner,
+                        "icon":"Big Data",
+                        "src":Upgradation
                     },
                     {
-                        "icon":"",
-                        "src":Upgradation
+                        "icon":"Computing & Hosting",
+                        "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Google Technical Support",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"Cloud Storage",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
-                        "src":Migrations
+                        "icon":"Automation",
+                        "src":PWA
                     },
                     {
-                        "icon":"",
-                        "src":PWA
-                    }
+                        "icon":"Hybrid & Multi Cloud",
+                        "src":Migrations
+                    },
                 ]
             }
         ],
@@ -18242,41 +10377,21 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"Google Cloud Services"
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text" :"",
+                        "title":"AI & Machine Learning",
+                        "text" :"Our Google Cloud AI service helps you to resolve your business complexities with our pre-packaged solution. Our machine learning experts add sight, conversion, and structure data to your existing applications. We turn innovative AI & ML ideas into reality to automate your business process and boost your productivity and sales.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Computing and Hosting",
+                        "text":"We benefit you by working over a serverless environment with Faas (function as a service). It lets you create a connection with Google cloud to work in a serverless environment. With our expertise in cloud computing, we deliver unrivaled Google cloud solutions."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Routing",
+                        "text":"Our Route service helps you to build extremely advanced networking functions in your instance like creating VPNs. Our routing service ensures that the data packets over a particular network range should be handled by a gateway virtual machine instance that you operate."
+                    },                
                 ]
             }
         ],
@@ -18284,35 +10399,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Google Cloud Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Cost-effective",
+                        "text":"Google cloud development solutions are affordable and give you the best cloud experience. You can reduce expensive network maintenance costs with our cloud managed services.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Futuristic Technology",
+                        "text":"Our cloud experts are well-versed in advanced future-proof technologies to deliver innovative solutions. We are a team of cloud technicians who works on future trends and tools.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Robust Infrastructure",
+                        "text":"Sparx IT Solutions offers a robust network infrastructure with a 24*7 management service. We integrate your existing business terms and policies to manage your network focusing on your organizational goals.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Fast Response Rate",
+                        "text":"You can expect a quick response via enterprise-level monitoring and remote cloud service. We have the potential to access, monitor, and virtually repair any network intricacy remotely. You will be delighted with Google cloud solutions that we will provide to you.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Disaster Recovery",
+                        "text":"To maintain your business continuity our cloud managed services keep your data secured across all cloud services and applications. In case of any unpredictable disaster, you can keep continuing your business operation with minimal downtime.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -18323,60 +10438,25 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"Google Cloud",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Industry Expertise",
+                        "text":"We are an industry leader to provide wide digital transformation via advisory, organizational change management, and unique cloud solutions to help businesses establish unbeatable growth and get you a competitive advantage.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Certified Team",
+                        "text":"We have years of experience in optimizing business processes and maximize their salesforce investments. We support your business in all aspects you want.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Time Management",
+                        "text":"Our experienced team of professionals dedicated to scoping put the world-class solution that best fits your business on-time and on-budget. Our service ranges from non-profit to highest profit business earners to take their businesses to the next level",
                         "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -18384,41 +10464,41 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/Azure",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "WE OFFER ADVANCED AND SEAMLESS AZURE CLOUD SERVICES",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
+                    "text1" :"We Are An Esteemed",
+                    "text2" :"Azure",
+                    "text3" :"Services Provider"
                 },
-                "descritption" : "",
+                "descritption" : "Sparx IT Solutions is one of the leading web and mobile development based on cloud computing with Azure. We build advanced solutions for your business based on our client's interests and requirements using Azure app service and Azure Cosmos. We assist our clients to achieve the milestones for their organizational success by creating, managing, and deploying applications on a large network using advanced tools and frameworks. We provide unrivaled Azure cloud services to our clients.",
                "icons":[
                     {
-                        "icon":"",
-                        "src":ResponsiveBanner,
+                        "icon":"Content Delivery Network(CDN)",
+                        "src":Upgradation
                     },
                     {
-                        "icon":"",
-                        "src":Upgradation
+                        "icon":"Data Integration",
+                        "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Data Retention",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"Security Infrastructure",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
-                        "src":Migrations
+                        "icon":"Performance Reporting",
+                        "src":PWA
                     },
                     {
-                        "icon":"",
-                        "src":PWA
-                    }
+                        "icon":"Risk Management",
+                        "src":Migrations
+                    },
                 ]
             }
         ],
@@ -18426,41 +10506,21 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"Azure Services"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Integrative Data Solution",
+                        "text" :"Our cloud experts work on SaaS and PaaS platforms to integrate your data. This lets you do more with CRM, ERP, and other business data in a secured environment that is more reliable and convenient to access.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Easy Migration",
+                        "text":"Our Azure migration service helps you to plan, execute, and track data migration from start to finish. We take pride in storing your data on cloud platforms from the existing application by following complete security measures."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Data Security",
+                        "text":"Our security development lifecycle is a cutting edge for developing the most secured code-based solutions on advanced technology. We allow you to store any type of data in a reliable open-source environment for easy import and export of data with confidentiality."
+                    },                
                 ]
             }
         ],
@@ -18468,35 +10528,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Azure Services",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Customer Support",
+                        "text":"We provide Azure-based infrastructure across the globe with numerous data center regions in different localities. We are 24*7 available to support and give assistance to our clients as per their schedule and time zone.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Flexibility",
+                        "text":"In this fastest growing digital era, we provide you a hosting solution that can quickly evolve as per your real-time requirements. We offer the best cloud services that help you to customize the cloud as needed.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Security",
+                        "text":"There is no business person who is not scared of getting his data breached. Security is a major concern for us too. We follow a strict checklist to ensure that our Azure cloud solutions are safe from all kinds of security attacks.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Confidentiality",
+                        "text":"We understand your concern for the confidentiality of your project and respect the same. Our staff works with complete transparency and we are always ready to sign a non-disclosure agreement (NDA) to ensure confidentiality.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Scale On-Demand",
+                        "text":"We potentially scale your business. Out data analysts get your business insights and when your business is required extra resources to boost up the traffic and conversions.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -18507,59 +10567,24 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"Azure",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Industry Expertise",
+                        "text":"We are an industry leader to provide wide digital transformation via advisory, organizational change management, and unique cloud solutions to help businesses establish unbeatable growth and get you a competitive advantage.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Certified Team",
+                        "text":"We have years of experience in optimizing business processes and maximize their salesforce investments. We support your business in all aspects you want.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Time Management",
+                        "text":"Our experienced team of professionals dedicated to scoping put the world-class solution that best fits your business on-time and on-budget. Our service ranges from non-profit to highest profit business earners to take their businesses to the next level",
                         "src":ExcellentUIUX
                     },              
                 ]
@@ -18568,41 +10593,41 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/Ethereum",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "RELIABLE ETHEREUM APP DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
+                    "text1" :"Providing Quality",
+                    "text2" :"Ethereum Development",
+                    "text3" :"Services For Your Project"
                 },
-                "descritption" : "",
+                "descritption" : "We help you take your business to the next level by developing powerful decentralized applications on the Ethereum platform. Our proficient app developers have worked with several enterprises to develop power-packed smart contracts and DApps. We have excelled in an experience in deploying robust blockchain solutions across different industries around the world.",
                "icons":[
                     {
-                        "icon":"",
-                        "src":ResponsiveBanner,
+                        "icon":"Zero Downtime",
+                        "src":Upgradation
                     },
                     {
-                        "icon":"",
-                        "src":Upgradation
+                        "icon":"Highly Secure",
+                        "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Tamper & Corruption Proof",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"Immutable",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
-                        "src":Migrations
+                        "icon":"Agile Process",
+                        "src":PWA
                     },
                     {
-                        "icon":"",
-                        "src":PWA
-                    }
+                        "icon":"NDA",
+                        "src":Migrations
+                    },
                 ]
             }
         ],
@@ -18610,41 +10635,33 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"Ethereum Development Services"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Smart Contract Solutions",
+                        "text" :"Sparx IT Solutions offers proficient Ethereum solutions utilizing the power of Blockchain to build high-grade Smart Contract apps. Our developers are highly experienced in creating excellent Ethereum apps that run unsupervised business transactions.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"DApp Development",
+                        "text":"We have a well-versed team of professionals who can build out-of-the-box decentralized applications (DApps) running on Ethereum blockchain. You can utilize our expertise to build unique and custom Ethereum Blockchain development service to create DApps for your business."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Hyperledger Solutions",
+                        "text":"Our veteran developers harness Ethereum to create innovative applications based on Hyperledger. They make the best use of technologies to deliver scalable, reliable, and immutable Hyperledger applications that also support varied plugins."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Ethereum Blockchain Consulting",
+                        "text":"Our Ethereum experts and developers provide you with the best piece of advice and strategic information to build Blockchain applications that help in your business success and maximize your ROI. We provide the right guidance for developing Ethereum apps."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Tailored Ethereum Wallet App",
+                        "text":"Our developers utilize their experience and expertise in Ethereum to develop tailored wallet apps for varied businesses. We create feature-rich and customized Ethereum wallet development solutions that meet your needs as well as boost business."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Cryptocurrency Development",
+                        "text":"Being a reputed and leading Ethereum development company, we provide clients with unmatched solutions and create scalable, trusted, secure, and powerful cryptocurrency solutions. We deliver specialized solutions that meet your needs."
+                    },                
                 ]
             }
         ],
@@ -18652,99 +10669,64 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Ethereum Development",
                     "text3":"Company will",
-                    "text4":"Benefit",
-                    "text5":"you?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },                
-                ]
-            }
-        ],
-        "whyChooseUs":[
-            {   
-                "subheading":{
-                    "text1":"Why",
-                    "text2":"Choose our",
-                    "text3":"",
-                    "text4":"Services",
-                    "text5":"?",
+                    "text4":"Benefit",
+                    "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Thorough Testing",
+                        "text":"Our team follows an extreme testing procedure before delivering any blockchain project to ensure to provide quality solutions to clients.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"24/7 Support",
+                        "text":"We are ready to support you as per your time zone. Time suitability is not an issue with us as we serve our customers in all timezones.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Optimization",
+                        "text":"We analyze your business model to optimize the performance and expense to maximize efficiency with optimized architecture.",
                         "src":ExcellentUIUX
-                    },              
+                    },
+                    {
+                        "title":"Agile Development",
+                        "text":"Our Ethereum application development Company works with the agile development methodology to build Ethereum solutions within the stipulated time frame.",
+                        "src":ExcellentUIUX
+                    },
+                    {
+                        "title":"Skilled Developers",
+                        "text":"We have a team of professional Ethereum developers who have the right skill set to deliver competitive solutions.",
+                        "src":ExcellentUIUX
+                    },                
                 ]
             }
         ],
-        "designProcess":[
+        "whyChooseUs":[
             {   
                 "subheading":{
-                    "text1":"",
-                    "text2":"",
+                    "text1":"Why",
+                    "text2":"Choose our",
+                    "text3":"Ethereum Development",
+                    "text4":"Services",
+                    "text5":"?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Extended App Protection",
+                        "text":"We integrate the best security features into every Ethereum app we develop and provide extended protection to projects we deliver. We also take care of any drawbacks during the deployment of your app solution.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Full-Cycle Development",
+                        "text":"At Sparx IT Solutions, we provide end-to-end Ethereum development services to our clients and deliver unparalleled solutions. We keep ourselves in sync with our clients and incorporate changes outlined by them.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Competitive Pricing",
+                        "text":"Since our inception, we have been a cost-efficient service provider delivering a myriad of web and app solutions at competitive prices. Our Ethereum app development services are also competitively priced.",
                         "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -18752,41 +10734,41 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/Hyperledger",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "RELIABLE Hyperledger APP DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
+                    "text1" :"Providing Quality",
+                    "text2" :"Hyperledger Development ",
+                    "text3" :"Services For Your Project"
                 },
-                "descritption" : "",
+                "descritption" : "Sparx IT Solutions is a well-versed digital solutions provider company serving customers across the world with its high standards and supreme services. Our proficient team of blockchain developers utilizes Hyperledger to build exclusive blockchain solutions that help to streamline the business processes with efficient and transparent transactions. We provide cutting-edge Hyperledger development services tailored to your business needs. ",
                "icons":[
                     {
-                        "icon":"",
-                        "src":ResponsiveBanner,
+                        "icon":"Zero Downtime",
+                        "src":Upgradation
                     },
                     {
-                        "icon":"",
-                        "src":Upgradation
+                        "icon":"Highly Secure",
+                        "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Tamper & Corruption Proof",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"Immutable",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
-                        "src":Migrations
+                        "icon":"Agile Process",
+                        "src":PWA
                     },
                     {
-                        "icon":"",
-                        "src":PWA
-                    }
+                        "icon":"NDA",
+                        "src":Migrations
+                    },
                 ]
             }
         ],
@@ -18794,41 +10776,33 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"Hyperledger Development Services"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Chaincode/Smart Contracts Development",
+                        "text" :"On the Hyperledger blockchain platform, smart contracts are known as chaincodes. The chaincodes enable the creation of business contracts, decentralized applications, and asset definitions. We can create chaincodes on Hyperledger Fabric.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Architecture & Design",
+                        "text":"We assess your requirements and design the right applications that prove to be effective for your business. We create a technical design that includes database design, system blueprint, user stories, etc."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Hyperledger Consulting",
+                        "text":"We evaluate your business needs and analyze the potential Hyperledger solutions that meet your expectations. Our consultants try to figure out the best fitting solution for your business and its advantages to your business."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"DApp Development",
+                        "text":"Our team of skilled Blockchain professionals create excellent DApps for varied industries by utilizing the Hyperledger frameworks. By following an agile development methodology we offer different versions of apps before deployment."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Upgrades & Migration",
+                        "text":"We can help you in upgrading or migrating your existing Blockchain infrastructure to the Hyperledger framework. When working with the migration process, we also ensure zero downtime to ensure the smooth running of business processes."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Support",
+                        "text":"We also provide support for a myriad of services like defining technical components, providing database design, as well as developing model definition by creating a definition of a business network that includes rules, functions, and logic."
+                    },               
                 ]
             }
         ],
@@ -18836,35 +10810,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Hyperledger Development",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Thorough Testing",
+                        "text":"Our team follows an extreme testing procedure before delivering any blockchain project to ensure to provide quality solutions to clients.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"24/7 Support",
+                        "text":"We are ready to support you as per your time zone. Time suitability is not an issue with us as we serve our customers in all timezones.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Optimization",
+                        "text":"We analyze your business model to optimize the performance and expense to maximize efficiency with optimized architecture.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Agile Development",
+                        "text":"Our Hyperledger application development Company works with the agile development methodology to build Ethereum solutions within the stipulated time frame.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Skilled Developers",
+                        "text":"We have a team of professional Hyperledger developers who have the right skill set to deliver competitive solutions.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -18875,60 +10849,25 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"Hyperledger Development",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Extended App Protection",
+                        "text":"We integrate the best security features into every Hyperledger app we develop and provide extended protection to projects we deliver. We also take care of any drawbacks during the deployment of your app solution.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Full-Cycle Development",
+                        "text":"At Sparx IT Solutions, we provide end-to-end Hyperledger development services to our clients and deliver unparalleled solutions. We keep ourselves in sync with our clients and incorporate changes outlined by them.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Competitive Pricing",
+                        "text":"Since our inception, we have been a cost-efficient service provider delivering a myriad of web and app solutions at competitive prices. Our Hyperledger development services are also competitively priced.",
                         "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -18936,41 +10875,41 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/Quorum",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "RELIABLE QUORUM APP DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
+                    "text1" :"Providing Quality",
+                    "text2" :"Quorum Development",
+                    "text3" :"Services For Your Project"
                 },
-                "descritption" : "",
+                "descritption" : "As a pioneer digital solutions provider, we build intuitive Blockchain applications over Quorum for our clients. Our highly educated and versatile Quorum blockchain developers are always ready to deliver what you desire. We ensure rich quality service by saving resources like time and money. We offer you advanced and easy digital payments with enhanced privacy.",
                "icons":[
                     {
-                        "icon":"",
-                        "src":ResponsiveBanner,
+                        "icon":"Smart Contract Audit",
+                        "src":Upgradation
                     },
                     {
-                        "icon":"",
-                        "src":Upgradation
+                        "icon":"DApps Development",
+                        "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Supply Chain Management",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"Modern Whitepaper Solutions",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
-                        "src":Migrations
+                        "icon":"STO Solutions",
+                        "src":PWA
                     },
                     {
-                        "icon":"",
-                        "src":PWA
-                    }
+                        "icon":"New DLT Creation",
+                        "src":Migrations
+                    },
                 ]
             }
         ],
@@ -18978,41 +10917,33 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"Quorum Development Services"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"NFT Development",
+                        "text" :"Our Non-Fungible Token (NFT) creates an interchangeable and distinguishable platform. We serve multiple industries across the globe for improved productivity and revenue of your business.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"STO Development",
+                        "text":"We offer Security Token Offering (STO) service based on the detailed project analysis. Based on the project details and objective we proceed with the STO development to deliver the best solutions as per your expectations."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Hyperledger Blockchain",
+                        "text":"Our certified in-house team of Quorum Development professionals has a strong command over developing hassle-free blockchain applications. We focus on a high-level maintenance of resilience and confidentiality."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Blockchain Game Development",
+                        "text":"The gaming industry is growing exponentially with the help of blockchain. At Sparx IT Solutions we aim to deliver Quorum blockchain-based gaming solutions. We provide an immense user experience that helps in boosting ROI."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Tokenomics",
+                        "text":"Our Tokenomics service includes the deep study of the business structure of the token to understand the economic principles on which it relies upon."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Stablecoin Development",
+                        "text":"We offer quick processing and secure payments of cryptocurrencies based on stablecoin development. We mainly emphasize fast transaction, transparency, digital wallets, and privacy without a lack of stability and trust."
+                    },                
                 ]
             }
         ],
@@ -19020,35 +10951,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Quorum Development",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Thorough Testing",
+                        "text":"Our team follows an extreme testing procedure before delivering any blockchain project to ensure to provide quality solutions to clients.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"24/7 Support",
+                        "text":"We are ready to support you as per your time zone. Time suitability is not an issue with us as we serve our customers in all timezones.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Optimization",
+                        "text":"We analyze your business model to optimize the performance and expense to maximize efficiency with optimized architecture.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Agile Development",
+                        "text":"Our Quorum application development Company works with the agile development methodology to build Ethereum solutions within the stipulated time frame.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Skilled Developers",
+                        "text":"We have a team of professional Quorum developers who have the right skill set to deliver competitive solutions.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -19059,60 +10990,25 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"Quorum Development",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Extended App Protection",
+                        "text":"We integrate the best security features into every Quorum app we develop and provide extended protection to projects we deliver. We also take care of any drawbacks during the deployment of your app solution.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Full-Cycle Development",
+                        "text":"At Sparx IT Solutions, we provide end-to-end Quorum development services to our clients and deliver unparalleled solutions. We keep ourselves in sync with our clients and incorporate changes outlined by them.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Competitive Pricing",
+                        "text":"Since our inception, we have been a cost-efficient service provider delivering a myriad of web and app solutions at competitive prices. Our Quorum development services are also competitively priced.",
                         "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -19120,41 +11016,41 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/Stellar",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "RELIABLE STELLAR BLOCKCHAIN  DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
+                    "text1" :"Providing Quality",
+                    "text2" :"Stellar Blockchain Development",
                     "text3" :"Services"
                 },
-                "descritption" : "",
+                "descritption" : "At Sparx IT Solutions, our proficient blockchain developers utilize Stellar technology to develop power-packed FinTech applications for enterprises and startups. With our Stellar blockchain solutions, clients get a robust mechanism for fast, secure, and low-cost payments. We offer a wide range of Stellar blockchain development services from smart contracts development to creating complex infrastructure for payments. You can hire Stellar developers to build cutting-edge solutions.",
                "icons":[
                     {
-                        "icon":"",
-                        "src":ResponsiveBanner,
+                        "icon":"No Contract Lock-Ins",
+                        "src":Upgradation
                     },
                     {
-                        "icon":"",
-                        "src":Upgradation
+                        "icon":"DApps Development",
+                        "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Secure",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"Modern Whitepaper Solutions",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
-                        "src":Migrations
+                        "icon":"No Hidden Costs",
+                        "src":PWA
                     },
                     {
-                        "icon":"",
-                        "src":PWA
-                    }
+                        "icon":"Instant Transactions",
+                        "src":Migrations
+                    },
                 ]
             }
         ],
@@ -19162,41 +11058,33 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"Stellar Development Services"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Stellar Consulting",
+                        "text" :"We provide strategic advice and guidance to help you harness the potential of Stellar blockchain technology for the benefit of your business while ensuring maximum ROI.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Smart Contract Development",
+                        "text":"Our blockchain developers can develop smart contract apps by utilizing Stellar technology. These apps will run your business transactions smoothly while connected to network nodes."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"DApp Development",
+                        "text":"We can build powerful distributed applications or DApps that will help you unravel tangible and long-lasting value for your business. We build DApps considering your versatile and dynamic business needs."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Smart Contract Audit",
+                        "text":"Our developers with their domain experience and in-depth knowledge can perform auditing on existing smart contracts and provide insightful reports.to help build better solutions."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Stellar Wallet Development",
+                        "text":"We can build wallets using Stellar blockchain technology that will serve as a secure digital safe where users can safely keep digital financial assets. We create feature-rich wallets."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Cryptocurrency Development",
+                        "text":"Being a Stellar app development company, we offer many services and help entrepreneurs and enterprises in integrating cryptocurrencies like Bitcoin into their existing systems."
+                    },               
                 ]
             }
         ],
@@ -19204,35 +11092,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Stellar Blockchain Development",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Thorough Testing",
+                        "text":"Our team follows an extreme testing procedure before delivering any blockchain project to ensure to provide quality solutions to clients.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"24/7 Support",
+                        "text":"We are ready to support you as per your time zone. Time suitability is not an issue with us as we serve our customers in all timezones.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Optimization",
+                        "text":"We analyze your business model to optimize the performance and expense to maximize efficiency with optimized architecture.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Agile Development",
+                        "text":"Our Stellar blockchain application development Company works with the agile development methodology to build Ethereum solutions within the stipulated time frame.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Skilled Developers",
+                        "text":"We have a team of professional Stellar  blockchaindevelopers who have the right skill set to deliver competitive solutions.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -19243,60 +11131,25 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"Stellar Development",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Extended App Protection",
+                        "text":"We integrate the best security features into every Stellar blockchain app we develop and provide extended protection to projects we deliver. We also take care of any drawbacks during the deployment of your app solution.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Full-Cycle Development",
+                        "text":"At Sparx IT Solutions, we provide end-to-end Stellar blockchain development services to our clients and deliver unparalleled solutions. We keep ourselves in sync with our clients and incorporate changes outlined by them.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Competitive Pricing",
+                        "text":"Since our inception, we have been a cost-efficient service provider delivering a myriad of web and app solutions at competitive prices. Our Stellar blockchain development services are also competitively priced.",
                         "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -19304,39 +11157,39 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/Hedera-Hashgraph",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "AWARD-WINNING HEDERA HASHGRAPH DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
+                    "text1" :"Providing Quality",
+                    "text2" :"Hedera Hashgraph Development",
                     "text3" :"Services"
                 },
-                "descritption" : "",
+                "descritption" : "We are the most reliable and authentic app development services provider all over the world. We, as a leading Hedera Hashgraph service provider, are well-aware of the urgency of distributed ledger technology for DApps. We stand out in the industry due to our high performance, enhanced security, and satisfactory service. Without any second thought, you can expect us for unique customized service over blockchain and build distributed applications using a reliable set of codes.",
                "icons":[
                     {
-                        "icon":"",
-                        "src":ResponsiveBanner,
+                        "icon":"Cryptocurrency",
+                        "src":Upgradation
                     },
                     {
-                        "icon":"",
-                        "src":Upgradation
+                        "icon":"Consultancy",
+                        "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Secure",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"Gossip Protocol",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Throughput",
                         "src":Migrations
                     },
                     {
-                        "icon":"",
+                        "icon":"Virtual Voting",
                         "src":PWA
                     }
                 ]
@@ -19346,41 +11199,33 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"Hedera Hashgraph Development Services"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Smart Contracts",
+                        "text" :"We build decentralized applications over Hedera Hashgraph to speed-up the use of smart contracts more efficiently. Moreover, Our smart contract which is built by brilliant minds can potentially work on any standard software.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"DApps",
+                        "text":"We are completely concerned about the security of your data. Hence, we offer a decentralized way to store your confidential data files securely on the platform. These applications are built on the foundation of Hedera Hashgraph implementing all security standards."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Cryptocurrency",
+                        "text":"We offer extremely fast cryptocurrency transactions at low latency. You can expect great experience and privacy through ad-hoc relationships. Our developers are extremely talented to work on Java SDK or community SDK to manage keys, accounts, and HBARs."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Security",
+                        "text":"Our technical experts design a secured structure in a proficient way to prevent money laundering and efficiently manage customers along with bank guidelines and government regulations for an accurate system."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Financial Applications",
+                        "text":"We provide the Hedera Hashgraph development services to let you enjoy the entire benefit of blockchain without any restrictions. Numerous financial sectors rely on us to take advantage of the Hedera Hashgraph."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Work-Load Management",
+                        "text":"We help you to get applications with extremely high performance in real-time with a countless amount of online traffic. These applications focus on streamlining the cross-industry goals."
+                    },               
                 ]
             }
         ],
@@ -19388,35 +11233,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"Hedera Hashgraph Development",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Thorough Testing",
+                        "text":"Our team follows an extreme testing procedure before delivering any blockchain project to ensure to provide quality solutions to clients.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"24/7 Support",
+                        "text":"We are ready to support you as per your time zone. Time suitability is not an issue with us as we serve our customers in all timezones.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Optimization",
+                        "text":"We analyze your business model to optimize the performance and expense to maximize efficiency with optimized architecture.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Agile Development",
+                        "text":"Our Hedera Hashgraph  application development Company works with the agile development methodology to build Ethereum solutions within the stipulated time frame.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Skilled Developers",
+                        "text":"We have a team of professional Hedera Hashgraph  developers who have the right skill set to deliver competitive solutions.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -19427,60 +11272,25 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"Stellar Development",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Extended App Protection",
+                        "text":"We integrate the best security features into every Hedera Hashgraph  app we develop and provide extended protection to projects we deliver. We also take care of any drawbacks during the deployment of your app solution.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Full-Cycle Development",
+                        "text":"At Sparx IT Solutions, we provide end-to-end Hedera Hashgraph blockchain development services to our clients and deliver unparalleled solutions. We keep ourselves in sync with our clients and incorporate changes outlined by them.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Competitive Pricing",
+                        "text":"Since our inception, we have been a cost-efficient service provider delivering a myriad of web and app solutions at competitive prices. Our Hedera Hashgraph blockchain development services are also competitively priced.",
                         "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
                     },              
                 ]
             }
@@ -19488,41 +11298,41 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/R3-Corda",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "RELIABLE CORDA BLOCKCHAIN DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
+                    "text1" :"We offer",
+                    "text2" :"multilateral Blockchain solutions",
+                    "text3" :"showcasing futuristic demands"
                 },
-                "descritption" : "",
+                "descritption" : "Our Blockchain experts are adept at utilizing smart contracts and R3 Corda to develop power-packed FinTech solutions for regulated financial entities that offer contract binding, peer-to-peer transactions, and asset exchange. As a leading Corda Blockchain development company, we provide an unbeatable R3 Corda development service to build complex solutions and fulfill your business objectives.",
                "icons":[
                     {
-                        "icon":"",
-                        "src":ResponsiveBanner,
+                        "icon":"Frictionless Transactions",
+                        "src":Upgradation
                     },
                     {
-                        "icon":"",
-                        "src":Upgradation
+                        "icon":"Interoperable",
+                        "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Secure",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"Strong & Fast",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
-                        "src":Migrations
+                        "icon":"Scalable",
+                        "src":PWA
                     },
                     {
-                        "icon":"",
-                        "src":PWA
-                    }
+                        "icon":"Pluggable Consensus",
+                        "src":Migrations
+                    },
                 ]
             }
         ],
@@ -19530,41 +11340,33 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"R3 Corda Blockchain Development Services"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Smart Contracts",
+                        "text" :"We have a robust experience in developing smart contracts for varied clients. We avail high-end smart contracts that target JavaScript and JVM. Our developers provide unrivaled solutions that meet your specific business needs.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"R3 Corda App Consulting",
+                        "text":"Our Corda Blockchain development company can provide all strategic support and advice on the implementation of R3 Corda according to your business needs. We evaluate your business requirements to identify the scope of Corda development for your aspired business solution."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"UI Design",
+                        "text":"Our user interface designers are fully conversant with the Blockchain protocols. They make sure to implement the industry standards when it comes to designing high fidelity and low fidelity designs and wireframes for crafting UIs for your Blockchain application."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Custom Cord App",
+                        "text":"We help our clients in launching Corda nodes as well as help in permissioning smart contracts to create a tailored CordApp. With the use of permissioning, we provide clients with a custom app that would run on both public and private networks."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Regulated Tokens Development",
+                        "text":"R3 Corda has the nature of supporting the token economy in a secure and regulated manner. At Sparx IT Solutions, we can create regulated and highly secure tokens for startups and enterprises that make raising funds easier, secure, and smoother."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"CorDapp Development",
+                        "text":"Being a top R3 Corda app development company, we have proficient developers in our team who can create secure and feature-rich distributed applications that would run on the R Corda platform. We take care of on-chain/off-chain data, microservices, DB requirements, etc."
+                    },                
                 ]
             }
         ],
@@ -19572,35 +11374,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"R3 Corda Blockchain Development",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Thorough Testing",
+                        "text":"Our team follows an extreme testing procedure before delivering any blockchain project to ensure to provide quality solutions to clients.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"24/7 Support",
+                        "text":"We are ready to support you as per your time zone. Time suitability is not an issue with us as we serve our customers in all timezones.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Optimization",
+                        "text":"We analyze your business model to optimize the performance and expense to maximize efficiency with optimized architecture.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Agile Development",
+                        "text":"Our R3 Corda application development Company works with the agile development methodology to build Ethereum solutions within the stipulated time frame.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Skilled Developers",
+                        "text":"We have a team of professional R3 Corda developers who have the right skill set to deliver competitive solutions.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -19611,59 +11413,24 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"R3 Corda Blockchain Development",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Extended App Protection",
+                        "text":"We integrate the best security features into every R3 Corda app we develop and provide extended protection to projects we deliver. We also take care of any drawbacks during the deployment of your app solution.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Full-Cycle Development",
+                        "text":"At Sparx IT Solutions, we provide end-to-end R3 Corda blockchain development services to our clients and deliver unparalleled solutions. We keep ourselves in sync with our clients and incorporate changes outlined by them.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Competitive Pricing",
+                        "text":"Since our inception, we have been a cost-efficient service provider delivering a myriad of web and app solutions at competitive prices. Our R3 Corda blockchain development services are also competitively priced.",
                         "src":ExcellentUIUX
                     },              
                 ]
@@ -19672,41 +11439,41 @@ const jsonData=[
     },
 
     {
-        "pathname":"",
+        "pathname":"/technologies/EOS",
         "banner":[
             {
-                "mainHeading"  : "",
+                "mainHeading"  : "EOS BLOCKCHAIN DEVELOPMENT COMPANY",
                 "heading":{
-                    "text1" :"",
-                    "text2" :"",
-                    "text3" :"Services"
+                    "text1" :"Offering User-Oriented",
+                    "text2" :"EOS Blockchain",
+                    "text3" :"Development Services With Quality Assurance"
                 },
-                "descritption" : "",
+                "descritption" : "Our Blockchain experts are adept at utilizing smart contracts and R3 Corda to develop power-packed FinTech solutions for regulated financial entities that offer contract binding, peer-to-peer transactions, and asset exchange. As a leading Corda Blockchain development company, we provide an unbeatable R3 Corda development service to build complex solutions and fulfill your business objectives.",
                "icons":[
                     {
-                        "icon":"",
-                        "src":ResponsiveBanner,
+                        "icon":"Innovative Smart Contracts",
+                        "src":Upgradation
                     },
                     {
-                        "icon":"",
-                        "src":Upgradation
+                        "icon":"Easy Upgrades",
+                        "src":ResponsiveBanner,
                     },
                     {
-                        "icon":"",
+                        "icon":"Secure",
                         "src":Security,
                     },
                     {
-                        "icon":"",
+                        "icon":"Strong & Fast",
                         "src":MaintenanceBanner,
                     },
                     {
-                        "icon":"",
-                        "src":Migrations
+                        "icon":"Scalable",
+                        "src":PWA
                     },
                     {
-                        "icon":"",
-                        "src":PWA
-                    }
+                        "icon":"Bug Recovery",
+                        "src":Migrations
+                    },
                 ]
             }
         ],
@@ -19714,41 +11481,33 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"We Deliver Comprehensive",
-                    "text2":""
+                    "text2":"EOS Blockchain Development Services"
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text" :"",
-                    },
-                    {
-                        "title":"",
-                        "text":""
-                    },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Smart Contracts Development",
+                        "text" :"Through our smart contract development service, we create, test, and deploy smart contracts on varied blockchain platforms including EOS. We also help clients to choose the perfect blockchain platforms that are suitable for their businesses.",
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"EOS DApp Development",
+                        "text":"We are an EOS blockchain development service provider that has full-scale expertise in the EOS blockchain platform. With our expertise, we can develop efficient and robust decentralized applications along with powerful smart contract functionality. We build the perfect DApp solutions for you."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Smart Contracts Audit",
+                        "text":"Our apt smart contract auditors have carefully compiled a checklist of common security flaws and mistakes that might occur with EOS smart contracts. With their experience, our smart contract auditors perform auditing thoroughly to ensure the minimization of risks."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"Token Issuance Development",
+                        "text":"With our specialized services in blockchain development with varied platforms including EOS, we design airdrop programs, custom bounty programs, and tokens on EOS. With our tailored solutions, clients can easily issue tokens and run bounty programs."
                     },
                     {
-                        "title":"",
-                        "text":""
+                        "title":"EOS Consulting",
+                        "text":"Our EOS blockchain development company not only delivers exquisite solutions, but we also provide effective consultation. Our proficient EOS blockchain consultants can analyze your business to find the right solutions & give you recommendations for leveraging the EOS blockchain technology."
                     },
                     {
-                        "title":"",
-                        "text":""
-                    }                
+                        "title":"Wallets & Exchange Development",
+                        "text":"We can create a customized and scalable decentralized exchange platform according to your specific business needs. Our developers can also create multifaceted wallets that will allow users to store multiple currencies and transact with other exchanges."
+                    },                
                 ]
             }
         ],
@@ -19756,35 +11515,35 @@ const jsonData=[
             {   
                 "subheading":{
                     "text1":"How Choosing Us As Your",
-                    "text2":"",
+                    "text2":"EOS Blockchain Development",
                     "text3":"Company will",
                     "text4":"Benefit",
                     "text5":"you?",
                 },
                 "cardBoxData":[
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Thorough Testing",
+                        "text":"Our team follows an extreme testing procedure before delivering any blockchain project to ensure to provide quality solutions to clients.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"24/7 Support",
+                        "text":"We are ready to support you as per your time zone. Time suitability is not an issue with us as we serve our customers in all timezones.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Optimization",
+                        "text":"We analyze your business model to optimize the performance and expense to maximize efficiency with optimized architecture.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Agile Development",
+                        "text":"Our EOS Blockchain application development Company works with the agile development methodology to build Ethereum solutions within the stipulated time frame.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Skilled Developers",
+                        "text":"We have a team of professional EOS Blockchain developers who have the right skill set to deliver competitive solutions.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -19795,59 +11554,24 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":"",
+                    "text3":"EOS Blockchain Development",
                     "text4":"Services",
                     "text5":"?",
-                },
-                "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },              
-                ]
-            }
-        ],
-        "designProcess":[
-            {   
-                "subheading":{
-                    "text1":"",
-                    "text2":"",
                 },
                 "cardBoxData":[
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
-                    {
-                        "title":"",
-                        "text":"",
-                        "src":ExcellentUIUX
-                    },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Extended App Protection",
+                        "text":"We integrate the best security features into every EOS Blockchain app we develop and provide extended protection to projects we deliver. We also take care of any drawbacks during the deployment of your app solution.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Full-Cycle Development",
+                        "text":"At Sparx IT Solutions, we provide end-to-end EOS Blockchain development services to our clients and deliver unparalleled solutions. We keep ourselves in sync with our clients and incorporate changes outlined by them.",
                         "src":ExcellentUIUX
                     },
                     {
-                        "title":"",
-                        "text":"",
+                        "title":"Competitive Pricing",
+                        "text":"Since our inception, we have been a cost-efficient service provider delivering a myriad of web and app solutions at competitive prices. Our EOS Blockchain development services are also competitively priced.",
                         "src":ExcellentUIUX
                     },              
                 ]
