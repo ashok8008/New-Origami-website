@@ -887,11 +887,11 @@ const jsonData=[
                     },
                     {
                         "title":"Outcome Focused",
-                        "text":"Whether you want to establish an online presence from scratch or branch out its expansion on multiple platforms, Sparx IT Solutions will render an efficient cross platform app development that fits in your budget."
+                        "text":"Whether you want to establish an online presence from scratch or branch out its expansion on multiple platforms, eORIGAMI Software Private Limited will render an efficient cross platform app development that fits in your budget."
                     },
                     {
                         "title":"Competing Pricing",
-                        "text":"Whether you want to establish an online presence from scratch or branch out its expansion on multiple platforms, Sparx IT Solutions will render an efficient Hybrid application that fits in your budget."
+                        "text":"Whether you want to establish an online presence from scratch or branch out its expansion on multiple platforms, eORIGAMI Software Private Limited will render an efficient Hybrid application that fits in your budget."
                     },              
                 ]
             }
@@ -966,7 +966,7 @@ const jsonData=[
                     },
                     {
                         "title":"Custom App Development",
-                        "text":"We take pride in delivering bespoke solutions to fulfill the expectations of our clients. Sparx IT Solutions offers customized wearable applications that run seamlessly on any wearable device like glasses, smartwatches, bands, and more."
+                        "text":"We take pride in delivering bespoke solutions to fulfill the expectations of our clients. eORIGAMI Software Private Limited offers customized wearable applications that run seamlessly on any wearable device like glasses, smartwatches, bands, and more."
                     },
                     {
                         "title":"Integration",
@@ -1329,7 +1329,7 @@ const jsonData=[
                     },
                     {
                         "title":"Wireframe & Prototype Design",
-                        "text":"At Sparx IT Solutions, we help startups, small, and large-scale businesses in wireframing as well as to create interactive prototypes. We can build quality and high-fidelity prototypes and wireframes that envision your brand in the most effective way. With a mobile-friendly and quality layout, we make sure that the result complies with your business requirements perfectly and showcases your true brand value."
+                        "text":"At eORIGAMI Software Private Limited, we help startups, small, and large-scale businesses in wireframing as well as to create interactive prototypes. We can build quality and high-fidelity prototypes and wireframes that envision your brand in the most effective way. With a mobile-friendly and quality layout, we make sure that the result complies with your business requirements perfectly and showcases your true brand value."
                     },              
                 ]
             }
@@ -1585,7 +1585,7 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"In-House Standards",
-                        "text":"Our user interface design team works based on a set of rules and standards that we have created for all our in-house teams to ensure on-time delivery and high-quality products. At Sparx IT Solutions, we perform full-scale design reviews, use design systems, utilize most impactful tools and practices, as well as train our designers. So, you will work with a team that is well-organized and efficient."
+                        "text":"Our user interface design team works based on a set of rules and standards that we have created for all our in-house teams to ensure on-time delivery and high-quality products. At eORIGAMI Software Private Limited, we perform full-scale design reviews, use design systems, utilize most impactful tools and practices, as well as train our designers. So, you will work with a team that is well-organized and efficient."
                     },
                     {
                         "title":"A Decade Of Experience",
@@ -2020,7 +2020,7 @@ const jsonData=[
                     },
                     {
                         "title":"Well-equipped Testing Lab",
-                        "text":"Sparx IT Solutions has a well-equipped testing facility with testing tools, emulators, simulators, & real devices."
+                        "text":"eORIGAMI Software Private Limited has a well-equipped testing facility with testing tools, emulators, simulators, & real devices."
                     },
                     {
                         "title":"Experienced Developers",
@@ -2070,7 +2070,7 @@ const jsonData=[
                     "text2" :"eCommerce",
                     "text3" :"App Development Services"
                 },
-                "descritption" : "At Origami Softwares, we plan, strategize, and create the best eCommerce mobile apps that provide an engaging and captivating shopping experience. We have an accomplished team of highly skilled and experienced eCommerce mobile app developers. Whether you want an exclusive Android or iOS app or looking for a hybrid or cross-platform mobile app, you can confidently partner with Sparx IT Solutions to get an assured quality solution.",
+                "descritption" : "At Origami Softwares, we plan, strategize, and create the best eCommerce mobile apps that provide an engaging and captivating shopping experience. We have an accomplished team of highly skilled and experienced eCommerce mobile app developers. Whether you want an exclusive Android or iOS app or looking for a hybrid or cross-platform mobile app, you can confidently partner with eORIGAMI Software Private Limited to get an assured quality solution.",
                 "icons":{
                     "iconTitle1":"Native/Hybrid App",
                     "iconTitle2":"Push Notifications",
@@ -2163,7 +2163,7 @@ const jsonData=[
                     },
                     {
                         "title":"User-friendly",
-                        "text":"An app with user-friendly features is more favorable to users than an app with an appealing design but fuzzy navigation. At Sparx IT Solutions, we will build an eCommerce mobile application that will have easy navigation, extensive features, and functionalities providing alluring user experience.",
+                        "text":"An app with user-friendly features is more favorable to users than an app with an appealing design but fuzzy navigation. At eORIGAMI Software Private Limited, we will build an eCommerce mobile application that will have easy navigation, extensive features, and functionalities providing alluring user experience.",
                         "src":SuperEasyNavigation
                     },              
                 ]
@@ -2311,7 +2311,7 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"Decades Of Experience",
-                        "text":"Sparx IT Solutions is committed to offering quality eCommerce development services. We have a team of highly experienced and certified developers who understand the client’s requirements. We provide full-fledged ecommerce services across the globe..",
+                        "text":"eORIGAMI Software Private Limited is committed to offering quality eCommerce development services. We have a team of highly experienced and certified developers who understand the client’s requirements. We provide full-fledged ecommerce services across the globe..",
                         "src":SuperEasyNavigation
                     },
                     {
@@ -2458,12 +2458,12 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"Efficient Project Management",
-                        "text":"The accomplishment of a project is tough to achieve but with Sparx IT Solutions this will be a seamless process. Our B2B eCommerce website development company works on the clients’ requirements. From planning the project's budget to delivering high-quality results, we are proficient in everything.",
+                        "text":"The accomplishment of a project is tough to achieve but with eORIGAMI Software Private Limited this will be a seamless process. Our B2B eCommerce website development company works on the clients’ requirements. From planning the project's budget to delivering high-quality results, we are proficient in everything.",
                         "src":SuperEasyNavigation
                     },
                     {
                         "title":"Transparency",
-                        "text":"For Sparx IT Solutions, the client’s needs are the utmost priority. We involve our clients as active participants during the process of fabricating the website. We make sure that there is a transparent communication between our clients from the inception till deployment.",
+                        "text":"For eORIGAMI Software Private Limited, the client’s needs are the utmost priority. We involve our clients as active participants during the process of fabricating the website. We make sure that there is a transparent communication between our clients from the inception till deployment.",
                         "src":SuperEasyNavigation
                     },
                     {
@@ -2707,11 +2707,11 @@ const jsonData=[
                     },
                     {
                         "title":"Intuitive Designing",
-                        "text":"Sparx IT Solutions has a team of experienced web & graphics designers who can perform WooCommerce Theme Development. They will make alluring designs including logos, objects, and other creative aspects that would look appealing to the visitors."
+                        "text":"eORIGAMI Software Private Limited has a team of experienced web & graphics designers who can perform WooCommerce Theme Development. They will make alluring designs including logos, objects, and other creative aspects that would look appealing to the visitors."
                     },
                     {
                         "title":"Responsive Website",
-                        "text":"We can develop a WooCommerce website that works on mobile devices as flawless as it functions on the desktop website. Sparx IT Solutions has experienced professionals who can create responsive websites that are platform-independent."
+                        "text":"We can develop a WooCommerce website that works on mobile devices as flawless as it functions on the desktop website. eORIGAMI Software Private Limited has experienced professionals who can create responsive websites that are platform-independent."
                     },
                     {
                         "title":"WooCommerce Migration",
@@ -2719,7 +2719,7 @@ const jsonData=[
                     },
                     {
                         "title":"Integration & Upgradation",
-                        "text":"Sparx IT Solutions can help you with the integration of the latest technology to make sure you are not lacking behind. We can upgrade your existing online shopping website with exceptional features."
+                        "text":"eORIGAMI Software Private Limited can help you with the integration of the latest technology to make sure you are not lacking behind. We can upgrade your existing online shopping website with exceptional features."
                     },                
                 ]
             }
@@ -2784,7 +2784,7 @@ const jsonData=[
                     },
                     {
                         "title":"Experienced Developers",
-                        "text":"Every professional working with Sparx IT Solutions has extensive experience in their respective specialization. Our team of experts will understand every nuance of WooCommerce and the requirements of every client.",
+                        "text":"Every professional working with eORIGAMI Software Private Limited has extensive experience in their respective specialization. Our team of experts will understand every nuance of WooCommerce and the requirements of every client.",
                         "src":ExcellentUIUX
                     },              
                 ]
@@ -3015,7 +3015,7 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"Custom PrestaShop Development",
-                        "text" :"Every business has unique requirements, similarly, your target audience has different expectations. At Sparx IT Solutions, we ensure to create an e-commerce store that fulfills your customers’ expectations and business needs with custom PrestaShop web development. We provide a tailored website with bespoken functionality. ",
+                        "text" :"Every business has unique requirements, similarly, your target audience has different expectations. At eORIGAMI Software Private Limited, we ensure to create an e-commerce store that fulfills your customers’ expectations and business needs with custom PrestaShop web development. We provide a tailored website with bespoken functionality. ",
                     },
                     {
                         "title":"PrestaShop Module Development",
@@ -3153,7 +3153,7 @@ const jsonData=[
                     "text2" :" IoT App Development",
                     "text3" :"Services",
                 },
-                "descritption" : "A full-stack IoT company, Sparx IT Solutions offers extensive services that would help customers accelerate the business processes through IoT solutions and connectivity. As a leading IoT development company, we aim to deliver a perfectly-architected IoT application to streamline their operations.",
+                "descritption" : "A full-stack IoT company, eORIGAMI Software Private Limited offers extensive services that would help customers accelerate the business processes through IoT solutions and connectivity. As a leading IoT development company, we aim to deliver a perfectly-architected IoT application to streamline their operations.",
                 "icons":[
                     {
                         "icon":"IoT Consulting",
@@ -3228,7 +3228,7 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"Software Architecture",
-                        "text":"The architecture Sparx IT Solutions will create will be a smartphone-centric, hub-centric, cloud-centric architecture.",
+                        "text":"The architecture eORIGAMI Software Private Limited will create will be a smartphone-centric, hub-centric, cloud-centric architecture.",
                         "src":ExcellentUIUX
                     },
                     {
@@ -3294,7 +3294,7 @@ const jsonData=[
                     "text2" :"Artificial Intelligence",
                     "text3" :"Development Services"
                 },
-                "descritption" : "Sparx IT Solutions leverages the power of AI to deliver high-end digital solutions. We possess expertise in Computer vision, Machine Learning, and Natural Language Processing. Our team converts your AI vision into reality and provides unrivaled AI development services.",
+                "descritption" : "eORIGAMI Software Private Limited leverages the power of AI to deliver high-end digital solutions. We possess expertise in Computer vision, Machine Learning, and Natural Language Processing. Our team converts your AI vision into reality and provides unrivaled AI development services.",
                 "icons":[
                     {
                         "icon":"Machine Learning",
@@ -3407,7 +3407,7 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"Seamless Communication",
-                        "text":"Sparx IT Solutions keeps clients on the same page as we are on a project. Communication prevents confusion that might hamper good work progress. As a reliable AI app development company, we keep ourselves updated with the client’s requirements and approvals.",
+                        "text":"eORIGAMI Software Private Limited keeps clients on the same page as we are on a project. Communication prevents confusion that might hamper good work progress. As a reliable AI app development company, we keep ourselves updated with the client’s requirements and approvals.",
                         "src":ExcellentUIUX
                     },
                     {
@@ -3417,7 +3417,7 @@ const jsonData=[
                     },
                     {
                         "title":"Customization & Integration",
-                        "text":"Sparx IT Solutions is a leading AI application development company, we assure you to deliver optimum AI solutions for your project. We render hassle-free support & maintenance services to resolve their issue. We work round-the-clock to provide immediate assistance.",
+                        "text":"eORIGAMI Software Private Limited is a leading AI application development company, we assure you to deliver optimum AI solutions for your project. We render hassle-free support & maintenance services to resolve their issue. We work round-the-clock to provide immediate assistance.",
                         "src":ExcellentUIUX
                     },              
                 ]
@@ -3435,7 +3435,7 @@ const jsonData=[
                     "text2" :"Chatbot Development",
                     "text3" :"Services"
                 },
-                "descritption" : "At Sparx IT Solutions, we offer unmatched chatbot development solutions that help your company in streamlining business interactions. We can build smart and sophisticated chatbots for a variety of industry verticals like eCommerce, healthcare, travel, etc.",
+                "descritption" : "At eORIGAMI Software Private Limited, we offer unmatched chatbot development solutions that help your company in streamlining business interactions. We can build smart and sophisticated chatbots for a variety of industry verticals like eCommerce, healthcare, travel, etc.",
                 "icons":[
                     {
                         "icon":"Superior UI/UX",
@@ -3576,7 +3576,7 @@ const jsonData=[
                     "text2" :"AR App Development",
                     "text3" :"services Providing Digital Transformation"
                 },
-                "descritption" : "Sparx IT Solutions is a best Blockchain Development Company offering proficient blockchain development services enhancing the potential of enterprise business applications, and blockchain based business networks.",
+                "descritption" : "eORIGAMI Software Private Limited is a best Blockchain Development Company offering proficient blockchain development services enhancing the potential of enterprise business applications, and blockchain based business networks.",
                 "icons":[
                     {
                         "icon":"Motion Tracking",
@@ -3699,7 +3699,7 @@ const jsonData=[
                     },
                     {
                         "title":"Competitive Prices",
-                        "text":"We offer top-notch Augmented Reality Apps for Android and iOS at competitive prices. Sparx IT Solutions can deliver solutions that fetch optimal returns and make investments of our customers worthwhile.",
+                        "text":"We offer top-notch Augmented Reality Apps for Android and iOS at competitive prices. eORIGAMI Software Private Limited can deliver solutions that fetch optimal returns and make investments of our customers worthwhile.",
                         "src":ExcellentUIUX
                     },              
                 ]
@@ -3717,7 +3717,7 @@ const jsonData=[
                     "text2" :"VR App Development",
                     "text3" :"services Providing Digital Transformation"
                 },
-                "descritption" : "Sparx IT Solutions is a most recommended Virtual Reality Development Company across the globe. We ensure to enhance the experience of the smartphone with our mesmerizing VR solutions. Our experienced professionals with the talent of embracing innovations to deliver captative VR applications which would be adding value to the client’s business.",
+                "descritption" : "eORIGAMI Software Private Limited is a most recommended Virtual Reality Development Company across the globe. We ensure to enhance the experience of the smartphone with our mesmerizing VR solutions. Our experienced professionals with the talent of embracing innovations to deliver captative VR applications which would be adding value to the client’s business.",
                 "icons":[
                     {
                         "icon":"Motions Simulations",
@@ -3771,7 +3771,7 @@ const jsonData=[
                     },
                     {
                         "title":"Visualization Solutions",
-                        "text":"Profound experts of Sparx IT Solutions can provide visualization solutions that are both creative & engaging and which will help extend a simple projection system to a sophisticated 3D projection technology. This innovative involvement of VR will deliver data analysis, presentation, control of operations from a captative new vision."
+                        "text":"Profound experts of eORIGAMI Software Private Limited can provide visualization solutions that are both creative & engaging and which will help extend a simple projection system to a sophisticated 3D projection technology. This innovative involvement of VR will deliver data analysis, presentation, control of operations from a captative new vision."
                     },                
                 ]
             }
@@ -3826,7 +3826,7 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"Agile Methodology",
-                        "text":"As one of the Top Virtual Reality Development Company, we are prudent to work with an agile methodology in order to deliver optimum solutions within the predefined timelines. Sparx IT Solutions offers nothing but the most efficient development practices.",
+                        "text":"As one of the Top Virtual Reality Development Company, we are prudent to work with an agile methodology in order to deliver optimum solutions within the predefined timelines. eORIGAMI Software Private Limited offers nothing but the most efficient development practices.",
                         "src":ExcellentUIUX
                     },
                     {
@@ -3854,7 +3854,7 @@ const jsonData=[
                     "text2" :"Blockchain Development",
                     "text3" :"Services"
                 },
-                "descritption" : "Sparx IT Solutions is a best Blockchain Development Company offering proficient blockchain development services enhancing the potential of enterprise business applications, and blockchain based business networks. We have strong command over a variety of advanced technologies and protocols to develop reliable blockchain-based applications. Our developers are master-minds of the blockchain revolution with great decades of experience in blockchain development.",
+                "descritption" : "eORIGAMI Software Private Limited is a best Blockchain Development Company offering proficient blockchain development services enhancing the potential of enterprise business applications, and blockchain based business networks. We have strong command over a variety of advanced technologies and protocols to develop reliable blockchain-based applications. Our developers are master-minds of the blockchain revolution with great decades of experience in blockchain development.",
                 "icons":[
                     {
                         "icon":"Ethereum",
@@ -3995,7 +3995,7 @@ const jsonData=[
                     "text2" :"Blockchain App Development",
                     "text3" :"Services"
                 },
-                "descritption" : "Sparx IT Solutions offers full-scale Blockchain development services at a cost-efficient price. We have expertise in a variety of technologies like Objective-C, Python, Solidity, etc. We choose the right one based on specific business goals and projects. Having expertise in varied blockchain platforms and technologies, we are capable of delivering custom solutions based on specific requirements of a business.",
+                "descritption" : "eORIGAMI Software Private Limited offers full-scale Blockchain development services at a cost-efficient price. We have expertise in a variety of technologies like Objective-C, Python, Solidity, etc. We choose the right one based on specific business goals and projects. Having expertise in varied blockchain platforms and technologies, we are capable of delivering custom solutions based on specific requirements of a business.",
                 "icons":[
                     {
                         "icon":"Strategy & Consulting",
@@ -4136,7 +4136,7 @@ const jsonData=[
                     "text2" :"Smart Contracts Development & Audit",
                     "text3" :"Services"
                 },
-                "descritption" : "Sparx IT Solutions is an eminent name in the realm of smart contract development and auditing. We are committed to developing unrivaled smart contracts on famous blockchain platforms such as Ethereum, TRON, EOS, Chaincode, and so on.",
+                "descritption" : "eORIGAMI Software Private Limited is an eminent name in the realm of smart contract development and auditing. We are committed to developing unrivaled smart contracts on famous blockchain platforms such as Ethereum, TRON, EOS, Chaincode, and so on.",
                 "icons":[
                     {
                         "icon":"Automation",
@@ -4276,7 +4276,7 @@ const jsonData=[
                     "text1" :"Providing Growth to Businesses With",
                     "text2" :"Custom DApp Services"
                 },
-                "descritption" : "Sparx IT Solutions is rendering peerless DApp development services to global clients. We are committed to building powerful, scalable, and extensible decentralized apps by using cutting-edge technology.",
+                "descritption" : "eORIGAMI Software Private Limited is rendering peerless DApp development services to global clients. We are committed to building powerful, scalable, and extensible decentralized apps by using cutting-edge technology.",
                 "icons":[
                     {
                         "icon":"DApp Porting",
@@ -4429,7 +4429,7 @@ const jsonData=[
                     "text2" :"Enterprise Blockchain Development",
                     "text3" :"Services"
                 },
-                "descritption" : "Sparx IT Solutions is a recognized enterprise Blockchain development firm that has been serving businesses in various industries. We deliver secure and robust products or solutions by harnessing the potential of this advanced technology.",
+                "descritption" : "eORIGAMI Software Private Limited is a recognized enterprise Blockchain development firm that has been serving businesses in various industries. We deliver secure and robust products or solutions by harnessing the potential of this advanced technology.",
                 "icons":[
                     {
                         "icon":"Speed & Efficiency",
@@ -4487,7 +4487,7 @@ const jsonData=[
                     },
                     {
                         "title":"Smart Contract Audit",
-                        "text":"At Sparx IT Solutions, we offer high-grade smart contract validation services to businesses. We also verify that smart contract functions as intended by vigorously auditing it and offer valuable feedback for the issues."
+                        "text":"At eORIGAMI Software Private Limited, we offer high-grade smart contract validation services to businesses. We also verify that smart contract functions as intended by vigorously auditing it and offer valuable feedback for the issues."
                     },                
                 ]
             }
@@ -4570,7 +4570,7 @@ const jsonData=[
                     "text2" :"Cryptocurrency Wallet Development",
                     "text3" :"Services"
                 },
-                "descritption" : "At Sparx IT Solutions, we are committed to delivering secure storage and management of crypto for a longer span. Our crypto wallets have advanced payment integration solutions that provide flawless transaction facilities. We are the best-in-class Cryptocurrency Wallet App Development Company for all digital currencies transactions.",
+                "descritption" : "At eORIGAMI Software Private Limited, we are committed to delivering secure storage and management of crypto for a longer span. Our crypto wallets have advanced payment integration solutions that provide flawless transaction facilities. We are the best-in-class Cryptocurrency Wallet App Development Company for all digital currencies transactions.",
                 "icons":[
                     {
                         "icon":"Secure & Scalable",
@@ -4699,7 +4699,7 @@ const jsonData=[
                     "text2" :"Cryptocurrency Exchange Development",
                     "text3" :"Services"
                 },
-                "descritption" : "Sparx IT Solutions specializes in rendering fast, scalable, and robust cryptocurrency exchange software development solutions. We cater to diverse requirements with our customized solutions. This makes us a leading Cryptocurrency exchange development company.",
+                "descritption" : "eORIGAMI Software Private Limited specializes in rendering fast, scalable, and robust cryptocurrency exchange software development solutions. We cater to diverse requirements with our customized solutions. This makes us a leading Cryptocurrency exchange development company.",
                 "icons":[
                     {
                         "icon":"Robust Admin Panel",
@@ -4828,7 +4828,7 @@ const jsonData=[
                     "text2" :"Data Intelligence",
                     "text3" :"Services"
                 },
-                "descritption" : "Sparx IT Solutions is a highly preferred data intelligence company. We improve business outcomes by bringing together the right data, algorithms, and datasets from different resources. We allow organizations to unlock the value of their business information and turn it into a winning competitive asset. With the advanced experience in diverse fields, our developers help clients to make unstructured data a piece of meaningful information. We are honored to empower a new generation of the digital era and help businesses improve ROI with data intelligence.",
+                "descritption" : "eORIGAMI Software Private Limited is a highly preferred data intelligence company. We improve business outcomes by bringing together the right data, algorithms, and datasets from different resources. We allow organizations to unlock the value of their business information and turn it into a winning competitive asset. With the advanced experience in diverse fields, our developers help clients to make unstructured data a piece of meaningful information. We are honored to empower a new generation of the digital era and help businesses improve ROI with data intelligence.",
                 "icons":[
                     {
                         "icon":"Power BI",
@@ -4993,7 +4993,7 @@ const jsonData=[
                     "text2" :"Big Data",
                     "text3" :"Services"
                 },
-                "descritption" : "Sparx IT Solutions as a big data service provider have created tremendous history. Getting valuable information out of your data set is more important now than ever before. We offer both analytics-as-a-service and custom data as per your need to drive actionable business solutions. Our big data engineers are deeply involved in the development of the blueprint, strategy, and roadmaps with optimized operational requirements to maximize your business data investment. We are dedicated to empowering the data-driven intelligent workflow of your business.",
+                "descritption" : "eORIGAMI Software Private Limited as a big data service provider have created tremendous history. Getting valuable information out of your data set is more important now than ever before. We offer both analytics-as-a-service and custom data as per your need to drive actionable business solutions. Our big data engineers are deeply involved in the development of the blueprint, strategy, and roadmaps with optimized operational requirements to maximize your business data investment. We are dedicated to empowering the data-driven intelligent workflow of your business.",
                 "icons":[
                     {
                         "icon":"Data Processing",
@@ -5083,7 +5083,7 @@ const jsonData=[
                     },
                     {
                         "title":"Maximize Productivity",
-                        "text":"Sparx IT Solutions serves across multiple locations and focuses on product evaluation and performance benchmarks. Our agile methodology and efficient way of working is focused on maximum productivity of your business.",
+                        "text":"eORIGAMI Software Private Limited serves across multiple locations and focuses on product evaluation and performance benchmarks. Our agile methodology and efficient way of working is focused on maximum productivity of your business.",
                         "src":ExcellentUIUX
                     },
                     {
@@ -5134,7 +5134,7 @@ const jsonData=[
                     "text2" :"Business Intelligence",
                     "text3" :"Services & Analytics."
                 },
-                "descritption" : "Sparx IT Solutions is a well-known Business Intelligence Services Company worldwide. We offer a wide range of Business Intelligence and Analytics services that help you visualize data to foresee future opportunities and growth perspectives. We help businesses to enhance their decision-making processes with the rational interpretation of data. With our diverse range of enterprise business intelligence solutions, we aim to put data to work leveraging our advanced analytics skills and BI tools.",
+                "descritption" : "eORIGAMI Software Private Limited is a well-known Business Intelligence Services Company worldwide. We offer a wide range of Business Intelligence and Analytics services that help you visualize data to foresee future opportunities and growth perspectives. We help businesses to enhance their decision-making processes with the rational interpretation of data. With our diverse range of enterprise business intelligence solutions, we aim to put data to work leveraging our advanced analytics skills and BI tools.",
                "icons":[
                     {
                         "icon":"Risk Models",
@@ -5180,7 +5180,7 @@ const jsonData=[
                     },
                     {
                         "title":"Data Warehousing Service",
-                        "text":"No matter if you want data warehouse consulting, development, migration, or other data warehousing support, you can rely on Sparx IT Solutions for the best outcomes. We offer unrivaled data management services and help in dimensional modeling, ETL design/development, metadata and master data management, data mapping, and more."
+                        "text":"No matter if you want data warehouse consulting, development, migration, or other data warehousing support, you can rely on eORIGAMI Software Private Limited for the best outcomes. We offer unrivaled data management services and help in dimensional modeling, ETL design/development, metadata and master data management, data mapping, and more."
                     },
                     {
                         "title":"Data Migration Service",
@@ -5275,7 +5275,7 @@ const jsonData=[
                     "text2" :"Machine Learning",
                     "text3" :"Development Services"
                 },
-                "descritption" : "Machine Learning is the future of data modeling and data analysis. As an experienced Machine Learning development company, we help organizations drive breakthrough outcomes and improve operational efficiency. Sparx IT Solutions helps its clients to create future-ready ML-powered business solutions running on mathematical optimization, computational intelligence, pattern recognition, and other emerging technologies.",
+                "descritption" : "Machine Learning is the future of data modeling and data analysis. As an experienced Machine Learning development company, we help organizations drive breakthrough outcomes and improve operational efficiency. eORIGAMI Software Private Limited helps its clients to create future-ready ML-powered business solutions running on mathematical optimization, computational intelligence, pattern recognition, and other emerging technologies.",
                "icons":[
                     {
                         "icon":"Big data analysis",
@@ -5400,7 +5400,7 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"Extensive Domain Expertise",
-                        "text":"The AI developer at Sparx IT Solutions holds great knowledge and experience in catering to a wide array of industry domains. We have worked with numerous businesses working in different domains.",
+                        "text":"The AI developer at eORIGAMI Software Private Limited holds great knowledge and experience in catering to a wide array of industry domains. We have worked with numerous businesses working in different domains.",
                         "src":ExcellentUIUX
                     },
                     {
@@ -5428,7 +5428,7 @@ const jsonData=[
                     "text2" :"Data Mining",
                     "text3" :"Services"
                 },
-                "descritption" : "At Sparx IT Solutions, our certified and experienced analysts can assist you with overseeing and extract relevant information from raw data of any size in a convenient and financially savvy way. Our data mining experts adhere to the standard act of data integration, cleaning, selection, transformation, mining, post-processing, visualization, and all other guidelines of data mining by taking care of complex business issues. Our data mining company has a strong team of professionals that works with dedication to help you leverage data for getting a competitive advantage.",
+                "descritption" : "At eORIGAMI Software Private Limited, our certified and experienced analysts can assist you with overseeing and extract relevant information from raw data of any size in a convenient and financially savvy way. Our data mining experts adhere to the standard act of data integration, cleaning, selection, transformation, mining, post-processing, visualization, and all other guidelines of data mining by taking care of complex business issues. Our data mining company has a strong team of professionals that works with dedication to help you leverage data for getting a competitive advantage.",
                "icons":[
                     {
                         "icon":"e-Marketplace Data Mining",
@@ -5508,7 +5508,7 @@ const jsonData=[
                     },
                     {
                         "title":"Fast Analytics",
-                        "text":"Come aboard and visualize your data in a few seconds. Sparx IT Solutions is 10 to 100x faster than existing solutions.",
+                        "text":"Come aboard and visualize your data in a few seconds. eORIGAMI Software Private Limited is 10 to 100x faster than existing solutions.",
                         "src":ExcellentUIUX
                     },
                     {
@@ -5569,7 +5569,7 @@ const jsonData=[
                     "text2" :" Data Analysis",
                     "text3" :"Services"
                 },
-                "descritption" : "Sparx IT Solutions is a prominent Data analytics company. We specialize in advanced analytics tools and data analysis models to address the rapidly-changing demands of small or large organizations. Our highly experienced data scientists use business intelligence techniques for data analysis to assist entrepreneurs in taking the right decision. We focus on market-leading solutions for complex data issues that enable a competitive edge.",
+                "descritption" : "eORIGAMI Software Private Limited is a prominent Data analytics company. We specialize in advanced analytics tools and data analysis models to address the rapidly-changing demands of small or large organizations. Our highly experienced data scientists use business intelligence techniques for data analysis to assist entrepreneurs in taking the right decision. We focus on market-leading solutions for complex data issues that enable a competitive edge.",
                "icons":[
                     {
                         "icon":"Data Science",
@@ -5623,7 +5623,7 @@ const jsonData=[
                     },
                     {
                         "title":"Application and Infrastructure Optimization",
-                        "text":"Sparx IT Solutions brings infrastructure management and technical support altogether to serve our clients' quick resolution and unified support. Our approach includes the combination of data center management, infrastructure management, and IT application management that leads to proactive and managed infrastructure and technical support."
+                        "text":"eORIGAMI Software Private Limited brings infrastructure management and technical support altogether to serve our clients' quick resolution and unified support. Our approach includes the combination of data center management, infrastructure management, and IT application management that leads to proactive and managed infrastructure and technical support."
                     },
                     {
                         "title":"Test Engineering",
@@ -5710,7 +5710,7 @@ const jsonData=[
                     "text2" :"Data Consulting",
                     "text3" :"Services Help You Get Profitable Insights"
                 },
-                "descritption" : "Sparx IT Solutions offers the best data consultancy solutions to meet your leadership requirement in the industry. Using the wide array of the latest technologies and software we provide our clients with industry-leading support. Our professional team of data consultants has adequate experience in machine learning and the automotive industry. We use the most advanced features of data security to keep your highly confidential data safe and secure.",
+                "descritption" : "eORIGAMI Software Private Limited offers the best data consultancy solutions to meet your leadership requirement in the industry. Using the wide array of the latest technologies and software we provide our clients with industry-leading support. Our professional team of data consultants has adequate experience in machine learning and the automotive industry. We use the most advanced features of data security to keep your highly confidential data safe and secure.",
                "icons":[
                     {
                         "icon":"Business Intelligence",
@@ -5828,7 +5828,7 @@ const jsonData=[
                     },
                     {
                         "title":"Smart Work Approach",
-                        "text":"At Sparx IT Solutions we believe in smart work instead of hard work. We follow a result oriented-approach without taking much time. We understand our responsibility for delivering the requirements of the customer promptly.",
+                        "text":"At eORIGAMI Software Private Limited we believe in smart work instead of hard work. We follow a result oriented-approach without taking much time. We understand our responsibility for delivering the requirements of the customer promptly.",
                         "src":ExcellentUIUX
                     },
                     {
@@ -5851,7 +5851,7 @@ const jsonData=[
                     "text2" :"Web Data Extraction",
                     "text3" :"Services"
                 },
-                "descritption" : "Sparx IT Solutions helps you extract your valuable website data to get structured information and critical insights that will fuel your decisions. Our web scraping experts utilize the best tools and technologies to derive essential website data from any website to provide you with accurate information. No need for coding, servers, or any expensive software, you can share your data extraction needs and we will provide the right services. As a leading web scraping company, we utilize the best methods for data extraction and provide accurate insights.",
+                "descritption" : "eORIGAMI Software Private Limited helps you extract your valuable website data to get structured information and critical insights that will fuel your decisions. Our web scraping experts utilize the best tools and technologies to derive essential website data from any website to provide you with accurate information. No need for coding, servers, or any expensive software, you can share your data extraction needs and we will provide the right services. As a leading web scraping company, we utilize the best methods for data extraction and provide accurate insights.",
                "icons":[
                     {
                         "icon":"Robust Crawling",
@@ -5974,7 +5974,7 @@ const jsonData=[
                     },
                     {
                         "title":"Proven Approach",
-                        "text":"Having Sparx IT Solutions as your web scraping service provider enables you to get top-of-the-line services modeled to fit all your expectations securely and timely. Our web data extraction experts use machine learning and work with the best approach to provide cost-efficient and accurate information.",
+                        "text":"Having eORIGAMI Software Private Limited as your web scraping service provider enables you to get top-of-the-line services modeled to fit all your expectations securely and timely. Our web data extraction experts use machine learning and work with the best approach to provide cost-efficient and accurate information.",
                         "src":ExcellentUIUX
                     },              
                 ]
@@ -5992,7 +5992,7 @@ const jsonData=[
                     "text2" :"BI Consulting",
                     "text3" :"Services"
                 },
-                "descritption" : "At Sparx IT Solutions we understand the value of data and the importance of data-driven decisions in an organization’s growth and prosperity. Thus we leverage Microsoft’s Power BI business analytics tool to accumulate, analyze, and present data through interactive reports and appealing visuals. By employing this powerful analytics tool, businesses can uncover valuable insights and boost their profitability. ",
+                "descritption" : "At eORIGAMI Software Private Limited we understand the value of data and the importance of data-driven decisions in an organization’s growth and prosperity. Thus we leverage Microsoft’s Power BI business analytics tool to accumulate, analyze, and present data through interactive reports and appealing visuals. By employing this powerful analytics tool, businesses can uncover valuable insights and boost their profitability. ",
                "icons":[
                     {
                         "icon":"Dashboards & Reports",
@@ -6171,7 +6171,7 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"Tableau Project Planning",
-                        "text" :"An important step in the data visualization process is to define a roadmap to complete that process seamlessly. Devising a roadmap can be daunting without any help or consultation. We at Sparx IT Solutions, help in your Tableau project planning and defining your business objectives and we will deliver delightful results.",
+                        "text" :"An important step in the data visualization process is to define a roadmap to complete that process seamlessly. Devising a roadmap can be daunting without any help or consultation. We at eORIGAMI Software Private Limited, help in your Tableau project planning and defining your business objectives and we will deliver delightful results.",
                     },
                     {
                         "title":"Tableau Server Consulting",
@@ -6274,7 +6274,7 @@ const jsonData=[
                     "text2" :"Web Compliance",
                     "text3" :"Services To Make Your Site Risk-Free"
                 },
-                "descritption" : "Does your website or app not fulfill varied compliances and regulations? If yes, it’s taking your business at stake. You can save your business from being sued by opting for website and app compliance services from Sparx IT Solutions. We provide end-to-end consultation, support, and technical assistance to make your website or app comply with ADA, Section 508, HIPAA, GDPR, and other regulations. We assess your site or app and implement the right solutions to fulfill varied compliances.",
+                "descritption" : "Does your website or app not fulfill varied compliances and regulations? If yes, it’s taking your business at stake. You can save your business from being sued by opting for website and app compliance services from eORIGAMI Software Private Limited. We provide end-to-end consultation, support, and technical assistance to make your website or app comply with ADA, Section 508, HIPAA, GDPR, and other regulations. We assess your site or app and implement the right solutions to fulfill varied compliances.",
                "icons":[
                     {
                         "icon":"Web Form Audit",
@@ -6312,7 +6312,7 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"GDPR & CCPA Compliance",
-                        "text" :"With the laws like GDPR and CCPA, emerging as a legal protector of users’ personally identifiable information, making your site comply with these regulations is a must. At Sparx IT Solutions, we help you build the right strategy and the checklist of these compliances.",
+                        "text" :"With the laws like GDPR and CCPA, emerging as a legal protector of users’ personally identifiable information, making your site comply with these regulations is a must. At eORIGAMI Software Private Limited, we help you build the right strategy and the checklist of these compliances.",
                     },
                     {
                         "title":"HIPAA Compliance",
@@ -6320,7 +6320,7 @@ const jsonData=[
                     },
                     {
                         "title":"Accessibility Compliance",
-                        "text":"At Sparx IT Solutions, we help you build a highly accessible website or app that meets varied accessibility standards like Section 508, WCAG 2.1 AA, ADA, etc to make sure that your website or app is completely user-friendly for all kinds of users."
+                        "text":"At eORIGAMI Software Private Limited, we help you build a highly accessible website or app that meets varied accessibility standards like Section 508, WCAG 2.1 AA, ADA, etc to make sure that your website or app is completely user-friendly for all kinds of users."
                     },                
                 ]
             }
@@ -6403,7 +6403,7 @@ const jsonData=[
                     "text2" :"GDPR Compliance Consulting",
                     "text3" :"Services For Your Website Or App"
                 },
-                "descritption" : "Sparx IT Solutions helps you make your website, app, or product General Data Protection Regulation (GDPR) compliant. Our GDPR services have been designed to strengthen the data security of users or customers across Europe and help reshape your approach towards data security. Our GDPR implementation and consultation services help you align your business with the General Data Protection Regulation compliance norms. ",
+                "descritption" : "eORIGAMI Software Private Limited helps you make your website, app, or product General Data Protection Regulation (GDPR) compliant. Our GDPR services have been designed to strengthen the data security of users or customers across Europe and help reshape your approach towards data security. Our GDPR implementation and consultation services help you align your business with the General Data Protection Regulation compliance norms. ",
                "icons":[
                     {
                         "icon":"Personal Data Audit",
@@ -6627,7 +6627,7 @@ const jsonData=[
                     },
                     {
                         "title":"Guaranteed Solutions",
-                        "text":"At Sparx IT Solutions, we don’t just make promises, we deliver the right solutions that enable you to be in sync with HIPAA HITECH compliance",
+                        "text":"At eORIGAMI Software Private Limited, we don’t just make promises, we deliver the right solutions that enable you to be in sync with HIPAA HITECH compliance",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -6673,7 +6673,7 @@ const jsonData=[
                     "text2" :"DevOps",
                     "text3" :"Automation Services"
                 },
-                "descritption" : "Sparx IT Solutions provides DevOps automation service by adopting an approach that focuses on collaboration, communication, integration, and automation. We help you integrate the required changes in your technology landscape and culture. We leverage monitoring, collaboration, tool-chain pipelines, automation, and cloud adoption to ensure the rapid-onboarding of applications. With our DevOps consulting service, we help startups and enterprises to align their operations and development to get higher efficiency.",
+                "descritption" : "eORIGAMI Software Private Limited provides DevOps automation service by adopting an approach that focuses on collaboration, communication, integration, and automation. We help you integrate the required changes in your technology landscape and culture. We leverage monitoring, collaboration, tool-chain pipelines, automation, and cloud adoption to ensure the rapid-onboarding of applications. With our DevOps consulting service, we help startups and enterprises to align their operations and development to get higher efficiency.",
                "icons":[
                     {
                         "icon":"Quality CI/CD Pipelines",
@@ -6715,7 +6715,7 @@ const jsonData=[
                     },
                     {
                         "title":"DevOps Management",
-                        "text":"We not only help you automate your processes but we also assist in managing your Continuous Delivery pipeline’s health. At Sparx IT Solutions, we ensure the replica environment, Continuous Deployment, change management, new server set up, release management, and performance optimization."
+                        "text":"We not only help you automate your processes but we also assist in managing your Continuous Delivery pipeline’s health. At eORIGAMI Software Private Limited, we ensure the replica environment, Continuous Deployment, change management, new server set up, release management, and performance optimization."
                     },
                     {
                         "title":"DevOps Automation",
@@ -6978,7 +6978,7 @@ const jsonData=[
                     "text2" :"Android App Development",
                     "text3" :"Services"
                 },
-                "descritption" : "Sparx IT Solutions delivers Android app development solutions to startups, SMBs, and enterprises. Our Android app developers have years of expertise in developing custom, secure, fully-functional, and futuristic mobile apps for the entire range of Android devices.",
+                "descritption" : "eORIGAMI Software Private Limited delivers Android app development solutions to startups, SMBs, and enterprises. Our Android app developers have years of expertise in developing custom, secure, fully-functional, and futuristic mobile apps for the entire range of Android devices.",
                "icons":[
                     {
                         "icon":"Smartphones",
@@ -7154,7 +7154,7 @@ const jsonData=[
                     "text2" :"React Native App Development",
                     "text3" :"Services"
                 },
-                "descritption" : "At Sparx IT Solutions, we harness the React Native framework to create high-performance cross-platform mobile applications. We are adept at creating apps with the intuitive user experience across multiple platforms like iOS, Android, and Windows.",
+                "descritption" : "At eORIGAMI Software Private Limited, we harness the React Native framework to create high-performance cross-platform mobile applications. We are adept at creating apps with the intuitive user experience across multiple platforms like iOS, Android, and Windows.",
                "icons":[
                     {
                         "icon":"Cross-platform Development",
@@ -7331,7 +7331,7 @@ const jsonData=[
                     "text2" :"Flutter App Development",
                     "text3" :"Services"
                 },
-                "descritption" : "At Sparx IT Solutions, we utilize Google’s UI toolkit, Flutter to create apps for Android, iOS, Desktop, and Web with a single codebase. Our Flutter app developers are adept at cross-platform app development using this SDK.",
+                "descritption" : "At eORIGAMI Software Private Limited, we utilize Google’s UI toolkit, Flutter to create apps for Android, iOS, Desktop, and Web with a single codebase. Our Flutter app developers are adept at cross-platform app development using this SDK.",
                "icons":[
                     {
                         "icon":"Powerful Rendering Engine",
@@ -7373,7 +7373,7 @@ const jsonData=[
                     },
                     {
                         "title":"Flutter App Development",
-                        "text":"Our developers are proficient in Dart language used in Flutter and they can create applications for various platforms like iOS, Android, desktop, and web. You can also hire a Flutter app developer from Sparx IT Solutions to work on your dedicated cross platform app development project."
+                        "text":"Our developers are proficient in Dart language used in Flutter and they can create applications for various platforms like iOS, Android, desktop, and web. You can also hire a Flutter app developer from eORIGAMI Software Private Limited to work on your dedicated cross platform app development project."
                     },
                     {
                         "title":"Flutter Testing & Maintenance",
@@ -7432,7 +7432,7 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"Vast Experience",
-                        "text":"Choosing Sparx IT Solutions enables you to obtain services from developers who have years of industry experience. With that experience and skills, our Flutter app developers provide excellent solutions that meet clients’ expectations.",
+                        "text":"Choosing eORIGAMI Software Private Limited enables you to obtain services from developers who have years of industry experience. With that experience and skills, our Flutter app developers provide excellent solutions that meet clients’ expectations.",
                         "src":ExcellentUIUX
                     },
                     {
@@ -7495,7 +7495,7 @@ const jsonData=[
                     "text2" :"Progressive Web App Development",
                     "text3" :"Services"
                 },
-                "descritption" : "Sparx IT Solutions has been providing bespoke progressive web app development services worldwide for many years. We have created fast, reliable, and secure progressive web applications for myriads of industry verticals with a 100% success rate. Our progressive web app developers are highly proficient in creating enterprise-grade feature-rich PWAs for varied businesses.",
+                "descritption" : "eORIGAMI Software Private Limited has been providing bespoke progressive web app development services worldwide for many years. We have created fast, reliable, and secure progressive web applications for myriads of industry verticals with a 100% success rate. Our progressive web app developers are highly proficient in creating enterprise-grade feature-rich PWAs for varied businesses.",
                "icons":[
                     {
                         "icon":"Zero Install",
@@ -7596,7 +7596,7 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"Skilled Workforce",
-                        "text":"At Sparx IT Solutions, we have talented and experienced PWA developers who can create web apps based on your requirements. We provide custom development services to small, mid, and large scale enterprises.",
+                        "text":"At eORIGAMI Software Private Limited, we have talented and experienced PWA developers who can create web apps based on your requirements. We provide custom development services to small, mid, and large scale enterprises.",
                         "src":ExcellentUIUX
                     },
                     {
@@ -7624,7 +7624,7 @@ const jsonData=[
                     "text2" :"PHP Development",
                     "text3" :"Services On Global Scale"
                 },
-                "descritption" : "Sparx IT Solutions is a leading digital solutions provider with a team of highly qualified and skilled professionals. We provide robust and unparalleled web development solutions to our clients with our proficiency in this programming language and its frameworks. We have excelled in a notable expertise in developing dynamic, high-performance, & database-driven PHP solutions that are conducive to the growth of your business.",
+                "descritption" : "eORIGAMI Software Private Limited is a leading digital solutions provider with a team of highly qualified and skilled professionals. We provide robust and unparalleled web development solutions to our clients with our proficiency in this programming language and its frameworks. We have excelled in a notable expertise in developing dynamic, high-performance, & database-driven PHP solutions that are conducive to the growth of your business.",
                "icons":[
                     {
                         "icon":"DevOps Enablement",
@@ -7765,7 +7765,7 @@ const jsonData=[
                     "text2" :"Java Development",
                     "text3" :"Services On Global Scale"
                 },
-                "descritption" : "Sparx IT Solutions is a globally acclaimed digital solutions provider providing end-to-end Java development services that include web, mobile, and desktop software solutions. Our Java developers are highly proficient in developing solutions that are result-oriented, feature-rich, high-performance, and reliable with a blend of innovation and design thinking.",
+                "descritption" : "eORIGAMI Software Private Limited is a globally acclaimed digital solutions provider providing end-to-end Java development services that include web, mobile, and desktop software solutions. Our Java developers are highly proficient in developing solutions that are result-oriented, feature-rich, high-performance, and reliable with a blend of innovation and design thinking.",
                "icons":[
                     {
                         "icon":"Program Structure & Interfaces",
@@ -7819,7 +7819,7 @@ const jsonData=[
                     },
                     {
                         "title":"Java App Support & Maintenance",
-                        "text":"At Sparx IT Solutions, our professional Java engineers help you to set up and run your Java app seamlessly. We tender tailored support & maintenance services to ensure agility, performance, and compatibility of your app. We provide comprehensive application support, application management, and performance management services."
+                        "text":"At eORIGAMI Software Private Limited, our professional Java engineers help you to set up and run your Java app seamlessly. We tender tailored support & maintenance services to ensure agility, performance, and compatibility of your app. We provide comprehensive application support, application management, and performance management services."
                     },
                     {
                         "title":"Java Migration & Integration",
@@ -7906,7 +7906,7 @@ const jsonData=[
                     "text2" :"SharePoint Development",
                     "text3" :"Services  On Global Scale"
                 },
-                "descritption" : "At Sparx IT Solutions, we are committed to streamlining business operations with our effective SharePoint development solutions. Our experts will couple the platform’s versatility and tech stack to efficiently handle projects of diverse scale and complexity. Our SharePoint app developers are highly proficient in creating top-of-the-line SharePoint apps for businesses. We deliver the best solutions to our clients and ensure greater customer satisfaction",
+                "descritption" : "At eORIGAMI Software Private Limited, we are committed to streamlining business operations with our effective SharePoint development solutions. Our experts will couple the platform’s versatility and tech stack to efficiently handle projects of diverse scale and complexity. Our SharePoint app developers are highly proficient in creating top-of-the-line SharePoint apps for businesses. We deliver the best solutions to our clients and ensure greater customer satisfaction",
                "icons":[
                     {
                         "icon":"Upgrade/Migration",
@@ -7964,7 +7964,7 @@ const jsonData=[
                     },
                     {
                         "title":"SharePoint Support & Maintenance",
-                        "text":"At Sparx IT Solutions, we offer ongoing support and maintenance services after the successful deployment of a SharePoint solution. Hire our dedicated team to get quality support for the SharePoint implementation."
+                        "text":"At eORIGAMI Software Private Limited, we offer ongoing support and maintenance services after the successful deployment of a SharePoint solution. Hire our dedicated team to get quality support for the SharePoint implementation."
                     },               
                 ]
             }
@@ -8047,7 +8047,7 @@ const jsonData=[
                     "text2" :".Net Development",
                     "text3" :"Services Across the Globe"
                 },
-                "descritption" : "Sparx IT Solutions is a trusted and well-acclaimed ASP.NET development company. We offer full-scale .net application development and web solutions by creating powerful, interactive, and high-performance digital products for startups, small businesses, and enterprises. Our .Net development team is highly proficient in developing exclusive websites and apps with an excellent track record of delivering tons of successful projects.",
+                "descritption" : "eORIGAMI Software Private Limited is a trusted and well-acclaimed ASP.NET development company. We offer full-scale .net application development and web solutions by creating powerful, interactive, and high-performance digital products for startups, small businesses, and enterprises. Our .Net development team is highly proficient in developing exclusive websites and apps with an excellent track record of delivering tons of successful projects.",
                "icons":[
                     {
                         "icon":"Strict NDA Policy",
@@ -8189,7 +8189,7 @@ const jsonData=[
                     "text2" :"Node JS Development",
                     "text3" :"Services"
                 },
-                "descritption" : "Sparx IT Solutions is a world-class Node.js development company. We build high-performance, scalable, and feature-enriched Node.js server-side applications and backend solutions. Our developers have an in-depth understanding of the NodeJS runtime environment.",
+                "descritption" : "eORIGAMI Software Private Limited is a world-class Node.js development company. We build high-performance, scalable, and feature-enriched Node.js server-side applications and backend solutions. Our developers have an in-depth understanding of the NodeJS runtime environment.",
                "icons":[
                     {
                         "icon":"Performance",
@@ -8227,7 +8227,7 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"Custom Node JS App Development",
-                        "text" :"NodeJS is a robust JavaScript-based and event-driven server that works on multiple platforms. Sparx IT Solutions is a renowned Node.js development company and we offer top-notch custom Node JS development services. After gathering all your requirements, we come up with a perfect solution tailored to your needs.",
+                        "text" :"NodeJS is a robust JavaScript-based and event-driven server that works on multiple platforms. eORIGAMI Software Private Limited is a renowned Node.js development company and we offer top-notch custom Node JS development services. After gathering all your requirements, we come up with a perfect solution tailored to your needs.",
                     },
                     {
                         "title":"NodeJS API Integration & Development",
@@ -8243,7 +8243,7 @@ const jsonData=[
                     },
                     {
                         "title":"Real-time NodeJS App Development",
-                        "text":"If you want to develop real-time web, mobile, or desktop NodeJS applications, Sparx IT Solutions is the right partner. Our node.js development company can provide the best real-time NodeJS mobile app development, desktop development, and web applications for your business. We can create real-time chat apps, SPAs, collaboration tools, etc."
+                        "text":"If you want to develop real-time web, mobile, or desktop NodeJS applications, eORIGAMI Software Private Limited is the right partner. Our node.js development company can provide the best real-time NodeJS mobile app development, desktop development, and web applications for your business. We can create real-time chat apps, SPAs, collaboration tools, etc."
                     },
                     {
                         "title":"NodeJS Plugin Development",
@@ -8284,7 +8284,7 @@ const jsonData=[
                     },
                     {
                         "title":"On-Time Delivery",
-                        "text":"At Sparx IT Solutions, we never miss deadlines and deliver projects on time so you launch on time.",
+                        "text":"At eORIGAMI Software Private Limited, we never miss deadlines and deliver projects on time so you launch on time.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -8302,7 +8302,7 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"Experienced Developers",
-                        "text":"We are a full-stack node js web development company, whether it’s about front-end or back-end solutions, you can rely on Sparx IT Solutions for world-class solutions. Our team has strong technological competence and worked on complex projects for varied business verticals.",
+                        "text":"We are a full-stack node js web development company, whether it’s about front-end or back-end solutions, you can rely on eORIGAMI Software Private Limited for world-class solutions. Our team has strong technological competence and worked on complex projects for varied business verticals.",
                         "src":ExcellentUIUX
                     },
                     {
@@ -8330,7 +8330,7 @@ const jsonData=[
                     "text2" :"Ruby on Rails Web Development",
                     "text3" :"Services"
                 },
-                "descritption" : "Sparx IT Solutions has talented and well-experienced Ruby on Rails developers who provide scalable, secure, and fast-performing web apps to clients. We deliver out-of-the-box ROR solutions to diverse business verticals and ensure complete customer satisfaction.",
+                "descritption" : "eORIGAMI Software Private Limited has talented and well-experienced Ruby on Rails developers who provide scalable, secure, and fast-performing web apps to clients. We deliver out-of-the-box ROR solutions to diverse business verticals and ensure complete customer satisfaction.",
                "icons":[
                     {
                         "icon":"Performance",
@@ -8396,7 +8396,7 @@ const jsonData=[
                     },
                     {
                         "title":"ROR Porting & Migration Service",
-                        "text":"Whatever your Ruby on Rails application development needs are, we fulfill them with our expertise and technical knack. Migrating your ROR system or application can be painstaking. At Sparx IT Solutions, we have experienced professionals who help you to migrate ROR applications to other CMS, framework, or system, without breaking any functionality."
+                        "text":"Whatever your Ruby on Rails application development needs are, we fulfill them with our expertise and technical knack. Migrating your ROR system or application can be painstaking. At eORIGAMI Software Private Limited, we have experienced professionals who help you to migrate ROR applications to other CMS, framework, or system, without breaking any functionality."
                     },                
                     {
                         "title":"ROR Support & Maintenance",
@@ -8437,7 +8437,7 @@ const jsonData=[
                     },
                     {
                         "title":"On-Time Delivery",
-                        "text":"At Sparx IT Solutions, we never miss deadlines and deliver projects on time so you launch on time.",
+                        "text":"At eORIGAMI Software Private Limited, we never miss deadlines and deliver projects on time so you launch on time.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -8465,7 +8465,7 @@ const jsonData=[
                     },
                     {
                         "title":"Agile Development Process",
-                        "text":"At Sparx IT Solutions, we follow agile development principles and work with an efficient process that allows us to design, develop, test, and launch every single application or website in a time-efficient fashion. We make on-time delivery of projects with our development approaches.",
+                        "text":"At eORIGAMI Software Private Limited, we follow agile development principles and work with an efficient process that allows us to design, develop, test, and launch every single application or website in a time-efficient fashion. We make on-time delivery of projects with our development approaches.",
                         "src":ExcellentUIUX
                     },              
                 ]
@@ -8483,7 +8483,7 @@ const jsonData=[
                     "text2" :"Python Development",
                     "text3" :"Services"
                 },
-                "descritption" : "Being a top-notch Python Development Company, Sparx IT Solutions has a rich experience in delivering feature-packed, dynamic, and robust desktop, mobile, web-based applications, and backend Python Development Services. We have a strong team of veteran Python developers who have worked on tons of projects. Our developers utilize advanced features of Python in conjunction with the object-oriented capability to deliver best-in-class solutions.",
+                "descritption" : "Being a top-notch Python Development Company, eORIGAMI Software Private Limited has a rich experience in delivering feature-packed, dynamic, and robust desktop, mobile, web-based applications, and backend Python Development Services. We have a strong team of veteran Python developers who have worked on tons of projects. Our developers utilize advanced features of Python in conjunction with the object-oriented capability to deliver best-in-class solutions.",
                "icons":[
                    {
                        "icon":"Swift Coding",
@@ -8525,7 +8525,7 @@ const jsonData=[
                     },
                     {
                         "title":"Enterprise Web Application Development",
-                        "text":"When you need an enterprise-grade Python web application, Sparx IT Solutions is a reliable Python web development company and delivers top-notch solutions as per clients’ requirements. Our Python Development Company crafts high-performing and scalable web apps for enterprises."
+                        "text":"When you need an enterprise-grade Python web application, eORIGAMI Software Private Limited is a reliable Python web development company and delivers top-notch solutions as per clients’ requirements. Our Python Development Company crafts high-performing and scalable web apps for enterprises."
                     },
                     {
                         "title":"Dynamic Website Development",
@@ -8545,11 +8545,11 @@ const jsonData=[
                     },
                     {
                         "title":"ML/IoT/Data Science Solutions",
-                        "text":"Python is widely used for IoT, Data Science, and Machine Learning to build data-driven solutions. At Sparx IT Solutions, we have Data Science experts, Machine Learning and IoT experts, who utilize Python programming to deliver data-driven solutions for businesses."
+                        "text":"Python is widely used for IoT, Data Science, and Machine Learning to build data-driven solutions. At eORIGAMI Software Private Limited, we have Data Science experts, Machine Learning and IoT experts, who utilize Python programming to deliver data-driven solutions for businesses."
                     },
                     {
                         "title":"Migration & Upgradation Service",
-                        "text":"Whether you want to migrate your web app to Python from another platform or want to upgrade your existing application to another version of Python, Sparx IT Solutions can provide the best results. We also help in the migration or upgradation of your applications."
+                        "text":"Whether you want to migrate your web app to Python from another platform or want to upgrade your existing application to another version of Python, eORIGAMI Software Private Limited can provide the best results. We also help in the migration or upgradation of your applications."
                     },                
                     {
                         "title":"Python CMS Development",
@@ -8590,7 +8590,7 @@ const jsonData=[
                     },
                     {
                         "title":"On-Time Delivery",
-                        "text":"At Sparx IT Solutions, we never miss deadlines and deliver projects on time so you launch on time.",
+                        "text":"At eORIGAMI Software Private Limited, we never miss deadlines and deliver projects on time so you launch on time.",
                         "src":ExcellentUIUX
                     },                
                 ]
@@ -8618,7 +8618,7 @@ const jsonData=[
                     },
                     {
                         "title":"Agile Development Process",
-                        "text":"At Sparx IT Solutions, we follow agile development principles and work with an efficient process that allows us to design, develop, test, and launch every single application or website in a time-efficient fashion. We make on-time delivery of projects with our development approaches.",
+                        "text":"At eORIGAMI Software Private Limited, we follow agile development principles and work with an efficient process that allows us to design, develop, test, and launch every single application or website in a time-efficient fashion. We make on-time delivery of projects with our development approaches.",
                         "src":ExcellentUIUX
                     },              
                 ]
@@ -8789,7 +8789,7 @@ const jsonData=[
                     "text2" :"Joomla Development",
                     "text3" :"Services"
                 },
-                "descritption" : "Sparx IT Solutions is aimed at building world-class Joomla websites for varied business nature and size. We have proven expertise in creating a feature-packed site that helps to scale any brand in the online marketplace. Join hands with us to take your business to new heights.",
+                "descritption" : "eORIGAMI Software Private Limited is aimed at building world-class Joomla websites for varied business nature and size. We have proven expertise in creating a feature-packed site that helps to scale any brand in the online marketplace. Join hands with us to take your business to new heights.",
                "icons":[
                    {
                        "icon":"Fast Upgrade",
@@ -8930,7 +8930,7 @@ const jsonData=[
                     "text2" :"Drupal Development",
                     "text3" :"Services Globally"
                 },
-                "descritption" : "Sparx IT Solutions is the leading drupal web development company. We leverage our expertise for building, customizing, and migrating sites to reap positive business outcomes. We have provided growth to several industry verticals with our innovative Drupal development solutions.",
+                "descritption" : "eORIGAMI Software Private Limited is the leading drupal web development company. We leverage our expertise for building, customizing, and migrating sites to reap positive business outcomes. We have provided growth to several industry verticals with our innovative Drupal development solutions.",
                "icons":[
                    {
                        "icon":"Fast Upgrade",
@@ -9117,7 +9117,7 @@ const jsonData=[
                     },
                     {
                         "title":"Real-Time Chat Apps",
-                        "text":"At Sparx IT Solutions, we have plenty of experience in designing and creating speedy, lightweight, and efficient real-time chat applications that provide excellent features and functionality. We build chat apps as per your business requirements."
+                        "text":"At eORIGAMI Software Private Limited, we have plenty of experience in designing and creating speedy, lightweight, and efficient real-time chat applications that provide excellent features and functionality. We build chat apps as per your business requirements."
                     },
                     {
                         "title":"Custom AngularJS Development",
@@ -9224,7 +9224,7 @@ const jsonData=[
                     "text2" :"React JS Development",
                     "text3" :"Services"
                 },
-                "descritption" : "Sparx IT Solutions provides end-to-end development services and creates innovative web applications for startups and large-scale enterprises. Having full-scale expertise in this JavaScript library, our professionals create exceptional user interfaces for web & mobile applications. We provide dynamic and business-specific React JS solutions that handle synchronization and data updates without reloading.",
+                "descritption" : "eORIGAMI Software Private Limited provides end-to-end development services and creates innovative web applications for startups and large-scale enterprises. Having full-scale expertise in this JavaScript library, our professionals create exceptional user interfaces for web & mobile applications. We provide dynamic and business-specific React JS solutions that handle synchronization and data updates without reloading.",
                "icons":[
                     {
                        "icon":"Performance",
@@ -9270,7 +9270,7 @@ const jsonData=[
                     },
                     {
                         "title":"ReactJS Plugin Development",
-                        "text":"At Sparx IT Solutions, we have plenty of experience in designing and creating speedy, lightweight, and efficient real-time chat applications that provide excellent features and functionality. We build chat apps as per your business requirements."
+                        "text":"At eORIGAMI Software Private Limited, we have plenty of experience in designing and creating speedy, lightweight, and efficient real-time chat applications that provide excellent features and functionality. We build chat apps as per your business requirements."
                     },
                     {
                         "title":"ReactJS Web App Development",
@@ -9365,7 +9365,7 @@ const jsonData=[
                     "text2" :"MEAN Stack Development",
                     "text3" :"Services Help You Develop Robust Applications"
                 },
-                "descritption" : "Sparx IT Solutions has proficient MEAN Stack developers who are well-versed MongoDB, ExpressJS, AngularJS, and Node.js. With our extensive technical knack and experience, we build bespoke web apps by leveraging the potential of MEAN Stack technologies.",
+                "descritption" : "eORIGAMI Software Private Limited has proficient MEAN Stack developers who are well-versed MongoDB, ExpressJS, AngularJS, and Node.js. With our extensive technical knack and experience, we build bespoke web apps by leveraging the potential of MEAN Stack technologies.",
                "icons":[
                     {
                         "icon":"Performance",
@@ -9403,7 +9403,7 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"Custom MEAN Stack Development",
-                        "text" :"We offer customized MEAN Stack Web Development Services according to your need. You can hire any MEAN Stack developer from Sparx IT Solutions to develop custom solutions that meet your business requirements. ",
+                        "text" :"We offer customized MEAN Stack Web Development Services according to your need. You can hire any MEAN Stack developer from eORIGAMI Software Private Limited to develop custom solutions that meet your business requirements. ",
                     },
                     {
                         "title":"Enterprise MEAN Stack Development",
@@ -9506,7 +9506,7 @@ const jsonData=[
                     "text2" :"MERN Stack Development",
                     "text3" :"Services Help You Develop Robust Applications"
                 },
-                "descritption" : "At Sparx IT Solutions, we have expertise in underlying technologies of MERN Stack that are MongoDB, Express.js, React.js, and NodeJS. We employ the best features of the MERN technology stack to build customized solutions for our clients. We provide suitable web solutions that best fit your business.",
+                "descritption" : "At eORIGAMI Software Private Limited, we have expertise in underlying technologies of MERN Stack that are MongoDB, Express.js, React.js, and NodeJS. We employ the best features of the MERN technology stack to build customized solutions for our clients. We provide suitable web solutions that best fit your business.",
                "icons":[
                     {
                         "icon":"Performance",
@@ -9544,7 +9544,7 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"Enterprise Application Development",
-                        "text" :"Choose Sparx IT Solutions for enterprise-grade web application development. We can develop cutting-edge enterprise solutions making the best use of MERN technologies. We are adept at creating tailored enterprise solutions specially designed for high-intensive workloads.",
+                        "text" :"Choose eORIGAMI Software Private Limited for enterprise-grade web application development. We can develop cutting-edge enterprise solutions making the best use of MERN technologies. We are adept at creating tailored enterprise solutions specially designed for high-intensive workloads.",
                     },
                     {
                         "title":"Custom Application Development",
@@ -9647,7 +9647,7 @@ const jsonData=[
                     "text2" :"Salesforce Development",
                     "text3" :"Services Anytime, Anywhere"
                 },
-                "descritption" : "Sparx IT Solutions offers competent Salesforce CRM solutions to grow your business sales, service, and marketing. With the extensive domain expertise, we provide cloud-based customer relationship management solutions to build strong communication between you and your customers. Our extremely experienced CRM developers help clients in different business operational tasks and increase your customer's engagements, conversions, and retention.",
+                "descritption" : "eORIGAMI Software Private Limited offers competent Salesforce CRM solutions to grow your business sales, service, and marketing. With the extensive domain expertise, we provide cloud-based customer relationship management solutions to build strong communication between you and your customers. Our extremely experienced CRM developers help clients in different business operational tasks and increase your customer's engagements, conversions, and retention.",
                "icons":[
                     {
                         "icon":"Sales Cloud",
@@ -9689,7 +9689,7 @@ const jsonData=[
                     },
                     {
                         "title":"Cloud & Web Strategy",
-                        "text":"At Sparx IT Solutions our end-to-end cloud experts work with dedication to meet client's needs. We help you to move your present project set-up to Cloud and create a new cloud-based project from initials."
+                        "text":"At eORIGAMI Software Private Limited our end-to-end cloud experts work with dedication to meet client's needs. We help you to move your present project set-up to Cloud and create a new cloud-based project from initials."
                     },
                     {
                         "title":"Salesforce Migration",
@@ -9788,7 +9788,7 @@ const jsonData=[
                     "text2" :"SugarCRM Development",
                     "text3" :"Services For Various Business Needs"
                 },
-                "descritption" : "Sparx IT Solutions is equipped with SugarCRM professionals to create and maintain a multiway communication channel with your customers. We are best in the industry to re-define your CRM for a never-ending relationship with your patrons. Our development experts are honored to assist you with SugarCRM consultation, customization, and implementation as per your business specifications. We are a reputed SugarCRM web development company and provide befitting solutions to businesses.",
+                "descritption" : "eORIGAMI Software Private Limited is equipped with SugarCRM professionals to create and maintain a multiway communication channel with your customers. We are best in the industry to re-define your CRM for a never-ending relationship with your patrons. Our development experts are honored to assist you with SugarCRM consultation, customization, and implementation as per your business specifications. We are a reputed SugarCRM web development company and provide befitting solutions to businesses.",
                "icons":[
                     {
                         "icon":"Application Integration",
@@ -9929,7 +9929,7 @@ const jsonData=[
                     "text2" :"Odoo Implementation",
                     "text3" :"And Development Solutions"
                 },
-                "descritption" : "At Sparx IT Solutions, we develop world-class enterprise solutions by using Odoo business management software. Our experienced Odoo developers harness the potential of this software suite to build scalable, secure, and robust web solutions that meet your specific business needs. Our Odoo Development Company can help you in implementing the Odoo solutions both on the technical and the business ground.",
+                "descritption" : "At eORIGAMI Software Private Limited, we develop world-class enterprise solutions by using Odoo business management software. Our experienced Odoo developers harness the potential of this software suite to build scalable, secure, and robust web solutions that meet your specific business needs. Our Odoo Development Company can help you in implementing the Odoo solutions both on the technical and the business ground.",
                "icons":[
                     {
                         "icon":"Odoo Implementation",
@@ -10074,7 +10074,7 @@ const jsonData=[
                     "text2" :"Bitrix Development",
                     "text3" :"Services"
                 },
-                "descritption" : "Sparx IT Solutions facilitates businesses with splendid Bitrix development services and helps MSME clients for various business purposes. Our Bitrix Development Company provides advanced tools for collaboration and handles different aspects of daily business operational tasks. You can rely on our service due to quality products which are specifically designed to remove your business complexities. We offer a complete suite of social collaboration and management tools to give new dimensions to your business.",
+                "descritption" : "eORIGAMI Software Private Limited facilitates businesses with splendid Bitrix development services and helps MSME clients for various business purposes. Our Bitrix Development Company provides advanced tools for collaboration and handles different aspects of daily business operational tasks. You can rely on our service due to quality products which are specifically designed to remove your business complexities. We offer a complete suite of social collaboration and management tools to give new dimensions to your business.",
                "icons":[
                     {
                         "icon":"Email Marketing",
@@ -10120,7 +10120,7 @@ const jsonData=[
                     },
                     {
                         "title":"Standalone Apps Incorporation",
-                        "text":"Sparx IT Solutions have the potential team of experts who are capable enough to integrate all your running and existing platforms on Bitrix solution by following standard practice to increase your business productivity."
+                        "text":"eORIGAMI Software Private Limited have the potential team of experts who are capable enough to integrate all your running and existing platforms on Bitrix solution by following standard practice to increase your business productivity."
                     },                
                 ]
             }
@@ -10152,7 +10152,7 @@ const jsonData=[
                     },
                     {
                         "title":"Progress Accountability",
-                        "text":"Sparx IT Solutions allow you to improvise accountability in your work culture. We enforce the work process to run without any glitch. This leads to the delivery of the project on-time as the software will keep the employees updated about what next milestone they need to achieve.",
+                        "text":"eORIGAMI Software Private Limited allow you to improvise accountability in your work culture. We enforce the work process to run without any glitch. This leads to the delivery of the project on-time as the software will keep the employees updated about what next milestone they need to achieve.",
                         "src":ExcellentUIUX
                     },
                     {
@@ -10203,7 +10203,7 @@ const jsonData=[
                     "text2" :"AWS",
                     "text3" :"Services"
                 },
-                "descritption" : "Sparx IT Solutions render sustainable AWS services successfully to numerous clients worldwide. We cater Amazon Web Services ensuring scalability, proficiency and cost-effectiveness without compromising with quality for all your business needs. We are the best choice in the industry for cloud operations to double your return of investments. Our expert team is porcatively updated with latest trends and technologies to deliver as per the clients requirements.",
+                "descritption" : "eORIGAMI Software Private Limited render sustainable AWS services successfully to numerous clients worldwide. We cater Amazon Web Services ensuring scalability, proficiency and cost-effectiveness without compromising with quality for all your business needs. We are the best choice in the industry for cloud operations to double your return of investments. Our expert team is porcatively updated with latest trends and technologies to deliver as per the clients requirements.",
                "icons":[
                     {
                         "icon":"AWS Lambda",
@@ -10278,7 +10278,7 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"Security",
-                        "text":"Sparx IT solutions is equipped with AWS security experts to assist you in building proficient and secure AWS foundation. Also, we help you to deploy and run sensitive system on cloud.",
+                        "text":"eORIGAMI Software Private Limited is equipped with AWS security experts to assist you in building proficient and secure AWS foundation. Also, we help you to deploy and run sensitive system on cloud.",
                         "src":ExcellentUIUX
                     },
                     {
@@ -10344,7 +10344,7 @@ const jsonData=[
                     "text2" :"Google Cloud",
                     "text3" :"Solutions"
                 },
-                "descritption" : "Sparx IT Solutions have a dedicated team of experts with splendid knowledge of developing cloud-based solutions. We are capable of delivering wonderful user experience across on-premises, public, or private clouds without worrying about security. You can trust us to get competent Google could solutions. Our certified engineers provide easy-to-use artificial intelligence and machine learning solutions to automate your business growth and productivity.",
+                "descritption" : "eORIGAMI Software Private Limited have a dedicated team of experts with splendid knowledge of developing cloud-based solutions. We are capable of delivering wonderful user experience across on-premises, public, or private clouds without worrying about security. You can trust us to get competent Google could solutions. Our certified engineers provide easy-to-use artificial intelligence and machine learning solutions to automate your business growth and productivity.",
                "icons":[
                     {
                         "icon":"Big Data",
@@ -10417,7 +10417,7 @@ const jsonData=[
                     },
                     {
                         "title":"Robust Infrastructure",
-                        "text":"Sparx IT Solutions offers a robust network infrastructure with a 24*7 management service. We integrate your existing business terms and policies to manage your network focusing on your organizational goals.",
+                        "text":"eORIGAMI Software Private Limited offers a robust network infrastructure with a 24*7 management service. We integrate your existing business terms and policies to manage your network focusing on your organizational goals.",
                         "src":ExcellentUIUX
                     },
                     {
@@ -10473,7 +10473,7 @@ const jsonData=[
                     "text2" :"Azure",
                     "text3" :"Services Provider"
                 },
-                "descritption" : "Sparx IT Solutions is one of the leading web and mobile development based on cloud computing with Azure. We build advanced solutions for your business based on our client's interests and requirements using Azure app service and Azure Cosmos. We assist our clients to achieve the milestones for their organizational success by creating, managing, and deploying applications on a large network using advanced tools and frameworks. We provide unrivaled Azure cloud services to our clients.",
+                "descritption" : "eORIGAMI Software Private Limited is one of the leading web and mobile development based on cloud computing with Azure. We build advanced solutions for your business based on our client's interests and requirements using Azure app service and Azure Cosmos. We assist our clients to achieve the milestones for their organizational success by creating, managing, and deploying applications on a large network using advanced tools and frameworks. We provide unrivaled Azure cloud services to our clients.",
                "icons":[
                     {
                         "icon":"Content Delivery Network(CDN)",
@@ -10640,7 +10640,7 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"Smart Contract Solutions",
-                        "text" :"Sparx IT Solutions offers proficient Ethereum solutions utilizing the power of Blockchain to build high-grade Smart Contract apps. Our developers are highly experienced in creating excellent Ethereum apps that run unsupervised business transactions.",
+                        "text" :"eORIGAMI Software Private Limited offers proficient Ethereum solutions utilizing the power of Blockchain to build high-grade Smart Contract apps. Our developers are highly experienced in creating excellent Ethereum apps that run unsupervised business transactions.",
                     },
                     {
                         "title":"DApp Development",
@@ -10720,7 +10720,7 @@ const jsonData=[
                     },
                     {
                         "title":"Full-Cycle Development",
-                        "text":"At Sparx IT Solutions, we provide end-to-end Ethereum development services to our clients and deliver unparalleled solutions. We keep ourselves in sync with our clients and incorporate changes outlined by them.",
+                        "text":"At eORIGAMI Software Private Limited, we provide end-to-end Ethereum development services to our clients and deliver unparalleled solutions. We keep ourselves in sync with our clients and incorporate changes outlined by them.",
                         "src":ExcellentUIUX
                     },
                     {
@@ -10743,7 +10743,7 @@ const jsonData=[
                     "text2" :"Hyperledger Development ",
                     "text3" :"Services For Your Project"
                 },
-                "descritption" : "Sparx IT Solutions is a well-versed digital solutions provider company serving customers across the world with its high standards and supreme services. Our proficient team of blockchain developers utilizes Hyperledger to build exclusive blockchain solutions that help to streamline the business processes with efficient and transparent transactions. We provide cutting-edge Hyperledger development services tailored to your business needs. ",
+                "descritption" : "eORIGAMI Software Private Limited is a well-versed digital solutions provider company serving customers across the world with its high standards and supreme services. Our proficient team of blockchain developers utilizes Hyperledger to build exclusive blockchain solutions that help to streamline the business processes with efficient and transparent transactions. We provide cutting-edge Hyperledger development services tailored to your business needs. ",
                "icons":[
                     {
                         "icon":"Zero Downtime",
@@ -10861,7 +10861,7 @@ const jsonData=[
                     },
                     {
                         "title":"Full-Cycle Development",
-                        "text":"At Sparx IT Solutions, we provide end-to-end Hyperledger development services to our clients and deliver unparalleled solutions. We keep ourselves in sync with our clients and incorporate changes outlined by them.",
+                        "text":"At eORIGAMI Software Private Limited, we provide end-to-end Hyperledger development services to our clients and deliver unparalleled solutions. We keep ourselves in sync with our clients and incorporate changes outlined by them.",
                         "src":ExcellentUIUX
                     },
                     {
@@ -10934,7 +10934,7 @@ const jsonData=[
                     },
                     {
                         "title":"Blockchain Game Development",
-                        "text":"The gaming industry is growing exponentially with the help of blockchain. At Sparx IT Solutions we aim to deliver Quorum blockchain-based gaming solutions. We provide an immense user experience that helps in boosting ROI."
+                        "text":"The gaming industry is growing exponentially with the help of blockchain. At eORIGAMI Software Private Limited we aim to deliver Quorum blockchain-based gaming solutions. We provide an immense user experience that helps in boosting ROI."
                     },
                     {
                         "title":"Tokenomics",
@@ -11002,7 +11002,7 @@ const jsonData=[
                     },
                     {
                         "title":"Full-Cycle Development",
-                        "text":"At Sparx IT Solutions, we provide end-to-end Quorum development services to our clients and deliver unparalleled solutions. We keep ourselves in sync with our clients and incorporate changes outlined by them.",
+                        "text":"At eORIGAMI Software Private Limited, we provide end-to-end Quorum development services to our clients and deliver unparalleled solutions. We keep ourselves in sync with our clients and incorporate changes outlined by them.",
                         "src":ExcellentUIUX
                     },
                     {
@@ -11025,7 +11025,7 @@ const jsonData=[
                     "text2" :"Stellar Blockchain Development",
                     "text3" :"Services"
                 },
-                "descritption" : "At Sparx IT Solutions, our proficient blockchain developers utilize Stellar technology to develop power-packed FinTech applications for enterprises and startups. With our Stellar blockchain solutions, clients get a robust mechanism for fast, secure, and low-cost payments. We offer a wide range of Stellar blockchain development services from smart contracts development to creating complex infrastructure for payments. You can hire Stellar developers to build cutting-edge solutions.",
+                "descritption" : "At eORIGAMI Software Private Limited, our proficient blockchain developers utilize Stellar technology to develop power-packed FinTech applications for enterprises and startups. With our Stellar blockchain solutions, clients get a robust mechanism for fast, secure, and low-cost payments. We offer a wide range of Stellar blockchain development services from smart contracts development to creating complex infrastructure for payments. You can hire Stellar developers to build cutting-edge solutions.",
                "icons":[
                     {
                         "icon":"No Contract Lock-Ins",
@@ -11143,7 +11143,7 @@ const jsonData=[
                     },
                     {
                         "title":"Full-Cycle Development",
-                        "text":"At Sparx IT Solutions, we provide end-to-end Stellar blockchain development services to our clients and deliver unparalleled solutions. We keep ourselves in sync with our clients and incorporate changes outlined by them.",
+                        "text":"At eORIGAMI Software Private Limited, we provide end-to-end Stellar blockchain development services to our clients and deliver unparalleled solutions. We keep ourselves in sync with our clients and incorporate changes outlined by them.",
                         "src":ExcellentUIUX
                     },
                     {
@@ -11284,7 +11284,7 @@ const jsonData=[
                     },
                     {
                         "title":"Full-Cycle Development",
-                        "text":"At Sparx IT Solutions, we provide end-to-end Hedera Hashgraph blockchain development services to our clients and deliver unparalleled solutions. We keep ourselves in sync with our clients and incorporate changes outlined by them.",
+                        "text":"At eORIGAMI Software Private Limited, we provide end-to-end Hedera Hashgraph blockchain development services to our clients and deliver unparalleled solutions. We keep ourselves in sync with our clients and incorporate changes outlined by them.",
                         "src":ExcellentUIUX
                     },
                     {
@@ -11361,7 +11361,7 @@ const jsonData=[
                     },
                     {
                         "title":"Regulated Tokens Development",
-                        "text":"R3 Corda has the nature of supporting the token economy in a secure and regulated manner. At Sparx IT Solutions, we can create regulated and highly secure tokens for startups and enterprises that make raising funds easier, secure, and smoother."
+                        "text":"R3 Corda has the nature of supporting the token economy in a secure and regulated manner. At eORIGAMI Software Private Limited, we can create regulated and highly secure tokens for startups and enterprises that make raising funds easier, secure, and smoother."
                     },
                     {
                         "title":"CorDapp Development",
@@ -11425,7 +11425,7 @@ const jsonData=[
                     },
                     {
                         "title":"Full-Cycle Development",
-                        "text":"At Sparx IT Solutions, we provide end-to-end R3 Corda blockchain development services to our clients and deliver unparalleled solutions. We keep ourselves in sync with our clients and incorporate changes outlined by them.",
+                        "text":"At eORIGAMI Software Private Limited, we provide end-to-end R3 Corda blockchain development services to our clients and deliver unparalleled solutions. We keep ourselves in sync with our clients and incorporate changes outlined by them.",
                         "src":ExcellentUIUX
                     },
                     {
@@ -11566,7 +11566,7 @@ const jsonData=[
                     },
                     {
                         "title":"Full-Cycle Development",
-                        "text":"At Sparx IT Solutions, we provide end-to-end EOS Blockchain development services to our clients and deliver unparalleled solutions. We keep ourselves in sync with our clients and incorporate changes outlined by them.",
+                        "text":"At eORIGAMI Software Private Limited, we provide end-to-end EOS Blockchain development services to our clients and deliver unparalleled solutions. We keep ourselves in sync with our clients and incorporate changes outlined by them.",
                         "src":ExcellentUIUX
                     },
                     {
