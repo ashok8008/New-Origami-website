@@ -113,7 +113,7 @@
 }
 
 .benefitsCardBox {
-  min-height: 258px;
+  min-height: 305px;
   border-radius: 6px !important;
   border: 2px solid rgba(0, 0, 0, 0.03) !important;
   box-shadow: 0px 0px 21px rgba(51, 51, 51, 0.01) !important;
@@ -162,16 +162,14 @@
 
 .whyChooseMainRow {
   padding-top: 100px;
-  background: linear-gradient(
-    105.84deg,
-    rgba(255, 255, 255, 0.6) 1.16%,
-    rgba(255, 255, 255, 0.2) 100%
-  );
-  opacity: 1.7;
-  backdrop-filter: blur(432px);
-  // background: rgba(196, 196, 196, 0.2);
-  // opacity: 0.3;
-  // backdrop-filter: blur(28px);
+  // background-color: linear-gradient(105.84deg, rgba(255, 255, 255, 0.6) 1.16%, rgba(255, 255, 255, 0.2) 100%);
+  // opacity: 0.7;
+  // backdrop-filter: blur(432px);
+
+  // background-color: red;
+  //     background-repeat: no-repeat;
+  //     background-attachment: fixed;
+  //     background-position: center top;
 }
 
 .whyChooseusCol {
@@ -200,7 +198,11 @@
 }
 
 .carouselCard {
-  min-height: 410px !important;
+  min-height: 460px !important;
+}
+
+.carouselCard .caroselImg {
+  margin-bottom: 10px;
 }
 
 .carouselCardTitle {
@@ -249,7 +251,6 @@ svg {
 .designprocessRow {
   padding-top: 130px !important;
   padding-bottom: 200px;
-  // background-color: black;
 }
 
 .designProcessText {
@@ -274,8 +275,8 @@ svg {
 }
 
 .designProcessDescptionCard {
-  min-height: 254px;
-  max-height: 254px;
+  min-height: 330px;
+  max-height: 330px;
   border-radius: 6px !important;
   box-shadow: 3px 0px 0px 0px #bbb3b3;
   z-index: 2;
@@ -286,6 +287,7 @@ svg {
   width: 39% !important;
   max-width: 9% !important;
   padding-bottom: 10%;
+  text-align: right !important;
 }
 
 .designProcessDescptionLine {
@@ -328,8 +330,6 @@ svg {
   padding: 20px 20px 0px 50px !important;
 }
 
-// {=============================================}
-
 @import "../../styles/base.scss";
 
 .designProcessDescptionColMobile {
@@ -338,9 +338,6 @@ svg {
     border-bottom: 1px solid $gray;
     margin: 0;
     position: relative;
-    //   font-weight: normal;
-    //   text-transform: uppercase;
-    //   font-weight: 600;
     &:after {
       content: "";
       cursor: pointer;
@@ -390,8 +387,6 @@ svg {
     }
   }
 }
-
-// media queries  css
 
 @media screen and (max-device-width: 640px), screen and (max-width: 640px) {
   .webDesignBannerDiv {
@@ -459,5 +454,68 @@ svg {
   }
 }
 
-// display: flex;
-//     flex-direction: column-reverse;
+.tech-expertise {
+  .bottom-content {
+    padding-top: 40px;
+    .tech-software {
+      .tech-list {
+        .tech-title {
+          padding: 15px 15px 15px 0;
+          border-bottom: 1px solid $gray;
+          margin: 0;
+          position: relative;
+          font-weight: normal;
+          text-transform: uppercase;
+          font-weight: 600;
+          &:after {
+            content: "";
+            cursor: pointer;
+            position: absolute;
+            top: 25px;
+            right: 10px;
+            border: solid black;
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            padding: 4px;
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+          }
+          &.tech-active:after {
+            transform: rotate(-135deg);
+            -webkit-transform: rotate(-135deg);
+          }
+          @include media(md-desktop) {
+            &:after {
+              display: none;
+            }
+            border-bottom: 0;
+          }
+        }
+        .tech-menu {
+          display: none;
+          &.child-wrap {
+            display: block;
+          }
+          @include media(md-desktop) {
+            display: block;
+            position: relative;
+            z-index: 1;
+          }
+          ul {
+            padding-top: 15px;
+          }
+          li {
+            padding-bottom: 12px;
+            color: $light-gray;
+            img {
+              padding-right: 5px;
+            }
+            a {
+              size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

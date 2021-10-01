@@ -4,199 +4,81 @@ import {withRouter } from "react-router-dom";
 import "./styles.scss";
 import horizontalLine from "../../images/horizontalLine.svg"
 import Rectangle from "../../images/Rectangle.svg"
-import Responsive from "../../images/Responsive.svg"
-import Upgradation from "../../images/Upgradation.svg"
-import Security from "../../images/Security.svg"
-import Maintenance from "../../images/Maintenance.svg"
-import Migrations from "../../images/Migrations.svg"
-import PWA from "../../images/PWA.svg"
-import EffectiveLayout from "../../images/EffectiveLayout.svg"
 import DesignSubtract from "../../images/DesignSubtract.svg"
 import Carousel from 'react-multi-carousel';
 import { ReactComponent as LeftArrow } from "../../images/leftArrow.svg";
 import { ReactComponent as RightArrow } from "../../images/rightArrow.svg";
 import 'react-multi-carousel/lib/styles.css';
 import { useMediaQuery } from "react-responsive";
+import figma from "../../images/staffing/tech/figma.svg";
+import sketch from "../../images/staffing/tech/sketch.svg"
+import adobe from "../../images/staffing/tech/adobe.svg"
+import ps from "../../images/staffing/tech/ps.svg"
+import google from "../../images/staffing/tech/google.svg"
+import aws from "../../images/staffing/tech/aws.svg"
+import digital from "../../images/staffing/tech/digital.svg"
+import heroku from "../../images/staffing/tech/heroku.svg"
+import meet from "../../images/staffing/tech/meet.svg"
+import zoom from "../../images/staffing/tech/zoom.svg"
+import jira from "../../images/staffing/tech/jira.svg"
+import trillo from "../../images/staffing/tech/trillo.svg"
+import basecamp from "../../images/staffing/tech/basecamp.svg"
+import ms from "../../images/staffing/tech/ms.svg"
+import react from "../../images/staffing/tech/react.svg"
+import angular from "../../images/staffing/tech/angular.svg"
+import vue from "../../images/staffing/tech/vue.svg"
+import sql from "../../images/staffing/tech/sql.svg"
+import mongo from "../../images/staffing/tech/mongo.svg"
+import postsql from "../../images/staffing/tech/postsql.svg"
+import mysql from "../../images/staffing/tech/mysql.svg"
+import dynamo from "../../images/staffing/tech/dynamo.svg"
+import github from "../../images/staffing/tech/github.svg"
+import bitbucket from "../../images/staffing/tech/bitbucket.svg"
+import gitlab from "../../images/staffing/tech/gitlab.svg"
+import dotnet from "../../images/staffing/tech/dotnet.svg"
+import node from "../../images/staffing/tech/node.svg"
+import ruby from "../../images/staffing/tech/ruby.svg"
+import laravel from "../../images/staffing/tech/laravel.svg"
+import php from "../../images/staffing/tech/php.svg"
+import golang from "../../images/staffing/tech/golang.svg"
+import other from "../../images/staffing/tech/other.svg"
+import slack from "../../images/staffing/tech/slack.svg"
+import microsoft from "../../images/staffing/tech/microsoft.svg"
+import hangout from "../../images/staffing/tech/hangout.svg"
+import ios from "../../images/staffing/tech/ios.svg"
+import android from "../../images/staffing/tech/android.svg"
+import flutter from "../../images/staffing/tech/flutter.svg"
+import ionic from "../../images/staffing/tech/ionic.svg"
+import kotlin from "../../images/staffing/tech/kotlin.svg"
+import sales from "../../images/staffing/tech/sales.svg"
+import dynamic from "../../images/staffing/tech/dynamic.svg"
+import teamcity from "../../images/staffing/tech/teamcity.svg"
+import bamboo from "../../images/staffing/tech/bamboo.svg"
+import circle from "../../images/staffing/tech/circle.svg"
+import jerkin from "../../images/staffing/tech/jerkin.svg"
+import apps from "../../images/staffing/tech/apps.svg"
+import git from "../../images/staffing/tech/git.svg"
+import apache from "../../images/staffing/tech/apache.svg"
+import xcode from "../../images/staffing/tech/xcode.svg"
+import fastlane from "../../images/staffing/tech/fastlane.svg"
+import gradle from "../../images/staffing/tech/gradle.svg"
+import maven from "../../images/staffing/tech/maven.svg"
+import anisble from "../../images/staffing/tech/anisble.svg"
+import chef from "../../images/staffing/tech/chef.svg"
+import puppet from "../../images/staffing/tech/puppet.svg"
+import wordpress from "../../images/staffing/tech/wordpress.svg"
+import drupal from "../../images/staffing/tech/drupal.svg"
+import jsonData from "./data.js"
 
 
-
-const Staffing = () => {
+const Staffing = ()=>{
+    const isMobile = useMediaQuery({ maxWidth: 767 });
 
     const [isActive, setActive] = useState("");
     const ToggleClass = (e) => {
       setActive(prev => prev===e ? "" : e );  
     };
-    const isMobile = useMediaQuery({ maxWidth: 767 });
 
-    const serviceBannerJsonData=[
-        {
-            "pathname":"/Staffing",
-            "banner":[
-                {
-                    "mainHeading"  : "Web designing Services",
-                    "heading":{
-                        "text1" :"Providing Cutting-Edge",
-                        "text2" :"Web Design"
-                    },
-                    "descritption" : "Origami Softwatre's ensures to deliver custom website design services, globally! We are adept at designing responsive, fast-loading, and user-friendly websites that offer a consistent look and use across different web browsers.",
-                    "icons":[
-                        {
-                            "icon":"Responsive",
-                            "src":Responsive,
-                        },
-                        {
-                            "icon":"Upgradation",
-                            "src":Upgradation
-                        },
-                        {
-                            "icon":"Security",
-                            "src":Security,
-                        },
-                        {
-                            "icon":"Maintenance",
-                            "src":Maintenance,
-                        },
-                        {
-                            "icon":"Migrations",
-                            "src":Migrations
-                        },
-                        {
-                            "icon":"PWA",
-                            "src":PWA
-                        }
-                    ]
-                }
-            ],
-            "ourServices":[
-                {   
-                    "subheading":{
-                        "text1":"We Deliver Comprehensive",
-                        "text2":"Website Design Services"
-                    },
-                    "cardBoxData":[
-                        {
-                            "title":"Corporate Website Design",
-                            "text" :"Our aim is to strengthen your brand by building a reputation. The first impression for your potential customer is through your website. We offer an exquisite and informative website that caters to your services and operations. We tailor our website design services with the objective that your brand represents.",
-                        },
-                        {
-                            "title":"eCommerce Websites",
-                            "text":"We understand the significance of an admirable website for your business. We will enhance your online reputation with aesthetically appealing web design services. We will include easy call-to-action buttons and multiple categories relating to your business for effortless use."
-                        },
-                        {
-                            "title":"Customized Website",
-                            "text":"Without a touch of personalization, your website is just another page on the internet. As a proficient website design company, we promise to create a website that would make your audience put trust in your ability to offer service."
-                        },
-                        {
-                            "title":"Landing Page Design",
-                            "text":"The first thing that your customer would see is a landing page. It should be astonishing enough to keep the viewer stay on the webpage. We’ll hook you up with a landing page that would flaunt your business’s goals and achievements."
-                        },
-                        {
-                            "title":"Responsive Web Design",
-                            "text":"There is no room for boring web pages anymore! It’s time to delve into responsive web design to provide your customers experience that is flexible and fluidic on different devices. We will make this possible with our exemplary web design services."
-                        },
-                        {
-                            "title":"Wireframing",
-                            "text":"As a renowned website design company, we offer services for enhanced wireframing. Our profound and experienced professional will illustrate the basic structure and elements for your website on different webpages. This will give you an idea of how your website is going to appear in front of the viewers."
-                        },
-                        {
-                            "title":"Graphics Design",
-                            "text":"With the extensive creative competence of our designers, you won’t have to worry about the appearance of the website. We provide your business an online presence with exemplary visual design."
-                        },
-                        {
-                            "title":"Blog Website Design",
-                            "text":"Blog design holds great significance on a webpage as well. Therefore, we will cater to a separate blog page for your website, to highlight the content related to your industry."
-                        }                
-                    ]
-                }
-            ],
-            "benefits":[
-                {   
-                    "subheading":{
-                        "text1":"How Choosing Us As Your ",
-                        "text2":"Website Design Company",
-                        "text3":"will Benefit you?",
-                    },
-                    "cardBoxData":[
-                        {
-                            "title":"Effective Layout",
-                            "text":"We create a layout that is sleek yet aesthetically appealing."
-                        },
-                        {
-                            "title":"Personalization",
-                            "text":"We will create a website that speaks your language with alluring web design."
-                        },
-                        {
-                            "title":"Effective  Call-to-Action",
-                            "text":"Your customer will be able to easily contact you with facile call-to-action buttons."
-                        },
-                        {
-                            "title":"Easy Access To Information",
-                            "text":"Your customer will be able to easily contact you with facile call-to-action buttons."
-                        },
-                        {
-                            "title":"Maintenance",
-                            "text":"Make your website maintenance hassle-free with our services."
-                        },                
-                    ]
-                }
-            ],
-            "whyChooseUs":[
-                {   
-                    "subheading":{
-                        "text1":"Why",
-                        "text2":"Choose our",
-                        "text3":"Web Design",
-                        "text4":"Services",
-                        "text5":"?",
-                    },
-                    "cardBoxData":[
-                        {
-                            "title":"Professional Designer",
-                            "text":"We are not stretching when we say that visualization is the key element when it comes to the website. We offer illustrious, visually appealing with top-notch content for your website."
-                        },
-                        {
-                            "title":"Reputation",
-                            "text":"As a web design company, we hold a pronounced reputation in the industry. With the expertise we have gained in years of hard work, we can deliver exemplary website designs for our clients."
-                        },
-                        {
-                            "title":"Well-Organized Project Plan",
-                            "text":"After we have discussed and studied all the website elements that are required by the client, we create a precise time-bound project plan. This would ensure that your website will be ready promptly."
-                        },              
-                    ]
-                }
-            ],
-            "designProcess":[
-                {   
-                    "subheading":{
-                        "text1":"Our Seemless",
-                        "text2":"Web design Process",
-                    },
-                    "cardBoxData":[
-                        {
-                            "title":"Strategizing",
-                            "text":"We identify your website requirements and goals that meet your business needs."
-                        },
-                        {
-                            "title":"Designing",
-                            "text":"In this phase, we will create a wireframe and initiate the design of your website."
-                        },
-                        {
-                            "title":"Developing",
-                            "text":"At this stage, the developers will work their charm on the CMS, coding, and server realization."
-                        },
-                        {
-                            "title":"Testing",
-                            "text":"We will deploy the website on the live server. We will fix the bugs and errors if any."
-                        },
-                        {
-                            "title":"Testing",
-                            "text":"We will deploy the website on the live server. We will fix the bugs and errors if any."
-                        },              
-                    ]
-                }
-            ],
-        }
-    ]
 
     const responsive = {
         superLargeDesktop: {
@@ -228,40 +110,41 @@ const Staffing = () => {
       };
 
     return(<>
-        <Container className="ourServiceContainer">   
-            {(serviceBannerJsonData || []).map((item)=>{
+            {(jsonData || []).map((item)=>{
                 return(
                     <>
                         {item.pathname===urlPathName ? 
                             <>
                                 {item?.banner.map((data)=>{
-                                  return(<>
-                                    <Row className="serviceBannerRow"> 
-                                      <div className="webDesignBannerDiv">
-                                          <p className="red serviceBannerTitleText "> <img src={horizontalLine} className="whyChooseusHrLine" alt="horizontal Line"/> {data?.mainHeading} <img src={horizontalLine} className="whyChooseusHrLine" alt="horizontal Line"/></p>
-                                          <p className="serviceBannerHeading"> {data?.heading.text1}<span className="red"> {data.heading.text2} </span>Services</p>
-                                          <p className="serviceBannerDescription">{data?.descritption}</p>
-                                          <Button className="serviceBannerButton">Let’s Discus your Idea</Button>
-                                      </div>
-                                      <Row className="bannerIconsRow">
-                                          {data?.icons.map((items)=>{
-                                              return(<>  
-                                                <Col>
-                                                  <div className="d-flex" md={2}>
-                                                      <img src={items.src} className="bannerIcon" alt="i" />
-                                                      <span>{items.icon}</span>
-                                                  </div>
-                                                </Col>      
-                                              </>)
-                                          })}  
-                                      </Row> 
-                                    </Row>
-                                  </>)
+                                    return(<>
+                                        <Container className="serviceBannerRow"> 
+                                            <div className="webDesignBannerDiv">
+                                                <p className="red serviceBannerTitleText "> <img src={horizontalLine} className="whyChooseusHrLine" alt="horizontal Line"/> {data?.mainHeading} <img src={horizontalLine} className="whyChooseusHrLine" alt="horizontal Line"/></p>
+                                                <p className="serviceBannerHeading"> {data?.heading.text1}<span className="red"> {data.heading.text2} </span> {data?.heading.text3} </p>
+                                                <p className="serviceBannerDescription">{data?.descritption}</p>
+                                                <Button className="serviceBannerButton">Let’s Discus your Idea</Button>
+                                            </div>
+                                        </Container>
+                                        <Container>
+                                            <Row className="bannerIconsRow">
+                                                {(Array.from(data?.icons || [])).map((items)=>{
+                                                    return(<>  
+                                                        <Col>
+                                                            <div className="d-flex" md={2}>
+                                                                <img src={items.src} className="bannerIcon" alt="i" />
+                                                                <span>{items.icon}</span>
+                                                            </div>
+                                                        </Col>      
+                                                    </>)
+                                                })}      
+                                            </Row> 
+                                        </Container>
+                                    </>)
                                 })}
 
                                 {(item.ourServices || []).map((item)=>{
                                     return(<>
-                                        <Row className="ourServicesRow">
+                                        <Container className="ourServicesRow">
                                             <Col>
                                                 <p className="red ourServiceText">Our Services <img src={horizontalLine} className="whyChooseusHrLine" alt="horizontal Line"/></p>
                                                 <h4 className="ourServiceSubHeading">{item.subheading.text1} <span className="red"> {item.subheading.text2}</span></h4>
@@ -283,16 +166,16 @@ const Staffing = () => {
                                                         </>)
                                                     })}
                                             </Row>
-                                        </Row>
+                                        </Container>
                                     </>)
                                 })}
 
                                 {(item.benefits || []).map((item)=>{
                                     return(<>
-                                        <Row className="benefitsMainRow">
+                                        <Container className="benefitsMainRow">
                                             <Col>
                                                 <p className="red benefitsText">Benefits <img src={horizontalLine} alt="horizontal Line"/></p>
-                                                <h4 className="benefitsSubHeading">{item.subheading.text1} <span className="red"> {item.subheading.text2}</span> {item.subheading.text3}{(urlPathName==="/Services/ecommerce-Website-Services") ?<span className="red"> {item.subheading.text4}</span>:null} </h4>
+                                                <h4 className="benefitsSubHeading">{item?.subheading?.text1} <span className="red"> {item?.subheading?.text2}</span> {item?.subheading?.text3}<span className="red"> {item?.subheading?.text4}</span><span> {item?.subheading?.text5}</span></h4>
                                             </Col>
                                             <Row>
                                                 {item.cardBoxData.map((item)=>{
@@ -300,7 +183,7 @@ const Staffing = () => {
                                                         <Col md={4} className="benefitsCol">
                                                             <Card className="benefitsCardBox">
                                                                 <Card.Body>
-                                                                    <img  src={EffectiveLayout} alt="benefitIcons" />
+                                                                    <img  src={item.src} alt="benefitIcons" />
                                                                     <Card.Title className="benefitsCardTitleText">{item.title}</Card.Title>
                                                                     <Card.Text className="cardTextBenefits">{item.text}</Card.Text>
                                                                 </Card.Body>
@@ -309,13 +192,13 @@ const Staffing = () => {
                                                     )
                                                 })}
                                             </Row>
-                                        </Row>
+                                        </Container>
                                     </>)
                                 })}
 
                                 {(item.whyChooseUs || []).map((item)=>{
                                     return(<>
-                                        <Row className="whyChooseMainRow">
+                                        <Container className="whyChooseMainRow">
                                             <Col className="whyChooseusCol">
                                                 <p className="red whyChosseHeading"> <img src={horizontalLine} className="whyChooseusHrLine" alt="horizontal Line"/> Why Choose us <img src={horizontalLine} className="whyChooseusHrLine" alt="horizontal Line"/></p>
                                                 <h4 className="whyChooseSubHeading">{item.subheading.text1}<span className="red"> {item.subheading.text2} </span>{item.subheading.text3}<span className="red"> {item.subheading.text4}</span>{item.subheading.text5}</h4>
@@ -336,9 +219,9 @@ const Staffing = () => {
                                                     >
                                                         {item.cardBoxData.map((item)=>{
                                                             return(      
-                                                                <Card className="align-items-center p-3 mx-3 carouselCard">
-                                                                    <img src={EffectiveLayout} alt="i"  />
+                                                                <Card className=" p-3 mx-3 carouselCard"> 
                                                                     <Card.Body>
+                                                                        <img src={item.src} alt="i" className="caroselImg"  />
                                                                         <Card.Title className="carouselCardTitle">{item.title}</Card.Title>
                                                                         <Card.Text className="carouselCardTitleText">{item.text}</Card.Text>
                                                                     </Card.Body>
@@ -348,13 +231,13 @@ const Staffing = () => {
                                                     </Carousel>
                                                 </div>  
                                             </Row>
-                                        </Row>
+                                        </Container>
                                     </>)
                                 })}
 
                                 {(item.designProcess  || []).map((item)=>{
                                     return(<>
-                                        <Row className="designprocessRow">
+                                        <Container className="designprocessRow">
                                             <Col>
                                                 <p className="red designProcessText">Design Process <img src={horizontalLine} className="whyChooseusHrLine" alt="horizontal Line"/></p>
                                                 <h4 className="designProcessSubHeading">{item.subheading.text1}<span className="red"> {item.subheading.text2}</span></h4>
@@ -369,7 +252,7 @@ const Staffing = () => {
                                                                         <Card.Body>      
                                                                             <span>                                                          
                                                                             <div className="designProcessDescptionDiv" >
-                                                                                <img src={EffectiveLayout} alt="i" className=""/>
+                                                                                <img src={item.src} alt="i" className=""/>
                                                                             </div>
                                                                             <Card.Title className="designProcessHeadings">{item.title}</Card.Title>
                                                                             </span>
@@ -383,16 +266,169 @@ const Staffing = () => {
                                                     })}     
                                                 </Col>
                                             </Row>
-                                        </Row>
+                                        </Container>
                                     </>)
                                 })}
-
+                                <div className="tech-expertise">
+                                <Container className="tech-expertise-section">
+                                    <Row className="top-content">
+                                    <Col>
+                                        <p className="red">Our Technology Expertise----</p>
+                                        <h1>We use <span className="red">best-in-class tools, state-of-the-art technologies and modern approaches</span> to scale up your business</h1>
+                                    </Col>
+                                    </Row>
+                                    <Row>
+                                    <Col className="bottom-content">
+                                        <Row className="tech-software">
+                                        <Col xs="12" lg="3" className="tech-list">
+                                            <h5 onClick={() =>ToggleClass("design")} className={`tech-title ${isActive === "design" ? "tech-active" : ""}`}>Design</h5>
+                                            <div  className={`tech-menu ${isActive === "design" ? "child-wrap" : ""}`}>
+                                            <ul className="tech-sub sub-ul">
+                                                <li><a href="#"><img src={figma} />Figma</a></li>
+                                                <li><a href="#"><img src={sketch} />Sketch</a></li>
+                                                <li><a href="#"><img src={adobe} />Adobe Illustrator</a></li>
+                                                <li><a href="#"><img src={ps} />Adobe Photoshop</a></li>                       
+                                            </ul>
+                                            </div>
+                                            <h5 onClick={() =>ToggleClass("frontend")} className={`tech-title ${isActive === "frontend" ? "tech-active" : ""}`}>Front-end</h5>
+                                            <div className={`tech-menu ${isActive === "frontend" ? "child-wrap" : ""}`}>
+                                            <ul className="tech-sub sub-ul">
+                                                <li><a href="#"><img src={react} />ReactJS</a></li>
+                                                <li><a href="#"><img src={angular} />Angular</a></li>
+                                                <li><a href="#"><img src={vue} />Vue.JS</a></li>                    
+                                            </ul>
+                                            </div>
+                                            <h5  onClick={() =>ToggleClass("backend")} className={`tech-title ${isActive === "backend" ? "tech-active" : ""}`}>Back-end</h5>
+                                            <div className={`tech-menu ${isActive === "backend" ? "child-wrap" : ""}`}>
+                                            <ul className="tech-sub sub-ul">
+                                                <li><a href="#"><img src={dotnet} />.Net</a></li>
+                                                <li><a href="#"><img src={node} />Node JS</a></li>
+                                                <li><a href="#"><img src={dotnet} />Java</a></li>                    
+                                                <li><a href="#"><img src={ruby} />Ruby On Rails</a></li>                    
+                                                <li><a href="#"><img src={laravel} />Laravel</a></li>                    
+                                                <li><a href="#"><img src={php} />PHP</a></li>                    
+                                                <li><a href="#"><img src={golang} />Golang</a></li>                    
+                                            </ul>
+                                            </div>
+                                            <h5 onClick={() =>ToggleClass("Other")} className={`tech-title ${isActive === "Other" ? "tech-active" : ""}`}>Other</h5>
+                                            <div className={`tech-menu ${isActive === "Other" ? "child-wrap" : ""}`}>
+                                            <ul className="tech-sub sub-ul">
+                                                <li><a href="#"><img src={other} />Agile TDD</a></li>
+                                            </ul>
+                                            </div>
+                                        </Col>
+                                        <Col xs="12" lg="3" className="tech-list">
+                                        <h5 onClick={() =>ToggleClass("server")} className={`tech-title ${isActive === "server" ? "tech-active" : ""}`}>Server</h5>
+                                            <div className={`tech-menu ${isActive === "server" ? "child-wrap" : ""}`}>
+                                            <ul className="tech-sub sub-ul">
+                                                <li><a href="#"><img src={google} />Azure,Google Cloud</a></li>
+                                                <li><a href="#"><img src={aws} />AWS</a></li>
+                                                <li><a href="#"><img src={digital} />Digital Ocean</a></li>                       
+                                                <li><a href="#"><img src={heroku} />Heroku</a></li>                       
+                                            </ul>
+                                            </div>
+                                            <h5 onClick={() =>ToggleClass("Database")} className={`tech-title ${isActive === "Database" ? "tech-active" : ""}`}>Database</h5>
+                                            <div className={`tech-menu ${isActive === "Database" ? "child-wrap" : ""}`}>
+                                            <ul className="tech-sub sub-ul">
+                                                <li><a href="#"><img src={sql} />MS SQL</a></li>
+                                                <li><a href="#"><img src={mongo} />MongoDB</a></li>
+                                                <li><a href="#"><img src={postsql} />PostgreSQL</a></li>                    
+                                                <li><a href="#"><img src={mysql} />MySQL</a></li>                    
+                                                <li><a href="#"><img src={dynamo} />Dynamo DB</a></li>                  
+                                            </ul>
+                                            </div>
+                                            <h5 onClick={() =>ToggleClass("Mobile")} className={`tech-title ${isActive === "Mobile" ? "tech-active" : ""}`}>Mobile</h5>
+                                            <div className={`tech-menu ${isActive === "Mobile" ? "child-wrap" : ""}`}>
+                                            <ul className="tech-sub sub-ul">
+                                                <li><a href="#"><img src={ios} />iOS</a></li>
+                                                <li><a href="#"><img src={android} />Android</a></li>
+                                                <li><a href="#"><img src={flutter} />Flutter</a></li>                    
+                                                <li><a href="#"><img src={react} />React Native</a></li>                    
+                                                <li><a href="#"><img src={ionic} />Ionic</a></li>                    
+                                                <li><a href="#"><img src={kotlin} />Kotlin</a></li>                   
+                                            </ul>
+                                            </div>
+                                        </Col>
+                                        <Col xs="12" lg="3" className="tech-list">
+                                        <h5 onClick={() =>ToggleClass("vc")} className={`tech-title ${isActive === "meet" ? "tech-active" : ""}`}>Meeting</h5>
+                                            <div className={`tech-menu ${isActive === "meet" ? "child-wrap" : ""}`}>
+                                            <ul className="tech-sub sub-ul">
+                                                <li><a href="#"><img src={meet} />Google Meet</a></li>
+                                                <li><a href="#"><img src={zoom} />Zoom</a></li>                  
+                                            </ul>
+                                            </div>
+                                        <h5 onClick={() =>ToggleClass("vc")} className={`tech-title ${isActive === "vc" ? "tech-active" : ""}`}>Version Control</h5>
+                                            <div className={`tech-menu ${isActive === "vc" ? "child-wrap" : ""}`}>
+                                            <ul className="tech-sub sub-ul">
+                                                <li><a href="#"><img src={github} />Github</a></li>
+                                                <li><a href="#"><img src={bitbucket} />BitBucket</a></li>
+                                                <li><a href="#"><img src={gitlab} />Gitlab</a></li>                     
+                                            </ul>
+                                            </div>
+                                            <h5 onClick={() =>ToggleClass("CRM")} className={`tech-title ${isActive === "CRM" ? "tech-active" : ""}`}>CRM</h5>
+                                            <div className={`tech-menu ${isActive === "CRM" ? "child-wrap" : ""}`}>
+                                            <ul className="tech-sub sub-ul">
+                                                <li><a href="#"><img src={sales} />Salesforce</a></li>
+                                                <li><a href="#"><img src={dynamic} />Microsoft Dynamic 365</a></li>
+                                                <li><a href="#"><img src={teamcity} />TeamCity</a></li>                    
+                                                <li><a href="#"><img src={bamboo} />Bamboo</a></li>                    
+                                                <li><a href="#"><img src={circle} />Circleci Hudson</a></li>                    
+                                                <li><a href="#"><img src={jerkin} />Jenkins</a></li>                    
+                                                <li><a href="#"><img src={apps} />Apps</a></li>                    
+                                                <li><a href="#"><img src={git} />Git</a></li>                    
+                                            </ul>
+                                            </div>
+                                            <h5 onClick={() =>ToggleClass("CMS")} className={`tech-title ${isActive === "CMS" ? "tech-active" : ""}`}>CMS</h5>
+                                            <div className={`tech-menu ${isActive === "CMS" ? "child-wrap" : ""}`}>
+                                            <ul className="tech-sub sub-ul">
+                                                <li><a href="#"><img src={wordpress} />WordPress</a></li>
+                                                <li><a href="#"><img src={drupal} />Drupal</a></li>                   
+                                            </ul>
+                                            </div>
+                                        </Col>
+                                        <Col xs="12" lg="3" className="tech-list">
+                                        <h5 onClick={() =>ToggleClass("Devops")} className={`tech-title ${isActive === "tools" ? "tech-active" : ""}`}>Project Management Tools</h5>
+                                            <div className={`tech-menu ${isActive === "tools" ? "child-wrap" : ""}`}>
+                                            <ul className="tech-sub sub-ul">
+                                                <li><a href="#"><img src={jira} />Jira</a></li>
+                                                <li><a href="#"><img src={trillo} />Trello</a></li>
+                                                <li><a href="#"><img src={basecamp} />BaseCamp</a></li>
+                                                <li><a href="#"><img src={ms} />MS Project</a></li>                      
+                                            </ul>
+                                            </div>
+                                        <h5 onClick={() =>ToggleClass("Devops")} className={`tech-title ${isActive === "Devops" ? "tech-active" : ""}`}>Devops</h5>
+                                            <div className={`tech-menu ${isActive === "Devops" ? "child-wrap" : ""}`}>
+                                            <ul className="tech-sub sub-ul">
+                                                <li><a href="#"><img src={apache} />Apacheant</a></li>
+                                                <li><a href="#"><img src={xcode} />Xcode</a></li>
+                                                <li><a href="#"><img src={fastlane} />Fastlane Gant</a></li>
+                                                <li><a href="#"><img src={gradle} />Gradle</a></li>                       
+                                                <li><a href="#"><img src={maven} />Maven</a></li>                       
+                                                <li><a href="#"><img src={anisble} />Ansible</a></li>                       
+                                                <li><a href="#"><img src={chef} />Chef</a></li>                       
+                                                <li><a href="#"><img src={puppet} />Puppet</a></li>                       
+                                            </ul>
+                                            </div>
+                                            <h5 onClick={() =>ToggleClass("Project")} className={`tech-title ${isActive === "Project" ? "tech-active" : ""}`}>Project Management Tools</h5>
+                                            <div className={`tech-menu ${isActive === "Project" ? "child-wrap" : ""}`}>
+                                            <ul className="tech-sub sub-ul">
+                                                <li><a href="#"><img src={jira} />Jira</a></li>
+                                                <li><a href="#"><img src={trillo} />Trello</a></li>
+                                                <li><a href="#"><img src={basecamp} />BaseCamp</a></li>                    
+                                                <li><a href="#"><img src={ms} />MS Project</a></li>                    
+                                            </ul>
+                                            </div>
+                                        </Col>
+                                        </Row>
+                                    </Col>
+                                    </Row>
+                                </Container>
+                                </div>
                             </>:null
                         }
                     </>)
                 })
             }
-        </Container>
     </>)
 }
 
