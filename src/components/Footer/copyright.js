@@ -1,6 +1,7 @@
 import * as Icon from "react-feather";
 
 const FooterCopyright = () => {
+  const date =  new Date().getFullYear();
   return (
     <div className="og-footer-copyright d-md-flex justify-content-lg-between">
       <div className="p-2 bd-highlight">
@@ -8,7 +9,7 @@ const FooterCopyright = () => {
         Origami
       </div>
       <div className="p-2 bd-highlight">
-        @ 2021 Origami. All Rights Reserved.
+        @ {date} Origami. All Rights Reserved.
       </div>
     </div>
   );

@@ -1,9 +1,19 @@
-import ResponsiveBanner from "../../images/Responsive.svg"
-import Upgradation from "../../images/Upgradation.svg"
-import Security from "../../images/Security.svg"
-import MaintenanceBanner from "../../images/Maintenance.svg"
-import Migrations from "../../images/Migrations.svg"
-import PWA from "../../images/PWA.svg" 
+import ResponsiveBanner from "../../images/Banner/Responsive.svg"
+import Upgradation from "../../images/Banner/Upgradation.svg"
+import Security from "../../images/Banner/Security.svg"
+import MaintenanceBanner from "../../images/Banner/Maintenance.svg"
+import Migrations from "../../images/Banner/Migrations.svg"
+import PWA from "../../images/Banner/PWA.svg"
+import OrderManagementBanner from "../../images/Banner/OrderManagementBanner.svg"
+import MultivendorSupport from "../../images/Banner/MultivendorSupport.svg"
+import ReturnsRefunds from "../../images/Banner/ReturnsRefunds.svg"
+import CustomBulkCSV from "../../images/Banner/CustomBulkCSV.svg"
+import MobileFriendlyBanner from "../../images/Banner/MobileFriendly.svg"
+import PageLoadSpeed from "../../images/Banner/PageLoadSpeed.svg"
+import LiquidDesignMethodology from "../../images/Banner/LiquidDesignMethodology.svg"
+import UserFriendlyWebsite from "../../images/Banner/UserFriendlyWebsite.svg"
+import W3CCompliant from "../../images/Banner/W3CCompliant.svg"
+
  
  import EffectiveLayout from "../../images/benefits/services/EffectiveLayout.svg"
  import Personalization from "../../images/benefits/services/Personalization.svg"
@@ -35,6 +45,9 @@ import PWA from "../../images/PWA.svg"
  import Responsive from "../../images/benefits/services/Responsive.svg" 
  import Accessibility from "../../images/benefits/services/Accessibility.svg" 
  import FastSpeed from "../../images/benefits/services/FastSpeed.svg"
+ import ExperiencedDesigners from "../../images/ChooseUs/Service/ExperiencedDesigners.svg"
+ import WellOrganizedProcess from "../../images/ChooseUs/Service/WellOrganizedProcess.svg"
+ import NonDisclosureAgreement from "../../images/ChooseUs/Service/NonDisclosureAgreement.svg"
  
  
 
@@ -57,7 +70,7 @@ const jsonData=[
                     "text2" :"Web Design",
                     "text3" :"Services"
                 },
-                "descritption" : "Origami Softwatre's ensures to deliver custom website design services, globally! We are adept at designing responsive, fast-loading, and user-friendly websites that offer a consistent look and use across different web browsers.",
+                "descritption" : "Origami Software's ensures to deliver custom website design services, globally! We are adept at designing responsive, fast-loading, and user-friendly websites that offer a consistent look and use across different web browsers.",
                 "icons":[
                     {
                         "icon":"Responsive",
@@ -239,14 +252,32 @@ const jsonData=[
                     "text3" :"Services"
                 },
                 "descritption" : "At Origami SOFTWARE'S, we are driven towards building powerful, secure, and custom eCommerce websites with high scalability. We are skilled in designing device-friendly websites for businesses of all sizes.",
-                "icons":{
-                    "iconTitle1":"Order Management",
-                    "iconTitle2":"Multivendor Support",
-                    "iconTitle3":"Returns & Refunds",
-                    "iconTitle4":"Custom Bulk CSV",
-                    "iconTitle5":"Mobile-First Approach",
-                    "iconTitle6":"PWA",
-                }
+                "icons":[
+                    {
+                        "icon":"Order Management",
+                        "src":OrderManagementBanner,
+                    },
+                    {
+                        "icon":"Multivendor Support",
+                        "src":MultivendorSupport
+                    },
+                    {
+                        "icon":"Returns & Refunds",
+                        "src":ReturnsRefunds,
+                    },
+                    {
+                        "icon":"Custom Bulk CSV",
+                        "src":CustomBulkCSV,
+                    },
+                    {
+                        "icon":"Mobile-First Approach",
+                        "src":ResponsiveBanner
+                    },
+                    {
+                        "icon":"PWA",
+                        "src":PWA
+                    }
+                ]
             },
         ],
         "ourServices":[
@@ -394,14 +425,32 @@ const jsonData=[
                     "text3" :"Services"
                 },
                 "descritption" : "At Origami softwares, we design tailored corporate websites that meet our clients’ expectations and empower their businesses. Pleasant user experience, easy navigation, responsive layout, and effective call-to-actions are at the forefront of our corporate website design services strategy.",
-                "icons":{
-                    "iconTitle1":"Mobile friendly",
-                    "iconTitle2":"Page Load Speed",
-                    "iconTitle3":"Liquid Design Methodology",
-                    "iconTitle4":"Full Secure",
-                    "iconTitle5":"User-friendly website",
-                    "iconTitle6":"W3C Compliant",
-                }
+                "icons":[
+                    {
+                        "icon":"Mobile friendly",
+                        "src":MobileFriendlyBanner,
+                    },
+                    {
+                        "icon":"Page Load Speed",
+                        "src":PageLoadSpeed
+                    },
+                    {
+                        "icon":"Liquid Design Methodology",
+                        "src":LiquidDesignMethodology,
+                    },
+                    {
+                        "icon":"Full Secure",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"User-friendly website",
+                        "src":UserFriendlyWebsite
+                    },
+                    {
+                        "icon":"W3C Compliant",
+                        "src":W3CCompliant
+                    }
+                ]
             }
         ],
         "ourServices":[
@@ -471,15 +520,18 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"Experienced Designers",
-                        "text":"Being a decade old corporate website design company, we have highly experienced web designers. They create visually appealing and high-performing corporate websites. With an in-depth knowledge of the latest web design tools and technologies, our designers are well equipped to handle any small or big corporate web design project."
+                        "text":"Being a decade old corporate website design company, we have highly experienced web designers. They create visually appealing and high-performing corporate websites. With an in-depth knowledge of the latest web design tools and technologies, our designers are well equipped to handle any small or big corporate web design project.",
+                        "src":ExperiencedDesigners
                     },
                     {
                         "title":"Well-organized Process",
-                        "text":"After discussing website elements and other requirements of our clients, we create an effective time-bound project plan and assign a dedicated project manager. Our team keeps in touch with clients via communication channels like email, chat, phone calls, Skype, and PMS to provide project reports. As a trusted corporate web design company, we take all steps for clients’ satisfaction."
+                        "text":"After discussing website elements and other requirements of our clients, we create an effective time-bound project plan and assign a dedicated project manager. Our team keeps in touch with clients via communication channels like email, chat, phone calls, Skype, and PMS to provide project reports. As a trusted corporate web design company, we take all steps for clients’ satisfaction.",
+                        "src":WellOrganizedProcess
                     },
                     {
                         "title":"Non-disclosure Agreement",
-                        "text":"The security of your project is our utmost priority, and we take it seriously. We take all possible security measures to protect the confidentiality of your project. We do sign NDA (Non-Disclosure Agreement) with our clients to provide complete assurance and fulfill our commitment towards project security."
+                        "text":"The security of your project is our utmost priority, and we take it seriously. We take all possible security measures to protect the confidentiality of your project. We do sign NDA (Non-Disclosure Agreement) with our clients to provide complete assurance and fulfill our commitment towards project security.",
+                        "src":NonDisclosureAgreement,
                     },              
                 ]
             }

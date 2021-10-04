@@ -39,3 +39,14 @@ a {
   color: $primary;
   font-weight: 600;
 }
+
+.upArrowRed{
+  cursor         : pointer;
+  text-align     : justify;
+  text-align-last: end;
+  transform      : translate(0, +35%);
+}
+
+.og-footer {
+  margin-top: 200px;
+}

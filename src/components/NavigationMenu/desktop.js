@@ -146,7 +146,7 @@ const DesktopMenu = () => {
               </Container>
             </div>
           </Nav.Link>
-          <Nav.Link className="menu-item" href="expertise/IoT-App-Development">
+          <Nav.Link className="menu-item" href="/expertise/IoT-App-Development">
             Expertise
             <div className="navbar-content ">
               <Container>
@@ -281,7 +281,7 @@ const DesktopMenu = () => {
               </Container>
             </div>
           </Nav.Link>
-          <Nav.Link className="menu-item" href="/technologies/">
+          <Nav.Link className="menu-item" href="/technologies/iOS-App-Development">
             Technologies
             <div className="navbar-content ">
               <Container>

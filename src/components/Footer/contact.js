@@ -1,12 +1,17 @@
 import {React, useState} from "react";
 import { Col, Container, Row, ListGroup, Card } from "react-bootstrap";
 import FooterLogo from "../../images/footer-logo.svg";
+import ScrollTop from "../../images/ScrollTop.svg";
+
 import * as Icon from 'react-feather';
 const FooterContact = () => {
   const [isActive, setActive] = useState("");
   const ToggleClass = (e) => {
     setActive(prev => prev===e ? "" : e );  
   };
+    const scrollTop=()=>{
+        window.scroll({top: 0,left: 0,behavior: 'smooth'});
+    }
   return (
     <Container className="og-footer-contact mb-5">
       <Row xs={1} lg={3} xl={4} className="g-5">
@@ -49,6 +54,7 @@ const FooterContact = () => {
             </Card.Body>
           </Card>
         </Col>
+        <Col className="upArrowRed"><img src={ScrollTop} onClick={()=>scrollTop()} /></Col>
       </Row>
     </Container>
   );
