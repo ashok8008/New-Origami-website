@@ -117,7 +117,7 @@ const Services = ()=>{
                                         <Container className="benefitsMainRow">
                                             <Col>
                                                 <p className="red benefitsText">Benefits <img src={horizontalLine} alt="horizontal Line"/></p>
-                                                <h4 className="benefitsSubHeading">{item?.subheading?.text1} <span className="red"> {item?.subheading?.text2}</span> {item?.subheading?.text3}<span className="red"> {item?.subheading?.text4}</span><span> {item?.subheading?.text5}</span></h4>
+                                                <h4 className="benefitsSubHeading">{item?.subheading?.text1} <span className="red"> {item?.subheading?.text2}</span> {item?.subheading?.text3}<span className="red"> {item?.subheading?.text4}</span><span>{item?.subheading?.text5}</span></h4>
                                             </Col>
                                             <Row>
                                                 {item.cardBoxData.map((item)=>{
