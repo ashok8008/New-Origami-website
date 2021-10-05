@@ -14,22 +14,23 @@ import LiquidDesignMethodology from "../../images/Banner/LiquidDesignMethodology
 import UserFriendlyWebsite from "../../images/Banner/UserFriendlyWebsite.svg"
 import W3CCompliant from "../../images/Banner/W3CCompliant.svg"
 
+import Strategize from "../../images/designProcess/Strategize.svg"
+import Design from "../../images/designProcess/Design.svg"
+import Development from "../../images/designProcess/Development.svg"
+import Testing from "../../images/designProcess/Testing.svg"
+import Maintenancedesign from "../../images/designProcess/Maintenance.svg"
+import DeliverySupport from "../../images/designProcess/DeliverySupport.svg"
+
  
  import EffectiveLayout from "../../images/benefits/services/EffectiveLayout.svg"
  import Personalization from "../../images/benefits/services/Personalization.svg"
  import EffectiveCallAction from "../../images/benefits/services/EffectiveCallAction.svg"
  import EasyAccessToInformation from "../../images/benefits/services/EasyAccessToInformation.svg"
  import Maintenance from "../../images/benefits/services/Maintenance.svg"
- import ProfessionalDesigner from "../../images/ChooseUs/Service/ProfessionalDesigner.svg"
- import Reputation from "../../images/ChooseUs/Service/Reputation.svg"
- import WellOrganizedProjectPlan from "../../images/ChooseUs/Service/WellOrganizedProjectPlan.svg"
+ import ProfessionalDesigner from "../../images/ChooseUs/Services/ProfessionalDesigner.svg"
+ import Reputation from "../../images/ChooseUs/Services/Reputation.svg"
+ import WellOrganizedProjectPlan from "../../images/ChooseUs/Services/WellOrganizedProjectPlan.svg"
 
- import Strategize from "../../images/designProcess/Strategize.svg"
- import Design from "../../images/designProcess/Design.svg"
- import Development from "../../images/designProcess/Development.svg"
- import Testing from "../../images/designProcess/Testing.svg"
- import Maintenancedesign from "../../images/designProcess/Maintenance.svg"
- import DeliverySupport from "../../images/designProcess/DeliverySupport.svg"
 
 
  import ExcellentUIUX from "../../images/benefits/services/ExcellentUIUX.svg" 
@@ -37,18 +38,41 @@ import W3CCompliant from "../../images/Banner/W3CCompliant.svg"
  import TechnicalExpertise from "../../images/benefits/services/TechnicalExpertise.svg" 
  import MobileFriendly from "../../images/benefits/services/MobileFriendly.svg" 
  import HighAccessibility from "../../images/benefits/services/HighAccessibility.svg"
- import PlusTechExperts from "../../images/ChooseUs/Service/180PlusTechExperts.svg" 
- import CostEfficient from "../../images/ChooseUs/Service/CostEfficient.svg" 
- import SystematicWorkflow from "../../images/ChooseUs/Service/SystematicWorkflow.svg" 
+ import PlusTechExperts from "../../images/ChooseUs/Services/180PlusTechExperts.svg" 
+ import CostEfficient from "../../images/ChooseUs/Services/CostEfficient.svg" 
+ import SystematicWorkflow from "../../images/ChooseUs/Services/SystematicWorkflow.svg" 
 
  import Scalable from "../../images/benefits/services/Scalable.svg" 
  import Responsive from "../../images/benefits/services/Responsive.svg" 
  import Accessibility from "../../images/benefits/services/Accessibility.svg" 
  import FastSpeed from "../../images/benefits/services/FastSpeed.svg"
- import ExperiencedDesigners from "../../images/ChooseUs/Service/ExperiencedDesigners.svg"
- import WellOrganizedProcess from "../../images/ChooseUs/Service/WellOrganizedProcess.svg"
- import NonDisclosureAgreement from "../../images/ChooseUs/Service/NonDisclosureAgreement.svg"
+ import ExperiencedDesigners from "../../images/ChooseUs/Services/ExperiencedDesigners.svg"
+ import WellOrganizedProcess from "../../images/ChooseUs/Services/WellOrganizedProcess.svg"
+ import NonDisclosureAgreement from "../../images/ChooseUs/Services/NonDisclosureAgreement.svg"
  
+ import Satisfaction from "../../images/benefits/services/B2bDesign/Satisfaction.svg"
+ import HighPerformance from "../../images/benefits/services/B2bDesign/HighPerformance.svg"
+ import EndToEndDevelopment from "../../images/benefits/services/B2bDesign/EndToEndDevelopment.svg"
+ import Secure from "../../images/benefits/services/B2bDesign/Secure.svg"
+ import TeamOfSpecialists from "../../images/ChooseUs/Services/B2bDesign/TeamOfSpecialists.svg"
+ import SEOFriendlySites from "../../images/ChooseUs/Services/B2bDesign/SEOFriendlySites.svg"
+ import Transparency from "../../images/ChooseUs/Services/B2bDesign/Transparency.svg"
+
+
+ import WebsiteAnalytics from "../../images/benefits/services/WebsiteMaintenance/WebsiteAnalytics.svg"
+ import FastTurnaround from "../../images/benefits/services/WebsiteMaintenance/FastTurnaround.svg"
+ import ContentUpdates from "../../images/benefits/services/WebsiteMaintenance/ContentUpdates.svg"
+ import ProfessionalService from "../../images/benefits/services/WebsiteMaintenance/ProfessionalService.svg"
+ import CertifiedSpecialists from "../../images/benefits/services/WebsiteMaintenance/CertifiedSpecialists.svg"
+ import HighQualityService from "../../images/ChooseUs/Services/WebsiteMaintenance/HighQualityService.svg"
+ import QuickSupport from "../../images/ChooseUs/Services/WebsiteMaintenance/QuickSupport.svg"
+ import AffordableServices from "../../images/ChooseUs/Services/WebsiteMaintenance/AffordableServices.svg"
+
+ import WebsiteAudit from "../../images/benefits/services/WebsiteConsulting/WebsiteAudit.svg"
+ import WebsiteUsability from "../../images/benefits/services/WebsiteConsulting/WebsiteUsability.svg"
+ import WebAnalytics from "../../images/benefits/services/WebsiteConsulting/WebAnalytics.svg"
+ import CompetitorResearch from "../../images/benefits/services/WebsiteConsulting/CompetitorResearch.svg"
+ import ProjectEstimation from "../../images/benefits/services/WebsiteConsulting/ProjectEstimation.svg"
  
 
 
@@ -549,14 +573,32 @@ const jsonData=[
                     "text3" :"Services"
                 },
                 "descritption" :"Origami Softwares is a prominent B2B web design services provider company, we design the most compelling B2B websites with intuitive navigation and stunning appearances. You can provide us with PSD, Sketch, PNG, AI, other design files and we will create a full-fledged B2B website. Our designers are well-versed in the latest web design tools and technologies, empowering them to deliver the best solutions while rendering a delightful customer experience.",
-                "icons":{
-                    "iconTitle1":"Mobile Friendly",
-                    "iconTitle2":"NDA Agreement",
-                    "iconTitle3":"100% Satisfaction",
-                    "iconTitle4":"24/7 Availability",
-                    "iconTitle5":"Ever - evolving Mobile Usage",
-                    "iconTitle6":"SEO-Friendly sites",
-                }
+                "icons":[
+                    {
+                        "icon":"Mobile Friendly",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"NDA Agreement",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"100% Satisfaction",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"24/7 Availability",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Ever - evolving Mobile Usage",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"SEO-Friendly sites",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
@@ -593,23 +635,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"100% Satisfaction",
-                        "text":"We work with the intention to provide the best services. Our persistent efforts enabled us to ensure 100% customer satisfaction."
+                        "text":"We work with the intention to provide the best services. Our persistent efforts enabled us to ensure 100% customer satisfaction.",
+                        "src":Satisfaction
                     },
                     {
                         "title":"High-performance",
-                        "text":"We work with the intention to provide the best services. Our persistent efforts enabled us to ensure 100% customer satisfaction."
+                        "text":"We work with the intention to provide the best services. Our persistent efforts enabled us to ensure 100% customer satisfaction.",
+                        "src":HighPerformance
                     },
                     {
                         "title":"End-To-End Development",
-                        "text":"We provide end-to-end website design services from wireframing / prototyping, UI/UX designing to development & deployment."
+                        "text":"We provide end-to-end website design services from wireframing / prototyping, UI/UX designing to development & deployment.",
+                        "src":EndToEndDevelopment
                     },
                     {
                         "title":"Scalable",
-                        "text":"You will get a website that will be easy to adapt as per your needs when your business grows in the future."
+                        "text":"You will get a website that will be easy to adapt as per your needs when your business grows in the future.",
+                        "src":Scalable
                     },
                     {
                         "title":"Secure",
-                        "text":"We employ advanced security features like custom admin dashboard, encryption, security plugins, etc. to build secure sites."
+                        "text":"We employ advanced security features like custom admin dashboard, encryption, security plugins, etc. to build secure sites.",
+                        "src":Secure
                     },                
                 ]
             }
@@ -619,22 +666,25 @@ const jsonData=[
                 "subheading":{
                     "text1":"Why",
                     "text2":"Choose our",
-                    "text3":" B2B Website",
+                    "text3":"B2B Website",
                     "text4":"Services",
                     "text5":"?",
                 },
                 "cardBoxData":[
                     {
                         "title":"Team of Specialists",
-                        "text":"Our designers are not just professionals; they are specialists in their domain with extensive knowledge and industry experiences. They know how to tackle business challenges and craft excellent solutions that meet specific client needs."
+                        "text":"Our designers are not just professionals; they are specialists in their domain with extensive knowledge and industry experiences. They know how to tackle business challenges and craft excellent solutions that meet specific client needs.",
+                        "src":TeamOfSpecialists
                     },
                     {
                         "title":"SEO-friendly Sites",
-                        "text":"SEO is vital for every website to gain robust online visibility. Our professionals design every website by considering search engine friendliness to make sure that your website is aligned with the needs of search engines."
+                        "text":"SEO is vital for every website to gain robust online visibility. Our professionals design every website by considering search engine friendliness to make sure that your website is aligned with the needs of search engines.",
+                        "src":SEOFriendlySites
                     },
                     {
                         "title":"Transparency",
-                        "text":"We firmly believe in work transparency, which is also reflected in how we accomplish our projects. Our project managers keep in touch constantly with clients and provide regular reports and answer their questions via chat, phone call, Skype, email, and PMS."
+                        "text":"We firmly believe in work transparency, which is also reflected in how we accomplish our projects. Our project managers keep in touch constantly with clients and provide regular reports and answer their questions via chat, phone call, Skype, email, and PMS.",
+                        "src":Transparency
                     },              
                 ]
             }
@@ -652,14 +702,32 @@ const jsonData=[
                     "text3" :"Company"
                 },
                 "descritption" : "Origami Softwares is a top-rated website maintenance services company that is known for its quality. We are helping businesses to keep their websites up-to-date, secure, bug-free, and up & running with our expertise in diverse web technologies. Our maintenance plans are suitable for all types of sites irrespective of the size, industry, and website platform. We provide the right expertise and support that every business expects.",
-                "icons":{
-                    "iconTitle1":"Performance Optimization",
-                    "iconTitle2":"Fixes & Improvements",
-                    "iconTitle3":"Hack & Virus Proof",
-                    "iconTitle4":"Content & Backup",
-                    "iconTitle5":"Full Tech Support",
-                    "iconTitle6":"Functionality Check",
-                }
+                "icons":[
+                    {
+                        "icon":"Performance Optimization",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Fixes & Improvements",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Hack & Virus Proof",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"Content & Backup",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Full Tech Support",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"Functionality Check",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
@@ -696,23 +764,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"Website Analytics",
-                        "text":"We use different analytics tools to perform extensive analysis on your website for different metrics."
+                        "text":"We use different analytics tools to perform extensive analysis on your website for different metrics.",
+                        "src":WebsiteAnalytics
                     },
                     {
                         "title":"Fast Turnaround",
-                        "text":"We understand the importance of a website, and our services include promised turnaround times."
+                        "text":"We understand the importance of a website, and our services include promised turnaround times.",
+                        "src":FastTurnaround
                     },
                     {
                         "title":"Content Updates",
-                        "text":"Content is the most crucial part of your website; we analyze existing content and update it when necessary."
+                        "text":"Content is the most crucial part of your website; we analyze existing content and update it when necessary.",
+                        "src":ContentUpdates
                     },
                     {
                         "title":"Professional Service",
-                        "text":"We provide professional website maintenance service and take all the hassles out to manage your site."
+                        "text":"We provide professional website maintenance service and take all the hassles out to manage your site.",
+                        "src":ProfessionalService
                     },
                     {
                         "title":"Certified Specialists",
-                        "text":"Our team comprises certified website maintenance specialists who work by adhering to various standards."
+                        "text":"Our team comprises certified website maintenance specialists who work by adhering to various standards.",
+                        "src":CertifiedSpecialists
                     },                
                 ]
             }
@@ -729,15 +802,18 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"High-quality Service",
-                        "text":"A website maintenance services company like us always takes the quality of service very seriously. We don’t compromise with quality and ensure 100% satisfaction with our services. We understand the needs of our clients and provide solutions that fulfill their business objectives."
+                        "text":"A website maintenance services company like us always takes the quality of service very seriously. We don’t compromise with quality and ensure 100% satisfaction with our services. We understand the needs of our clients and provide solutions that fulfill their business objectives.",
+                        "src":HighQualityService
                     },
                     {
                         "title":"Quick Support",
-                        "text":"Our web maintenance services are easy to access and offer quick support for your business. You can easily reach out to our experts through simple communication channels like chats, phone calls, Skype, emails, and our own Project Management System."
+                        "text":"Our web maintenance services are easy to access and offer quick support for your business. You can easily reach out to our experts through simple communication channels like chats, phone calls, Skype, emails, and our own Project Management System.",
+                        "src":QuickSupport
                     },
                     {
                         "title":"Affordable Services",
-                        "text":"As we believe in a win-win situation, our web maintenance services are affordable for different types of businesses. You can choose from different plans to access a myriad of website maintenance services without any hassle."
+                        "text":"As we believe in a win-win situation, our web maintenance services are affordable for different types of businesses. You can choose from different plans to access a myriad of website maintenance services without any hassle.",
+                        "src":AffordableServices
                     },              
                 ]
             }
@@ -755,14 +831,32 @@ const jsonData=[
                     "text3" :"Services"
                 },
                 "descritption" : "Origami Softwares provides web consulting services to help clients with their web design and development strategy. We are unbeatable in terms of the value we offer to our clients while removing their hurdles in setting up a brand new website. We have a team of talented in-house web consultants who have extensive experience in providing quality web consulting services. Our smart and modern work approach makes us the most preferred Website Consulting Services provider.",
-                "icons":{
-                    "iconTitle1":"Transparent Agreements",
-                    "iconTitle2":"Extensive Research",
-                    "iconTitle3":"Site Review & Plan",
-                    "iconTitle4":"Website Traffic Interpretation",
-                    "iconTitle5":"Usability Audits",
-                    "iconTitle6":"Reliable Support",
-                }
+                "icons":[
+                    {
+                        "icon":"Transparent Agreements",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"Extensive Research",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"Site Review & Plan",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"Website Traffic Interpretation",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"Usability Audits",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"Reliable Support",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
@@ -799,23 +893,28 @@ const jsonData=[
                 "cardBoxData":[
                     {
                         "title":"Website Audit",
-                        "text":"We use different analytics tools to perform extensive analysis on your website for different metrics."
+                        "text":"We use different analytics tools to perform extensive analysis on your website for different metrics.",
+                        "src":WebsiteAudit
                     },
                     {
                         "title":"Website Usability",
-                        "text":"We work on your website usability and ensure that it is in line with the users’ expectations."
+                        "text":"We work on your website usability and ensure that it is in line with the users’ expectations.",
+                        "src":WebsiteUsability
                     },
                     {
                         "title":"Web Analytics",
-                        "text":"We utilize the best web analytics tools to dig deep into data and help improve your site."
+                        "text":"We utilize the best web analytics tools to dig deep into data and help improve your site.",
+                        "src":WebAnalytics
                     },
                     {
                         "title":"Competitor Research",
-                        "text":"We perform competitor analysis with a rigorous exploration of strengths, weaknesses, opportunities, and threats."
+                        "text":"We perform competitor analysis with a rigorous exploration of strengths, weaknesses, opportunities, and threats.",
+                        "src":CompetitorResearch
                     },
                     {
                         "title":"Project Estimation",
-                        "text":"We perform a quality estimation of your project and set a budget required for the development."
+                        "text":"We perform a quality estimation of your project and set a budget required for the development.",
+                        "src":ProjectEstimation
                     },                
                 ]
             }
@@ -858,14 +957,32 @@ const jsonData=[
                     "text3" :"Services with High-Performance",
                 },
                 "descritption" : "Origami Softwares is a renowned Hybrid app development company. We have a record of developing 100+ Hybrid mobile apps with modern technologies. Our years of experience empowers us to deliver scalable hybrid mobile apps with optimal performance.",
-                "icons":{
-                    "iconTitle1":"React Native",
-                    "iconTitle2":"Flutter",
-                    "iconTitle3":"Optimized Coding",
-                    "iconTitle4":"Cost Friendly",
-                    "iconTitle5":"Optimum performance",
-                    "iconTitle6":"iPad & Tablet support",
-                }
+                "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
@@ -991,14 +1108,32 @@ const jsonData=[
                     "text3" :"Services"
                 },
                 "descritption" : "Origami Softwares is a renowned Hybrid app development company. We have a record of developing 100+ Hybrid mobile apps with modern technologies. Our years of experience empowers us to deliver scalable hybrid mobile apps with optimal performance.",
-                "icons":{
-                    "iconTitle1":"IoT Based Apps",
-                    "iconTitle2":"AR & VR",
-                    "iconTitle3":"Multimedia",
-                    "iconTitle4":"iOS & Android",
-                    "iconTitle5":"Native Development",
-                    "iconTitle6":"Enterprise Apps",
-                }
+                "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
@@ -1136,14 +1271,32 @@ const jsonData=[
                     "text3" :"Services"
                 },
                 "descritption" : "Origami Softwares offers a range of backend development services that span from creating custom backend layers, optimizing existing systems, to cloud migration. Having in-depth technical skills, our backend developers can create & set up robust backends for your business web applications or accomplish any backend task with finesse. We are adept at .Net development and PHP development service. You can also rely on us for complex backend tasks using Python or Java development. We can deliver custom backend solutions with NodeJS or ROR.",
-                "icons":{
-                    "iconTitle1":"Website And App support",
-                    "iconTitle2":"Node JS",
-                    "iconTitle3":"PHP",
-                    "iconTitle4":"ROR",
-                    "iconTitle5":"Python",
-                    "iconTitle6":"Responsive",
-                }
+                "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
@@ -1239,14 +1392,32 @@ const jsonData=[
                     "text3" :"Services",
                 },
                 "descritption" : "Origami Softwares provides a wide range of mobile application testing services across the globe. Our well-qualified testing team focuses on the seamless functionality, performance, and compatibility of an app. They have excellent experience in modern testing tools and performing the proper mobile testing methods. We have a pool of trained app testers who can perform various testing activities based on mobile device market penetration.",
-                "icons":{
-                    "iconTitle1":" Functional Testing",
-                    "iconTitle2":"Security Testing",
-                    "iconTitle3":"Usability Testing",
-                    "iconTitle4":"Compliance Testing",
-                    "iconTitle5":"Performance Testing",
-                    "iconTitle6":"Experienced Team",
-                }
+                "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
@@ -1354,14 +1525,32 @@ const jsonData=[
                     "text3" :"Services",
                 },
                 "descritption" : "Origami Softwares helps businesses from ideation to full-scale web design & development. We help in creating new ideas for businesses and build innovative web solutions that shape a brand. Our experts employ their expertise to provide clients with brand new websites or other digital solutions for their businesses.",
-                "icons":{
-                    "iconTitle1":"Visual Design/Branding",
-                    "iconTitle2":"Wireframing/Prototyping",
-                    "iconTitle3":"Navigation/Interaction Design",
-                    "iconTitle4":"Cloud Support",
-                    "iconTitle5":"User Research",
-                    "iconTitle6":"Theming/Integration",
-                }
+                "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
@@ -1457,14 +1646,32 @@ const jsonData=[
                     "text3" :"Services"
                 },
                 "descritption" : "As the world is moving towards being more digital, having an online presence becomes crucial for businesses. Hence, we offer efficient and cost-effective web research and planning services to help startups, small businesses, and enterprises set up a landscape for robust online presence. With specialization in data mining, data collection, and data research, we can provide help in all kinds of web research, analysis, and planning.",
-                "icons":{
-                    "iconTitle1":"Consultation",
-                    "iconTitle2":"Data Intelligence",
-                    "iconTitle3":"Detailed Reports",
-                    "iconTitle4":"Target Market Research",
-                    "iconTitle5":"SEO Strategy",
-                    "iconTitle6":"Sitemaps & Wireframes",
-                }
+                "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
@@ -1560,14 +1767,32 @@ const jsonData=[
                     "text3" :"Services",
                 },
                 "descritption" : "At Origami Softwares, we have the best UI/UX designers who have a lot of experience in user interface design for mobile apps and websites. We provide assistance in UX strategy and design and create engaging user interfaces. Improving the end-user experience is our prime objective. Our UI/UX designers employ the best approaches and methodologies along with the latest UI/UX trends to build awe-inspiring user interfaces.",
-                "icons":{
-                    "iconTitle1":"Mobile UI/UX Design",
-                    "iconTitle2":"AR/VR Integration",
-                    "iconTitle3":"Design Workshops",
-                    "iconTitle4":"Web UI/UX Design",
-                    "iconTitle5":"Cross-platform Compatibility",
-                    "iconTitle6":"Sketching & Wireframes",
-                }
+                "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
@@ -1663,14 +1888,32 @@ const jsonData=[
                     "text3" :"Services"
                 },
                 "descritption" : "At Origami Softwares, we have the best UI/UX designers who have a lot of experience in user interface design for mobile apps and websites. We provide assistance in UX strategy and design and create engaging user interfaces. Improving the end-user experience is our prime objective. Our UI/UX designers employ the best approaches and methodologies along with the latest UI/UX trends to build awe-inspiring user interfaces.",
-                "icons":{
-                    "iconTitle1":"Wireframes",
-                    "iconTitle2":"Mockups & Prototypes",
-                    "iconTitle3":"Visual Design",
-                    "iconTitle4":"Branding",
-                    "iconTitle5":"Superb User experience",
-                    "iconTitle6":"User Testing",
-                }
+                "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
@@ -1778,14 +2021,32 @@ const jsonData=[
                     "text3" :"Services"
                 },
                 "descritption" : "At Origami Softwares, we design and develop prototype products for startups, small and large-scale enterprises. We adopt a flexible development approach that empowers us to build advanced and innovative products. Our top-notch services and perseverance has enabled us to be an eminent prototype development company worldwide. We have rendered the best-quality prototyping services around the world.",
-                "icons":{
-                    "iconTitle1":"Prototyping Tools",
-                    "iconTitle2":"User Research & Validation",
-                    "iconTitle3":"MVP Development",
-                    "iconTitle4":"Product Strategy",
-                    "iconTitle5":"Usability Testing",
-                    "iconTitle6":"Risk Analysis",
-                }
+                "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
@@ -1881,14 +2142,32 @@ const jsonData=[
                     "text3" :"Services Globally"
                 },
                 "descritption" : "Origami Softwares is an industry leader in rendering winning MVP services to an array of business verticals. We carefully analyze your product vision to transform it into tangible and viable results. We are the most preferred custom MVP Development Company by minimizing development cost.",
-                "icons":{
-                    "iconTitle1":"Blueprints & Prototypes",
-                    "iconTitle2":"Superior Design",
-                    "iconTitle3":"Custom Development",
-                    "iconTitle4":"Single Feature MVP",
-                    "iconTitle5":"Pilot MVP Development",
-                    "iconTitle6":"MVP Consulting",
-                }
+                "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
@@ -1996,14 +2275,32 @@ const jsonData=[
                     "text3" :"Services",
                 },
                 "descritption" : "is a renowned web & mobile app testing company. We provide comprehensive testing and quality assurance solutions as well as quick support and maintenance. We employ the best testing methodologies along with managed crowd testing and mobile app testing automation frameworks that enable us to reach maximum test capacity in the least possible time.",
-                "icons":{
-                    "iconTitle1":"Latest Testing Tools",
-                    "iconTitle2":"Best Testing Methods",
-                    "iconTitle3":"Testing For All Kinds of Apps",
-                    "iconTitle4":"Experienced Team",
-                    "iconTitle5":"UI/UX Testing",
-                    "iconTitle6":"Localization Testing",
-                }
+                "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
@@ -2123,14 +2420,32 @@ const jsonData=[
                     "text3" :"App Development Services"
                 },
                 "descritption" : "At Origami Softwares, we plan, strategize, and create the best eCommerce mobile apps that provide an engaging and captivating shopping experience. We have an accomplished team of highly skilled and experienced eCommerce mobile app developers. Whether you want an exclusive Android or iOS app or looking for a hybrid or cross-platform mobile app, you can confidently partner with eORIGAMI Software Private Limited to get an assured quality solution.",
-                "icons":{
-                    "iconTitle1":"Native/Hybrid App",
-                    "iconTitle2":"Push Notifications",
-                    "iconTitle3":"AR Integration",
-                    "iconTitle4":"ML Implementation",
-                    "iconTitle5":"Material Design",
-                    "iconTitle6":"Offline Sync",
-                }
+                "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
@@ -2269,14 +2584,32 @@ const jsonData=[
                     "text3" :"Services"
                 },
                 "descritption" : "Origami Softwares is a premier digital solutions provider serving customers across the globe with its astounding set of eCommerce solutions. We tend to hype our growth to new heights in the upcoming years by continuing to use the latest and advanced technology that helps us create competitive and futuristic digital solutions.",
-                "icons":{
-                    "iconTitle1":"Multi-Lingual Support",
-                    "iconTitle2":"Multi-Currency Support",
-                    "iconTitle3":"Installation",
-                    "iconTitle4":"Responsive Design",
-                    "iconTitle5":"Multi-Vendor Marketplace",
-                    "iconTitle6":"",
-                }
+                "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
@@ -2427,15 +2760,32 @@ const jsonData=[
                     "text3" :"Services"
                 },
                 "descritption" : "Origami Softwares offers B2B eCommerce solutions to facilitate the lucrative and flawless sale of goods and services between businesses. Our exclusive B2B eCommerce services deliver perfect solutions for all electronic commerce issues and ensure a steady increase in sales. Our modern and unique work approach makes us a top-notch B2B eCommerce company.",
-                "icons":{
-                    "iconTitle1":"Tier Pricing",
-                    "iconTitle2":"Quote Form",
-                    "iconTitle3":"Batch Processing",
-                    "iconTitle4":"Credit System",
-                    "iconTitle5":"Single & Multi-vendor",
-                    "iconTitle6":"Custom Solutions",
-                    "iconTitle7":"App Development", 
-                }
+                "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
@@ -2574,14 +2924,32 @@ const jsonData=[
                     "text3" :"Services"
                 },
                 "descritption" : "At Origami Softwares, we develop custom websites with advanced features to give you a competitive edge. Our developers are well-experienced and apprised of the latest trends in Magento.",
-                "icons":{
-                    "iconTitle1":"Multi-Lingual Support",
-                    "iconTitle2":"Multi-Currency Support",
-                    "iconTitle3":"Multi-Vendor Support",
-                    "iconTitle4":"Installation",
-                    "iconTitle5":"Responsive Design",
-                    "iconTitle6":"Multi-Vendor Marketplace",
-                }
+                "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
@@ -2732,14 +3100,32 @@ const jsonData=[
                     "text3" : "Services"
                 },
                 "descritption" : "At Origami Softwares, we strive to deliver optimum WooCommerce development services with our team of certified professionals. We create user-friendly and fully operational eCommerce stores with WooCommerce and its plugins.",
-                "icons":{
-                    "iconTitle1":"Customization",
-                    "iconTitle2":"Secure Themes",
-                    "iconTitle3":"Fully Tested Themes",
-                    "iconTitle4":"eStore Development",
-                    "iconTitle5":"API Integration",
-                    "iconTitle6":"Module Development",
-                }
+                "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
@@ -2890,14 +3276,32 @@ const jsonData=[
                     "text3" : "Services"
                 },
                 "descritption" : "As a credible digital solutions provider, we strive to deliver custom Shopify development services to our clients. With a team of dexterous professionals, we ensure a precise fulfillment of what our customers expect from us in terms of technological expertise and quality. Every professional working with us has shown an extraordinary commitment in their respective department which instills confidence in us being an organization.",
-                "icons":{
-                    "iconTitle1":"Mobile Responsive",
-                    "iconTitle2":"Quick Loading Speed",
-                    "iconTitle3":"Highly Customizable",
-                    "iconTitle4":"SASS/LESS",
-                    "iconTitle5":"Comment Functionality",
-                    "iconTitle6":"Latest Browser Compatibility",
-                }
+                "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[
@@ -3048,14 +3452,32 @@ const jsonData=[
                     "text3" :"Services"
                 },
                 "descritption" : "We have expertise in creating mobile-friendly, dynamic, secure, and feature-rich PrestaShop e-commerce websites. Being a specialist in PrestaShop, we have in-depth knowledge of this e-commerce platform that allows us to create complex online stores.",
-                "icons":{
-                    "iconTitle1":"Multi-Lingual Support",
-                    "iconTitle2":"Multi-Currency Support",
-                    "iconTitle3":"Multivendor Support",
-                    "iconTitle4":"Installation & Guarantee",
-                    "iconTitle5":"Responsive Design",
-                    "iconTitle6":"Pixel-perfect Design",
-                }
+                "icons":[
+                    {
+                        "icon":"",
+                        "src":ResponsiveBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Upgradation
+                    },
+                    {
+                        "icon":"",
+                        "src":Security,
+                    },
+                    {
+                        "icon":"",
+                        "src":MaintenanceBanner,
+                    },
+                    {
+                        "icon":"",
+                        "src":Migrations
+                    },
+                    {
+                        "icon":"",
+                        "src":PWA
+                    }
+                ]
             }
         ],
         "ourServices":[

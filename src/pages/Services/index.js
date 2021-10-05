@@ -25,7 +25,7 @@ const Services = ()=>{
     const responsive = {
         superLargeDesktop: {
           breakpoint: { max: 2000, min: 1430 },
-          items: 5
+          items: 3
         },
         desktop: {
           breakpoint: { max: 1430, min: 1023 },
@@ -33,7 +33,7 @@ const Services = ()=>{
         },
         tablet: {
           breakpoint: { max: 1023, min: 464 },
-          items: 1
+          items: 3
         },
         mobile: {
           breakpoint: { max: 464, min: 0 },
@@ -161,7 +161,7 @@ const Services = ()=>{
                                                     >
                                                         {item.cardBoxData.map((item)=>{
                                                             return(      
-                                                                <Card className=" p-3 mx-3 carouselCard"> 
+                                                                <Card className="align-items-center  p-3 mx-3 carouselCard"> 
                                                                     <Card.Body>
                                                                         <img src={item.src} alt="i" className="caroselImg"  />
                                                                         <Card.Title className="carouselCardTitle">{item.title}</Card.Title>
