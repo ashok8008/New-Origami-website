@@ -1,48 +1,58 @@
 import "./globals.css";
-import { Outfit, JetBrains_Mono } from "next/font/google";
-import localFont from "next/font/local";
+import { Inter, JetBrains_Mono, Instrument_Serif } from "next/font/google";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 
-const outfit = Outfit({
+// Inter Tight-like: we use Inter as the body (broad, professional) and
+// Instrument Serif for accent italic callouts to avoid the generic look.
+const body = Inter({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-outfit",
+  variable: "--font-body",
 });
 
-const jbMono = JetBrains_Mono({
+// For the display face we use a heavy geometric sans — Archivo Black via next/font.
+import { Archivo } from "next/font/google";
+const display = Archivo({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-display",
+  weight: ["500", "600", "700", "800", "900"],
+});
+
+const mono = JetBrains_Mono({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-mono",
 });
 
-// We use Google-served "Syne" as Cabinet Grotesk fallback (both are geometric display faces).
-// Keeping the variable name --font-cabinet for consistency with the design guidelines.
-import { Syne } from "next/font/google";
-const cabinet = Syne({
+const serif = Instrument_Serif({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-cabinet",
-  weight: ["500", "600", "700", "800"],
+  variable: "--font-serif",
+  weight: ["400"],
 });
 
 export const metadata = {
-  title: "Origami Softwares — World-Class Digital Products",
+  title: "Origami — Digital Platforms for Hip-Hop, Gaming & Cultural Icons",
   description:
-    "We design and engineer web and mobile products with precision. On-Time. On-Budget. On-Point.",
+    "From auctions and fan drops to Class II & Class III real-money games, Origami builds the technology behind culture-forward brands.",
   metadataBase: new URL("https://origami.dev"),
   openGraph: {
-    title: "Origami Softwares",
+    title: "Origami",
     description:
-      "World-class web and mobile product studio. Services, engineering, and IT staffing.",
+      "We build what culture runs on. Digital platforms for hip-hop, gaming and cultural icons.",
     type: "website",
   },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${outfit.variable} ${cabinet.variable} ${jbMono.variable}`}>
-      <body className="font-sans bg-ink-950 text-white grain">
+    <html
+      lang="en"
+      className={`${body.variable} ${display.variable} ${mono.variable} ${serif.variable}`}
+    >
+      <body className="font-sans bg-paper text-ink antialiased">
         <SiteHeader />
         <main className="relative z-10">{children}</main>
         <SiteFooter />

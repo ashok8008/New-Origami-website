@@ -1,23 +1,23 @@
 import HeroSection from "@/components/home/HeroSection";
-import MottoSection from "@/components/home/MottoSection";
+import MarqueeSection from "@/components/home/MarqueeSection";
+import CaseStudiesSection from "@/components/home/CaseStudiesSection";
 import ServicesSection from "@/components/home/ServicesSection";
-import PillarsSection from "@/components/home/PillarsSection";
+import ApproachSection from "@/components/home/ApproachSection";
 import IndustriesSection from "@/components/home/IndustriesSection";
 import TestimonialsSection from "@/components/home/TestimonialsSection";
-import TechSection from "@/components/home/TechSection";
-import MarqueeSection from "@/components/home/MarqueeSection";
+import StatsStrip from "@/components/home/StatsStrip";
 
 export default function HomePage() {
   return (
     <div data-testid="home-page">
       <HeroSection />
       <MarqueeSection />
-      <MottoSection />
+      <StatsStrip />
+      <CaseStudiesSection />
       <ServicesSection />
-      <PillarsSection />
+      <ApproachSection />
       <IndustriesSection />
       <TestimonialsSection />
-      <TechSection />
     </div>
   );
 }

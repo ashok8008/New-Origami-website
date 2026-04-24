@@ -8,25 +8,31 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        paper: {
+          DEFAULT: "#FFFFFF",
+          50: "#FAFAF7",
+          100: "#F6F4EF",
+          200: "#EFECE4",
+        },
         ink: {
-          950: "#050505",
-          900: "#0a0a0a",
-          850: "#111111",
-          800: "#1a1a1a",
+          DEFAULT: "#0D0D0D",
+          soft: "#3A3A3A",
+          muted: "#6B6B6B",
+          line: "rgba(13, 13, 13, 0.08)",
         },
         signal: {
-          DEFAULT: "#FF3333",
-          hover: "#E62E2E",
+          DEFAULT: "#E8382C",
+          hover: "#D62A1F",
+          soft: "#FEEAE7",
         },
-        klein: "#002FA7",
       },
       fontFamily: {
-        display: ["var(--font-cabinet)", "system-ui", "sans-serif"],
-        sans: ["var(--font-outfit)", "system-ui", "sans-serif"],
+        display: ["var(--font-display)", "system-ui", "sans-serif"],
+        sans: ["var(--font-body)", "system-ui", "sans-serif"],
         mono: ["var(--font-mono)", "ui-monospace", "monospace"],
       },
       letterSpacing: {
-        tightest: "-0.04em",
+        tightest: "-0.035em",
         widest2: "0.2em",
       },
       keyframes: {
@@ -38,15 +44,10 @@ module.exports = {
           "0%": { transform: "translateX(0)" },
           "100%": { transform: "translateX(-50%)" },
         },
-        foldIn: {
-          "0%": { opacity: "0", transform: "skewY(-4deg) translateY(20px)" },
-          "100%": { opacity: "1", transform: "skewY(0) translateY(0)" },
-        },
       },
       animation: {
         fadeUp: "fadeUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) both",
         marquee: "marquee 40s linear infinite",
-        foldIn: "foldIn 0.8s cubic-bezier(0.22, 1, 0.36, 1) both",
       },
     },
   },

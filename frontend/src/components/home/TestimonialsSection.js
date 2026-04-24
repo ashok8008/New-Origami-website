@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { TESTIMONIALS } from "@/lib/content";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { TESTIMONIALS } from "@/lib/content";
 
 export default function TestimonialsSection() {
   const [i, setI] = useState(0);
@@ -16,24 +16,26 @@ export default function TestimonialsSection() {
 
   return (
     <section
-      className="py-24 md:py-32 border-b border-white/10 bg-ink-850"
+      className="py-24 md:py-32 border-b border-ink-line bg-white relative overflow-hidden"
       data-testid="testimonials-section"
     >
-      <div className="max-w-[1440px] mx-auto px-6 md:px-10">
-        <div className="grid grid-cols-12 gap-8 mb-12">
-          <div className="col-span-12 md:col-span-6">
-            <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-white/50 mb-6">
-              /// Clients
+      <div className="absolute -right-40 -top-40 w-[480px] h-[480px] sunburst pointer-events-none opacity-60" />
+      <div className="relative max-w-[1440px] mx-auto px-6 md:px-10">
+        <div className="grid grid-cols-12 gap-8 mb-12 items-end">
+          <div className="col-span-12 md:col-span-7">
+            <div className="font-mono text-[11px] uppercase tracking-[0.25em] text-signal mb-5">
+              /// What they say
             </div>
             <h2 className="font-display text-4xl md:text-6xl font-black leading-[0.95] tracking-tightest">
-              We go <span className="text-signal">above</span>
-              <br /> and beyond, together.
+              Senior partners.
+              <br />
+              Honest work.
             </h2>
           </div>
-          <div className="col-span-12 md:col-span-4 md:col-start-9 md:pt-4 flex md:justify-end items-start gap-2">
+          <div className="col-span-12 md:col-span-4 md:col-start-9 flex md:justify-end items-start gap-2">
             <button
               onClick={() => setI((x) => (x - 1 + total) % total)}
-              className="w-12 h-12 border border-white/20 flex items-center justify-center hover:bg-white hover:text-black transition-colors"
+              className="w-12 h-12 rounded-full border border-ink-line flex items-center justify-center hover:bg-ink hover:text-white transition-colors"
               aria-label="Previous testimonial"
               data-testid="testimonial-prev"
             >
@@ -41,7 +43,7 @@ export default function TestimonialsSection() {
             </button>
             <button
               onClick={() => setI((x) => (x + 1) % total)}
-              className="w-12 h-12 border border-white/20 flex items-center justify-center hover:bg-signal hover:border-signal hover:text-white transition-colors"
+              className="w-12 h-12 rounded-full border border-ink-line flex items-center justify-center hover:bg-signal hover:border-signal hover:text-white transition-colors"
               aria-label="Next testimonial"
               data-testid="testimonial-next"
             >
@@ -51,19 +53,19 @@ export default function TestimonialsSection() {
         </div>
 
         <div className="grid grid-cols-12 gap-8" data-testid="testimonial-current">
-          <div className="col-span-12 md:col-span-10 md:col-start-2">
+          <div className="col-span-12 md:col-span-10">
             <div className="font-display text-signal text-6xl md:text-8xl leading-none">“</div>
-            <blockquote className="-mt-6 font-display text-2xl md:text-4xl lg:text-5xl font-medium leading-[1.15] tracking-tight text-white">
+            <blockquote className="-mt-6 font-display text-2xl md:text-4xl lg:text-5xl font-medium leading-[1.15] tracking-tight text-ink">
               {current.quote}
             </blockquote>
-            <div className="mt-12 flex items-end justify-between flex-wrap gap-4 border-t border-white/10 pt-6">
+            <div className="mt-12 flex items-end justify-between flex-wrap gap-4 border-t border-ink-line pt-6">
               <div>
                 <div className="font-display text-lg font-semibold">{current.author}</div>
-                <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-white/50 mt-1">
+                <div className="font-mono text-[11px] uppercase tracking-[0.25em] text-ink-muted mt-1">
                   {current.org}
                 </div>
               </div>
-              <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-white/40">
+              <div className="font-mono text-[11px] uppercase tracking-[0.25em] text-ink-muted">
                 {String(i + 1).padStart(2, "0")} / {String(total).padStart(2, "0")}
               </div>
             </div>

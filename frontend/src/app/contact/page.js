@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import { Mail, Phone, MapPin, ArrowUpRight, Check } from "lucide-react";
 
 export default function ContactPage() {
@@ -16,7 +15,6 @@ export default function ContactPage() {
     const body = encodeURIComponent(
       `Name: ${form.name}\nEmail: ${form.email}\nCompany: ${form.company}\n\n${form.message}`
     );
-    // Trigger mailto so the user's email client carries the conversation forward.
     window.location.href = `mailto:contact@myorigami.co?subject=${subject}&body=${body}`;
     setSent(true);
   };
@@ -24,26 +22,27 @@ export default function ContactPage() {
   return (
     <div data-testid="contact-page">
       {/* HERO */}
-      <section className="pt-36 md:pt-44 pb-16 border-b border-white/10 relative overflow-hidden">
-        <div className="absolute inset-0 grid-lines opacity-50" />
+      <section className="relative pt-36 md:pt-44 pb-16 border-b border-ink-line overflow-hidden bg-paper">
+        <div className="absolute inset-0 dotted opacity-50" />
+        <div className="absolute -right-40 top-20 w-[560px] h-[560px] sunburst pointer-events-none" />
         <div className="relative max-w-[1440px] mx-auto px-6 md:px-10">
-          <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-signal mb-6">
+          <div className="font-mono text-[11px] uppercase tracking-[0.25em] text-signal mb-5">
             /// Contact
           </div>
-          <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-black leading-[0.95] tracking-tightest">
+          <h1 className="font-display text-5xl md:text-7xl lg:text-[8rem] font-black leading-[0.92] tracking-tightest max-w-5xl">
             Let&apos;s talk about<br />
-            your next <span className="text-signal">build</span>.
+            your next <span className="text-signal">build.</span>
           </h1>
-          <p className="mt-8 max-w-2xl text-white/70 text-lg md:text-xl leading-relaxed">
-            Tell us a little about what you&apos;re working on and we&apos;ll
-            come back within one business day with a shortlist of questions and
-            next steps.
+          <p className="mt-8 max-w-2xl text-ink-soft text-lg md:text-xl leading-relaxed">
+            Tell us a little about what you&apos;re working on — auction,
+            gaming, product or staffing. We&apos;ll come back within one
+            business day with a shortlist of questions and next steps.
           </p>
         </div>
       </section>
 
       {/* FORM + DETAILS */}
-      <section className="py-24 md:py-32 border-b border-white/10">
+      <section className="py-24 md:py-32 border-b border-ink-line bg-white">
         <div className="max-w-[1440px] mx-auto px-6 md:px-10 grid grid-cols-12 gap-12">
           {/* FORM */}
           <div className="col-span-12 lg:col-span-7">
@@ -72,7 +71,7 @@ export default function ContactPage() {
                 testid="contact-company"
               />
               <div>
-                <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-white/40 mb-2">
+                <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-ink-muted mb-2">
                   What are you working on?
                 </div>
                 <textarea
@@ -81,16 +80,12 @@ export default function ContactPage() {
                   onChange={update("message")}
                   rows={5}
                   placeholder="A couple of lines about the product, stage and timeline..."
-                  className="w-full bg-transparent border border-white/15 px-4 py-3 text-white placeholder:text-white/30 focus:outline-none focus:border-white transition-colors"
+                  className="w-full bg-white border border-ink-line rounded-lg px-4 py-3 text-ink placeholder:text-ink-muted focus:outline-none focus:border-ink transition-colors"
                   data-testid="contact-message"
                 />
               </div>
               <div className="flex flex-wrap items-center gap-6">
-                <button
-                  type="submit"
-                  className="inline-flex items-center gap-3 bg-white text-black font-semibold px-7 py-4 text-base hover:bg-signal hover:text-white transition-colors"
-                  data-testid="contact-submit"
-                >
+                <button type="submit" className="btn-pill btn-primary text-base px-7 py-4" data-testid="contact-submit">
                   Send enquiry <ArrowUpRight className="w-5 h-5" />
                 </button>
                 {sent && (
@@ -106,8 +101,8 @@ export default function ContactPage() {
           </div>
 
           {/* DETAILS */}
-          <aside className="col-span-12 lg:col-span-5 lg:pl-8 lg:border-l border-white/10">
-            <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-white/50 mb-8">
+          <aside className="col-span-12 lg:col-span-5 lg:pl-8 lg:border-l border-ink-line">
+            <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-ink-muted mb-8">
               /// Direct
             </div>
             <ul className="space-y-6">
@@ -115,7 +110,7 @@ export default function ContactPage() {
                 <Mail className="w-5 h-5 text-signal mt-1" />
                 <div>
                   <div className="font-display text-lg font-semibold">Email</div>
-                  <a href="mailto:contact@myorigami.co" className="text-white/70 hover:text-white">
+                  <a href="mailto:contact@myorigami.co" className="text-ink-soft hover:text-ink">
                     contact@myorigami.co
                   </a>
                 </div>
@@ -124,34 +119,34 @@ export default function ContactPage() {
                 <Phone className="w-5 h-5 text-signal mt-1" />
                 <div>
                   <div className="font-display text-lg font-semibold">Call US</div>
-                  <div className="text-white/70">+1 858 429 9159</div>
+                  <div className="text-ink-soft">+1 858 429 9159</div>
                 </div>
               </li>
               <li className="flex items-start gap-4">
                 <Phone className="w-5 h-5 text-signal mt-1" />
                 <div>
                   <div className="font-display text-lg font-semibold">Call IN</div>
-                  <div className="text-white/70">+91 761 878 0865</div>
+                  <div className="text-ink-soft">+91 761 878 0865</div>
                 </div>
               </li>
               <li className="flex items-start gap-4">
                 <MapPin className="w-5 h-5 text-signal mt-1" />
                 <div>
                   <div className="font-display text-lg font-semibold">Headquarters</div>
-                  <div className="text-white/70">
+                  <div className="text-ink-soft">
                     312N Milton Ave, Campbell, California, 95008, US
                   </div>
                 </div>
               </li>
             </ul>
 
-            <div className="mt-12 p-6 border border-white/10">
-              <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-signal mb-3">
+            <div className="mt-12 p-6 border border-ink-line rounded-lg bg-paper-50">
+              <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-signal mb-3">
                 NDA standard
               </div>
-              <p className="text-white/70 text-sm leading-relaxed">
-                We sign your NDA before the first call. Sensitive projects
-                are handled with access control and IP-protective contracts.
+              <p className="text-ink-soft text-sm leading-relaxed">
+                We sign your NDA before the first call. Sensitive projects are
+                handled with access control and IP-protective contracts.
               </p>
             </div>
           </aside>
@@ -164,13 +159,13 @@ export default function ContactPage() {
 function Field({ label, testid, ...props }) {
   return (
     <label className="block">
-      <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-white/40 mb-2">
+      <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-ink-muted mb-2">
         {label}
       </div>
       <input
         {...props}
         data-testid={testid}
-        className="w-full bg-transparent border border-white/15 px-4 py-3 text-white placeholder:text-white/30 focus:outline-none focus:border-white transition-colors"
+        className="w-full bg-white border border-ink-line rounded-lg px-4 py-3 text-ink placeholder:text-ink-muted focus:outline-none focus:border-ink transition-colors"
       />
     </label>
   );
