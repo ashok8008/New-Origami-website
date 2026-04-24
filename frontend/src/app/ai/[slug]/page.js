@@ -11,7 +11,7 @@ export function generateMetadata({ params }) {
   const u = getAIUseCase(params.slug);
   if (!u) return {};
   return {
-    title: `${u.title} — AI Practice | Origami`,
+    title: `${u.title} — AI Practice`,
     description: u.text,
     alternates: { canonical: `/ai/${u.slug}` },
   };

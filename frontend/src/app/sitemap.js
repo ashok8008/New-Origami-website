@@ -6,7 +6,7 @@ import {
   INSIGHTS,
 } from "@/lib/content";
 
-const SITE = "https://origami.dev";
+const SITE = process.env.NEXT_PUBLIC_SITE_URL || "https://origami.dev";
 
 export default function sitemap() {
   const now = new Date();

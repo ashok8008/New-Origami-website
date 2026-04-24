@@ -18,7 +18,7 @@ export function generateMetadata({ params }) {
   const s = getService(params.slug);
   if (!s) return {};
   return {
-    title: `${s.title} — Services | Origami`,
+    title: `${s.title} — Services`,
     description: s.desc,
     alternates: { canonical: `/services/${s.slug}` },
   };

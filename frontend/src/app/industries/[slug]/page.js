@@ -18,7 +18,7 @@ export function generateMetadata({ params }) {
   const ind = getIndustry(params.slug);
   if (!ind) return {};
   return {
-    title: `${ind.name} — Industry | Origami`,
+    title: `${ind.name} — Industry`,
     description: ind.blurb,
     alternates: { canonical: `/industries/${ind.slug}` },
   };

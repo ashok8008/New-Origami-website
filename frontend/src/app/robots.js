@@ -1,4 +1,5 @@
 export default function robots() {
+  const site = process.env.NEXT_PUBLIC_SITE_URL || "https://origami.dev";
   return {
     rules: [
       {
@@ -6,7 +7,7 @@ export default function robots() {
         allow: "/",
       },
     ],
-    sitemap: "https://origami.dev/sitemap.xml",
-    host: "https://origami.dev",
+    sitemap: `${site}/sitemap.xml`,
+    host: site,
   };
 }

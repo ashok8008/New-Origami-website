@@ -3,7 +3,7 @@ import { ArrowUpRight, Check } from "lucide-react";
 import { CLASS_GAMES } from "@/lib/content";
 
 export const metadata = {
-  title: "Class II & Class III Games — Origami",
+  title: "Class II & Class III Games",
   description:
     "Server-drawn Class II bingo mechanics and Class III RNG real-money gaming platforms for tribal and commercial operators.",
 };

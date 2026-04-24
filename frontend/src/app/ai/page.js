@@ -4,7 +4,7 @@ import { AI_PRACTICE, getProject, CLIENTS } from "@/lib/content";
 import Image from "next/image";
 
 export const metadata = {
-  title: "AI Practice — LLM, RAG, Agents, Voice & Vision | Origami",
+  title: "AI Practice — LLM, RAG, Agents, Voice & Vision",
   description:
     "Origami's AI practice. Production LLM apps, RAG, agentic workflows, voice agents and vision pipelines — grounded in your data.",
   alternates: { canonical: "/ai" },

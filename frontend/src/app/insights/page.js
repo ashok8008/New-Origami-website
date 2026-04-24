@@ -3,7 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 import { INSIGHTS } from "@/lib/content";
 
 export const metadata = {
-  title: "Insights — Notes on Mobile, AI, Gaming & Culture | Origami",
+  title: "Insights — Notes on Mobile, AI, Gaming & Culture",
   description:
     "Notes from the Origami team on mobile apps, AI, real-money gaming, auctions and culture-forward product engineering.",
   alternates: { canonical: "/insights" },

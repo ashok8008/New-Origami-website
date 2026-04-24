@@ -3,7 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 import { INDUSTRIES } from "@/lib/content";
 
 export const metadata = {
-  title: "Industries — Origami",
+  title: "Industries",
   description:
     "Industries Origami serves: hip-hop & music, real-money gaming, celebrity & creator economy, commerce, wellness, fintech.",
   alternates: { canonical: "/industries" },

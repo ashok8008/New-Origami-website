@@ -1,20 +1,8 @@
 {
   "/page": "app/page.js",
-  "/ai/page": "app/ai/page.js",
-  "/work/page": "app/work/page.js",
-  "/games/page": "app/games/page.js",
-  "/about/page": "app/about/page.js",
-  "/services/page": "app/services/page.js",
-  "/industries/page": "app/industries/page.js",
-  "/insights/page": "app/insights/page.js",
-  "/careers/page": "app/careers/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/approach/page": "app/approach/page.js",
-  "/sitemap.xml/[[...__metadata_id__]]/route": "app/sitemap.xml/[[...__metadata_id__]]/route.js",
-  "/robots.txt/route": "app/robots.txt/route.js",
-  "/ai/[slug]/page": "app/ai/[slug]/page.js",
   "/work/[slug]/page": "app/work/[slug]/page.js",
   "/services/[slug]/page": "app/services/[slug]/page.js",
+  "/ai/[slug]/page": "app/ai/[slug]/page.js",
   "/industries/[slug]/page": "app/industries/[slug]/page.js",
   "/insights/[slug]/page": "app/insights/[slug]/page.js"
 }

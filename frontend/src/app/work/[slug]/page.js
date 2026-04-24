@@ -12,7 +12,7 @@ export function generateMetadata({ params }) {
   const p = getProject(params.slug);
   if (!p) return {};
   return {
-    title: `${p.name} — Case Study | Origami`,
+    title: `${p.name} — Case Study`,
     description: p.oneLiner,
     alternates: { canonical: `/work/${p.slug}` },
   };

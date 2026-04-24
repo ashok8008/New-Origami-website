@@ -11,7 +11,7 @@ export function generateMetadata({ params }) {
   const i = getInsight(params.slug);
   if (!i) return {};
   return {
-    title: `${i.title} — Origami`,
+    title: i.title,
     description: i.excerpt,
     alternates: { canonical: `/insights/${i.slug}` },
   };
