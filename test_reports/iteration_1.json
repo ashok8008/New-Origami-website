@@ -1,0 +1,35 @@
+{
+  "summary": "Full frontend verification of Origami Next.js 14 v3 build. Hit all 44 expected routes (home + 10 static + 8 services + 7 work + 6 industries + 6 ai-usecases + 4 insights + sitemap.xml + robots.txt) — ALL returned HTTP 200. Homepage renders required hero 'We build what culture runs on.', all 7 client logos (hiphopgrails, fanrush, acquire, videoshops, nickcooper, truewrld, wholosophy), Mobile Focus / Clients / Case Studies / AI / Services / Industries / Testimonials sections with proper data-testids (75 on home). Header nav contains About, Class II & III Games, AI, Services, Work, Careers + Let's Talk CTA. /ai renders dark hero 'AI that ships behind your login.' with 6 use-case cards. /work lists 7 projects and clicking navigates to correct /work/[slug]. Each dynamic page exposes meta description + canonical, JSON-LD Organization present on home. /games has mailto + #compliance-call anchor. Footer has newsletter form + 12 sitemap links. Mobile menu opens/closes and shows all nav. 0 JS/console errors across tested routes.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": [
+      {"screen": "All dynamic pages (services/[slug], ai/[slug], work/[slug], industries/[slug], insights/[slug])", "issues": ["Document <title> has a duplicated ' | Origami | Origami' suffix (e.g. 'LLM-native apps — AI Practice | Origami | Origami'). Likely the per-page title already ends in '| Origami' while layout.js appends a '| Origami' template. Fix by using a title.template in layout that strips the suffix, or by removing the '| Origami' from per-page title strings in content.js."]},
+      {"screen": "sitemap.xml & robots.txt", "issues": ["Uses hardcoded base URL 'https://origami.dev' instead of an env/site-config driven base. Fine for prod if that is the canonical domain, but preview/staging sitemap points at origami.dev which will 404 crawlers. Consider NEXT_PUBLIC_SITE_URL fallback."]}
+    ]
+  },
+  "test_report_links": [
+    "/app/test_reports/route_check.sh",
+    "/app/test_reports/home.png",
+    "/app/test_reports/ai_hero.png"
+  ],
+  "action_items": [
+    "Minor SEO polish: remove duplicate ' | Origami' in page titles (use metadata title.template in app/layout.js or strip suffix from content.js titles).",
+    "Sitemap/robots base URL is hardcoded to https://origami.dev — driver from env if you want preview to self-reference.",
+    "Nothing blocking: all 44 routes render 200, no JS errors, data-testids comprehensive."
+  ],
+  "critical_code_review_comments": [
+    "Titles produce ' | Origami | Origami' duplication on every dynamic /services, /ai, /work, /industries, /insights page — single string fix in content.js or layout.js metadata template.",
+    "sitemap.js and robots.js use hardcoded 'https://origami.dev' base; consider process.env.NEXT_PUBLIC_SITE_URL with that as fallback for preview parity.",
+    "content.js is the single source of truth which is fine, but file is large — consider splitting per-entity (services.js, work.js, industries.js, ai.js, insights.js) as it grows.",
+    "No robots.txt customization for preview host; preview bots may index if they ever became public."
+  ],
+  "updated_files": [],
+  "success_rate": {"backend": "N/A (not in scope, /api/health 200)", "frontend": "100% (44/44 routes, all render checks pass)"},
+  "seed_data_creation": "None — all content is static JS in /app/frontend/src/lib/content.js.",
+  "retest_needed": false,
+  "should_main_agent_self_test": true,
+  "context_for_next_testing_agent": "v3 shipped clean. 44 routes live with consistent structure: meta description + canonical on every page, JSON-LD Organization on home, 75+ data-testids on home. Only cosmetic issues: duplicate '| Origami' title suffix on all dynamic pages, and hardcoded origami.dev in sitemap/robots. Both are trivial. If main agent fixes the title template, no retest needed — same fetch check will confirm.",
+  "rca of the issue": "Title duplication RCA: layout.js likely defines `metadata.title = { template: '%s | Origami', default: 'Origami — ...' }`, while per-page `generateMetadata` already returns strings ending in '| Origami' (sourced from content.js). Next.js then applies the template and appends another '| Origami'. Fix: either (a) change title.template to just '%s' / remove it, or (b) remove the trailing '| Origami' suffix from the title strings in content.js and return bare titles from generateMetadata."
+}

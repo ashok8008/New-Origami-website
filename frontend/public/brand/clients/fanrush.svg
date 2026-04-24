@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" role="img" aria-label="FanRush">
+  <g font-family="Archivo, 'Archivo Black', Inter, system-ui, sans-serif" font-weight="900" font-size="30" letter-spacing="-0.02em">
+    <text x="0" y="34" fill="currentColor">Fan<tspan fill="#E8382C">Rush</tspan></text>
+    <text x="140" y="18" font-size="10" font-weight="700" fill="#E8382C" letter-spacing="0.15em">.AI</text>
+  </g>
+</svg>

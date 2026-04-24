@@ -44,11 +44,19 @@ export default function HeroSection() {
               <ArrowUpRight className="w-5 h-5" />
             </Link>
             <Link
-              href="/games"
+              href="/services/mobile-app-development"
               className="btn-pill btn-ghost text-base px-7 py-4"
               data-testid="hero-cta-secondary"
             >
-              Class II &amp; Class III Games
+              Mobile app practice
+              <ArrowDownRight className="w-5 h-5" />
+            </Link>
+            <Link
+              href="/ai"
+              className="btn-pill btn-ghost text-base px-7 py-4"
+              data-testid="hero-cta-tertiary"
+            >
+              AI practice
               <ArrowDownRight className="w-5 h-5" />
             </Link>
           </div>

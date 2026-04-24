@@ -34,16 +34,48 @@ const serif = Instrument_Serif({
 });
 
 export const metadata = {
-  title: "Origami — Digital Platforms for Hip-Hop, Gaming & Cultural Icons",
+  title: {
+    default: "Origami — Mobile Apps, AI & Platforms for Culture-Forward Brands",
+    template: "%s | Origami",
+  },
   description:
-    "From auctions and fan drops to Class II & Class III real-money games, Origami builds the technology behind culture-forward brands.",
+    "Origami builds mobile apps, AI products, auction platforms and Class II / Class III real-money games for culture-forward brands — HipHopGrails, FanRush, Acquire.bet and more.",
   metadataBase: new URL("https://origami.dev"),
   openGraph: {
     title: "Origami",
     description:
-      "We build what culture runs on. Digital platforms for hip-hop, gaming and cultural icons.",
+      "Mobile apps, AI and platforms for culture-forward brands. Senior engineers who ship.",
     type: "website",
+    url: "https://origami.dev",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Origami",
+    description:
+      "Mobile apps, AI and platforms for culture-forward brands.",
+  },
+  alternates: { canonical: "/" },
+};
+
+const ORG_JSONLD = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Origami",
+  url: "https://origami.dev",
+  logo: "https://origami.dev/brand/logo.svg",
+  description:
+    "Origami builds mobile apps, AI products, auctions and real-money gaming platforms for culture-forward brands.",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "312N Milton Ave",
+    addressLocality: "Campbell",
+    addressRegion: "CA",
+    postalCode: "95008",
+    addressCountry: "US",
+  },
+  email: "contact@myorigami.co",
+  telephone: "+1-858-429-9159",
+  sameAs: [],
 };
 
 export default function RootLayout({ children }) {
@@ -53,6 +85,10 @@ export default function RootLayout({ children }) {
       className={`${body.variable} ${display.variable} ${mono.variable} ${serif.variable}`}
     >
       <body className="font-sans bg-paper text-ink antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(ORG_JSONLD) }}
+        />
         <SiteHeader />
         <main className="relative z-10">{children}</main>
         <SiteFooter />

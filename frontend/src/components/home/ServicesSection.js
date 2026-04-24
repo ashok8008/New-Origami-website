@@ -2,15 +2,6 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { SERVICES } from "@/lib/content";
 
-const LINKS = {
-  "01": "/services",
-  "02": "/games",
-  "03": "/services",
-  "04": "/services",
-  "05": "/services",
-  "06": "/services",
-};
-
 export default function ServicesSection() {
   return (
     <section
@@ -24,34 +15,34 @@ export default function ServicesSection() {
               /// What we do
             </div>
             <h2 className="font-display text-4xl md:text-6xl font-black leading-[0.95] tracking-tightest">
-              Full-stack, senior-led, culture-first.
+              Full-stack, senior-led,<br />
+              <span className="text-signal">culture-first.</span>
             </h2>
           </div>
           <div className="col-span-12 md:col-span-4 md:col-start-9 text-ink-soft text-lg leading-relaxed">
-            We cover the whole product lifecycle — from first wireframes to
-            compliance-grade production platforms. Small, senior teams that
-            ship.
+            Eight practices that overlap on purpose. Small, senior teams that
+            cover the full product lifecycle.
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-ink-line border border-ink-line">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-ink-line border border-ink-line">
           {SERVICES.map((s) => (
             <Link
               key={s.code}
-              href={LINKS[s.code] || "/services"}
-              className="group bg-white p-8 md:p-10 hover:bg-paper-50 transition-colors flex flex-col min-h-[260px]"
+              href={`/services/${s.slug}`}
+              className="group bg-white p-6 md:p-8 hover:bg-paper-50 transition-colors flex flex-col min-h-[240px]"
               data-testid={`service-card-${s.code}`}
             >
               <div className="flex items-start justify-between">
                 <span className="font-mono text-[11px] uppercase tracking-[0.25em] text-signal">
-                  {s.code} / Practice
+                  {s.code} / {s.short}
                 </span>
                 <ArrowUpRight className="w-5 h-5 text-ink-muted group-hover:text-signal group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-all" />
               </div>
-              <h3 className="mt-10 font-display text-2xl md:text-3xl font-bold tracking-tight">
+              <h3 className="mt-8 font-display text-xl md:text-2xl font-bold tracking-tight leading-tight">
                 {s.title}
               </h3>
-              <p className="mt-4 text-ink-muted leading-relaxed text-[15px]">
+              <p className="mt-3 text-ink-muted leading-relaxed text-[14px]">
                 {s.desc}
               </p>
             </Link>

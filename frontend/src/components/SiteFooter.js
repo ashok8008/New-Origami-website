@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowUpRight, Mail, Phone, MapPin } from "lucide-react";
 import NewsletterForm from "./NewsletterForm";
-import { NAV } from "@/lib/content";
+import { NAV, NAV_EXTRA } from "@/lib/content";
 
 export default function SiteFooter() {
   return (
@@ -66,18 +66,13 @@ export default function SiteFooter() {
             Sitemap
           </div>
           <ul className="space-y-3">
-            {NAV.map((item) => (
+            {[...NAV, ...NAV_EXTRA].map((item) => (
               <li key={item.label}>
                 <Link href={item.href} className="text-[15px] text-ink-soft hover:text-signal transition-colors">
                   {item.label}
                 </Link>
               </li>
             ))}
-            <li>
-              <Link href="/contact" className="text-[15px] text-ink-soft hover:text-signal transition-colors">
-                Contact
-              </Link>
-            </li>
           </ul>
         </div>
 

@@ -1,3 +1,5 @@
+import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
 import { INDUSTRIES } from "@/lib/content";
 
 export default function IndustriesSection() {
@@ -17,25 +19,29 @@ export default function IndustriesSection() {
             </h2>
           </div>
           <div className="col-span-12 md:col-span-4 md:col-start-9 text-ink-soft text-lg leading-relaxed">
-            A decade of shipping across industries gives us strong opinions where it matters
-            — and humility where it doesn&apos;t.
+            A decade of shipping across industries gives us strong opinions
+            where it matters — and humility where it doesn&apos;t.
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-ink-line border border-ink-line">
           {INDUSTRIES.map((ind, i) => (
-            <div
-              key={ind.name}
+            <Link
+              key={ind.slug}
+              href={`/industries/${ind.slug}`}
               className="group bg-white p-8 md:p-10 hover:bg-paper-50 transition-colors"
-              data-testid={`industry-card-${i}`}
+              data-testid={`industry-card-${ind.slug}`}
             >
-              <div className="font-mono text-[11px] uppercase tracking-[0.25em] text-signal">
-                {String(i + 1).padStart(2, "0")}
+              <div className="flex items-start justify-between">
+                <span className="font-mono text-[11px] uppercase tracking-[0.25em] text-signal">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                <ArrowUpRight className="w-5 h-5 text-ink-muted group-hover:text-signal group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-all" />
               </div>
               <h3 className="mt-10 font-display text-2xl md:text-3xl font-bold tracking-tight">
                 {ind.name}
               </h3>
               <p className="mt-3 text-ink-muted text-[15px]">{ind.note}</p>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

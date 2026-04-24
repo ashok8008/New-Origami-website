@@ -101,7 +101,7 @@ export default function GamesPage() {
       </section>
 
       {/* COMPLIANCE CTA */}
-      <section className="py-24 md:py-32 bg-white border-b border-ink-line relative overflow-hidden">
+      <section id="compliance-call" className="py-24 md:py-32 bg-white border-b border-ink-line relative overflow-hidden">
         <div className="absolute -right-48 -top-48 w-[560px] h-[560px] sunburst pointer-events-none opacity-50" />
         <div className="relative max-w-[1440px] mx-auto px-6 md:px-10 grid grid-cols-12 gap-10 items-end">
           <div className="col-span-12 md:col-span-8">
@@ -118,9 +118,16 @@ export default function GamesPage() {
               record — not around them.
             </p>
           </div>
-          <div className="col-span-12 md:col-span-4 md:flex md:justify-end">
-            <Link href="/contact" className="btn-pill btn-primary text-base px-7 py-4">
-              Request an intro <ArrowUpRight className="w-5 h-5" />
+          <div className="col-span-12 md:col-span-4 md:flex md:flex-col md:items-end gap-3">
+            <a
+              href="mailto:contact@myorigami.co?subject=Class%20II%2FIII%20compliance%20call"
+              className="btn-pill btn-primary text-base px-7 py-4"
+              data-testid="games-compliance-call"
+            >
+              Book a compliance call <ArrowUpRight className="w-5 h-5" />
+            </a>
+            <Link href="/contact" className="btn-pill btn-ghost text-sm">
+              Or request an intro
             </Link>
           </div>
         </div>
