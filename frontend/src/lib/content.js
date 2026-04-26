@@ -25,6 +25,14 @@ export const CONTACT = {
   ],
   offices: [
     {
+      label: "Head office — New York",
+      lines: [
+        "641 Lexington Avenue",
+        "14th Floor",
+        "New York, NY 10022, US",
+      ],
+    },
+    {
       label: "Dev team — Bangalore",
       lines: [
         "Hustlehub Tech Park",
@@ -672,7 +680,7 @@ export const CAREERS = [
   {
     role: "Platform Engineer — Gaming",
     type: "Hybrid · Full-time",
-    location: "Bengaluru, IN",
+    location: "New York / Bengaluru",
     tags: ["Go", "Kubernetes", "RGS", "GLI"],
   },
   {

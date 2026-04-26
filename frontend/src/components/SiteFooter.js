@@ -96,7 +96,7 @@ export default function SiteFooter() {
         <div className="max-w-[1440px] mx-auto px-6 md:px-10 py-6 flex flex-col md:flex-row items-center justify-between gap-3 text-[12px] text-ink-muted">
           <div>© {new Date().getFullYear()} Origami. All rights reserved.</div>
           <div className="font-mono tracking-[0.18em] uppercase">
-            Built for culture — US &amp; India.
+            Built for culture — NY &amp; India.
           </div>
         </div>
       </div>
