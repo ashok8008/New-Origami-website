@@ -67,14 +67,14 @@ const ORG_JSONLD = {
     "Origami builds mobile apps, AI products, auctions and real-money gaming platforms for culture-forward brands.",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "312N Milton Ave",
-    addressLocality: "Campbell",
-    addressRegion: "CA",
-    postalCode: "95008",
-    addressCountry: "US",
+    streetAddress: "Hustlehub Tech Park, Somasundara palya Main Road, 27th Main Road, Sector 2, HSR Layout",
+    addressLocality: "Bengaluru",
+    addressRegion: "KA",
+    postalCode: "560102",
+    addressCountry: "IN",
   },
-  email: "contact@myorigami.co",
-  telephone: "+1-858-429-9159",
+  email: "hello@origami.dev",
+  telephone: "+1-970-710-5120",
   sameAs: [],
 };
 

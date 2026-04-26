@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowUpRight, Mail, Phone, MapPin } from "lucide-react";
 import NewsletterForm from "./NewsletterForm";
-import { NAV, NAV_EXTRA } from "@/lib/content";
+import { NAV, NAV_EXTRA, CONTACT } from "@/lib/content";
 
 export default function SiteFooter() {
   return (
@@ -41,23 +41,28 @@ export default function SiteFooter() {
             gaming and cultural icons. Design, engineering and staffing —
             senior, end-to-end.
           </p>
-          <div className="mt-8 space-y-2 text-[14px] text-ink-soft">
+          <div className="mt-8 space-y-3 text-[14px] text-ink-soft">
             <div className="flex items-center gap-3" data-testid="footer-email">
               <Mail className="w-4 h-4 text-signal" />
-              <a href="mailto:contact@myorigami.co" className="hover:text-ink">contact@myorigami.co</a>
+              <a href={`mailto:${CONTACT.email}`} className="hover:text-ink">{CONTACT.email}</a>
             </div>
-            <div className="flex items-center gap-3">
-              <Phone className="w-4 h-4 text-signal" />
-              <span>US +1 858 429 9159</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <Phone className="w-4 h-4 text-signal" />
-              <span>IN +91 761 878 0865</span>
-            </div>
-            <div className="flex items-start gap-3">
-              <MapPin className="w-4 h-4 text-signal mt-0.5" />
-              <span>312N Milton Ave, Campbell, California, 95008, US</span>
-            </div>
+            {CONTACT.phones.map((p) => (
+              <div key={p.label} className="flex items-center gap-3">
+                <Phone className="w-4 h-4 text-signal" />
+                <span>{p.label} {p.number}</span>
+              </div>
+            ))}
+            {CONTACT.offices.map((o) => (
+              <div key={o.label} className="flex items-start gap-3">
+                <MapPin className="w-4 h-4 text-signal mt-0.5 shrink-0" />
+                <div>
+                  <div className="text-ink font-medium">{o.label}</div>
+                  <div className="text-ink-muted leading-relaxed">
+                    {o.lines.join(", ")}
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
 
@@ -91,7 +96,7 @@ export default function SiteFooter() {
         <div className="max-w-[1440px] mx-auto px-6 md:px-10 py-6 flex flex-col md:flex-row items-center justify-between gap-3 text-[12px] text-ink-muted">
           <div>© {new Date().getFullYear()} Origami. All rights reserved.</div>
           <div className="font-mono tracking-[0.18em] uppercase">
-            Built for culture — Campbell, CA &amp; IN.
+            Built for culture — US &amp; India.
           </div>
         </div>
       </div>

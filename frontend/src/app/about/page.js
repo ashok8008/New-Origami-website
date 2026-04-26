@@ -29,7 +29,7 @@ const VALUES = [
 ];
 
 const TIMELINE = [
-  ["2013", "Founded in Campbell, California."],
+  ["2013", "Founded by a small team in California."],
   ["2016", "Opened delivery centre in India."],
   ["2019", "Crossed 100 shipped products across fintech, health, commerce."],
   ["2022", "Launched IT staffing & dedicated team practice."],

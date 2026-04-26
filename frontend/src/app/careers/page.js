@@ -89,8 +89,8 @@ export default function CareersPage() {
             </div>
             <div className="col-span-12 md:col-span-4 md:col-start-9 text-ink-muted">
               Don&apos;t see a role that fits? Email{" "}
-              <a href="mailto:careers@myorigami.co" className="text-signal underline-offset-4 hover:underline">
-                careers@myorigami.co
+              <a href="mailto:hello@origami.dev?subject=Careers%20enquiry" className="text-signal underline-offset-4 hover:underline">
+                hello@origami.dev
               </a>.
             </div>
           </div>
@@ -122,7 +122,7 @@ export default function CareersPage() {
                 </div>
                 <div className="md:col-span-2 md:flex md:justify-end">
                   <Link
-                    href={`mailto:careers@myorigami.co?subject=${encodeURIComponent(
+                    href={`mailto:hello@origami.dev?subject=${encodeURIComponent(
                       `Application — ${r.role}`
                     )}`}
                     className="btn-pill btn-ghost text-sm"

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Mail, Phone, MapPin, ArrowUpRight, Check } from "lucide-react";
+import { CONTACT } from "@/lib/content";
 
 export default function ContactPage() {
   const [form, setForm] = useState({ name: "", email: "", company: "", message: "" });
@@ -15,7 +16,7 @@ export default function ContactPage() {
     const body = encodeURIComponent(
       `Name: ${form.name}\nEmail: ${form.email}\nCompany: ${form.company}\n\n${form.message}`
     );
-    window.location.href = `mailto:contact@myorigami.co?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:${CONTACT.email}?subject=${subject}&body=${body}`;
     setSent(true);
   };
 
@@ -110,34 +111,33 @@ export default function ContactPage() {
                 <Mail className="w-5 h-5 text-signal mt-1" />
                 <div>
                   <div className="font-display text-lg font-semibold">Email</div>
-                  <a href="mailto:contact@myorigami.co" className="text-ink-soft hover:text-ink">
-                    contact@myorigami.co
+                  <a href={`mailto:${CONTACT.email}`} className="text-ink-soft hover:text-ink">
+                    {CONTACT.email}
                   </a>
                 </div>
               </li>
-              <li className="flex items-start gap-4">
-                <Phone className="w-5 h-5 text-signal mt-1" />
-                <div>
-                  <div className="font-display text-lg font-semibold">Call US</div>
-                  <div className="text-ink-soft">+1 858 429 9159</div>
-                </div>
-              </li>
-              <li className="flex items-start gap-4">
-                <Phone className="w-5 h-5 text-signal mt-1" />
-                <div>
-                  <div className="font-display text-lg font-semibold">Call IN</div>
-                  <div className="text-ink-soft">+91 761 878 0865</div>
-                </div>
-              </li>
-              <li className="flex items-start gap-4">
-                <MapPin className="w-5 h-5 text-signal mt-1" />
-                <div>
-                  <div className="font-display text-lg font-semibold">Headquarters</div>
-                  <div className="text-ink-soft">
-                    312N Milton Ave, Campbell, California, 95008, US
+              {CONTACT.phones.map((p) => (
+                <li key={p.label} className="flex items-start gap-4" data-testid={`contact-phone-${p.label.toLowerCase()}`}>
+                  <Phone className="w-5 h-5 text-signal mt-1" />
+                  <div>
+                    <div className="font-display text-lg font-semibold">Call {p.label}</div>
+                    <a href={p.href} className="text-ink-soft hover:text-ink">{p.number}</a>
                   </div>
-                </div>
-              </li>
+                </li>
+              ))}
+              {CONTACT.offices.map((o) => (
+                <li key={o.label} className="flex items-start gap-4" data-testid="contact-office">
+                  <MapPin className="w-5 h-5 text-signal mt-1" />
+                  <div>
+                    <div className="font-display text-lg font-semibold">{o.label}</div>
+                    <div className="text-ink-soft leading-relaxed">
+                      {o.lines.map((line, i) => (
+                        <div key={i}>{line}</div>
+                      ))}
+                    </div>
+                  </div>
+                </li>
+              ))}
             </ul>
 
             <div className="mt-12 p-6 border border-ink-line rounded-lg bg-paper-50">

@@ -120,7 +120,7 @@ export default function GamesPage() {
           </div>
           <div className="col-span-12 md:col-span-4 md:flex md:flex-col md:items-end gap-3">
             <a
-              href="mailto:contact@myorigami.co?subject=Class%20II%2FIII%20compliance%20call"
+              href="mailto:hello@origami.dev?subject=Class%20II%2FIII%20compliance%20call"
               className="btn-pill btn-primary text-base px-7 py-4"
               data-testid="games-compliance-call"
             >

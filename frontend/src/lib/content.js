@@ -17,6 +17,25 @@ export const NAV_EXTRA = [
   { label: "Contact", href: "/contact" },
 ];
 
+export const CONTACT = {
+  email: "hello@origami.dev",
+  phones: [
+    { label: "US", number: "+1 (970) 710 5120", href: "tel:+19707105120" },
+    { label: "India", number: "+91 906 651 4212", href: "tel:+919066514212" },
+  ],
+  offices: [
+    {
+      label: "Dev team — Bangalore",
+      lines: [
+        "Hustlehub Tech Park",
+        "Somasundara palya Main Road, 27th Main Road",
+        "Sector 2, HSR Layout",
+        "Bengaluru, KA — 560102, India",
+      ],
+    },
+  ],
+};
+
 export const HERO = {
   overline: "Apps, AI & Platforms for Culture-Forward Brands",
   titleLines: ["We build", "what culture", "runs on."],
@@ -653,7 +672,7 @@ export const CAREERS = [
   {
     role: "Platform Engineer — Gaming",
     type: "Hybrid · Full-time",
-    location: "Campbell, CA",
+    location: "Bengaluru, IN",
     tags: ["Go", "Kubernetes", "RGS", "GLI"],
   },
   {
