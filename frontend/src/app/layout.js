@@ -2,6 +2,7 @@ import "./globals.css";
 import { Inter, JetBrains_Mono, Instrument_Serif } from "next/font/google";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import PlausibleAnalytics from "@/components/PlausibleAnalytics";
 
 // Inter Tight-like: we use Inter as the body (broad, professional) and
 // Instrument Serif for accent italic callouts to avoid the generic look.
@@ -85,6 +86,7 @@ export default function RootLayout({ children }) {
       className={`${body.variable} ${display.variable} ${mono.variable} ${serif.variable}`}
     >
       <body className="font-sans bg-paper text-ink antialiased">
+        <PlausibleAnalytics />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(ORG_JSONLD) }}

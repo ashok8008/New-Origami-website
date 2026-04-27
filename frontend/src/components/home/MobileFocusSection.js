@@ -1,7 +1,10 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
+import { CLIENTS } from "@/lib/content";
 
 export default function MobileFocusSection() {
+  const clientCopy = CLIENTS.slice(0, 7).map((c) => c.name).join(", ") + " and more.";
+
   const highlights = [
     {
       k: "10+",
@@ -14,9 +17,9 @@ export default function MobileFocusSection() {
       copy: "Cold-start under 1.5s, smooth scroll, instrumented from day one.",
     },
     {
-      k: "7+",
+      k: `${CLIENTS.length}+`,
       l: "Repeat & referral clients",
-      copy: "HipHopGrails, PlaySQOR, Acquire.bet, VideoShops, RealProfits, GetCashback, OnlyBeaches and more.",
+      copy: clientCopy,
     },
   ];
   return (

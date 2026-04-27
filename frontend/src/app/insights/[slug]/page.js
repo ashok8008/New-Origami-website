@@ -17,18 +17,34 @@ export function generateMetadata({ params }) {
   };
 }
 
-// Long-form placeholder body — will be replaced with real editorial content.
-const BODY_BLOCKS = [
-  "We work in a lot of different shapes — mobile apps, AI features, real-money gaming, auction platforms — but a handful of ideas keep coming up across every engagement.",
-  "Production is the only benchmark worth chasing. Demos ship themselves. The work is in what survives three weeks of real traffic, one incident, and the first critical review.",
-  "A good team is measured by how fast it recovers from surprise — not how rarely it's surprised. Observability, evals, rollback, telemetry — they're not nice-to-haves. They're the product.",
-  "We lean into senior teams because context compounds. The fifth hour of work is twenty times more valuable than the first when the people involved have already shipped this shape of product before.",
-  "And, finally: the brands we work with are built by people who love culture. The work of the engineering team is to give that love somewhere to live, at internet scale, without getting in the way.",
-];
+function Block({ block }) {
+  if (block.type === "h2") {
+    return (
+      <h2 className="font-display text-2xl md:text-3xl font-black tracking-tightest leading-tight text-ink mt-12 mb-2">
+        {block.text}
+      </h2>
+    );
+  }
+  if (block.type === "ul") {
+    return (
+      <ul className="list-none space-y-3 my-2 pl-0">
+        {block.items.map((it, i) => (
+          <li key={i} className="flex items-start gap-3">
+            <span className="mt-[10px] w-1.5 h-1.5 bg-signal shrink-0" />
+            <span>{it}</span>
+          </li>
+        ))}
+      </ul>
+    );
+  }
+  return <p>{block.text}</p>;
+}
 
 export default function InsightPage({ params }) {
   const i = getInsight(params.slug);
   if (!i) return notFound();
+
+  const others = INSIGHTS.filter((x) => x.slug !== i.slug).slice(0, 3);
 
   return (
     <div data-testid={`insight-page-${i.slug}`}>
@@ -52,17 +68,53 @@ export default function InsightPage({ params }) {
       </section>
 
       <article className="py-16 md:py-24 border-b border-ink-line bg-white">
-        <div className="max-w-[760px] mx-auto px-6 md:px-10 space-y-6 text-ink-soft text-lg leading-[1.75]">
-          {BODY_BLOCKS.map((b, idx) => (
-            <p key={idx}>{b}</p>
+        <div className="max-w-[760px] mx-auto px-6 md:px-10 text-ink-soft text-lg leading-[1.8] space-y-5">
+          {(i.body || []).map((b, idx) => (
+            <Block key={idx} block={b} />
           ))}
-          <div className="pt-8 border-t border-ink-line">
-            <Link href="/contact" className="btn-pill btn-primary text-sm">
+          <div className="pt-12 mt-12 border-t border-ink-line flex flex-wrap items-center justify-between gap-4">
+            <div className="font-mono text-[11px] uppercase tracking-[0.25em] text-ink-muted">
+              Want this kind of work on your roadmap?
+            </div>
+            <Link href="/contact" className="btn-pill btn-primary text-sm" data-testid="insight-cta">
               Work with us <ArrowUpRight className="w-4 h-4" />
             </Link>
           </div>
         </div>
       </article>
+
+      {others.length > 0 ? (
+        <section className="py-16 md:py-24 bg-paper-50 border-b border-ink-line">
+          <div className="max-w-[1440px] mx-auto px-6 md:px-10">
+            <div className="font-mono text-[11px] uppercase tracking-[0.25em] text-signal mb-5">
+              /// More from the team
+            </div>
+            <h2 className="font-display text-3xl md:text-5xl font-black tracking-tightest leading-[0.95] max-w-3xl">
+              Read next.
+            </h2>
+            <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-px bg-ink-line border border-ink-line">
+              {others.map((o) => (
+                <Link
+                  key={o.slug}
+                  href={`/insights/${o.slug}`}
+                  className="group bg-white hover:bg-paper-50 p-8 transition-colors flex flex-col min-h-[200px]"
+                  data-testid={`insight-related-${o.slug}`}
+                >
+                  <span className="font-mono text-[11px] uppercase tracking-[0.25em] text-signal">
+                    {o.tag} · {o.read}
+                  </span>
+                  <h3 className="mt-6 font-display text-xl md:text-2xl font-bold tracking-tight leading-tight group-hover:text-signal transition-colors">
+                    {o.title}
+                  </h3>
+                  <div className="mt-auto pt-4 inline-flex items-center gap-2 text-[12px] font-mono uppercase tracking-[0.2em] text-ink group-hover:text-signal">
+                    Read <ArrowUpRight className="w-3 h-3" />
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
     </div>
   );
 }
