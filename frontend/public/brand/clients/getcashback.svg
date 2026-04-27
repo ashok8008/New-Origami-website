@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 48" role="img" aria-label="GetCashback">
+  <g font-family="Archivo, 'Archivo Black', Inter, system-ui, sans-serif" font-weight="900" font-size="30" letter-spacing="-0.02em">
+    <text x="0" y="34" fill="currentColor">get<tspan fill="#E8382C">cashback</tspan></text>
+    <circle cx="228" cy="24" r="9" fill="#E8382C"/>
+    <text x="223" y="29" font-size="14" font-weight="900" fill="#FFFFFF">$</text>
+  </g>
+</svg>

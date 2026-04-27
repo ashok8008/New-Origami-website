@@ -4,6 +4,9 @@ import {
   INDUSTRIES,
   AI_PRACTICE,
   INSIGHTS,
+  TECH_STACKS,
+  SOLUTIONS,
+  COMPARES,
 } from "@/lib/content";
 
 const SITE = process.env.NEXT_PUBLIC_SITE_URL || "https://origami.dev";
@@ -19,6 +22,9 @@ export default function sitemap() {
     "work",
     "industries",
     "insights",
+    "build",
+    "solutions",
+    "compare",
     "approach",
     "careers",
     "contact",
@@ -29,40 +35,28 @@ export default function sitemap() {
     priority: p === "" ? 1.0 : 0.8,
   }));
 
-  const services = SERVICES.map((s) => ({
-    url: `${SITE}/services/${s.slug}`,
-    lastModified: now,
-    changeFrequency: "monthly",
-    priority: 0.7,
-  }));
+  const dyn = (base, items, slugKey = "slug", priority = 0.7) =>
+    items.map((it) => ({
+      url: `${SITE}/${base}/${it[slugKey]}`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority,
+    }));
 
-  const work = PROJECTS.map((p) => ({
-    url: `${SITE}/work/${p.slug}`,
-    lastModified: now,
-    changeFrequency: "monthly",
-    priority: 0.8,
-  }));
-
-  const industries = INDUSTRIES.map((i) => ({
-    url: `${SITE}/industries/${i.slug}`,
-    lastModified: now,
-    changeFrequency: "monthly",
-    priority: 0.7,
-  }));
-
-  const ai = AI_PRACTICE.useCases.map((u) => ({
-    url: `${SITE}/ai/${u.slug}`,
-    lastModified: now,
-    changeFrequency: "monthly",
-    priority: 0.7,
-  }));
-
-  const insights = INSIGHTS.map((i) => ({
-    url: `${SITE}/insights/${i.slug}`,
-    lastModified: new Date(i.date),
-    changeFrequency: "yearly",
-    priority: 0.6,
-  }));
-
-  return [...core, ...services, ...work, ...industries, ...ai, ...insights];
+  return [
+    ...core,
+    ...dyn("services", SERVICES),
+    ...dyn("work", PROJECTS, "slug", 0.8),
+    ...dyn("industries", INDUSTRIES),
+    ...dyn("ai", AI_PRACTICE.useCases),
+    ...dyn("build", TECH_STACKS),
+    ...dyn("solutions", SOLUTIONS, "slug", 0.6),
+    ...dyn("compare", COMPARES, "slug", 0.6),
+    ...INSIGHTS.map((i) => ({
+      url: `${SITE}/insights/${i.slug}`,
+      lastModified: new Date(i.date),
+      changeFrequency: "yearly",
+      priority: 0.6,
+    })),
+  ];
 }

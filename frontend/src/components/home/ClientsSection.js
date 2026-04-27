@@ -25,7 +25,7 @@ export default function ClientsSection() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-px bg-ink-line border border-ink-line">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-px bg-ink-line border border-ink-line">
           {CLIENTS.map((c) => (
             <a
               key={c.name}

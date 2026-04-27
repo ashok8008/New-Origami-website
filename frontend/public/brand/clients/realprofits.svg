@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 48" role="img" aria-label="RealProfits">
+  <g font-family="Archivo, 'Archivo Black', Inter, system-ui, sans-serif" font-weight="900" font-size="30" letter-spacing="-0.02em">
+    <text x="0" y="34" fill="currentColor">Real<tspan fill="#E8382C">Profits</tspan></text>
+    <polyline points="208,30 218,18 228,24 238,10" fill="none" stroke="#E8382C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

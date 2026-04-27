@@ -12,6 +12,9 @@ export const NAV = [
 
 export const NAV_EXTRA = [
   { label: "Industries", href: "/industries" },
+  { label: "Solutions", href: "/solutions" },
+  { label: "Build with", href: "/build" },
+  { label: "Compare", href: "/compare" },
   { label: "Insights", href: "/insights" },
   { label: "Approach", href: "/approach" },
   { label: "Contact", href: "/contact" },
@@ -48,7 +51,7 @@ export const HERO = {
   overline: "Apps, AI & Platforms for Culture-Forward Brands",
   titleLines: ["We build", "what culture", "runs on."],
   body:
-    "Senior engineers shipping mobile apps, AI products, auction platforms and Class II / Class III real-money games for repeat clients — from HipHopGrails to FanRush.",
+    "Senior engineers shipping mobile apps, AI products, fantasy & real-money gaming and fintech platforms for repeat clients — from HipHopGrails to PlaySQOR.",
 };
 
 export const MARQUEE_WORDS = [
@@ -57,20 +60,23 @@ export const MARQUEE_WORDS = [
   "React Native",
   "Flutter",
   "AI · LLM · RAG",
-  "Hip-Hop",
+  "Fantasy Sports",
+  "Class II / III Games",
   "Auctions",
-  "Fan Drops",
-  "Class II Games",
-  "Class III Games",
+  "Fintech",
+  "Cashback · Rewards",
   "Repeat Clients",
 ];
 
 // Client logos (wordmark SVGs served from /public/brand/clients/)
 export const CLIENTS = [
   { name: "HipHopGrails", file: "hiphopgrails.svg", url: "https://hiphopgrails.com", width: 180 },
-  { name: "FanRush", file: "fanrush.svg", url: "https://fanrush.ai", width: 140 },
+  { name: "PlaySQOR", file: "playsqor.svg", url: "https://playsqor.com", width: 160 },
   { name: "Acquire.bet", file: "acquire.svg", url: "https://acquire.bet", width: 160 },
   { name: "VideoShops", file: "videoshops.svg", url: "https://videoshops.com", width: 160 },
+  { name: "RealProfits", file: "realprofits.svg", url: "https://realprofits.com", width: 170 },
+  { name: "GetCashback", file: "getcashback.svg", url: "https://getcashback.com", width: 175 },
+  { name: "OnlyBeaches", file: "onlybeaches.svg", url: "https://onlybeaches.com", width: 175 },
   { name: "Nick Cooper", file: "nickcooper.svg", url: "https://nickcooper.com", width: 160 },
   { name: "TrueWrld", file: "truewrld.svg", url: "https://truewrld.com", width: 140 },
   { name: "Wholosophy", file: "wholosophy.svg", url: "https://wholosophy.com", width: 160 },
@@ -157,7 +163,7 @@ export const SERVICE_DETAIL = {
       "Offline-first architectures with local-first sync",
       "Hardened security — certificate pinning, jailbreak detection, SSO",
     ],
-    relatedWork: ["fanrush", "hiphopgrails", "videoshops", "truewrld"],
+    relatedWork: ["playsqor", "hiphopgrails", "videoshops", "truewrld"],
   },
   "ai-and-llm-products": {
     headline: "AI that actually ships.",
@@ -172,7 +178,7 @@ export const SERVICE_DETAIL = {
       "LLM observability, token budgets and offline evals",
       "Compliance-aware prompting and PII redaction",
     ],
-    relatedWork: ["acquire", "wholosophy", "nickcooper"],
+    relatedWork: ["acquire", "wholosophy", "realprofits"],
   },
   "auctions-and-fan-drops": {
     headline: "Commerce built for culture, not generic retail.",
@@ -198,7 +204,7 @@ export const SERVICE_DETAIL = {
       "RGS, wallet, PAM, geolocation and responsible-gaming integrations",
       "Operator tooling — campaigns, jackpots, loyalty, telemetry",
     ],
-    relatedWork: ["acquire"],
+    relatedWork: ["acquire", "playsqor"],
   },
   "web-development": {
     headline: "Fast, accessible, engineered for conversion.",
@@ -211,7 +217,7 @@ export const SERVICE_DETAIL = {
       "Design systems and component libraries across teams",
       "Edge runtimes (Vercel, Cloudflare) and ISR at scale",
     ],
-    relatedWork: ["wholosophy", "truewrld", "acquire"],
+    relatedWork: ["wholosophy", "truewrld", "acquire", "realprofits", "onlybeaches", "getcashback"],
   },
   "design-and-brand": {
     headline: "Design that earns the user's next tap.",
@@ -224,7 +230,7 @@ export const SERVICE_DETAIL = {
       "Brand systems for culture-forward brands and artists",
       "Prototyping for validation before engineering spend",
     ],
-    relatedWork: ["hiphopgrails", "truewrld", "fanrush"],
+    relatedWork: ["hiphopgrails", "truewrld", "onlybeaches"],
   },
   "data-and-bi": {
     headline: "Numbers your team can run the business on.",
@@ -237,7 +243,7 @@ export const SERVICE_DETAIL = {
       "Event tracking and instrumentation standards",
       "Lightweight ML where it actually moves the number",
     ],
-    relatedWork: ["acquire", "fanrush"],
+    relatedWork: ["acquire", "realprofits", "getcashback"],
   },
   "dedicated-teams": {
     headline: "Senior teams that feel like your own.",
@@ -289,16 +295,16 @@ export const INDUSTRIES = [
     blurb:
       "From HipHopGrails auctions to fan-drop apps, we've built the commerce and community platforms artists and labels rely on.",
     services: ["mobile-app-development", "auctions-and-fan-drops", "design-and-brand"],
-    clients: ["hiphopgrails", "fanrush"],
+    clients: ["hiphopgrails"],
   },
   {
     slug: "real-money-gaming",
-    name: "Real-Money Gaming",
-    note: "Class II / III platforms",
+    name: "Real-Money Gaming & Fantasy",
+    note: "Class II / III, fantasy, sportsbook",
     blurb:
-      "Server-drawn Class II bingo and Class III RNG platforms for tribal and commercial operators — GLI-aligned and built for compliance teams.",
-    services: ["class-ii-and-class-iii-games", "data-and-bi"],
-    clients: ["acquire"],
+      "Server-drawn Class II bingo, Class III RNG, daily fantasy and real-money wagering platforms — GLI-aligned, KYC and risk-engine ready.",
+    services: ["class-ii-and-class-iii-games", "mobile-app-development", "data-and-bi"],
+    clients: ["playsqor", "acquire"],
   },
   {
     slug: "celebrity-and-creator-economy",
@@ -307,16 +313,16 @@ export const INDUSTRIES = [
     blurb:
       "We build direct-to-fan apps, commerce and community for athletes, recording artists and cultural personalities.",
     services: ["mobile-app-development", "web-development", "design-and-brand"],
-    clients: ["nickcooper", "truewrld", "fanrush"],
+    clients: ["nickcooper", "truewrld", "playsqor"],
   },
   {
     slug: "commerce-and-retail",
     name: "Commerce & Retail",
-    note: "Video commerce, marketplaces",
+    note: "Video commerce, marketplaces, cashback",
     blurb:
-      "Video shoppable commerce, marketplaces and storefronts — with the logistics, payments and identity plumbing attached.",
+      "Video shoppable commerce, marketplaces, storefronts and cashback platforms — with the logistics, payments and identity plumbing attached.",
     services: ["web-development", "mobile-app-development", "ai-and-llm-products"],
-    clients: ["videoshops"],
+    clients: ["videoshops", "getcashback"],
   },
   {
     slug: "health-and-wellness",
@@ -330,11 +336,20 @@ export const INDUSTRIES = [
   {
     slug: "fintech-and-payments",
     name: "Fintech & Payments",
-    note: "KYC, escrow, payouts",
+    note: "Trading, cashback, KYC, payouts",
     blurb:
-      "Payment rails, KYC, escrow and payouts — the boring plumbing that everything else depends on.",
-    services: ["web-development", "data-and-bi", "ai-and-llm-products"],
-    clients: [],
+      "Retail trading, cashback, payment rails, KYC, escrow and payouts — the engine room beneath modern consumer fintech.",
+    services: ["web-development", "mobile-app-development", "ai-and-llm-products", "data-and-bi"],
+    clients: ["realprofits", "getcashback"],
+  },
+  {
+    slug: "travel-and-lifestyle",
+    name: "Travel & Lifestyle",
+    note: "Discovery, booking, content",
+    blurb:
+      "Travel and lifestyle products built around discovery, content and AI-personalised planning — designed for the way people actually plan trips.",
+    services: ["web-development", "design-and-brand", "ai-and-llm-products", "mobile-app-development"],
+    clients: ["onlybeaches"],
   },
 ];
 
@@ -365,26 +380,27 @@ export const PROJECTS = [
     repeat: true,
   },
   {
-    slug: "fanrush",
-    name: "FanRush",
-    tag: "Fan commerce · AI",
-    url: "https://fanrush.ai",
-    logo: "fanrush.svg",
-    oneLiner: "AI-powered fan-to-creator platform for drops, perks and live moments.",
+    slug: "playsqor",
+    name: "PlaySQOR",
+    tag: "Fantasy · Real-money gaming",
+    url: "https://playsqor.com",
+    logo: "playsqor.svg",
+    oneLiner: "Daily fantasy and real-money sports wagering, engineered for compliance and scale.",
     summary:
-      "FanRush connects creators with their most engaged fans through AI-curated drops, perks and live experiences. We built the iOS + Android app and the AI recommendation surface.",
-    role: ["iOS + Android app", "AI recommendations", "Backend"],
-    stack: ["React Native", "FastAPI", "OpenAI", "Postgres", "Redis"],
+      "PlaySQOR is a fantasy and real-money sports gaming platform. We delivered the iOS, Android and web surfaces, the wagering engine, wallet, KYC and operator console — built for compliant flows in regulated markets.",
+    role: ["iOS + Android", "Web platform", "Wagering engine", "KYC + payouts", "Admin console"],
+    stack: ["React Native", "Next.js", "Node", "Postgres", "Redis", "Stripe"],
     metrics: [
-      ["Platform", "iOS + Android"],
-      ["AI", "LLM-curated drops"],
-      ["Built", "End-to-end"],
+      ["Platform", "Web + iOS + Android"],
+      ["Vertical", "Daily fantasy + RMG"],
+      ["Ops", "KYC, wallet, risk"],
     ],
     highlights: [
-      "React Native app with real-time drop mechanics",
-      "LLM-curated recommendations tuned per creator",
-      "Push + deep-linking for live drop moments",
-      "Creator admin with analytics and cohorts",
+      "Daily fantasy contests with live scoring and settlement",
+      "Real-money wagering with risk and limit engine",
+      "KYC, AML, geo-fencing and responsible-gaming controls",
+      "Native iOS and Android apps with push and deep-linking",
+      "Operator dashboards — contests, payouts, telemetry",
     ],
     repeat: true,
   },
@@ -483,6 +499,78 @@ export const PROJECTS = [
     repeat: true,
   },
   {
+    slug: "realprofits",
+    name: "RealProfits",
+    tag: "Fintech · Trading",
+    url: "https://realprofits.com",
+    logo: "realprofits.svg",
+    oneLiner: "A retail trading and profits-tracking platform with an AI co-pilot.",
+    summary:
+      "RealProfits gives retail traders a single surface for portfolio tracking, trade journaling and AI-assisted insights. We built the web platform, mobile companion app and the AI co-pilot grounded in user trade history.",
+    role: ["Web platform", "iOS + Android", "AI co-pilot", "Data pipelines"],
+    stack: ["Next.js", "React Native", "FastAPI", "Postgres", "OpenAI"],
+    metrics: [
+      ["Surface", "Web + iOS + Android"],
+      ["AI", "Trade-grounded RAG"],
+      ["Scope", "End-to-end"],
+    ],
+    highlights: [
+      "Real-time portfolio + P&L tracking across brokerages",
+      "AI co-pilot grounded in the user's own trade history",
+      "Charting, journaling and tax-lot accounting",
+      "Native mobile companion with biometric login",
+    ],
+    repeat: true,
+  },
+  {
+    slug: "getcashback",
+    name: "GetCashback",
+    tag: "Fintech · Rewards",
+    url: "https://getcashback.com",
+    logo: "getcashback.svg",
+    oneLiner: "A cashback and rewards platform that pays users to shop where they already shop.",
+    summary:
+      "GetCashback is a multi-merchant cashback platform. We delivered the web + mobile experience, the merchant integration layer, AI-driven personalised offers and the wallet-and-payout backend.",
+    role: ["Web platform", "iOS + Android", "AI personalisation", "Wallet + payouts"],
+    stack: ["Next.js", "React Native", "Node", "Postgres", "Stripe"],
+    metrics: [
+      ["Surface", "Web + iOS + Android"],
+      ["Stack", "Merchant + wallet + AI"],
+      ["Scope", "End-to-end"],
+    ],
+    highlights: [
+      "Browser extension + mobile app for cashback capture",
+      "AI-personalised offer ranking per user",
+      "Merchant integration via affiliate networks",
+      "Wallet, payouts, gift cards and referral mechanics",
+    ],
+    repeat: true,
+  },
+  {
+    slug: "onlybeaches",
+    name: "OnlyBeaches",
+    tag: "Travel · Lifestyle",
+    url: "https://onlybeaches.com",
+    logo: "onlybeaches.svg",
+    oneLiner: "A curated discovery platform for the world's best beaches.",
+    summary:
+      "OnlyBeaches is a discovery, planning and booking platform for beaches and beach destinations. We delivered the design system, web platform, content CMS and the AI-powered recommendation engine.",
+    role: ["Design", "Web platform", "Content CMS", "AI recommendations"],
+    stack: ["Next.js", "Headless CMS", "OpenAI", "Postgres"],
+    metrics: [
+      ["Surface", "Web + mobile web"],
+      ["Scope", "Design + build + AI"],
+      ["Format", "Discovery + booking"],
+    ],
+    highlights: [
+      "Editorial CMS for beach guides and itineraries",
+      "AI recommendation engine with mood + season filters",
+      "Image-first design system with cinematic motion",
+      "Booking partners + affiliate revenue layer",
+    ],
+    repeat: true,
+  },
+  {
     slug: "wholosophy",
     name: "Wholosophy",
     tag: "Wellness · AI",
@@ -507,7 +595,7 @@ export const PROJECTS = [
   },
 ];
 
-export const CASE_STUDIES = PROJECTS.filter((p) => ["hiphopgrails", "fanrush", "acquire"].includes(p.slug));
+export const CASE_STUDIES = PROJECTS.filter((p) => ["hiphopgrails", "playsqor", "acquire"].includes(p.slug));
 
 export const CLASS_GAMES = {
   hero: {
@@ -614,8 +702,8 @@ export const AI_PRACTICE = {
   ],
   proof: [
     { client: "wholosophy", what: "RAG-grounded wellness coach" },
-    { client: "fanrush", what: "LLM-curated drop recommendations" },
-    { client: "acquire", what: "Risk + moderation pipelines" },
+    { client: "realprofits", what: "Trade-grounded AI co-pilot for retail traders" },
+    { client: "getcashback", what: "AI-personalised offer ranking" },
   ],
 };
 
@@ -733,3 +821,382 @@ export function getAIUseCase(slug) {
 export function getInsight(slug) {
   return INSIGHTS.find((i) => i.slug === slug) || null;
 }
+
+// =====================================================================
+// PSEO — Tech stack landing pages (/build/[slug])
+// =====================================================================
+export const TECH_STACKS = [
+  {
+    slug: "react-native",
+    name: "React Native",
+    category: "Mobile",
+    overline: "Cross-platform mobile",
+    headline: "React Native apps that feel native — because they are.",
+    body:
+      "We build production React Native apps that ship on the App Store and Play Store with native-grade performance, deep-linking, push, in-app purchases and offline-first state.",
+    bullets: [
+      "Architecture: Expo or bare RN, native module integration",
+      "Performance: 60fps lists, < 1.5s cold start, Hermes",
+      "Native bridges for camera, biometrics, secure storage",
+      "EAS / Fastlane CI/CD with staged rollouts",
+      "Push, deep-linking, in-app purchases and subscriptions",
+      "Crash analytics and remote config built in",
+    ],
+    relatedService: "mobile-app-development",
+    relatedWork: ["playsqor", "videoshops", "truewrld", "realprofits"],
+  },
+  {
+    slug: "ios-swift",
+    name: "iOS / Swift",
+    category: "Mobile",
+    overline: "Native iOS",
+    headline: "Native iOS apps engineered for the platform.",
+    body:
+      "Swift, SwiftUI, modern concurrency. We ship native iOS apps that take advantage of every platform capability — from widgets to Live Activities.",
+    bullets: [
+      "Swift / SwiftUI / Combine / async-await",
+      "Widgets, Live Activities, Lock Screen surfaces",
+      "Sign in with Apple, App Tracking Transparency",
+      "TestFlight + App Store launch + ASO",
+      "StoreKit 2 for IAP and subscriptions",
+      "App Clips and Universal Links",
+    ],
+    relatedService: "mobile-app-development",
+    relatedWork: ["hiphopgrails", "playsqor"],
+  },
+  {
+    slug: "android-kotlin",
+    name: "Android / Kotlin",
+    category: "Mobile",
+    overline: "Native Android",
+    headline: "Native Android apps with Jetpack and Compose.",
+    body:
+      "Kotlin, Jetpack Compose, modern Android architecture. Built for performance, accessibility and the realities of fragmented devices.",
+    bullets: [
+      "Kotlin + Jetpack Compose + coroutines",
+      "Material 3 design system and theming",
+      "Play Billing, Play Integrity, App Bundles",
+      "Background work (WorkManager) and notifications",
+      "Performance budgets across low-end devices",
+      "Play Store launch + staged rollouts",
+    ],
+    relatedService: "mobile-app-development",
+    relatedWork: ["hiphopgrails", "playsqor"],
+  },
+  {
+    slug: "flutter",
+    name: "Flutter",
+    category: "Mobile",
+    overline: "Cross-platform UI",
+    headline: "Flutter for pixel-precise, brand-led mobile.",
+    body:
+      "When the product is the brand, we reach for Flutter. Pixel-precise UIs that look identical on iOS and Android, with native performance and a single codebase.",
+    bullets: [
+      "Dart 3, Flutter 3.x with Material 3 and Cupertino",
+      "Custom design systems and motion-rich UIs",
+      "Federated plugins for native capabilities",
+      "Riverpod / BLoC state management",
+      "iOS and Android builds from a single codebase",
+      "Web and desktop targets where useful",
+    ],
+    relatedService: "mobile-app-development",
+    relatedWork: ["videoshops"],
+  },
+  {
+    slug: "nextjs",
+    name: "Next.js",
+    category: "Web",
+    overline: "React, server-first",
+    headline: "Next.js sites and apps with Core Web Vitals targets.",
+    body:
+      "Next.js 14 App Router, Server Components, edge runtimes. We build marketing sites, product surfaces and back-office consoles tuned for speed, SEO and conversion.",
+    bullets: [
+      "App Router, Server Components, Server Actions",
+      "Edge runtimes (Vercel, Cloudflare) and ISR",
+      "LCP < 1.5s, INP < 200ms targets",
+      "Headless CMS integration (Sanity, Contentful, Payload)",
+      "SEO infrastructure: sitemap, robots, JSON-LD",
+      "TypeScript-first with end-to-end typing",
+    ],
+    relatedService: "web-development",
+    relatedWork: ["onlybeaches", "wholosophy", "acquire", "getcashback"],
+  },
+  {
+    slug: "react",
+    name: "React",
+    category: "Web",
+    overline: "UI engineering",
+    headline: "React, used the way modern teams use it.",
+    body:
+      "Hooks, suspense, server components, and the patterns that hold up in production. We build component libraries and product surfaces teams can scale on.",
+    bullets: [
+      "React 18 — Suspense, transitions, concurrent rendering",
+      "Component libraries with strict typing",
+      "Design systems with Tailwind / CSS-in-JS",
+      "Testing with Vitest / Playwright",
+      "Code-splitting and bundle budgets",
+      "Storybook + visual regression",
+    ],
+    relatedService: "web-development",
+    relatedWork: ["acquire", "realprofits"],
+  },
+  {
+    slug: "nodejs",
+    name: "Node.js",
+    category: "Backend",
+    overline: "Server runtime",
+    headline: "Node back-ends that scale predictably.",
+    body:
+      "TypeScript-first Node services with clean module boundaries, observability and the performance budgets that production demands.",
+    bullets: [
+      "TypeScript + Fastify / Express / Nest",
+      "Worker queues (BullMQ, SQS) for async jobs",
+      "Postgres / Redis / Kafka integration",
+      "OpenTelemetry tracing and structured logs",
+      "Horizontal scaling with stateless services",
+      "Auth (JWT, OAuth) and rate-limiting",
+    ],
+    relatedService: "web-development",
+    relatedWork: ["acquire", "playsqor", "getcashback"],
+  },
+  {
+    slug: "python-fastapi",
+    name: "Python / FastAPI",
+    category: "Backend",
+    overline: "AI-friendly server",
+    headline: "FastAPI services for AI-heavy products.",
+    body:
+      "When the back-end is half AI pipeline, half API, FastAPI is our default. Async Python, pydantic typing, OpenAPI docs out of the box.",
+    bullets: [
+      "FastAPI + pydantic v2 + async/await",
+      "LLM integrations: OpenAI, Anthropic, Google",
+      "Vector stores (pgvector, Pinecone, Weaviate)",
+      "Background workers with Celery / RQ",
+      "Postgres / Redis / S3",
+      "OpenTelemetry, OpenAPI, Sentry",
+    ],
+    relatedService: "ai-and-llm-products",
+    relatedWork: ["realprofits", "wholosophy"],
+  },
+  {
+    slug: "postgres",
+    name: "Postgres",
+    category: "Data",
+    overline: "Database",
+    headline: "Postgres-first data architectures.",
+    body:
+      "We start with Postgres and only leave when we have to. Row-level security, partitioning, materialized views, pgvector — the breadth covers most of what teams reach for elsewhere.",
+    bullets: [
+      "Schema design and migrations (Prisma, Drizzle, Alembic)",
+      "RLS for multi-tenant isolation",
+      "Partitioning, materialized views and indexes",
+      "pgvector for embeddings",
+      "Replication, PITR, read replicas",
+      "Cost-tuned on RDS / Supabase / Neon",
+    ],
+    relatedService: "data-and-bi",
+    relatedWork: ["acquire", "playsqor", "getcashback"],
+  },
+  {
+    slug: "openai-llm",
+    name: "OpenAI (GPT-5, GPT-4o)",
+    category: "AI",
+    overline: "Frontier LLM",
+    headline: "OpenAI in production, with budgets and evals.",
+    body:
+      "GPT-5, GPT-4o, embeddings, vision, voice and Realtime. We build OpenAI-powered features inside production apps — with token budgets, evals and graceful degradation.",
+    bullets: [
+      "Streaming responses with tool-calling",
+      "RAG with OpenAI embeddings + pgvector",
+      "Voice agents with the Realtime API",
+      "Vision and document understanding",
+      "Cost ceilings and rate-limit handling",
+      "Offline + online evals via LangSmith / Braintrust",
+    ],
+    relatedService: "ai-and-llm-products",
+    relatedWork: ["realprofits", "wholosophy", "getcashback"],
+  },
+  {
+    slug: "anthropic-claude",
+    name: "Anthropic Claude",
+    category: "AI",
+    overline: "Frontier LLM",
+    headline: "Claude Sonnet 4.5 for tool-using agents.",
+    body:
+      "Claude is our default for agentic, long-context, tool-using workflows. We build production Claude apps with the eval and observability layer wrapped around them.",
+    bullets: [
+      "Claude Sonnet 4.5 / Haiku 4.5 / Opus 4.5",
+      "Tool-calling and computer use",
+      "Long-context reasoning over docs",
+      "Agentic workflows with retries and budgets",
+      "Prompt caching for cost control",
+      "PII redaction and safety layering",
+    ],
+    relatedService: "ai-and-llm-products",
+    relatedWork: ["wholosophy", "realprofits"],
+  },
+  {
+    slug: "google-gemini",
+    name: "Google Gemini",
+    category: "AI",
+    overline: "Frontier LLM",
+    headline: "Gemini 3 + Nano Banana for vision and multimodal.",
+    body:
+      "Gemini 3 for large-context multimodal reasoning and Gemini Nano Banana for image generation — wired into product surfaces with the right cost ceilings.",
+    bullets: [
+      "Gemini 3 Flash / Pro for chat and reasoning",
+      "Nano Banana for image generation",
+      "Multimodal input — text, image, audio, video",
+      "Grounded search and retrieval",
+      "Streaming and structured outputs",
+      "Cost-aware model routing",
+    ],
+    relatedService: "ai-and-llm-products",
+    relatedWork: ["onlybeaches", "videoshops"],
+  },
+];
+
+export function getStack(slug) {
+  return TECH_STACKS.find((s) => s.slug === slug) || null;
+}
+
+// =====================================================================
+// PSEO — Solutions: Service × Industry combo pages (/solutions/[slug])
+// Auto-generated from INDUSTRIES.services mapping for high-intent SEO.
+// =====================================================================
+export const SOLUTIONS = INDUSTRIES.flatMap((ind) =>
+  ind.services.map((serviceSlug) => {
+    const service = SERVICES.find((s) => s.slug === serviceSlug);
+    if (!service) return null;
+    return {
+      slug: `${serviceSlug}-for-${ind.slug}`,
+      serviceSlug,
+      industrySlug: ind.slug,
+      title: `${service.title} for ${ind.name}`,
+      headline: `${service.title} for ${ind.name.toLowerCase()}.`,
+      body: `${service.desc} Tailored to ${ind.name.toLowerCase()} — ${ind.blurb.toLowerCase()}`,
+    };
+  })
+).filter(Boolean);
+
+export function getSolution(slug) {
+  return SOLUTIONS.find((s) => s.slug === slug) || null;
+}
+
+// =====================================================================
+// PSEO — Compare pages (/compare/[slug])
+// =====================================================================
+export const COMPARES = [
+  {
+    slug: "react-native-vs-flutter",
+    a: { name: "React Native", stack: "react-native" },
+    b: { name: "Flutter", stack: "flutter" },
+    headline: "React Native vs Flutter — which is right in 2026?",
+    summary:
+      "Both are great. Both ship native-quality apps from a single codebase. The right answer depends on team, brand fidelity and platform-specific requirements.",
+    rows: [
+      ["Language", "JS / TypeScript", "Dart"],
+      ["UI fidelity", "Native components", "Pixel-precise custom"],
+      ["Brand-led design", "Good", "Excellent"],
+      ["Native module access", "Excellent", "Excellent"],
+      ["Hiring market", "Larger", "Smaller but growing"],
+      ["Web target", "Possible (RN Web)", "Yes (Flutter Web)"],
+      ["Hot reload", "Fast", "Faster"],
+      ["Best for", "Content + commerce + RMG", "Brand-led, motion-rich UIs"],
+    ],
+    verdict:
+      "Default to React Native for content, commerce and gaming apps. Reach for Flutter when the product is the brand and pixel-precise consistency across iOS / Android matters more than ecosystem size.",
+  },
+  {
+    slug: "native-vs-react-native",
+    a: { name: "Native (Swift / Kotlin)", stack: "ios-swift" },
+    b: { name: "React Native", stack: "react-native" },
+    headline: "Native vs React Native — when to pick which.",
+    summary:
+      "Native is unbeatable for platform-specific surfaces and the deepest performance work. React Native wins on velocity, hiring and shared product surfaces.",
+    rows: [
+      ["Velocity", "Slower (two codebases)", "Faster (one codebase)"],
+      ["Performance ceiling", "Highest", "High enough for most apps"],
+      ["Platform surfaces", "Widgets, Live Activities, full APIs", "Most via bridges"],
+      ["Hiring", "Two specialised teams", "One product team"],
+      ["Best for", "Deep platform integration, AAA games", "Most consumer apps"],
+    ],
+    verdict:
+      "Pick native when the product is the platform integration. Pick React Native for everything else — most consumer apps in 2026.",
+  },
+  {
+    slug: "nextjs-vs-remix",
+    a: { name: "Next.js", stack: "nextjs" },
+    b: { name: "Remix", stack: "nextjs" },
+    headline: "Next.js vs Remix — the modern React framework debate.",
+    summary:
+      "Next.js dominates the ecosystem. Remix has a strong web-fundamentals POV. For most teams in 2026, Next.js is the safer default.",
+    rows: [
+      ["Ecosystem", "Largest in React", "Smaller, focused"],
+      ["Server Components", "First-class", "Loaders / actions"],
+      ["Edge runtimes", "Excellent", "Excellent"],
+      ["Hiring", "Easier", "Harder"],
+      ["Best for", "Almost everything", "Web-fundamentals-first teams"],
+    ],
+    verdict:
+      "Next.js for almost any new build. Remix is a fine pick for teams committed to its model — but the ecosystem gap matters.",
+  },
+  {
+    slug: "openai-vs-claude",
+    a: { name: "OpenAI", stack: "openai-llm" },
+    b: { name: "Anthropic Claude", stack: "anthropic-claude" },
+    headline: "OpenAI vs Claude — model selection in 2026.",
+    summary:
+      "Both are excellent. Pick per workload. We ship multi-model architectures so we never have to pick once.",
+    rows: [
+      ["Best for chat / co-pilot", "GPT-5 / GPT-4o", "Sonnet 4.5"],
+      ["Best for tool-using agents", "Strong", "Strongest"],
+      ["Long context", "Strong", "Best in class"],
+      ["Voice / Realtime", "Excellent (Realtime API)", "Limited"],
+      ["Vision", "Excellent", "Excellent"],
+      ["Image generation", "GPT Image 1", "—"],
+    ],
+    verdict:
+      "We default to multi-model: OpenAI Realtime for voice, Claude Sonnet 4.5 for agents and long-context, OpenAI for chat surfaces. Route per workload.",
+  },
+  {
+    slug: "postgres-vs-mongodb",
+    a: { name: "Postgres", stack: "postgres" },
+    b: { name: "MongoDB", stack: "postgres" },
+    headline: "Postgres vs MongoDB — which database in 2026?",
+    summary:
+      "Postgres has caught up on document workloads. MongoDB still wins on horizontal scale-out and developer ergonomics for some teams. We default to Postgres.",
+    rows: [
+      ["Document storage", "JSONB (excellent)", "Native"],
+      ["Relational features", "Best in class", "Limited"],
+      ["Horizontal scale", "With Citus / partitioning", "Built-in"],
+      ["Vector search", "pgvector", "Atlas Search"],
+      ["Operational tooling", "Mature", "Mature"],
+      ["Best for", "Almost everything", "Doc-heavy + horizontal scale"],
+    ],
+    verdict:
+      "Default to Postgres. Reach for MongoDB only when the workload is genuinely document-shaped and the scale curve is sharp.",
+  },
+  {
+    slug: "ios-vs-android",
+    a: { name: "iOS first", stack: "ios-swift" },
+    b: { name: "Android first", stack: "android-kotlin" },
+    headline: "iOS-first vs Android-first — which platform to launch on.",
+    summary:
+      "Most US-centric consumer launches still go iOS-first. Global, emerging-market and creator-economy launches often invert that.",
+    rows: [
+      ["US monetisation", "Higher per user", "Lower per user"],
+      ["Global reach", "Lower", "Higher"],
+      ["Creator-economy fit", "Mixed", "Strong"],
+      ["Side-loading / payments flexibility", "Limited", "More flexible"],
+      ["Best for", "US consumer, premium", "Global, creator, emerging"],
+    ],
+    verdict:
+      "If revenue concentrates in the US and feature-flag-style launches matter, ship iOS first. If global reach and Android-skewed audiences matter more, invert.",
+  },
+];
+
+export function getCompare(slug) {
+  return COMPARES.find((c) => c.slug === slug) || null;
+}
+
