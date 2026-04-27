@@ -1,17 +1,4 @@
 {
   "/page": "app/page.js",
-  "/work/[slug]/page": "app/work/[slug]/page.js",
-  "/build/[slug]/page": "app/build/[slug]/page.js",
-  "/compare/[slug]/page": "app/compare/[slug]/page.js",
-  "/industries/[slug]/page": "app/industries/[slug]/page.js",
-  "/solutions/[slug]/page": "app/solutions/[slug]/page.js",
-  "/services/[slug]/page": "app/services/[slug]/page.js",
-  "/ai/[slug]/page": "app/ai/[slug]/page.js",
-  "/insights/[slug]/page": "app/insights/[slug]/page.js",
-  "/sitemap.xml/[[...__metadata_id__]]/route": "app/sitemap.xml/[[...__metadata_id__]]/route.js",
-  "/robots.txt/route": "app/robots.txt/route.js",
-  "/work/page": "app/work/page.js",
-  "/build/page": "app/build/page.js",
-  "/solutions/page": "app/solutions/page.js",
-  "/compare/page": "app/compare/page.js"
+  "/work/page": "app/work/page.js"
 }

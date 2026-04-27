@@ -6,7 +6,7 @@ import { PROJECTS, CLIENTS } from "@/lib/content";
 export const metadata = {
   title: "Work — Case Studies",
   description:
-    "Selected work from Origami — mobile apps, AI products, auction platforms and real-money gaming. FanRush, HipHopGrails, Acquire.bet, VideoShops, Nick Cooper, TrueWrld, Wholosophy.",
+    "Selected work from Origami — mobile apps, AI products, fantasy & real-money gaming, fintech, commerce and travel. HipHopGrails, PlaySQOR, Acquire.bet, VideoShops, RealProfits, GetCashback, OnlyBeaches, Nick Cooper, TrueWrld, Wholosophy.",
   alternates: { canonical: "/work" },
 };
 

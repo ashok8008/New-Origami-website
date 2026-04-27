@@ -16,7 +16,7 @@ export default function MobileFocusSection() {
     {
       k: "7+",
       l: "Repeat & referral clients",
-      copy: "HipHopGrails, FanRush, Acquire.bet, VideoShops, Nick Cooper, TrueWrld, Wholosophy.",
+      copy: "HipHopGrails, PlaySQOR, Acquire.bet, VideoShops, RealProfits, GetCashback, OnlyBeaches and more.",
     },
   ];
   return (

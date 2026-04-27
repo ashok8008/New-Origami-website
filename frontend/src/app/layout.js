@@ -39,7 +39,7 @@ export const metadata = {
     template: "%s | Origami",
   },
   description:
-    "Origami builds mobile apps, AI products, auction platforms and Class II / Class III real-money games for culture-forward brands — HipHopGrails, FanRush, Acquire.bet and more.",
+    "Origami builds mobile apps, AI products, fantasy & real-money gaming and fintech platforms for culture-forward brands — HipHopGrails, PlaySQOR, Acquire.bet, RealProfits, GetCashback and more.",
   metadataBase: new URL("https://origami.dev"),
   openGraph: {
     title: "Origami",
