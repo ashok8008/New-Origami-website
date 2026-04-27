@@ -1183,6 +1183,15 @@ video {
 .animate-marquee {
   animation: marquee 40s linear infinite;
 }
+@keyframes spin {
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
 .list-none {
   list-style-type: none;
 }
@@ -1936,6 +1945,12 @@ html, body {
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+.disabled\:cursor-not-allowed:disabled {
+  cursor: not-allowed;
+}
+.disabled\:opacity-60:disabled {
+  opacity: 0.6;
 }
 .group:hover .group-hover\:-translate-y-0\.5 {
   --tw-translate-y: -0.125rem;

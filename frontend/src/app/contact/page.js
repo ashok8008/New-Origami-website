@@ -1,23 +1,36 @@
 "use client";
 
 import { useState } from "react";
-import { Mail, Phone, MapPin, ArrowUpRight, Check } from "lucide-react";
+import { Mail, Phone, MapPin, ArrowUpRight, Check, Loader2 } from "lucide-react";
 import { CONTACT } from "@/lib/content";
 
 export default function ContactPage() {
   const [form, setForm] = useState({ name: "", email: "", company: "", message: "" });
-  const [sent, setSent] = useState(false);
+  const [status, setStatus] = useState("idle"); // idle | sending | sent | error
+  const [error, setError] = useState("");
 
   const update = (k) => (e) => setForm((f) => ({ ...f, [k]: e.target.value }));
 
-  const submit = (e) => {
+  const submit = async (e) => {
     e.preventDefault();
-    const subject = encodeURIComponent(`Project inquiry from ${form.name || "website"}`);
-    const body = encodeURIComponent(
-      `Name: ${form.name}\nEmail: ${form.email}\nCompany: ${form.company}\n\n${form.message}`
-    );
-    window.location.href = `mailto:${CONTACT.email}?subject=${subject}&body=${body}`;
-    setSent(true);
+    setStatus("sending");
+    setError("");
+    try {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL || ""}/api/enquiry`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...form, source: "contact-page" }),
+      });
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        throw new Error(data.detail || "Something went wrong. Please try again.");
+      }
+      setStatus("sent");
+      setForm({ name: "", email: "", company: "", message: "" });
+    } catch (err) {
+      setStatus("error");
+      setError(err.message || "Network error. Please try again.");
+    }
   };
 
   return (
@@ -86,15 +99,32 @@ export default function ContactPage() {
                 />
               </div>
               <div className="flex flex-wrap items-center gap-6">
-                <button type="submit" className="btn-pill btn-primary text-base px-7 py-4" data-testid="contact-submit">
-                  Send enquiry <ArrowUpRight className="w-5 h-5" />
+                <button
+                  type="submit"
+                  disabled={status === "sending"}
+                  className="btn-pill btn-primary text-base px-7 py-4 disabled:opacity-60 disabled:cursor-not-allowed"
+                  data-testid="contact-submit"
+                >
+                  {status === "sending" ? (
+                    <>Sending… <Loader2 className="w-5 h-5 animate-spin" /></>
+                  ) : (
+                    <>Send enquiry <ArrowUpRight className="w-5 h-5" /></>
+                  )}
                 </button>
-                {sent && (
+                {status === "sent" && (
                   <span
                     className="inline-flex items-center gap-2 text-sm text-signal font-mono uppercase tracking-[0.2em]"
                     data-testid="contact-success"
                   >
-                    <Check className="w-4 h-4" /> Draft prepared in your mail client
+                    <Check className="w-4 h-4" /> Enquiry sent — we&apos;ll be in touch.
+                  </span>
+                )}
+                {status === "error" && (
+                  <span
+                    className="text-sm text-signal font-mono uppercase tracking-[0.2em]"
+                    data-testid="contact-error"
+                  >
+                    {error}
                   </span>
                 )}
               </div>
