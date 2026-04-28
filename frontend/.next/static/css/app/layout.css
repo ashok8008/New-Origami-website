@@ -974,11 +974,11 @@ video {
 .mt-8 {
   margin-top: 2rem;
 }
-.mt-auto {
-  margin-top: auto;
-}
 .mt-\[10px\] {
   margin-top: 10px;
+}
+.mt-auto {
+  margin-top: auto;
 }
 .block {
   display: block;
@@ -1475,8 +1475,14 @@ video {
 .pb-24 {
   padding-bottom: 6rem;
 }
+.pl-0 {
+  padding-left: 0px;
+}
 .pl-5 {
   padding-left: 1.25rem;
+}
+.pt-12 {
+  padding-top: 3rem;
 }
 .pt-28 {
   padding-top: 7rem;
@@ -1495,15 +1501,6 @@ video {
 }
 .pt-6 {
   padding-top: 1.5rem;
-}
-.pt-8 {
-  padding-top: 2rem;
-}
-.pl-0 {
-  padding-left: 0px;
-}
-.pt-12 {
-  padding-top: 3rem;
 }
 .text-left {
   text-align: left;
@@ -1620,8 +1617,8 @@ video {
 .leading-\[1\.15\] {
   line-height: 1.15;
 }
-.leading-\[1\.75\] {
-  line-height: 1.75;
+.leading-\[1\.8\] {
+  line-height: 1.8;
 }
 .leading-\[1\] {
   line-height: 1;
@@ -1634,9 +1631,6 @@ video {
 }
 .leading-tight {
   line-height: 1.25;
-}
-.leading-\[1\.8\] {
-  line-height: 1.8;
 }
 .tracking-\[0\.18em\] {
   letter-spacing: 0.18em;
@@ -2257,10 +2251,6 @@ html, body {
 
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .lg\:grid-cols-7 {
-    grid-template-columns: repeat(7, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-5 {
