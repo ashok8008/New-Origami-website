@@ -1,10 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 import { NAV } from "@/lib/content";
+import OrigamiLogo from "./OrigamiLogo";
 
 export default function SiteHeader() {
   const [scrolled, setScrolled] = useState(false);
@@ -28,14 +28,7 @@ export default function SiteHeader() {
     >
       <div className="max-w-[1440px] mx-auto px-6 md:px-10 h-16 md:h-20 flex items-center justify-between gap-8">
         <Link href="/" className="flex items-center shrink-0" data-testid="logo-home" aria-label="Origami — Home">
-          <Image
-            src="/brand/logo.svg"
-            alt="Origami"
-            width={120}
-            height={40}
-            priority
-            className="h-7 md:h-8 w-auto"
-          />
+          <OrigamiLogo variant="dark" className="h-7 md:h-9 w-auto" />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-7 xl:gap-8">

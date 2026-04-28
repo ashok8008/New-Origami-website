@@ -1,7 +1,7 @@
 import Link from "next/link";
-import Image from "next/image";
 import { ArrowUpRight, Mail, Phone, MapPin } from "lucide-react";
 import NewsletterForm from "./NewsletterForm";
+import OrigamiLogo from "./OrigamiLogo";
 import { NAV, NAV_EXTRA, CONTACT } from "@/lib/content";
 
 export default function SiteFooter() {
@@ -35,7 +35,7 @@ export default function SiteFooter() {
 
       <div className="max-w-[1440px] mx-auto px-6 md:px-10 py-16 grid grid-cols-12 gap-8">
         <div className="col-span-12 md:col-span-5">
-          <Image src="/brand/logo.svg" alt="Origami" width={140} height={44} className="h-8 w-auto" />
+          <OrigamiLogo variant="dark" className="h-9 w-auto" />
           <p className="mt-6 text-ink-soft text-[15px] max-w-sm leading-relaxed">
             Origami builds mobile apps, AI products and platforms for
             culture-forward brands — fantasy &amp; real-money gaming, fintech,
