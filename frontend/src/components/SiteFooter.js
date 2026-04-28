@@ -37,9 +37,9 @@ export default function SiteFooter() {
         <div className="col-span-12 md:col-span-5">
           <Image src="/brand/logo.svg" alt="Origami" width={140} height={44} className="h-8 w-auto" />
           <p className="mt-6 text-ink-soft text-[15px] max-w-sm leading-relaxed">
-            Origami builds the digital platforms behind hip-hop, real-money
-            gaming and cultural icons. Design, engineering and staffing —
-            senior, end-to-end.
+            Origami builds mobile apps, AI products and platforms for
+            culture-forward brands — fantasy &amp; real-money gaming, fintech,
+            commerce, hip-hop and travel. Senior, end-to-end.
           </p>
           <div className="mt-8 space-y-3 text-[14px] text-ink-soft">
             <div className="flex items-center gap-3" data-testid="footer-email">

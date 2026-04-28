@@ -1,19 +1,20 @@
 import "./globals.css";
-import { Inter, JetBrains_Mono, Instrument_Serif } from "next/font/google";
+import {
+  Inter,
+  JetBrains_Mono,
+  Instrument_Serif,
+  Archivo,
+} from "next/font/google";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import PlausibleAnalytics from "@/components/PlausibleAnalytics";
 
-// Inter Tight-like: we use Inter as the body (broad, professional) and
-// Instrument Serif for accent italic callouts to avoid the generic look.
 const body = Inter({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-body",
 });
 
-// For the display face we use a heavy geometric sans — Archivo Black via next/font.
-import { Archivo } from "next/font/google";
 const display = Archivo({
   subsets: ["latin"],
   display: "swap",
@@ -36,36 +37,38 @@ const serif = Instrument_Serif({
 
 export const metadata = {
   title: {
-    default: "Origami — Mobile Apps, AI & Platforms for Culture-Forward Brands",
+    default:
+      "Origami — Mobile Apps, AI & Platforms for Culture-Forward Brands",
     template: "%s | Origami",
   },
   description:
     "Origami builds mobile apps, AI products, fantasy & real-money gaming and fintech platforms for culture-forward brands — HipHopGrails, PlaySQOR, Acquire.bet, RealProfits, GetCashback and more.",
-  metadataBase: new URL("https://origami.dev"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://origami.dev"),
   openGraph: {
     title: "Origami",
     description:
       "Mobile apps, AI and platforms for culture-forward brands. Senior engineers who ship.",
     type: "website",
-    url: "https://origami.dev",
+    url: process.env.NEXT_PUBLIC_SITE_URL || "https://origami.dev",
   },
   twitter: {
     card: "summary_large_image",
     title: "Origami",
-    description:
-      "Mobile apps, AI and platforms for culture-forward brands.",
+    description: "Mobile apps, AI and platforms for culture-forward brands.",
   },
   alternates: { canonical: "/" },
 };
+
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://origami.dev";
 
 const ORG_JSONLD = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Origami",
-  url: "https://origami.dev",
-  logo: "https://origami.dev/brand/logo.svg",
+  url: SITE_URL,
+  logo: `${SITE_URL}/brand/logo.svg`,
   description:
-    "Origami builds mobile apps, AI products, auctions and real-money gaming platforms for culture-forward brands.",
+    "Origami builds mobile apps, AI products, fantasy & real-money gaming and fintech platforms for culture-forward brands.",
   address: {
     "@type": "PostalAddress",
     streetAddress: "641 Lexington Avenue, 14th Floor",
