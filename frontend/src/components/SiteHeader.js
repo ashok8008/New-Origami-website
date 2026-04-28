@@ -28,7 +28,7 @@ export default function SiteHeader() {
     >
       <div className="max-w-[1440px] mx-auto px-6 md:px-10 h-16 md:h-20 flex items-center justify-between gap-8">
         <Link href="/" className="flex items-center shrink-0" data-testid="logo-home" aria-label="Origami — Home">
-          <OrigamiLogo variant="dark" className="h-7 md:h-9 w-auto" />
+          <OrigamiLogo variant="dark" className="text-2xl md:text-3xl" />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-7 xl:gap-8">
