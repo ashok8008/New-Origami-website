@@ -41,6 +41,43 @@ committed to git.
 
 ---
 
+## 🚑 If you're already deployed and seeing the Tailwind error
+
+Your PM2 is probably running `yarn start` which used to default to `next dev` —
+which tries to compile Tailwind at runtime and fails. Run this **once** on the
+server to switch to production mode (`next start` serves the pre-built output
+and never touches Tailwind at runtime):
+
+```bash
+ssh root@your-hetzner-ip
+cd ~/public_html
+
+# Pull the latest code that includes ecosystem.config.js + deploy.sh fixes
+git pull origin main
+
+# Wipe stale state and rebuild cleanly
+cd frontend
+rm -rf .next node_modules/.cache
+unset NODE_ENV
+yarn install --frozen-lockfile --production=false
+yarn build
+cd ..
+
+# Replace whatever pm2 is currently running with the production config
+pm2 delete all || true
+pm2 start ecosystem.config.js
+pm2 save
+
+# Verify
+pm2 status
+pm2 logs origami-frontend --lines 30
+```
+
+You should see **no "Compiling /" lines** in the logs — `next start` doesn't
+compile, it serves. That's how you know you're out of dev mode.
+
+---
+
 ## One-time server setup
 
 ### 1. SSH in, install runtimes
