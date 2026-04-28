@@ -3,6 +3,7 @@
 
 export const NAV = [
   { label: "About", href: "/about" },
+  { label: "Auctions", href: "/auctions" },
   { label: "Class II & III Games", href: "/games" },
   { label: "AI", href: "/ai" },
   { label: "Services", href: "/services" },
@@ -63,6 +64,7 @@ export const MARQUEE_WORDS = [
   "Fantasy Sports",
   "Class II / III Games",
   "Auctions",
+  "Sotheby's of hip-hop",
   "Fintech",
   "Cashback · Rewards",
   "Repeat Clients",
@@ -181,17 +183,19 @@ export const SERVICE_DETAIL = {
     relatedWork: ["acquire", "wholosophy", "realprofits"],
   },
   "auctions-and-fan-drops": {
-    headline: "Commerce built for culture, not generic retail.",
+    headline: "Auction houses, engineered.",
     body:
-      "From timed celebrity auctions to artist drops and memorabilia, we've engineered the full commerce surface — bidding, consignment, identity, escrow and payouts.",
-    pills: ["Bidding engines", "Consignment", "Payouts", "Identity/KYC", "Mobile-first"],
+      "Sotheby's and Christie's shaped how the world buys art for three centuries. We build the digital-native successors — bidding floors, consignment ops, escrow and live event run-of-show — on Azure, .NET, Next.js and PostgreSQL. The HipHopGrails platform is our reference build.",
+    pills: ["Bidding engine", "Live-stream auctions", "Drops", "Consignment", "Escrow + KYC", "Mobile-first"],
     bullets: [
-      "Timed, live and drop auction mechanics with anti-snipe",
-      "Consignment and seller workflows for labels, artists and curators",
-      "Escrow, KYC, fraud rules and payouts (Stripe, Adyen, specialist rails)",
-      "Ops tooling — inventory, moderation, event run-of-show",
+      "Server-authoritative bidding with anti-snipe, soft-close, proxy and absentee bids",
+      "Live-streamed auctions with auctioneer paddle, online + room + phone bidders",
+      "Consignment workflows for labels, artists, estates and curators",
+      "Escrow, KYC, AML and payouts (Stripe Connect, ACH, specialist art-lending rails)",
+      "Operator tooling — catalog, photography pipeline, run-of-show, telemetry",
+      "Reference stack: Microsoft Azure, .NET 8 microservices, Next.js, PostgreSQL",
     ],
-    relatedWork: ["hiphopgrails", "nickcooper"],
+    relatedWork: ["hiphopgrails", "nickcooper", "truewrld"],
   },
   "class-ii-and-class-iii-games": {
     headline: "Real-money gaming, engineered for operators.",
@@ -361,21 +365,26 @@ export const PROJECTS = [
     tag: "Hip-Hop · Auctions",
     url: "https://hiphopgrails.com",
     logo: "hiphopgrails.svg",
-    oneLiner: "The auction destination for hip-hop memorabilia and celebrity drops.",
+    oneLiner: "The flagship auction destination for hip-hop memorabilia and celebrity drops — engineered on Azure, .NET, Next.js and PostgreSQL.",
     summary:
-      "We designed and engineered HipHopGrails as a destination for curated auctions and exclusive drops from hip-hop artists and culture-forward brands — covering bidding, identity, payouts, consignment workflows and operator tooling.",
-    role: ["Product", "Design", "iOS + Android", "Web platform", "Ops tooling"],
-    stack: ["React Native", "Next.js", "Node", "Postgres", "Stripe"],
+      "HipHopGrails is the breakout auction platform for hip-hop culture — the first destination of its kind, often described as the Sotheby's of the streets. We built it end-to-end on a Microsoft Azure cloud, with a .NET microservices core, a Next.js front end and a PostgreSQL data layer. From the bidding engine to consignment workflows, identity, escrow and live event run-of-show, every layer is ours.",
+    role: ["Product strategy", "Auction platform", ".NET microservices", "Next.js front end", "Native iOS + Android", "Ops + run-of-show tooling"],
+    stack: [".NET 8", "Next.js", "React Native", "PostgreSQL", "Azure App Service", "Azure SignalR", "Stripe"],
     metrics: [
-      ["Platform", "End-to-end auctions"],
-      ["Verticals", "Music, fashion, culture"],
-      ["Delivery", "Web + iOS + Android"],
+      ["Cloud", "Microsoft Azure"],
+      ["Backend", ".NET microservices"],
+      ["Database", "PostgreSQL"],
+      ["Front end", "Next.js + React Native"],
+      ["Surface", "Web · iOS · Android"],
+      ["Verticals", "Music · fashion · culture"],
     ],
     highlights: [
-      "Native iOS and Android apps with timed and live auctions",
-      "Consignment and seller flows for labels and artists",
-      "Escrow, KYC and payouts — Stripe + specialist rails",
-      "Operator tooling for event run-of-show and inventory",
+      "Bidding engine with anti-snipe, soft-close and live-event extensions — built on Azure SignalR for sub-100ms updates at scale",
+      "Consignment and seller flows for labels, artists, curators and estates",
+      "Escrow, KYC, AML and payouts — Stripe + specialist rails for high-value lots",
+      "Operator tooling for event run-of-show, inventory, moderation and live drops",
+      "Native iOS + Android apps with push, deep-linking and offline cart state",
+      "Compliance, audit trails and dispute workflows fit for high-value collectibles",
     ],
     repeat: true,
   },
@@ -596,6 +605,129 @@ export const PROJECTS = [
 ];
 
 export const CASE_STUDIES = PROJECTS.filter((p) => ["hiphopgrails", "playsqor", "acquire"].includes(p.slug));
+
+// =====================================================================
+// Auctions practice — flagship vertical
+// =====================================================================
+export const AUCTIONS = {
+  hero: {
+    overline: "Auctions practice",
+    title: "Auction houses,\nengineered.",
+    body:
+      "We build the bidding floors of the internet. Sotheby's, Christie's and the storied houses of the last three centuries shaped how the world buys art, jewellery and collectibles. Our job is to build their digital-native successors — and the platforms culture-forward operators are using to compete with them.",
+  },
+  positioning: {
+    title: "We don't sell software. We build auction houses.",
+    body:
+      "Auctions are theatre. They are a clock, a crowd, a reserve, an escrow and a thousand small product decisions about trust. We've spent a decade making those decisions — for hip-hop memorabilia at HipHopGrails, for celebrity drops, for high-value collectibles. Our reference architecture is now used as the spine of new auction houses across music, fashion, sport and luxury.",
+  },
+  stats: [
+    { k: "Microsoft", l: "Azure cloud", note: "Reference deployment for HipHopGrails" },
+    { k: ".NET 8", l: "Microservices core", note: "C# domain services + minimal APIs" },
+    { k: "Next.js", l: "Front-end stack", note: "App Router + React 18" },
+    { k: "PostgreSQL", l: "System of record", note: "Row-level security, partitioning, audit" },
+    { k: "<100ms", l: "Bid latency", note: "Azure SignalR real-time fan-out" },
+    { k: "24/7", l: "Live ops", note: "Run-of-show tooling for event teams" },
+  ],
+  capabilities: [
+    {
+      title: "Bidding engine",
+      text:
+        "Server-authoritative bidding with anti-snipe, soft-close, proxy bids, reserve handling and absentee bids. Sub-100ms fan-out via Azure SignalR. Tested for live-event spikes at 10× normal load.",
+    },
+    {
+      title: "Live & timed formats",
+      text:
+        "Timed auctions, live-streamed auctions with auctioneer paddle, drops and Buy-It-Now hybrids. Run-of-show tooling for event producers — pacing, holds, withdrawals, ad-hoc lots.",
+    },
+    {
+      title: "Consignment & seller ops",
+      text:
+        "Workflows for labels, artists, estates, curators and resellers. Provenance, condition reports, lot-level photography and video, reserve negotiation, commission splits and post-sale settlement.",
+    },
+    {
+      title: "Identity, KYC & AML",
+      text:
+        "Bidder identity verification, source-of-funds for high-value lots, sanctions screening and audit trails. Plug-in providers for jurisdiction-specific compliance.",
+    },
+    {
+      title: "Escrow, payments & payouts",
+      text:
+        "Escrow with explicit hold periods, dispute windows and payout rails — Stripe Connect, ACH and specialist art-lending partners. Fully reconciled ledger built on PostgreSQL.",
+    },
+    {
+      title: "Authentication & provenance",
+      text:
+        "Photo-grade lot record-keeping, condition history, third-party authentication hooks and tamper-evident provenance trails. Optional NFT certificates of authenticity per lot.",
+    },
+    {
+      title: "Native mobile apps",
+      text:
+        "iOS and Android apps for bidders and ops — push notifications, deep-linked lot URLs, offline watch-list, biometric login. The same .NET API powers both surfaces.",
+    },
+    {
+      title: "Operator console",
+      text:
+        "Catalog management, photography pipeline, scheduling, jackpots, loyalty, telemetry and CRM. Built so the ops team runs the platform — not the other way around.",
+    },
+    {
+      title: "Compliance & reporting",
+      text:
+        "Auction-house grade audit trails, reportable events, tax reporting, GAAP-friendly revenue recognition. Designed for legal and finance teams from day one.",
+    },
+  ],
+  stack: {
+    title: "An auction-grade reference architecture.",
+    body:
+      "We standardised on a battle-tested stack so we can ship auction platforms in months, not years — without compromising on the audit, compliance and performance bar that real money demands.",
+    layers: [
+      { label: "Cloud", name: "Microsoft Azure", note: "App Service, Container Apps, SignalR, Service Bus, Storage, Front Door" },
+      { label: "Backend", name: ".NET 8 / C#", note: "Microservices, minimal APIs, MediatR, EF Core, FluentValidation" },
+      { label: "Realtime", name: "Azure SignalR + Service Bus", note: "Bid fan-out, live-event sync, durable async workflows" },
+      { label: "Database", name: "PostgreSQL", note: "Row-level security, partitioning by auction, pgvector for catalog search, full audit trail" },
+      { label: "Front end (web)", name: "Next.js 14", note: "App Router, server components, edge runtimes" },
+      { label: "Front end (mobile)", name: "React Native + Swift / Kotlin", note: "Native modules where bidder UX demands it" },
+      { label: "Identity & payments", name: "OIDC / Stripe / KYC partner", note: "OpenID Connect SSO, Stripe Connect, sanctions screening" },
+      { label: "Observability", name: "App Insights + OpenTelemetry", note: "Per-lot tracing, RTP-style live ops dashboards" },
+    ],
+  },
+  formats: [
+    {
+      title: "Timed online auction",
+      points: [
+        "Anti-snipe extension windows",
+        "Auto-bid (proxy) and absentee bids",
+        "Soft-close per lot or session",
+      ],
+    },
+    {
+      title: "Live-streamed auction",
+      points: [
+        "Auctioneer paddle, room + online + phone bidders",
+        "Real-time clerking and stand-in workflows",
+        "Live HLS video, latency-aware bid floor",
+      ],
+    },
+    {
+      title: "Drop & buy-now hybrid",
+      points: [
+        "Scheduled drops with anti-bot capacity",
+        "Buy-it-now with optional best offer",
+        "Membership-gated early access",
+      ],
+    },
+    {
+      title: "Sealed-bid & private sale",
+      points: [
+        "Sealed-envelope mechanics",
+        "Auctioneer-mediated negotiations",
+        "Confidential consignment workflows",
+      ],
+    },
+  ],
+  proof: ["hiphopgrails", "nickcooper", "truewrld"],
+};
+
 
 export const CLASS_GAMES = {
   hero: {

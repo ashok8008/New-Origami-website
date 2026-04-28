@@ -16,6 +16,7 @@ export default function sitemap() {
   const core = [
     "",
     "about",
+    "auctions",
     "services",
     "games",
     "ai",

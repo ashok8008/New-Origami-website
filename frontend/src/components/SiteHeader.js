@@ -38,12 +38,12 @@ export default function SiteHeader() {
           />
         </Link>
 
-        <nav className="hidden lg:flex items-center gap-8">
+        <nav className="hidden lg:flex items-center gap-7 xl:gap-8">
           {NAV.map((item) => (
             <Link
               key={item.label}
               href={item.href}
-              className="text-[15px] font-medium text-ink-soft hover:text-ink transition-colors whitespace-nowrap"
+              className="text-[14px] xl:text-[15px] font-medium text-ink-soft hover:text-ink transition-colors whitespace-nowrap"
               data-testid={`nav-${item.label.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}
             >
               {item.label}
