@@ -6,6 +6,7 @@ export const NAV = [
   { label: "Auctions", href: "/auctions" },
   { label: "Class II & III Games", href: "/games" },
   { label: "AI", href: "/ai" },
+  { label: "Media", href: "/media" },
   { label: "Services", href: "/services" },
   { label: "Work", href: "/work" },
   { label: "Careers", href: "/careers" },
@@ -65,6 +66,9 @@ export const MARQUEE_WORDS = [
   "Class II / III Games",
   "Auctions",
   "Sotheby's of hip-hop",
+  "Header Bidding",
+  "RTB · Programmatic",
+  "Premium Publishers",
   "Fintech",
   "Cashback · Rewards",
   "Repeat Clients",
@@ -727,6 +731,193 @@ export const AUCTIONS = {
   ],
   proof: ["hiphopgrails", "nickcooper", "truewrld"],
 };
+
+// =====================================================================
+// Media & Publishers practice — programmatic, RTB, content monetization
+// =====================================================================
+export const MEDIA = {
+  hero: {
+    overline: "Media & Publishers practice",
+    title: "We turn premium content\ninto compounding revenue.",
+    body:
+      "Origami is the engineering team for the next chapter of digital media. We build the programmatic, contextual and commerce layer that publishers like Condé Nast Traveller, Garden & Gun and Trusted Media Brands need to grow yield without surrendering control of the user experience or the data.",
+  },
+  thesis: {
+    overline: "The thesis",
+    title:
+      "The world's best content is being monetized at a fraction of its potential.",
+    body:
+      "Premium publishers sit on the most valuable inventory on the internet — engaged, intent-rich, brand-safe audiences. The infrastructure underneath, though, was built for a different decade. We bring a modern programmatic, contextual and content-commerce stack to publishers who care about the work — and want the revenue line to follow.",
+  },
+  // Six headline stats designed to read like an industry datasheet.
+  stats: [
+    { k: "Sub-100ms", l: "Auction latency", note: "Edge-deployed prebid + server-side header bidding" },
+    { k: "Zero PII", l: "Contextual-first", note: "We start with content, not user identity" },
+    { k: "12+", l: "SSP integrations", note: "Google AdX, Magnite, PubMatic, OpenX, Index, Criteo, Sharethrough" },
+    { k: "+15–35%", l: "Typical RPM lift", note: "Header bidding + floor optimization + curated demand" },
+    { k: "100%", l: "Brand-safety vetted", note: "IAS / DoubleVerify / Oracle Moat compatible" },
+    { k: "GDPR · CCPA", l: "Compliance-ready", note: "TCF v2.2, GPP, DPA-grade processing" },
+  ],
+  capabilities: [
+    {
+      title: "Header bidding",
+      text:
+        "Prebid.js client-side and server-side header bidding deployed at the edge — multi-format, multi-currency, deal-aware. Wired so the publisher controls timeouts, floors and bidder allow-lists.",
+    },
+    {
+      title: "Real-time bidding (RTB)",
+      text:
+        "OpenRTB 2.6 / 3.0 endpoints, programmatic guaranteed (PG) and PMP deal flow, deal IDs and audience deals tuned per publisher. Shaped to lift yield without cannibalising direct-sold inventory.",
+    },
+    {
+      title: "Contextual targeting",
+      text:
+        "IAB content-taxonomy classification, embeddings-based topic modelling and brand-safety segments — all without touching personal data. Performance comparable to behavioural targeting on the categories that matter.",
+    },
+    {
+      title: "Content commerce & affiliate",
+      text:
+        "Inline product cards, affiliate links, recommendation rails and shoppable editorial — all derived from page context. We make the article earn beyond the ad slot.",
+    },
+    {
+      title: "AI-driven recommendations",
+      text:
+        "Embedding-based 'next-best read' and 'next-best buy' modules grounded in your own corpus. We lift session depth and pages-per-visit — the metrics every premium publisher actually cares about.",
+    },
+    {
+      title: "Yield optimization",
+      text:
+        "Floor-price ML, bidder selection, identity-graph fallbacks (RampID, ID5, UID2.0 where used), and unified auction analytics. We tune the auction; you keep the revenue.",
+    },
+    {
+      title: "First-party data & CDP",
+      text:
+        "When the publisher is ready, we stand up a first-party data layer — consent-managed, privacy-safe — for direct deals, audience extension and durable revenue beyond the cookie.",
+    },
+    {
+      title: "Brand safety & IVT",
+      text:
+        "Pre-bid brand-safety filters, post-impression measurement (IAS, DoubleVerify, Oracle Moat) and invalid-traffic shielding so high-CPM advertisers come back.",
+    },
+    {
+      title: "Privacy & compliance",
+      text:
+        "TCF v2.2, GPP, CCPA, regional regimes (LGPD, POPIA, India DPDP). Consent flows, processor agreements and audit trails the publisher's legal team will sign off on.",
+    },
+  ],
+  // The Trojan Horse pitch — risk-free entry, prove revenue, then expand.
+  trojanHorse: {
+    overline: "How we get in",
+    title: "Zero risk. No data. Pure contextual.",
+    body:
+      "Premium publishers don't hand over data because someone asked nicely. We don't ask. We deploy on a slice of the property, prove revenue uplift on contextual signals alone, and only then talk about deeper integration — on the publisher's terms.",
+    steps: [
+      {
+        n: "01",
+        title: "Lightweight integration",
+        text:
+          "A JS snippet or content-API integration. No user data needed. We start with page context, category, geo (coarse) and device — the signals you already expose.",
+      },
+      {
+        n: "02",
+        title: "Prove revenue",
+        text:
+          "We run on 50–100 pages first. Transparent reporting, side-by-side A/B against control. Typical lift: +15–35% RPM in the first 60 days.",
+      },
+      {
+        n: "03",
+        title: "Expand scope",
+        text:
+          "Once the revenue line moves, expansion is a conversation about coverage — not a procurement battle. Section-level, then site-level, then network-level.",
+      },
+      {
+        n: "04",
+        title: "Deeper signals (only if needed)",
+        text:
+          "After we've earned it, we co-design first-party data layers, audience extension and direct-deal automation. Always opt-in. Always reversible.",
+      },
+    ],
+    objections: [
+      {
+        q: "Will you misuse our users?",
+        a: "We don't store or access personal data. Everything is contextual and consent-aware.",
+      },
+      {
+        q: "Will this break our UX?",
+        a: "We control no placement without your sign-off. Every unit is reviewable, throttle-able, removable.",
+      },
+      {
+        q: "Will this cannibalise our direct ads?",
+        a: "We optimise incremental revenue — never the floor your sales team has already sold against.",
+      },
+    ],
+  },
+  // Premium publisher tier — explicitly aspirational targets.
+  audience: {
+    overline: "Who we build for",
+    title: "Publishers in the tier of —",
+    note:
+      "Condé Nast Traveller, Garden & Gun, Trusted Media Brands, regional newsroom networks and category-defining digital titles. Premium audiences, premium standards.",
+    brands: [
+      {
+        name: "Condé Nast Traveller",
+        parent: "Condé Nast",
+        focus: "Luxury travel · Culture · Lifestyle",
+        positioning: "Premium · Aspirational · Global",
+        sister: "Vogue · GQ · The New Yorker · Vanity Fair",
+      },
+      {
+        name: "Garden & Gun",
+        parent: "Evening Post Publishing (independent)",
+        focus: "Southern U.S. lifestyle — food, culture, travel, outdoors",
+        positioning: "High-quality editorial · Strong regional identity",
+        sister: "—",
+      },
+      {
+        name: "Trusted Media Brands",
+        parent: "TMBI",
+        focus: "Mass-market · Practical · Family-friendly",
+        positioning: "Broad audience · Ads + subscription + affiliate monetised",
+        sister: "Reader's Digest · The Family Handyman · Taste of Home · Birds & Blooms",
+      },
+    ],
+  },
+  // Modern, credible adtech stack.
+  stack: {
+    title: "An adtech-grade reference architecture.",
+    body:
+      "Built to drop into existing publisher tech without ripping anything out. SSAI, prebid, identity, contextual and analytics — wired to the cloud the publisher already runs on.",
+    layers: [
+      { label: "Cloud", name: "AWS / Azure / GCP", note: "Publisher-portable; deployed where their data already lives" },
+      { label: "Edge", name: "Cloudflare / Fastly / Vercel Edge", note: "Sub-100ms auction latency, global PoPs" },
+      { label: "Auction", name: "Prebid.js + PBS (Server)", note: "Client- and server-side header bidding, identity hub" },
+      { label: "Demand", name: "Google AdX · Magnite · PubMatic · OpenX · Index · Criteo · Sharethrough", note: "12+ SSP / DSP integrations, with deal-ID and PMP support" },
+      { label: "Identity", name: "RampID · ID5 · UID2.0 · publisher-1P", note: "Cookie-less ready, consent-aware, opt-in only" },
+      { label: "Contextual", name: "IAB taxonomy + embeddings", note: "Pgvector + OpenAI embeddings; brand-safety segments out of the box" },
+      { label: "Verification", name: "IAS · DoubleVerify · Oracle Moat", note: "Pre-bid filtering + post-impression measurement" },
+      { label: "Analytics", name: "BigQuery / Snowflake + Looker / Metabase", note: "Bidder-level transparency, daily yield reports" },
+    ],
+  },
+  // Lightweight engagement model so prospects can self-qualify.
+  engagement: [
+    {
+      title: "Audit",
+      duration: "2 weeks",
+      text: "We benchmark current yield, fill rate, latency and brand-safety posture. Output: a numbered opportunity list with $-per-month estimates.",
+    },
+    {
+      title: "Pilot",
+      duration: "60 days",
+      text: "Lightweight integration on a slice of the property. Side-by-side A/B against your control bucket. Transparent reporting from day one.",
+    },
+    {
+      title: "Scale",
+      duration: "Ongoing",
+      text: "Expand coverage section-by-section, layer in first-party data and direct deals when the publisher is ready. Revenue-share or fixed-fee — whichever fits.",
+    },
+  ],
+};
+
 
 
 export const CLASS_GAMES = {

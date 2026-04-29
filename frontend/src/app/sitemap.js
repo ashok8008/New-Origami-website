@@ -17,6 +17,7 @@ export default function sitemap() {
     "",
     "about",
     "auctions",
+    "media",
     "services",
     "games",
     "ai",

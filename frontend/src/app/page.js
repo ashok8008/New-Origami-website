@@ -5,6 +5,7 @@ import MobileFocusSection from "@/components/home/MobileFocusSection";
 import CaseStudiesSection from "@/components/home/CaseStudiesSection";
 import AuctionsFeature from "@/components/home/AuctionsFeature";
 import AISection from "@/components/home/AISection";
+import MediaFeature from "@/components/home/MediaFeature";
 import ServicesSection from "@/components/home/ServicesSection";
 import ApproachSection from "@/components/home/ApproachSection";
 import IndustriesSection from "@/components/home/IndustriesSection";
@@ -22,6 +23,7 @@ export default function HomePage() {
       <StatsStrip />
       <CaseStudiesSection />
       <AISection />
+      <MediaFeature />
       <ServicesSection />
       <ApproachSection />
       <IndustriesSection />
