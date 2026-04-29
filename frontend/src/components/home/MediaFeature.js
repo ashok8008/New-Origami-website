@@ -19,8 +19,9 @@ export default function MediaFeature() {
           </h2>
           <p className="mt-6 text-ink-soft text-lg leading-relaxed max-w-md">
             Header bidding, RTB, contextual targeting and content commerce
-            for the premium-publisher tier — Condé Nast Traveller, Garden &amp; Gun,
-            Trusted Media Brands and the category-defining titles building next.
+            for the premium-publisher tier — luxury travel networks, regional
+            lifestyle titles, trusted family-media groups and the category-defining
+            publishers being built next.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link href="/media" className="btn-pill btn-primary">

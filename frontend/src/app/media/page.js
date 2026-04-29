@@ -5,7 +5,7 @@ import { MEDIA } from "@/lib/content";
 export const metadata = {
   title: "Media & Publishers Practice — Programmatic, Contextual & Content Commerce",
   description:
-    "Origami builds the programmatic, contextual and content-commerce layer for premium publishers — Condé Nast Traveller, Garden & Gun, Trusted Media Brands tier. Header bidding, RTB, brand-safe contextual targeting and yield optimization. Zero PII, sub-100ms auctions.",
+    "Origami builds the programmatic, contextual and content-commerce layer for premium publishers — luxury travel networks, regional lifestyle titles and trusted family-media groups. Header bidding, RTB, brand-safe contextual targeting and yield optimization. Zero PII, sub-100ms auctions.",
   alternates: { canonical: "/media" },
   openGraph: {
     title: "Origami Media & Publishers Practice",
@@ -147,9 +147,6 @@ export default function MediaPage() {
               </div>
             ))}
           </div>
-          <p className="mt-8 text-[13px] text-ink-muted font-mono uppercase tracking-[0.18em]">
-            /// Brands referenced as tier illustrations of our target publisher segment, not client claims.
-          </p>
         </div>
       </section>
 

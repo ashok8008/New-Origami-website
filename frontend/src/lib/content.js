@@ -740,7 +740,7 @@ export const MEDIA = {
     overline: "Media & Publishers practice",
     title: "We turn premium content\ninto compounding revenue.",
     body:
-      "Origami is the engineering team for the next chapter of digital media. We build the programmatic, contextual and commerce layer that publishers like Condé Nast Traveller, Garden & Gun and Trusted Media Brands need to grow yield without surrendering control of the user experience or the data.",
+      "Origami is the engineering team for the next chapter of digital media. We build the programmatic, contextual and commerce layer that premium publishers need to grow yield without surrendering control of the user experience or the data — for luxury travel, regional lifestyle, mass-market trusted media and the category-defining titles being built next.",
   },
   thesis: {
     overline: "The thesis",
@@ -852,33 +852,33 @@ export const MEDIA = {
       },
     ],
   },
-  // Premium publisher tier — explicitly aspirational targets.
+  // Premium publisher tier — described by category, not named.
   audience: {
     overline: "Who we build for",
-    title: "Publishers in the tier of —",
+    title: "Publishers in three tiers —",
     note:
-      "Condé Nast Traveller, Garden & Gun, Trusted Media Brands, regional newsroom networks and category-defining digital titles. Premium audiences, premium standards.",
+      "Premium audiences. Premium standards. Three publisher categories where the modern monetization stack moves the revenue line the most.",
     brands: [
       {
-        name: "Condé Nast Traveller",
-        parent: "Condé Nast",
-        focus: "Luxury travel · Culture · Lifestyle",
-        positioning: "Premium · Aspirational · Global",
-        sister: "Vogue · GQ · The New Yorker · Vanity Fair",
+        name: "Luxury travel & culture",
+        parent: "Global lifestyle networks",
+        focus: "Travel · Culture · Fashion · Food",
+        positioning: "Premium · Aspirational · Global audience",
+        sister: "High-CPM contextual + commerce surfaces",
       },
       {
-        name: "Garden & Gun",
-        parent: "Evening Post Publishing (independent)",
-        focus: "Southern U.S. lifestyle — food, culture, travel, outdoors",
-        positioning: "High-quality editorial · Strong regional identity",
-        sister: "—",
+        name: "Regional lifestyle & editorial",
+        parent: "Independent media houses",
+        focus: "Food · Outdoors · Regional culture",
+        positioning: "Niche · High-quality · Loyal subscriber base",
+        sister: "Editorial-led commerce + member-driven yield",
       },
       {
-        name: "Trusted Media Brands",
-        parent: "TMBI",
-        focus: "Mass-market · Practical · Family-friendly",
-        positioning: "Broad audience · Ads + subscription + affiliate monetised",
-        sister: "Reader's Digest · The Family Handyman · Taste of Home · Birds & Blooms",
+        name: "Trusted family & utility media",
+        parent: "Multi-title publishing groups",
+        focus: "Practical · Family · Home · Hobbies",
+        positioning: "Broad audience · Ads + subscription + affiliate",
+        sister: "Affiliate-heavy yield + first-party data depth",
       },
     ],
   },
