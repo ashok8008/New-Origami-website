@@ -66,3 +66,4 @@ hiphopgrails, playsqor, acquire, videoshops, realprofits, getcashback, onlybeach
 - 2026-02-24 — **v3**: mobile-app + AI repositioning; /ai, /work × 7, /industries, /insights, PSEO services/industries/ai/insights/work, sitemap/robots/JSON-LD, compliance-call CTA.
 - 2026-02-26 — Contact info: hello@origami.dev, NY HQ + Bangalore dev team.
 - 2026-02-27 — **v3.1**: Client roster swap (FanRush → PlaySQOR + RealProfits + GetCashback + OnlyBeaches). NEW PSEO patterns: /build (12 tech stacks), /solutions (23 service×industry combos), /compare (6 comparisons). Sitemap now 90 URLs.
+- 2026-05-13 — **Favicon**: Added `src/app/icon.svg` (bold black "O." with red dot on white) and `src/app/apple-icon.js` (180×180 dynamic PNG via next/og ImageResponse). Next.js auto-wires both `<link rel="icon">` and `<link rel="apple-touch-icon">` in `<head>`. Verified end-to-end: icon.svg returns 200 image/svg+xml, apple-icon returns 200 image/png 180×180.
