@@ -1,40 +1,71 @@
 import Link from "next/link";
-import { Shield, FileCheck, Lock, Users, ArrowUpRight } from "lucide-react";
+import {
+  Users,
+  Boxes,
+  Lock,
+  Compass,
+  Shield,
+  FileCheck,
+  Hammer,
+  Repeat,
+  ArrowUpRight,
+} from "lucide-react";
 
 /**
- * TrustBand — honest trust signals (not fabricated stats).
+ * TrustBand — principle-led trust section (no fabricated numbers).
  *
- * Mixes real numbers we can stand behind with posture/process signals
- * a procurement team can actually verify in a 15-min call.
+ * Same layout pattern as before: eyebrow + headline left, short copy right,
+ * followed by two rows of four bordered cards.
  */
 export default function TrustBand() {
-  const numbers = [
-    { k: "25+", l: "Years industry experience", note: "Leadership has shipped through three platform shifts — web, mobile, AI" },
-    { k: "7+", l: "Years as Origami", note: "Studio launched 2019. Senior-led from day one." },
-    { k: "40+", l: "Senior team", note: "Engineers, designers and PMs. No junior pyramids." },
-    { k: "10", l: "Repeat-client products live", note: "From auction floors to AI co-pilots." },
+  const row1 = [
+    {
+      icon: Users,
+      label: "Senior from day one",
+      text:
+        "No junior pyramids. You work directly with people who have shipped real platforms.",
+    },
+    {
+      icon: Boxes,
+      label: "Products, not presentations",
+      text:
+        "Apps, platforms, AI systems, auctions, gaming, and commerce — built for production, not pitch decks.",
+    },
+    {
+      icon: Lock,
+      label: "IP belongs to you",
+      text:
+        "You own the code, prompts, data, architecture, and product decisions. Always.",
+    },
+    {
+      icon: Compass,
+      label: "Small by design",
+      text:
+        "Fewer handoffs, clearer ownership, faster shipping, and senior attention on the work.",
+    },
   ];
 
-  const posture = [
+  const row2 = [
     {
       icon: Shield,
-      label: "NDA on day one",
-      text: "Mutual NDA standard before the first technical conversation.",
+      label: "NDA before details",
+      text: "Mutual NDA before the first technical conversation.",
     },
     {
       icon: FileCheck,
       label: "Fixed-bid or T&M",
-      text: "Pick your contract model. No retainer lock-in.",
+      text: "Choose the contract model that fits the roadmap, risk, and stage.",
     },
     {
-      icon: Lock,
-      label: "IP transferred to client",
-      text: "You own the code, the prompts, the data. Always.",
+      icon: Hammer,
+      label: "Built for hard edges",
+      text:
+        "Gaming, payments, auctions, AI, compliance, wallets, data, and real-time systems.",
     },
     {
-      icon: Users,
-      label: "Small on purpose",
-      text: "Senior-only. We ship faster than agencies 10× our size.",
+      icon: Repeat,
+      label: "Repeat-client mindset",
+      text: "We build like we expect to stay close after launch.",
     },
   ];
 
@@ -50,54 +81,58 @@ export default function TrustBand() {
               /// Why teams ship with us
             </div>
             <h2 className="font-display text-3xl md:text-5xl font-black leading-[0.95] tracking-tightest">
-              25 years in the room.<br />
-              7 years as Origami.<br />
+              Senior people.<br />
+              Real platforms.<br />
               <span className="text-signal">A small team that ships.</span>
             </h2>
           </div>
           <div className="col-span-12 md:col-span-4 md:col-start-9 text-ink-soft text-base leading-relaxed">
-            We&apos;re busy building our own products. That&apos;s the same
-            discipline we bring to yours — senior engineers, clear contracts,
-            and IP that belongs to you.
+            We build production software for culture-forward teams — auction
+            platforms, AI products, mobile apps, media systems, fintech tools,
+            and real-money gaming. Senior-led, contract-clear, and built so the
+            IP belongs to you.
           </div>
         </div>
 
-        {/* HONEST NUMBERS */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-ink-line border border-ink-line">
-          {numbers.map((n) => (
-            <div
-              key={n.l}
-              className="bg-white p-6 md:p-8 min-h-[170px] flex flex-col"
-              data-testid={`trust-stat-${n.l.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}
-            >
-              <div className="font-display text-3xl md:text-4xl font-black text-ink tracking-tight leading-none">
-                {n.k}
-              </div>
-              <div className="mt-3 font-mono text-[10px] uppercase tracking-[0.2em] text-signal">
-                {n.l}
-              </div>
-              <p className="mt-auto pt-3 text-[12px] text-ink-muted leading-relaxed">
-                {n.note}
-              </p>
-            </div>
-          ))}
-        </div>
-
-        {/* POSTURE SIGNALS — what procurement actually evaluates */}
-        <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-px bg-ink-line border border-ink-line">
-          {posture.map((p) => {
+        {/* Row 1 — principles */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-ink-line border border-ink-line">
+          {row1.map((p) => {
             const Icon = p.icon;
             return (
               <div
                 key={p.label}
-                className="bg-white p-5 md:p-6 min-h-[140px] flex flex-col"
+                className="bg-white p-6 md:p-7 min-h-[180px] flex flex-col"
+                data-testid={`trust-principle-${p.label.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}
+              >
+                <Icon className="w-5 h-5 text-signal" />
+                <div className="mt-4 font-display font-black text-ink text-base md:text-lg leading-tight tracking-tight">
+                  {p.label}
+                </div>
+                <p className="mt-3 text-[13.5px] text-ink-muted leading-relaxed">
+                  {p.text}
+                </p>
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Row 2 — posture */}
+        <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-ink-line border border-ink-line">
+          {row2.map((p) => {
+            const Icon = p.icon;
+            return (
+              <div
+                key={p.label}
+                className="bg-white p-6 md:p-7 min-h-[180px] flex flex-col"
                 data-testid={`trust-posture-${p.label.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}
               >
                 <Icon className="w-5 h-5 text-signal" />
-                <div className="mt-3 font-display font-bold text-ink text-[15px] leading-tight">
+                <div className="mt-4 font-display font-black text-ink text-base md:text-lg leading-tight tracking-tight">
                   {p.label}
                 </div>
-                <p className="mt-2 text-[12px] text-ink-muted leading-relaxed">{p.text}</p>
+                <p className="mt-3 text-[13.5px] text-ink-muted leading-relaxed">
+                  {p.text}
+                </p>
               </div>
             );
           })}
@@ -107,9 +142,7 @@ export default function TrustBand() {
           <Link href="/work" className="link-slide text-[14px] font-medium text-ink hover:text-signal">
             See what we&apos;ve shipped <ArrowUpRight className="w-4 h-4" />
           </Link>
-          <span className="text-ink-muted text-[13px] font-mono uppercase tracking-[0.18em]">
-            ·
-          </span>
+          <span className="text-ink-muted text-[13px] font-mono uppercase tracking-[0.18em]">·</span>
           <Link href="/contact" className="link-slide text-[14px] font-medium text-ink hover:text-signal">
             Sign a mutual NDA <ArrowUpRight className="w-4 h-4" />
           </Link>
