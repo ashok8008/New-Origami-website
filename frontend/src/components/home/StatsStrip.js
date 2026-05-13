@@ -9,10 +9,10 @@ import { Shield, FileCheck, Lock, Users, ArrowUpRight } from "lucide-react";
  */
 export default function TrustBand() {
   const numbers = [
-    { k: "7+", l: "Years shipping", note: "Senior product engineering, end-to-end" },
-    { k: "40+", l: "Engineers, designers & PMs", note: "Senior-only roster, no junior pyramids" },
-    { k: "10", l: "Repeat-client products live", note: "From auction floors to AI co-pilots" },
-    { k: "100%", l: "Own product velocity", note: "We build our own — your roadmap learns from ours" },
+    { k: "25+", l: "Years industry experience", note: "Leadership has shipped through three platform shifts — web, mobile, AI" },
+    { k: "7+", l: "Years as Origami", note: "Studio launched 2019. Senior-led from day one." },
+    { k: "40+", l: "Senior team", note: "Engineers, designers and PMs. No junior pyramids." },
+    { k: "10", l: "Repeat-client products live", note: "From auction floors to AI co-pilots." },
   ];
 
   const posture = [
@@ -33,8 +33,8 @@ export default function TrustBand() {
     },
     {
       icon: Users,
-      label: "Senior-only roster",
-      text: "Average 5+ yrs experience. No outsourced juniors.",
+      label: "Small on purpose",
+      text: "Senior-only. We ship faster than agencies 10× our size.",
     },
   ];
 
@@ -50,8 +50,9 @@ export default function TrustBand() {
               /// Why teams ship with us
             </div>
             <h2 className="font-display text-3xl md:text-5xl font-black leading-[0.95] tracking-tightest">
-              Senior team. Honest contracts.<br />
-              <span className="text-signal">You own everything we build.</span>
+              25 years in the room.<br />
+              7 years as Origami.<br />
+              <span className="text-signal">A small team that ships.</span>
             </h2>
           </div>
           <div className="col-span-12 md:col-span-4 md:col-start-9 text-ink-soft text-base leading-relaxed">
