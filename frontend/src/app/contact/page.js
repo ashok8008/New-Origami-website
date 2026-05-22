@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Mail, Phone, MapPin, ArrowUpRight, Check, Loader2 } from "lucide-react";
 import { CONTACT } from "@/lib/content";
+import { trackEvent } from "@/lib/analytics";
 
 export default function ContactPage() {
   const [form, setForm] = useState({ name: "", email: "", company: "", message: "" });
@@ -27,9 +28,11 @@ export default function ContactPage() {
       }
       setStatus("sent");
       setForm({ name: "", email: "", company: "", message: "" });
+      trackEvent("contact_form_submitted", { source: "contact-page" });
     } catch (err) {
       setStatus("error");
       setError(err.message || "Network error. Please try again.");
+      trackEvent("contact_form_error", { source: "contact-page" });
     }
   };
 

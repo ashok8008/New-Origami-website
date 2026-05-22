@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowUpRight, ArrowDownRight } from "lucide-react";
 import { HERO } from "@/lib/content";
+import InteractiveDotGrid from "@/components/InteractiveDotGrid";
 
 export default function HeroSection() {
   return (
@@ -8,8 +9,8 @@ export default function HeroSection() {
       className="relative pt-28 md:pt-36 pb-20 md:pb-28 overflow-hidden bg-paper"
       data-testid="hero-section"
     >
-      {/* Dotted background */}
-      <div className="absolute inset-0 dotted pointer-events-none opacity-70" />
+      {/* Interactive dot grid (ramp.com-style proximity highlight) */}
+      <InteractiveDotGrid spacing={26} radius={170} className="opacity-90" />
       {/* Sunburst rays - left */}
       <div className="absolute -left-48 top-1/2 -translate-y-1/2 w-[640px] h-[640px] sunburst pointer-events-none" />
       {/* Sunburst rays - bottom right */}
@@ -39,6 +40,8 @@ export default function HeroSection() {
               href="/contact"
               className="btn-pill btn-primary text-base px-7 py-4"
               data-testid="hero-cta-primary"
+              data-track="cta_start_project"
+              data-track-prop-source="hero"
             >
               Start a project
               <ArrowUpRight className="w-5 h-5" />

@@ -4,6 +4,29 @@ import { notFound } from "next/navigation";
 import { ArrowUpRight, ArrowLeft, Check } from "lucide-react";
 import { PROJECTS, getProject, CLIENTS } from "@/lib/content";
 
+function StoryBlock({ block }) {
+  if (block.type === "h2") {
+    return (
+      <h3 className="font-display text-2xl md:text-3xl font-black tracking-tightest leading-tight text-ink mt-10 mb-3">
+        {block.text}
+      </h3>
+    );
+  }
+  if (block.type === "ul") {
+    return (
+      <ul className="list-none space-y-3 my-3 pl-0">
+        {block.items.map((it, i) => (
+          <li key={i} className="flex items-start gap-3">
+            <span className="mt-[10px] w-1.5 h-1.5 bg-signal shrink-0" />
+            <span>{it}</span>
+          </li>
+        ))}
+      </ul>
+    );
+  }
+  return <p className="leading-[1.8]">{block.text}</p>;
+}
+
 export function generateStaticParams() {
   return PROJECTS.map((p) => ({ slug: p.slug }));
 }
@@ -160,6 +183,33 @@ export default function ProjectPage({ params }) {
         </div>
       </section>
 
+      {/* DEEP STORY — how we helped */}
+      {p.story && p.story.length > 0 ? (
+        <section
+          className="py-20 md:py-28 border-b border-ink-line bg-paper"
+          data-testid={`work-story-${p.slug}`}
+        >
+          <div className="max-w-[1440px] mx-auto px-6 md:px-10 grid grid-cols-12 gap-10">
+            <div className="col-span-12 md:col-span-4">
+              <div className="font-mono text-[11px] uppercase tracking-[0.25em] text-signal mb-5">
+                /// The full story
+              </div>
+              <h2 className="font-display text-3xl md:text-5xl font-black tracking-tightest leading-[0.95]">
+                How we<br /><span className="text-signal">helped.</span>
+              </h2>
+              <p className="mt-6 text-ink-soft text-sm md:text-base leading-relaxed max-w-sm">
+                Brief, architecture decisions, what shipped and where it stands now — in our own words.
+              </p>
+            </div>
+            <div className="col-span-12 md:col-span-8 max-w-[760px] text-ink-soft text-lg leading-[1.8] space-y-5">
+              {p.story.map((b, idx) => (
+                <StoryBlock key={idx} block={b} />
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
+
       {/* NEXT + CTA */}
       <section className="py-20 md:py-28 bg-paper-50 border-b border-ink-line">
         <div className="max-w-[1440px] mx-auto px-6 md:px-10 grid grid-cols-12 gap-10 items-end">
@@ -180,7 +230,7 @@ export default function ProjectPage({ params }) {
             <p className="mt-4 text-ink-soft text-lg max-w-2xl">{next.oneLiner}</p>
           </div>
           <div className="col-span-12 md:col-span-4 md:flex md:justify-end">
-            <Link href="/contact" className="btn-pill btn-primary text-base px-7 py-4">
+            <Link href="/contact" className="btn-pill btn-primary text-base px-7 py-4" data-track="cta_start_project" data-track-prop-source="work">
               Start a project <ArrowUpRight className="w-5 h-5" />
             </Link>
           </div>

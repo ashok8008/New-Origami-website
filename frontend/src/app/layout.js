@@ -8,6 +8,8 @@ import {
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import PlausibleAnalytics from "@/components/PlausibleAnalytics";
+import { GTMHead, GTMNoScript } from "@/components/GoogleTagManager";
+import ClickTracker from "@/components/ClickTracker";
 
 const body = Inter({
   subsets: ["latin"],
@@ -89,7 +91,9 @@ export default function RootLayout({ children }) {
       className={`${body.variable} ${display.variable} ${mono.variable} ${serif.variable}`}
     >
       <body className="font-sans bg-paper text-ink antialiased">
+        <GTMNoScript />
         <PlausibleAnalytics />
+        <GTMHead />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(ORG_JSONLD) }}
@@ -97,6 +101,7 @@ export default function RootLayout({ children }) {
         <SiteHeader />
         <main className="relative z-10">{children}</main>
         <SiteFooter />
+        <ClickTracker />
       </body>
     </html>
   );

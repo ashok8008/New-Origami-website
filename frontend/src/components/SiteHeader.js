@@ -49,6 +49,7 @@ export default function SiteHeader() {
             href="/contact"
             className="btn-pill btn-primary hidden md:inline-flex"
             data-testid="header-cta-button"
+            data-track="cta_lets_talk_header"
           >
             Let&apos;s Talk
             <ArrowUpRight className="w-4 h-4" />
