@@ -142,7 +142,7 @@ export default function ProjectPage({ params }) {
           </div>
           <div className="bg-white p-8 md:p-10">
             <div className="font-mono text-[11px] uppercase tracking-[0.25em] text-signal">
-              At a glance
+              Engagement
             </div>
             <dl className="mt-6 space-y-3">
               {p.metrics.map(([k, v]) => (
@@ -195,7 +195,7 @@ export default function ProjectPage({ params }) {
                 /// The full story
               </div>
               <h2 className="font-display text-3xl md:text-5xl font-black tracking-tightest leading-[0.95]">
-                How we<br /><span className="text-signal">helped.</span>
+                How we<br /><span className="text-signal">delivered.</span>
               </h2>
               <p className="mt-6 text-ink-soft text-sm md:text-base leading-relaxed max-w-sm">
                 Brief, architecture decisions, what shipped and where it stands now — in our own words.

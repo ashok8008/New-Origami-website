@@ -361,6 +361,24 @@ export const INDUSTRIES = [
     services: ["web-development", "design-and-brand", "ai-and-llm-products", "mobile-app-development"],
     clients: ["onlybeaches"],
   },
+  {
+    slug: "automotive-and-aftermarket",
+    name: "Automotive & Aftermarket",
+    note: "Marketplaces, builds, parts, community",
+    blurb:
+      "Vehicle marketplaces, aftermarket parts catalogues, build journals, service-pro hire layers and enthusiast communities — engineered for high-media, high-engagement automotive culture brands.",
+    services: ["web-development", "mobile-app-development", "design-and-brand", "dedicated-teams"],
+    clients: ["berides"],
+  },
+  {
+    slug: "martech-and-creator-economy",
+    name: "MarTech & Creator Economy",
+    note: "Acquisition, attribution, payouts",
+    blurb:
+      "AI-powered customer-acquisition engines, creator-network platforms, performance attribution and multi-currency payout rails — built for the brands and operators powering creator-led marketing at scale.",
+    services: ["ai-and-llm-products", "web-development", "data-and-bi", "dedicated-teams"],
+    clients: ["fanrush"],
+  },
 ];
 
 // Repeat-client case studies
@@ -1835,6 +1853,44 @@ export const TECH_STACKS = [
     relatedService: "ai-and-llm-products",
     relatedWork: ["onlybeaches", "videoshops"],
   },
+  {
+    slug: "dotnet-and-azure",
+    name: ".NET & Azure",
+    category: "Backend",
+    overline: "Regulated, high-throughput",
+    headline: ".NET 8 on Microsoft Azure for regulated, high-value platforms.",
+    body:
+      "Where the workload is auctions, gaming, fintech or anything regulated, we reach for .NET 8 on Azure. ASP.NET Core, EF Core, Azure SignalR for real-time, Azure AD B2C for KYC-bound identity, Azure SQL with always-encrypted audit. The boring stack is still the right stack when the room is full and the lawyer is watching.",
+    bullets: [
+      ".NET 8 / ASP.NET Core / EF Core with source generators",
+      "Azure SignalR Service for 100k+ concurrent WebSockets",
+      "Azure AD B2C for per-jurisdiction KYC-bound identity",
+      "Azure SQL with audit + always-encrypted columns",
+      "Azure Front Door + WAF for bot, geo and rate protection",
+      "Containers on Azure App Service or AKS with blue-green deploys",
+    ],
+    relatedService: "auctions-and-fan-drops",
+    relatedWork: ["hiphopgrails"],
+  },
+  {
+    slug: "python-fastapi",
+    name: "Python & FastAPI",
+    category: "Backend",
+    overline: "AI-native services",
+    headline: "Python + FastAPI for AI-native services and data pipelines.",
+    body:
+      "When the workload is AI, ML, vector search or heavy numeric work, Python is the right call. FastAPI for service surfaces, async-first I/O, Pydantic for typed contracts, and a clean integration story with PyTorch, LangChain and the modern LLM ecosystem.",
+    bullets: [
+      "FastAPI service surfaces with async I/O and Pydantic",
+      "LangChain / LlamaIndex / direct SDK orchestration",
+      "Vector stores: pgvector, Pinecone, Weaviate, Qdrant",
+      "OpenTelemetry tracing on every LLM call",
+      "Eval harnesses (LangSmith, Braintrust, pytest)",
+      "Containerised deploys with token + cost ceilings",
+    ],
+    relatedService: "ai-and-llm-products",
+    relatedWork: ["realprofits", "fanrush", "wholosophy"],
+  },
 ];
 
 export function getStack(slug) {
@@ -1974,6 +2030,44 @@ export const COMPARES = [
     ],
     verdict:
       "If revenue concentrates in the US and feature-flag-style launches matter, ship iOS first. If global reach and Android-skewed audiences matter more, invert.",
+  },
+  {
+    slug: "dotnet-vs-nodejs",
+    a: { name: ".NET 8", stack: "dotnet-and-azure" },
+    b: { name: "Node.js", stack: "nodejs" },
+    headline: ".NET vs Node.js — when to pick which backend.",
+    summary:
+      "Both are fast, mature and shippable. The right answer depends on the workload — regulated and stateful favour .NET, AI-native and high-velocity product surfaces favour Node.",
+    rows: [
+      ["Performance ceiling (TechEmpower)", "Top tier", "Top tier"],
+      ["Typed-first ergonomics", "C# (best in class)", "TypeScript (good)"],
+      ["Regulated / financial workloads", "Stronger ecosystem", "Possible"],
+      ["AI / LLM SDK ergonomics", "Catching up", "Best in class"],
+      ["WebSockets at scale", ".NET + Azure SignalR", "Socket.IO / native ws"],
+      ["Hiring market", "Enterprise-heavy", "Larger, more startup-fluent"],
+      ["Best for", "Auctions, gaming, fintech, regulated", "AI products, content, commerce"],
+    ],
+    verdict:
+      "Default to Node.js for content, commerce and AI products. Reach for .NET when the workload is regulated, stateful, or audit-heavy — auctions, gaming and fintech in particular.",
+  },
+  {
+    slug: "azure-vs-aws",
+    a: { name: "Microsoft Azure", stack: "dotnet-and-azure" },
+    b: { name: "AWS", stack: "nodejs" },
+    headline: "Azure vs AWS — picking a cloud for a regulated platform.",
+    summary:
+      "AWS is broader and deeper across most categories. Azure wins decisively on a handful of capabilities that matter for regulated, identity-bound and real-time platforms.",
+    rows: [
+      ["Breadth of services", "Excellent", "Best in class"],
+      ["Managed WebSockets at scale", "Azure SignalR (best)", "API Gateway / AppSync"],
+      ["KYC-bound identity", "Azure AD B2C (best)", "Cognito"],
+      ["Audit + always-encrypted DB", "Azure SQL (best)", "RDS + custom"],
+      ["Egress pricing", "Cheaper", "More expensive"],
+      ["AI / ML breadth", "Catching up (OpenAI partner)", "Best in class (SageMaker)"],
+      ["Best for", "Auctions, regulated platforms, identity-heavy", "Almost everything else"],
+    ],
+    verdict:
+      "Default to AWS for breadth, ML depth and marketplace ecosystem. Pick Azure when the platform is regulated, identity-bound or needs managed real-time at scale — auctions, gaming, regulated fintech.",
   },
 ];
 

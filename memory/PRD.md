@@ -73,7 +73,15 @@ hiphopgrails, playsqor, acquire, videoshops, realprofits, getcashback, onlybeach
 - 2026-05-22 — **Big feature batch** in one ship:
   - **Interactive dot grid hero** (`InteractiveDotGrid.js`): canvas-based, ramp.com-style proximity-reactive dots in the home hero. Dots within ~170px of cursor brighten + scale + tint signal-red. Respects `prefers-reduced-motion` and falls back to static dotted bg on touch devices. Replaces the static `dotted` div in HeroSection.
   - **2 new clients** added: **beRides** (https://betademo.berides.com — marketplace + bR-Studio CMS + Hire + Community for aftermarket-car culture, in development) and **FanRush** (https://fanrush.ai — AI customer-acquisition engine, 5K creators, 850M audience, 35 countries, brands SHEIN/Adidas/Sephora). Added SVG wordmark logos, CLIENTS entries, and full PROJECTS case-study entries.
-  - **Detailed case studies for all 12 projects** — added a new `story` field (h2/p/ul array) to every PROJECTS entry: The brief → Architecture & engineering choices → What we shipped → Where it stands now. Renders as a new "How we helped" section on `/work/[slug]` with `data-testid="work-story-{slug}"`. Each story is ~400-600 words.
+  - **Detailed case studies for all 12 projects** — added a new `story` field (h2/p/ul array) to every PROJECTS entry: The brief → Architecture & engineering choices → What we shipped → Where it stands now. Renders as a new "How we delivered" section on `/work/[slug]` with `data-testid="work-story-{slug}"`. Each story is ~400-600 words.
   - **Google Tag Manager** wired via `GoogleTagManager.js` (head script + noscript iframe), id `GTM-KFT8JB48` (overridable via `NEXT_PUBLIC_GTM_ID`).
   - **Click tracking**: `ClickTracker.js` delegates clicks on any `[data-track]` attribute and pushes events into BOTH Plausible (`window.plausible`) AND GTM dataLayer simultaneously. `lib/analytics.js` exposes `trackEvent(name, props)` for programmatic use. Wired on: Let's Talk header CTA, Start a project (hero), Start a project (work page CTA), contact form submit + error.
   - Sitemap grew 95 → 97 URLs. Build clean, lint clean. All `/work/*` URLs return 200.
+- 2026-05-22 — **PSEO + polish update**:
+  - Case-study "At a glance" → "Engagement" header rename (more authoritative voice).
+  - Case-study "How we helped" → "How we delivered" rename.
+  - **2 new INDUSTRIES**: `automotive-and-aftermarket` (beRides) + `martech-and-creator-economy` (FanRush). Auto-grows SOLUTIONS by 8 new service×industry combos.
+  - **2 new TECH_STACKS**: `dotnet-and-azure` (auctions/regulated workloads) + `python-fastapi` (AI-native services). Links to relevant /work case studies.
+  - **2 new COMPARES**: `dotnet-vs-nodejs` + `azure-vs-aws` — both editorial-grade, anchored in the team's actual experience.
+  - **GTM GA4 setup guide** written to `/app/GTM_SETUP.md` — step-by-step for connecting GA4, creating triggers for `cta_lets_talk_header` / `cta_start_project` / `contact_form_submitted`, marking conversions.
+  - Sitemap grew **97 → 111 URLs** (+14). 100% verified: industries +2, solutions +8, build +2, compare +2 — all return 200.
