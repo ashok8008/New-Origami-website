@@ -1,14 +1,22 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 import { NAV } from "@/lib/content";
 import OrigamiLogo from "./OrigamiLogo";
 
+// Routes whose hero is dark/black — header must invert to white text
+// until the user scrolls past the hero (at which point the header gets
+// a white blurred background and can switch back to dark text).
+const DARK_HERO_ROUTES = ["/auctions", "/media", "/ai"];
+
 export default function SiteHeader() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const pathname = usePathname() || "/";
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -16,6 +24,9 @@ export default function SiteHeader() {
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  const onDarkHero = DARK_HERO_ROUTES.includes(pathname);
+  const useLightChrome = onDarkHero && !scrolled;
 
   return (
     <header
@@ -28,7 +39,7 @@ export default function SiteHeader() {
     >
       <div className="max-w-[1440px] mx-auto px-6 md:px-10 h-16 md:h-20 flex items-center justify-between gap-8">
         <Link href="/" className="flex items-center shrink-0" data-testid="logo-home" aria-label="Origami — Home">
-          <OrigamiLogo variant="dark" className="text-2xl md:text-3xl" />
+          <OrigamiLogo variant={useLightChrome ? "light" : "dark"} className="text-2xl md:text-3xl" />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-7 xl:gap-8">
@@ -36,7 +47,11 @@ export default function SiteHeader() {
             <Link
               key={item.label}
               href={item.href}
-              className="text-[14px] xl:text-[15px] font-medium text-ink-soft hover:text-ink transition-colors whitespace-nowrap"
+              className={`text-[14px] xl:text-[15px] font-medium transition-colors whitespace-nowrap ${
+                useLightChrome
+                  ? "text-white/70 hover:text-white"
+                  : "text-ink-soft hover:text-ink"
+              }`}
               data-testid={`nav-${item.label.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}
             >
               {item.label}
@@ -56,7 +71,7 @@ export default function SiteHeader() {
           </Link>
           <button
             onClick={() => setMobileOpen(true)}
-            className="lg:hidden text-ink p-2"
+            className={`lg:hidden p-2 ${useLightChrome ? "text-white" : "text-ink"}`}
             aria-label="Open menu"
             data-testid="mobile-menu-open"
           >
