@@ -3,6 +3,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ArrowUpRight, ArrowLeft, Check } from "lucide-react";
 import { PROJECTS, getProject, CLIENTS } from "@/lib/content";
+import { breadcrumbJsonLd, jsonLdScript } from "@/lib/seo";
 
 function StoryBlock({ block }) {
   if (block.type === "h2") {
@@ -35,7 +36,7 @@ export function generateMetadata({ params }) {
   const p = getProject(params.slug);
   if (!p) return {};
   return {
-    title: `${p.name} — Case Study`,
+    title: `${p.name} Case Study — Built by Origami`,
     description: p.oneLiner,
     alternates: { canonical: `/work/${p.slug}` },
   };
@@ -50,6 +51,11 @@ export default function ProjectPage({ params }) {
 
   return (
     <div data-testid={`work-page-${p.slug}`}>
+      <script {...jsonLdScript(breadcrumbJsonLd([
+        { name: "Home", url: "/" },
+        { name: "Work", url: "/work" },
+        { name: p.name, url: `/work/${p.slug}` },
+      ]))} />
       {/* HERO */}
       <section className="relative pt-36 md:pt-44 pb-20 border-b border-ink-line overflow-hidden bg-paper">
         <div className="absolute inset-0 dotted opacity-50" />

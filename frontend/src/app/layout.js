@@ -10,6 +10,7 @@ import SiteFooter from "@/components/SiteFooter";
 import PlausibleAnalytics from "@/components/PlausibleAnalytics";
 import { GTMHead, GTMNoScript } from "@/components/GoogleTagManager";
 import ClickTracker from "@/components/ClickTracker";
+import { localBusinessJsonLd } from "@/lib/seo";
 
 const body = Inter({
   subsets: ["latin"],
@@ -40,49 +41,43 @@ const serif = Instrument_Serif({
 export const metadata = {
   title: {
     default:
-      "Origami — Mobile Apps, AI & Platforms for Culture-Forward Brands",
-    template: "%s | Origami",
+      "Mobile App, AI & Platform Development Agency | Origami — New York",
+    template: "%s | Origami — New York",
   },
   description:
-    "Origami builds mobile apps, AI products, fantasy & real-money gaming and fintech platforms for culture-forward brands — HipHopGrails, PlaySQOR, Acquire.bet, RealProfits, GetCashback and more.",
+    "Origami is a senior-only New York mobile app, AI and platform development agency. We ship iOS, Android, React Native, LLM, RAG, real-money gaming and auction platforms for culture-forward brands — HipHopGrails, PlaySQOR, FanRush, beRides, RealProfits and more.",
+  keywords: [
+    "mobile app development agency",
+    "React Native development",
+    "AI agency New York",
+    "LLM development agency",
+    "RAG development agency",
+    "Class II gaming software",
+    "real-money gaming development",
+    "auction platform development",
+    "Next.js development agency",
+    "fintech app development",
+  ],
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://origami.dev"),
   openGraph: {
-    title: "Origami",
+    title: "Origami — Mobile App, AI & Platform Development Agency, New York",
     description:
-      "Mobile apps, AI and platforms for culture-forward brands. Senior engineers who ship.",
+      "Senior engineers shipping mobile apps, AI products and platforms for culture-forward brands. New York + Bengaluru.",
     type: "website",
     url: process.env.NEXT_PUBLIC_SITE_URL || "https://origami.dev",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Origami",
-    description: "Mobile apps, AI and platforms for culture-forward brands.",
+    title: "Origami — Mobile App, AI & Platform Development Agency",
+    description:
+      "Senior-only NY agency. Mobile apps, AI, gaming, auctions, fintech.",
   },
   alternates: { canonical: "/" },
 };
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://origami.dev";
 
-const ORG_JSONLD = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "Origami",
-  url: SITE_URL,
-  logo: `${SITE_URL}/brand/logo.svg`,
-  description:
-    "Origami builds mobile apps, AI products, fantasy & real-money gaming and fintech platforms for culture-forward brands.",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "641 Lexington Avenue, 14th Floor",
-    addressLocality: "New York",
-    addressRegion: "NY",
-    postalCode: "10022",
-    addressCountry: "US",
-  },
-  email: "hello@origami.dev",
-  telephone: "+1-970-710-5120",
-  sameAs: [],
-};
+const ORG_JSONLD = localBusinessJsonLd();
 
 export default function RootLayout({ children }) {
   return (

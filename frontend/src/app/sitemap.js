@@ -30,6 +30,7 @@ export default function sitemap() {
     "approach",
     "careers",
     "contact",
+    "new-york",
   ].map((p) => ({
     url: `${SITE}/${p}`,
     lastModified: now,

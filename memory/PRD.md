@@ -85,3 +85,14 @@ hiphopgrails, playsqor, acquire, videoshops, realprofits, getcashback, onlybeach
   - **2 new COMPARES**: `dotnet-vs-nodejs` + `azure-vs-aws` — both editorial-grade, anchored in the team's actual experience.
   - **GTM GA4 setup guide** written to `/app/GTM_SETUP.md` — step-by-step for connecting GA4, creating triggers for `cta_lets_talk_header` / `cta_start_project` / `contact_form_submitted`, marking conversions.
   - Sitemap grew **97 → 111 URLs** (+14). 100% verified: industries +2, solutions +8, build +2, compare +2 — all return 200.
+- 2026-06-01 — **SEO ranking overhaul**:
+  - **`lib/seo.js`** — JSON-LD schema builders: `localBusinessJsonLd`, `breadcrumbJsonLd`, `serviceJsonLd`, `faqJsonLd`, `articleJsonLd`, `jsonLdScript`.
+  - **Organization → ProfessionalService** schema upgrade in root layout. Now includes NYC + Bengaluru `location` blocks, `areaServed`, `knowsAbout` (14 expertise tags), `numberOfEmployees`, `foundingDate`, `priceRange`.
+  - **BreadcrumbList** wired into `/services/[slug]`, `/work/[slug]`, `/insights/[slug]`, `/new-york`.
+  - **Service** schema on every `/services/[slug]`.
+  - **FAQPage** schema with rendered FAQ accordion on top-5 services (mobile, AI, auctions, gaming, web) + `/new-york`. Real, useful FAQs (cost, stack, timeline, location) — 4-6 per page.
+  - **Article** schema on every `/insights/[slug]` with publish date + author + image.
+  - **Title tags rewritten**: home + service pages now match `[Keyword] Agency | Origami — New York` pattern (high-intent, location-anchored, no template duplication).
+  - **`/new-york` location landing page**: senior-only NYC pitch, HQ details strip, services grid, 6 NYC case studies, 6 NYC-specific FAQs. Added to sitemap.
+  - **Backlink email template** + **SEO action checklist** written to `/app/SEO_ACTION_CHECKLIST.md` covering: Google Search Console submission, Google Business Profile setup, the client backlink email, agency directory submissions (Clutch, DesignRush, GoodFirms), HARO/Featured pitching strategy.
+  - Sitemap **111 → 112 URLs** (+1, the NYC landing). Build + lint clean. All 6 critical pages return 200 with expected JSON-LD schemas firing.

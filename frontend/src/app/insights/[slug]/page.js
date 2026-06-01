@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowUpRight, ArrowLeft } from "lucide-react";
 import { INSIGHTS, getInsight } from "@/lib/content";
+import { articleJsonLd, breadcrumbJsonLd, jsonLdScript } from "@/lib/seo";
 
 export function generateStaticParams() {
   return INSIGHTS.map((i) => ({ slug: i.slug }));
@@ -14,6 +15,14 @@ export function generateMetadata({ params }) {
     title: i.title,
     description: i.excerpt,
     alternates: { canonical: `/insights/${i.slug}` },
+    openGraph: {
+      title: i.title,
+      description: i.excerpt,
+      type: "article",
+      publishedTime: i.date,
+      authors: ["Origami"],
+      tags: [i.tag],
+    },
   };
 }
 
@@ -48,6 +57,12 @@ export default function InsightPage({ params }) {
 
   return (
     <div data-testid={`insight-page-${i.slug}`}>
+      <script {...jsonLdScript(articleJsonLd({ slug: i.slug, title: i.title, excerpt: i.excerpt, date: i.date }))} />
+      <script {...jsonLdScript(breadcrumbJsonLd([
+        { name: "Home", url: "/" },
+        { name: "Insights", url: "/insights" },
+        { name: i.title, url: `/insights/${i.slug}` },
+      ]))} />
       <section className="relative pt-36 md:pt-44 pb-16 border-b border-ink-line overflow-hidden bg-paper">
         <div className="absolute inset-0 dotted opacity-40" />
         <div className="relative max-w-[1080px] mx-auto px-6 md:px-10">
