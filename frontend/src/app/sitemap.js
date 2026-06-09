@@ -9,7 +9,7 @@ import {
   COMPARES,
 } from "@/lib/content";
 
-const SITE = process.env.NEXT_PUBLIC_SITE_URL || "https://origami.dev";
+const SITE = process.env.NEXT_PUBLIC_SITE_URL || "https://www.origami.dev";
 
 export default function sitemap() {
   const now = new Date();

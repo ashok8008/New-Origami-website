@@ -58,13 +58,13 @@ export const metadata = {
     "Next.js development agency",
     "fintech app development",
   ],
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://origami.dev"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://www.origami.dev"),
   openGraph: {
     title: "Origami — Mobile App, AI & Platform Development Agency, New York",
     description:
       "Senior engineers shipping mobile apps, AI products and platforms for culture-forward brands. New York + Bengaluru.",
     type: "website",
-    url: process.env.NEXT_PUBLIC_SITE_URL || "https://origami.dev",
+    url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.origami.dev",
   },
   twitter: {
     card: "summary_large_image",
@@ -75,7 +75,7 @@ export const metadata = {
   alternates: { canonical: "/" },
 };
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://origami.dev";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.origami.dev";
 
 const ORG_JSONLD = localBusinessJsonLd();
 

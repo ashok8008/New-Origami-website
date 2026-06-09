@@ -6,7 +6,7 @@
  * (Perplexity, ChatGPT Search, Brave AI) structured facts they can quote directly.
  */
 
-const SITE = process.env.NEXT_PUBLIC_SITE_URL || "https://origami.dev";
+const SITE = process.env.NEXT_PUBLIC_SITE_URL || "https://www.origami.dev";
 
 const NY_ADDRESS = {
   "@type": "PostalAddress",
