@@ -143,6 +143,36 @@ export function articleJsonLd({ slug, title, excerpt, date, author = "Origami" }
   };
 }
 
+/** WebSite + SearchAction schema for the homepage.
+ *  Enables Google's sitelinks search box on brand queries by giving Google
+ *  a real, in-domain search endpoint to wire to.
+ */
+export function websiteJsonLd() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${SITE}/#website`,
+    url: SITE,
+    name: "Origami",
+    alternateName: [
+      "Origami Studios",
+      "Origami Dev",
+      "Origami New York",
+      "Origami Agency",
+    ],
+    publisher: { "@id": `${SITE}/#organization` },
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${SITE}/search?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+    inLanguage: "en-US",
+  };
+}
+
 /** Tiny helper component pattern: just render the JSON. */
 export function jsonLdScript(obj) {
   return {

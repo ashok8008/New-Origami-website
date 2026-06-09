@@ -11,10 +11,12 @@ import ApproachSection from "@/components/home/ApproachSection";
 import IndustriesSection from "@/components/home/IndustriesSection";
 import TestimonialsSection from "@/components/home/TestimonialsSection";
 import StatsStrip from "@/components/home/StatsStrip";
+import { websiteJsonLd, jsonLdScript } from "@/lib/seo";
 
 export default function HomePage() {
   return (
     <div data-testid="home-page">
+      <script {...jsonLdScript(websiteJsonLd())} />
       <HeroSection />
       <MarqueeSection />
       <ClientsSection />
