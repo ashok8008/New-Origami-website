@@ -4,9 +4,10 @@ import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
-import { Menu, X, ArrowUpRight } from "lucide-react";
+import { Menu, X, ArrowUpRight, Search } from "lucide-react";
 import { NAV } from "@/lib/content";
 import OrigamiLogo from "./OrigamiLogo";
+import CommandPalette from "./CommandPalette";
 
 // Routes whose hero is dark/black — header must invert to white text
 // until the user scrolls past the hero (at which point the header gets
@@ -16,6 +17,7 @@ const DARK_HERO_ROUTES = ["/auctions", "/media", "/ai"];
 export default function SiteHeader() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [paletteOpen, setPaletteOpen] = useState(false);
   const pathname = usePathname() || "/";
 
   useEffect(() => {
@@ -23,6 +25,22 @@ export default function SiteHeader() {
     onScroll();
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  // Global ⌘K / Ctrl+K to open the command palette
+  useEffect(() => {
+    function onKey(e) {
+      const k = e.key?.toLowerCase();
+      if ((e.metaKey || e.ctrlKey) && k === "k") {
+        e.preventDefault();
+        setPaletteOpen((v) => !v);
+      } else if (k === "/" && document.activeElement?.tagName !== "INPUT" && document.activeElement?.tagName !== "TEXTAREA") {
+        e.preventDefault();
+        setPaletteOpen(true);
+      }
+    }
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
   }, []);
 
   const onDarkHero = DARK_HERO_ROUTES.includes(pathname);
@@ -59,7 +77,34 @@ export default function SiteHeader() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-3 shrink-0">
+        <div className="flex items-center gap-2 md:gap-3 shrink-0">
+          <button
+            type="button"
+            onClick={() => setPaletteOpen(true)}
+            aria-label="Search (⌘K)"
+            data-testid="header-search-trigger"
+            data-track="cmdk_open"
+            data-track-prop-source="header"
+            className={`hidden md:inline-flex items-center gap-2 px-3 py-2 rounded-full border transition-all ${
+              useLightChrome
+                ? "border-white/25 text-white/85 hover:bg-white/10"
+                : "border-ink-line text-ink-soft hover:bg-paper-50"
+            }`}
+          >
+            <Search className="w-4 h-4" />
+            <kbd className="font-mono text-[10px] uppercase tracking-[0.15em] opacity-75">
+              ⌘K
+            </kbd>
+          </button>
+          <button
+            type="button"
+            onClick={() => setPaletteOpen(true)}
+            aria-label="Search"
+            data-testid="header-search-trigger-mobile"
+            className={`md:hidden p-2 ${useLightChrome ? "text-white" : "text-ink"}`}
+          >
+            <Search className="w-5 h-5" />
+          </button>
           <Link
             href="/contact"
             className="btn-pill btn-primary hidden md:inline-flex"
@@ -115,6 +160,7 @@ export default function SiteHeader() {
           </div>
         </div>
       )}
+      <CommandPalette open={paletteOpen} onClose={() => setPaletteOpen(false)} />
     </header>
   );
 }
