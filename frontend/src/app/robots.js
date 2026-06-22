@@ -5,7 +5,7 @@ export default function robots() {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/search", "/search/*"],
+        disallow: ["/search", "/search/*", "/newjoinee", "/newjoinee/*"],
       },
     ],
     sitemap: `${site}/sitemap.xml`,

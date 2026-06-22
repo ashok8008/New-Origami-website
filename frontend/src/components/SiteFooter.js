@@ -1,10 +1,15 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { ArrowUpRight, Mail, Phone, MapPin } from "lucide-react";
 import NewsletterForm from "./NewsletterForm";
 import OrigamiLogo from "./OrigamiLogo";
 import { NAV, NAV_EXTRA, CONTACT } from "@/lib/content";
 
 export default function SiteFooter() {
+  const pathname = usePathname() || "/";
+  if (pathname.startsWith("/newjoinee")) return null;
   return (
     <footer className="relative z-10 bg-paper-50 border-t border-ink-line" data-testid="site-footer">
       {/* CTA BLOCK */}
