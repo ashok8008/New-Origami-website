@@ -47,7 +47,7 @@ export default function SiteHeader() {
   const useLightChrome = onDarkHero && !scrolled;
 
   // Hide the global chrome entirely on standalone utility pages.
-  if (pathname.startsWith("/newjoinee")) return null;
+  if (pathname.startsWith("/newjoinee") || pathname.startsWith("/employeeonboardinghub")) return null;
 
   return (
     <header

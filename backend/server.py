@@ -10,6 +10,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, EmailStr, Field
 
 from new_joiner import router as new_joiner_router
+from autosave import router as autosave_router
 
 load_dotenv()
 
@@ -23,6 +24,7 @@ RECIPIENT_EMAIL = os.environ.get("RECIPIENT_EMAIL", "hello@origami.dev")
 app = FastAPI(title="Origami Softwares API")
 
 app.include_router(new_joiner_router)
+app.include_router(autosave_router)
 
 app.add_middleware(
     CORSMiddleware,

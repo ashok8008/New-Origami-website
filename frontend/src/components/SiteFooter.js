@@ -9,7 +9,7 @@ import { NAV, NAV_EXTRA, CONTACT } from "@/lib/content";
 
 export default function SiteFooter() {
   const pathname = usePathname() || "/";
-  if (pathname.startsWith("/newjoinee")) return null;
+  if (pathname.startsWith("/newjoinee") || pathname.startsWith("/employeeonboardinghub")) return null;
   return (
     <footer className="relative z-10 bg-paper-50 border-t border-ink-line" data-testid="site-footer">
       {/* CTA BLOCK */}
