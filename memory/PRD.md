@@ -24,9 +24,9 @@
 - **Primary**: About · Class II & III Games · AI · Services · Work · Careers
 - **Footer extras**: Industries · Solutions · Build with · Compare · Insights · Approach · Contact
 
-## Pages — total ~90 routes
+## Pages — total ~1,050+ routes (Feb 2026 PSEO expansion)
 ### Static
-- `/`, `/about`, `/games`, `/ai`, `/work`, `/services`, `/industries`, `/insights`, `/build`, `/solutions`, `/compare`, `/approach`, `/careers`, `/contact`
+- `/`, `/about`, `/games`, `/ai`, `/work`, `/services`, `/industries`, `/insights`, `/build`, `/solutions`, `/compare`, `/approach`, `/careers`, `/contact`, `/guides`, `/glossary`, `/locations`, `/hire`, `/ai-solutions`, `/employeeonboardinghub`, `/newjoinee`, `/new-york`, `/search`
 
 ### Dynamic / PSEO
 - `/services/[slug]` × 8

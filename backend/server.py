@@ -115,3 +115,49 @@ async def submit_enquiry(req: EnquiryRequest):
     except Exception as exc:
         logger.exception("Failed to send enquiry email: %s", exc)
         raise HTTPException(status_code=502, detail="Failed to send enquiry. Please try again or email hello@origami.dev directly.")
+
+
+# ---------------------------------------------------------------------
+# IndexNow — push updated URLs to Bing, Yandex, Seznam, Naver, Yep
+# https://www.indexnow.org/
+# ---------------------------------------------------------------------
+INDEXNOW_KEY = os.environ.get("INDEXNOW_KEY", "3e8d2c8a947c7deb58f2387b467082bf")
+INDEXNOW_HOST = os.environ.get("INDEXNOW_HOST", "www.origami.dev")
+INDEXNOW_ENDPOINTS = [
+    "https://api.indexnow.org/IndexNow",
+    "https://www.bing.com/indexnow",
+    "https://yandex.com/indexnow",
+    "https://searchadvisor.naver.com/indexnow",
+    "https://indexnow.seznam.cz/indexnow",
+]
+
+
+class IndexNowRequest(BaseModel):
+    urls: list[str] = Field(..., min_length=1, max_length=10000)
+
+
+@app.post("/api/indexnow")
+async def indexnow_submit(req: IndexNowRequest):
+    """Push a batch of URLs to IndexNow-compatible search engines."""
+    import httpx
+
+    if not INDEXNOW_KEY:
+        raise HTTPException(status_code=500, detail="IndexNow key not configured.")
+
+    payload = {
+        "host": INDEXNOW_HOST,
+        "key": INDEXNOW_KEY,
+        "keyLocation": f"https://{INDEXNOW_HOST}/{INDEXNOW_KEY}.txt",
+        "urlList": req.urls,
+    }
+
+    results = {}
+    async with httpx.AsyncClient(timeout=15.0) as client:
+        for endpoint in INDEXNOW_ENDPOINTS:
+            try:
+                r = await client.post(endpoint, json=payload, headers={"Content-Type": "application/json"})
+                results[endpoint] = {"status": r.status_code}
+            except Exception as exc:
+                results[endpoint] = {"error": str(exc)}
+    logger.info("indexnow submit urls=%d results=%s", len(req.urls), results)
+    return {"status": "submitted", "count": len(req.urls), "endpoints": results}

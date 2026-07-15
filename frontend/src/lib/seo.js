@@ -180,3 +180,69 @@ export function jsonLdScript(obj) {
     dangerouslySetInnerHTML: { __html: JSON.stringify(obj) },
   };
 }
+
+/** HowTo schema — pass an array of {name, text} steps. */
+export function howToJsonLd({ name, description, steps, totalTime }) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name,
+    description,
+    ...(totalTime ? { totalTime } : {}),
+    step: steps.map((s, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      name: s.name,
+      text: s.text,
+    })),
+  };
+}
+
+/** DefinedTerm schema for glossary pages. */
+export function definedTermJsonLd({ term, description, slug }) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "@id": `${SITE}/glossary/${slug}#term`,
+    name: term,
+    description,
+    inDefinedTermSet: {
+      "@type": "DefinedTermSet",
+      "@id": `${SITE}/glossary#glossary`,
+      name: "Origami Engineering Glossary",
+      url: `${SITE}/glossary`,
+    },
+  };
+}
+
+/** JobPosting schema stub — used for hire pages so AI answer engines
+ *  understand the page is offering a hiring / staffing option. */
+export function servicePlaceOfferJsonLd({
+  title,
+  description,
+  serviceUrl,
+  areaServed,
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": `${serviceUrl}#service`,
+    name: title,
+    description,
+    serviceType: title,
+    provider: { "@id": `${SITE}/#organization` },
+    areaServed: [
+      { "@type": "City", name: areaServed },
+      "Global",
+    ],
+    url: serviceUrl,
+  };
+}
+
+/** SpeakableSpecification — improves voice-search extractability. */
+export function speakableJsonLd(selectors = ["h1", "h2", "p"]) {
+  return {
+    "@type": "SpeakableSpecification",
+    cssSelector: selectors,
+  };
+}

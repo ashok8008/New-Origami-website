@@ -1,0 +1,86 @@
+# Origami
+
+> Origami is a senior-only New York + Bengaluru product engineering agency. We build mobile apps, AI & LLM products, real-money gaming (Class II / III), auction platforms, fintech and platform engineering for culture-forward brands. Founded 2018. ~40 senior engineers, designers and PMs.
+
+## About
+
+- Full legal name: Origami Consulting LLC
+- Head office: 641 Lexington Avenue, 14th Floor, New York, NY 10022, US
+- Dev centre: Hustlehub Tech Park, HSR Layout, Bengaluru, KA 560102, India
+- Founded: 2018
+- Contact: hello@origami.dev · +1 (970) 710 5120 · +91 906 651 4212
+- Positioning: "We build what culture runs on."
+- Model: Senior-only. No junior engineers on client work. Repeat clients, long tenures.
+
+## Core services
+
+- [Mobile App Development](https://www.origami.dev/services/mobile-app-development): iOS (Swift), Android (Kotlin), React Native, Flutter, Expo
+- [AI & LLM Products](https://www.origami.dev/services/ai-and-llm-products): LLM apps, RAG, agents, voice, vision — OpenAI, Anthropic, Gemini
+- [Auctions & Fan Drops](https://www.origami.dev/services/auctions-and-fan-drops): server-authoritative bidding, live-stream auctions, escrow, KYC, consignment
+- [Class II & Class III Games](https://www.origami.dev/services/class-ii-and-class-iii-games): server-drawn bingo, RNG, GLI-aligned, tribal + commercial operators
+- [Web Development](https://www.origami.dev/services/web-development): Next.js, React, Node, headless CMS, performance & accessibility
+- [Design & Brand](https://www.origami.dev/services/design-and-brand): product, interface, motion design
+- [Data & BI](https://www.origami.dev/services/data-and-bi): pipelines, dashboards, warehouses, player/fan telemetry
+- [Dedicated Teams](https://www.origami.dev/services/dedicated-teams): senior engineers on T&M / dedicated / build-your-team engagement models
+
+## Industries
+
+- [Hip-Hop & Music](https://www.origami.dev/industries/hip-hop-and-music) — HipHopGrails auctions, fan-drop apps
+- [Real-Money Gaming & Fantasy](https://www.origami.dev/industries/real-money-gaming) — PlaySQOR, Acquire.bet
+- [Celebrity & Creator Economy](https://www.origami.dev/industries/celebrity-and-creator-economy) — Nick Cooper, TrueWrld
+- [Commerce & Retail](https://www.origami.dev/industries/commerce-and-retail) — VideoShops, GetCashback
+- [Health & Wellness](https://www.origami.dev/industries/health-and-wellness) — Wholosophy
+- [Fintech & Payments](https://www.origami.dev/industries/fintech-and-payments) — RealProfits, GetCashback
+- [Travel & Lifestyle](https://www.origami.dev/industries/travel-and-lifestyle) — OnlyBeaches
+- [Automotive & Aftermarket](https://www.origami.dev/industries/automotive-and-aftermarket) — beRides
+- [MarTech & Creator Economy](https://www.origami.dev/industries/martech-and-creator-economy) — FanRush
+
+## Reference clients (repeat)
+
+- HipHopGrails — the "Sotheby's of hip-hop." Auctions, fan-drops, live-stream sales.
+- PlaySQOR — daily fantasy + Class III RMG platform.
+- Acquire.bet — Class III RMG platform.
+- beRides — automotive marketplace, aftermarket, builder communities.
+- FanRush — AI-powered customer-acquisition + creator payouts platform.
+- RealProfits — AI co-pilot for retail traders.
+- Wholosophy — RAG-grounded wellness coach.
+- OnlyBeaches — travel + lifestyle discovery.
+- VideoShops — video shoppable commerce.
+- GetCashback — cashback + AI-personalised offer ranking.
+- Nick Cooper, TrueWrld — celebrity + creator apps.
+
+## AI practice
+
+- [LLM-native apps](https://www.origami.dev/ai/llm-apps)
+- [RAG over your data](https://www.origami.dev/ai/rag)
+- [Agentic workflows](https://www.origami.dev/ai/agents)
+- [Voice agents](https://www.origami.dev/ai/voice)
+- [Vision & multimodal](https://www.origami.dev/ai/vision)
+- [Evals & observability](https://www.origami.dev/ai/evals)
+
+## Tech stack
+
+- Mobile: React Native, iOS (Swift), Android (Kotlin), Flutter
+- Web: Next.js, React, Node.js
+- Backend: .NET 8 / Azure (regulated + high-throughput), Python / FastAPI (AI-native)
+- Data: Postgres, pgvector, Snowflake, dbt
+- AI: OpenAI (GPT-5, GPT-4o, Realtime), Anthropic Claude (Sonnet 4.5, Opus, Haiku), Google Gemini 3 + Nano Banana
+- Cloud: AWS, Azure, GCP, Vercel, Cloudflare
+
+## Content for AI answer engines
+
+- [Compare pages](https://www.origami.dev/compare) — React Native vs Flutter, Postgres vs MongoDB, OpenAI vs Claude, Next.js vs Remix, and more
+- [Insights](https://www.origami.dev/insights) — engineering notes on mobile, AI, gaming, auctions, fintech
+- [Guides](https://www.origami.dev/guides) — long-form how-to guides
+- [Glossary](https://www.origami.dev/glossary) — definitions of RAG, GLI-19, KYC, server-drawn bingo, header bidding, etc.
+
+## Locations we serve
+
+We serve clients globally from our New York HQ. Location landing pages are available for New York, Los Angeles, San Francisco, Chicago, Miami, Austin, Boston, Seattle, Atlanta, Nashville, Denver, Dallas, Houston, Washington DC, Las Vegas, London, Toronto, Dubai, Singapore and Bengaluru at https://www.origami.dev/locations/.
+
+## Optional
+
+- [Sitemap](https://www.origami.dev/sitemap.xml)
+- [Careers](https://www.origami.dev/careers)
+- [Approach](https://www.origami.dev/approach)
+- [Contact](https://www.origami.dev/contact)

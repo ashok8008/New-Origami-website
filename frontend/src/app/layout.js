@@ -73,6 +73,26 @@ export const metadata = {
       "Senior-only NY agency. Mobile apps, AI, gaming, auctions, fintech.",
   },
   alternates: { canonical: "/" },
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION || undefined,
+    yandex: process.env.NEXT_PUBLIC_YANDEX_VERIFICATION || "38ed732ac406aec5",
+    other: {
+      "msvalidate.01":
+        process.env.NEXT_PUBLIC_BING_VERIFICATION ||
+        "13C3941F1B447AC0B3166A42BB249137",
+      "p:domain_verify":
+        process.env.NEXT_PUBLIC_PINTEREST_VERIFICATION || undefined,
+      "naver-site-verification":
+        process.env.NEXT_PUBLIC_NAVER_VERIFICATION || undefined,
+      "facebook-domain-verification":
+        process.env.NEXT_PUBLIC_FACEBOOK_VERIFICATION || undefined,
+      "baidu-site-verification":
+        process.env.NEXT_PUBLIC_BAIDU_VERIFICATION || undefined,
+    },
+  },
+  other: {
+    "ai-content-declaration": "human-authored",
+  },
 };
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.origami.dev";
