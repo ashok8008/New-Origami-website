@@ -5,14 +5,17 @@ from datetime import datetime, timezone
 
 import resend
 from dotenv import load_dotenv
+
+load_dotenv()
+
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, EmailStr, Field
 
 from new_joiner import router as new_joiner_router
 from autosave import router as autosave_router
-
-load_dotenv()
+from ai_monitor import router as ai_monitor_router, start_scheduler as start_ai_monitor
+from indexnow_helper import push_priority as indexnow_push_priority
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("origami")
@@ -25,6 +28,12 @@ app = FastAPI(title="Origami Softwares API")
 
 app.include_router(new_joiner_router)
 app.include_router(autosave_router)
+app.include_router(ai_monitor_router)
+
+
+@app.on_event("startup")
+async def _on_startup() -> None:
+    start_ai_monitor()
 
 app.add_middleware(
     CORSMiddleware,
@@ -161,3 +170,10 @@ async def indexnow_submit(req: IndexNowRequest):
                 results[endpoint] = {"error": str(exc)}
     logger.info("indexnow submit urls=%d results=%s", len(req.urls), results)
     return {"status": "submitted", "count": len(req.urls), "endpoints": results}
+
+
+@app.post("/api/indexnow/priority")
+async def indexnow_priority():
+    """Push the curated ~50-URL priority list to all IndexNow endpoints."""
+    result = await indexnow_push_priority()
+    return {"status": "submitted", **result}
