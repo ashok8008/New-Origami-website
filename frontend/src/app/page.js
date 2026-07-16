@@ -3,6 +3,7 @@ import MarqueeSection from "@/components/home/MarqueeSection";
 import ClientsSection from "@/components/home/ClientsSection";
 import MobileFocusSection from "@/components/home/MobileFocusSection";
 import CaseStudiesSection from "@/components/home/CaseStudiesSection";
+import DocIntelligenceFeature from "@/components/home/DocIntelligenceFeature";
 import AuctionsFeature from "@/components/home/AuctionsFeature";
 import AISection from "@/components/home/AISection";
 import MediaFeature from "@/components/home/MediaFeature";
@@ -20,6 +21,7 @@ export default function HomePage() {
       <HeroSection />
       <MarqueeSection />
       <ClientsSection />
+      <DocIntelligenceFeature />
       <AuctionsFeature />
       <MobileFocusSection />
       <StatsStrip />

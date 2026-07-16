@@ -7,6 +7,7 @@ import {
   TECH_STACKS,
   SOLUTIONS,
   COMPARES,
+  PRODUCTS,
 } from "@/lib/content";
 import {
   CITIES,
@@ -44,6 +45,7 @@ export default function sitemap() {
     "new-york",
     "locations",
     "hire",
+    "products",
   ].map((p) => ({
     url: `${SITE}/${p}`,
     lastModified: now,
@@ -101,6 +103,7 @@ export default function sitemap() {
   return [
     ...core,
     ...dyn("services", SERVICES),
+    ...dyn("products", PRODUCTS, "slug", 0.9),
     ...dyn("work", PROJECTS, "slug", 0.8),
     ...dyn("industries", INDUSTRIES),
     ...dyn("ai", AI_PRACTICE.useCases),

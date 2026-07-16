@@ -3,6 +3,7 @@
 
 export const NAV = [
   { label: "About", href: "/about" },
+  { label: "Products", href: "/products" },
   { label: "Auctions", href: "/auctions" },
   { label: "Class II & III Games", href: "/games" },
   { label: "AI", href: "/ai" },
@@ -13,6 +14,7 @@ export const NAV = [
 ];
 
 export const NAV_EXTRA = [
+  { label: "Products", href: "/products" },
   { label: "Industries", href: "/industries" },
   { label: "Solutions", href: "/solutions" },
   { label: "Build with", href: "/build" },
@@ -25,6 +27,40 @@ export const NAV_EXTRA = [
   { label: "Insights", href: "/insights" },
   { label: "Approach", href: "/approach" },
   { label: "Contact", href: "/contact" },
+];
+
+export const PRODUCTS = [
+  {
+    slug: "document-intelligence",
+    name: "Document Intelligence",
+    tagline: "Sovereign · Cited · Cost-transparent",
+    positioning: "Your documents, turned into an expert you can prove.",
+    hero:
+      "Ask anything across your contracts, policies and regulations in plain language. Get a clear verdict, the exact source and page, and the precise cost — grounded only in your own documents, never invented.",
+    status: "Live in production",
+    keywords: [
+      "document intelligence platform",
+      "enterprise document AI",
+      "sovereign AI for legal documents",
+      "citation-based AI",
+      "grounded RAG platform",
+      "on-premise LLM for contracts",
+      "private document Q&A",
+      "cost-transparent AI",
+      "single-tenant AI platform",
+      "contract intelligence software",
+      "policy compliance AI",
+      "regulatory AI assistant",
+      "enterprise RAG platform",
+      "legal document AI",
+      "banking document AI",
+      "insurance document AI",
+      "healthcare document AI",
+      "audit-ready AI answers",
+      "explainable AI for enterprises",
+      "self-hosted AI knowledge base",
+    ],
+  },
 ];
 
 export const CONTACT = {

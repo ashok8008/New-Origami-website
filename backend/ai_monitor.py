@@ -85,6 +85,11 @@ SEED_QUERIES = [
     "AI development agency Dubai",
     "React Native developers Bengaluru",
     "consumer fintech app development agency",
+    "document intelligence platform",
+    "sovereign AI for legal documents",
+    "enterprise RAG platform",
+    "citation-based AI for contracts",
+    "on-premise AI for regulated industries",
 ]
 
 

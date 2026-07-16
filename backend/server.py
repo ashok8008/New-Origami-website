@@ -177,3 +177,97 @@ async def indexnow_priority():
     """Push the curated ~50-URL priority list to all IndexNow endpoints."""
     result = await indexnow_push_priority()
     return {"status": "submitted", **result}
+
+
+# ---------------------------------------------------------------------
+# Demo Request — Book-a-demo form for /products/*
+# ---------------------------------------------------------------------
+class DemoRequest(BaseModel):
+    name: str = Field(..., min_length=1, max_length=200)
+    email: EmailStr
+    company: str = Field(default="", max_length=200)
+    role: str = Field(default="", max_length=200)
+    teamSize: str = Field(default="", max_length=50)
+    docTypes: str = Field(default="", max_length=200)
+    message: str = Field(default="", max_length=5000)
+    product: str = Field(default="document-intelligence", max_length=100)
+
+
+def _demo_html(req: DemoRequest) -> str:
+    msg = (req.message or "—").replace("\n", "<br>")
+    rows = [
+        ("Product", req.product),
+        ("Name", req.name),
+        ("Work email", f'<a href="mailto:{req.email}" style="color:#E8382C;text-decoration:none;">{req.email}</a>'),
+        ("Company", req.company or "—"),
+        ("Role", req.role or "—"),
+        ("Team size", req.teamSize or "—"),
+        ("Document types", req.docTypes or "—"),
+    ]
+    body = "".join(
+        f'<tr><td style="padding:8px 0;color:#6B6B6B;font-size:13px;text-transform:uppercase;letter-spacing:0.1em;width:150px;">{k}</td><td style="padding:8px 0;color:#0D0D0D;font-size:15px;">{v}</td></tr>'
+        for k, v in rows
+    )
+    return f"""
+<!DOCTYPE html>
+<html><body style="margin:0;padding:0;background:#FAFAF7;font-family:Inter,Arial,sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#FAFAF7;padding:32px 0;">
+    <tr><td align="center">
+      <table role="presentation" width="640" cellpadding="0" cellspacing="0" style="background:#FFFFFF;border:1px solid rgba(13,13,13,0.08);">
+        <tr><td style="padding:32px 32px 16px;border-bottom:1px solid rgba(13,13,13,0.08);">
+          <div style="font-family:'Courier New',monospace;font-size:11px;letter-spacing:0.25em;color:#E8382C;text-transform:uppercase;">/// New demo request</div>
+          <h1 style="margin:8px 0 0;font-family:Inter,Arial,sans-serif;font-size:28px;font-weight:900;color:#0D0D0D;letter-spacing:-0.02em;">From {req.name}</h1>
+        </td></tr>
+        <tr><td style="padding:24px 32px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0">{body}</table></td></tr>
+        <tr><td style="padding:24px 32px;border-top:1px solid rgba(13,13,13,0.08);">
+          <div style="font-family:'Courier New',monospace;font-size:11px;letter-spacing:0.25em;color:#E8382C;text-transform:uppercase;margin-bottom:12px;">/// What they want to solve</div>
+          <div style="color:#3A3A3A;font-size:15px;line-height:1.7;">{msg}</div>
+        </td></tr>
+        <tr><td style="padding:16px 32px;background:#FAFAF7;border-top:1px solid rgba(13,13,13,0.08);">
+          <div style="color:#6B6B6B;font-size:12px;font-family:'Courier New',monospace;letter-spacing:0.18em;text-transform:uppercase;">origami.dev / products / {req.product} — sent {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}</div>
+        </td></tr>
+      </table>
+    </td></tr>
+  </table>
+</body></html>
+"""
+
+
+@app.post("/api/demo-request")
+async def submit_demo_request(req: DemoRequest):
+    if not resend.api_key:
+        logger.error("RESEND_API_KEY missing")
+        raise HTTPException(status_code=500, detail="Email service is not configured.")
+
+    # Persist to MongoDB for CRM / follow-up
+    try:
+        from motor.motor_asyncio import AsyncIOMotorClient
+        _dr_client = AsyncIOMotorClient(os.environ.get("MONGO_URL"))
+        _db = _dr_client[os.environ.get("DB_NAME", "origami")]
+        await _db["demo_requests"].insert_one({
+            **req.model_dump(),
+            "created_at": datetime.now(timezone.utc).isoformat(),
+        })
+    except Exception as e:
+        logger.warning("failed to persist demo request: %s", e)
+
+    subject = f"Demo request · {req.product} · {req.name}" + (f" — {req.company}" if req.company else "")
+    params = {
+        "from": SENDER_EMAIL,
+        "to": [RECIPIENT_EMAIL],
+        "reply_to": req.email,
+        "subject": subject,
+        "html": _demo_html(req),
+    }
+
+    try:
+        email = await asyncio.to_thread(resend.Emails.send, params)
+        email_id = email.get("id") if isinstance(email, dict) else None
+        logger.info("demo request sent id=%s from=%s product=%s", email_id, req.email, req.product)
+        return {"status": "success", "id": email_id}
+    except Exception as exc:
+        logger.exception("Failed to send demo request email: %s", exc)
+        raise HTTPException(
+            status_code=502,
+            detail="Failed to send demo request. Please email hello@origami.dev directly.",
+        )

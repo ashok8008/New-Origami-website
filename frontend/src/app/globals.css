@@ -128,3 +128,23 @@ html, body {
   border-color: var(--ink);
   background: #fafafa;
 }
+
+/* Form inputs (used by DemoRequestForm) */
+.input {
+  width: 100%;
+  padding: 0.65rem 0.9rem;
+  border: 1px solid var(--line);
+  background: #ffffff;
+  color: var(--ink);
+  font-size: 0.95rem;
+  font-family: inherit;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.input:focus {
+  outline: none;
+  border-color: var(--signal);
+  box-shadow: 0 0 0 3px rgba(232, 56, 44, 0.12);
+}
+.input::placeholder {
+  color: #9c9c9c;
+}
