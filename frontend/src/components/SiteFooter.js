@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ArrowUpRight, Mail, Phone, MapPin } from "lucide-react";
+import { ArrowUpRight, Mail, Phone, MapPin, Linkedin } from "lucide-react";
 import NewsletterForm from "./NewsletterForm";
 import OrigamiLogo from "./OrigamiLogo";
 import { NAV, NAV_EXTRA, CONTACT } from "@/lib/content";
@@ -51,6 +51,19 @@ export default function SiteFooter() {
               <Mail className="w-4 h-4 text-signal" />
               <a href={`mailto:${CONTACT.email}`} className="hover:text-ink">{CONTACT.email}</a>
             </div>
+            {CONTACT.linkedin && (
+              <div className="flex items-center gap-3" data-testid="footer-linkedin">
+                <Linkedin className="w-4 h-4 text-signal" />
+                <a
+                  href={CONTACT.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-ink"
+                >
+                  LinkedIn — Origami Consulting LLC
+                </a>
+              </div>
+            )}
             {CONTACT.phones.map((p) => (
               <div key={p.label} className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-signal" />

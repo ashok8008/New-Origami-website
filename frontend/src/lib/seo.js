@@ -56,7 +56,9 @@ export function localBusinessJsonLd() {
     email: "hello@origami.dev",
     telephone: "+1-970-710-5120",
     priceRange: "$$$",
-    sameAs: [],
+    sameAs: [
+      "https://www.linkedin.com/company/origami-consulting-llc/",
+    ],
     knowsAbout: [
       "Mobile app development",
       "React Native",

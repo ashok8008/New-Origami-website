@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Mail, Phone, MapPin, ArrowUpRight, Check, Loader2 } from "lucide-react";
+import { Mail, Phone, MapPin, ArrowUpRight, Check, Loader2, Linkedin } from "lucide-react";
 import { CONTACT } from "@/lib/content";
 import { trackEvent } from "@/lib/analytics";
 
@@ -149,6 +149,22 @@ export default function ContactPage() {
                   </a>
                 </div>
               </li>
+              {CONTACT.linkedin && (
+                <li className="flex items-start gap-4" data-testid="contact-linkedin-row">
+                  <Linkedin className="w-5 h-5 text-signal mt-1" />
+                  <div>
+                    <div className="font-display text-lg font-semibold">LinkedIn</div>
+                    <a
+                      href={CONTACT.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-ink-soft hover:text-ink"
+                    >
+                      Follow Origami Consulting LLC
+                    </a>
+                  </div>
+                </li>
+              )}
               {CONTACT.phones.map((p) => (
                 <li key={p.label} className="flex items-start gap-4" data-testid={`contact-phone-${p.label.toLowerCase()}`}>
                   <Phone className="w-5 h-5 text-signal mt-1" />

@@ -65,6 +65,7 @@ export const PRODUCTS = [
 
 export const CONTACT = {
   email: "hello@origami.dev",
+  linkedin: "https://www.linkedin.com/company/origami-consulting-llc/",
   phones: [
     { label: "US", number: "+1 (970) 710 5120", href: "tel:+19707105120" },
     { label: "India", number: "+91 906 651 4212", href: "tel:+919066514212" },
