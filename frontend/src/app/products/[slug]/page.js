@@ -125,7 +125,7 @@ export default function ProductDetail({ params }) {
       ]))} />
 
       {/* Hero */}
-      <section className="relative pt-36 md:pt-44 pb-20 border-b border-ink-line overflow-hidden bg-paper">
+      <section className="relative pt-36 md:pt-40 pb-20 border-b border-ink-line overflow-hidden bg-paper">
         <div
           className="absolute inset-0 opacity-30 pointer-events-none"
           style={{
@@ -134,7 +134,7 @@ export default function ProductDetail({ params }) {
             backgroundSize: "22px 22px",
           }}
         />
-        <div className="relative max-w-[1440px] mx-auto px-6 md:px-10 grid grid-cols-12 gap-10">
+        <div className="relative max-w-[1440px] mx-auto px-6 md:px-10 grid grid-cols-12 gap-8 lg:gap-12 items-start">
           <div className="col-span-12 md:col-span-7">
             <div className="font-mono text-[11px] uppercase tracking-[0.25em] text-signal mb-5 flex items-center gap-2">
               <ShieldCheck className="w-3.5 h-3.5" />
@@ -143,15 +143,15 @@ export default function ProductDetail({ params }) {
             <div className="font-mono text-[11px] uppercase tracking-[0.25em] text-ink-muted mb-4">
               {p.tagline}
             </div>
-            <h1 className="font-display text-5xl md:text-7xl lg:text-[7.5rem] font-black leading-[0.92] tracking-tightest">
+            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-black leading-[0.98] tracking-tightest">
               Your documents,<br />
               turned into an expert<br />
               <span className="text-signal">you can prove.</span>
             </h1>
-            <p className="mt-8 max-w-2xl text-ink-soft text-lg md:text-xl leading-relaxed">
+            <p className="mt-7 max-w-xl text-ink-soft text-base md:text-lg leading-relaxed">
               {p.hero}
             </p>
-            <div className="mt-8 flex flex-wrap gap-3">
+            <div className="mt-7 flex flex-wrap gap-3">
               <Link href="#book" className="btn-pill btn-primary" data-testid="product-cta-book">
                 Book a demo <ArrowUpRight className="w-4 h-4" />
               </Link>
@@ -159,16 +159,16 @@ export default function ProductDetail({ params }) {
                 See how it works
               </Link>
             </div>
-            <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-[13px] text-ink-muted">
+            <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-[13px] text-ink-muted">
               <span className="inline-flex items-center gap-1.5"><span className="w-1.5 h-1.5 rounded-full bg-signal" /> {p.status}</span>
               <span className="inline-flex items-center gap-1.5"><span className="w-1.5 h-1.5 rounded-full bg-signal" /> Data never leaves your walls</span>
               <span className="inline-flex items-center gap-1.5"><span className="w-1.5 h-1.5 rounded-full bg-signal" /> Every answer cited</span>
             </div>
           </div>
 
-          {/* Ask card */}
-          <div className="col-span-12 md:col-span-5 self-end">
-            <div className="relative bg-white border border-ink-line shadow-[0_20px_60px_-20px_rgba(0,0,0,0.15)] p-6 md:p-7">
+          {/* Ask card — top-aligned beside the headline */}
+          <div className="col-span-12 md:col-span-5">
+            <div className="relative bg-white border border-ink-line shadow-[0_20px_60px_-20px_rgba(0,0,0,0.15)] p-6 md:p-7 md:mt-8">
               <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-ink-muted mb-3">
                 Ask · your knowledge base
               </div>
