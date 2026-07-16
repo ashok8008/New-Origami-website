@@ -14,6 +14,10 @@ import TestimonialsSection from "@/components/home/TestimonialsSection";
 import StatsStrip from "@/components/home/StatsStrip";
 import { websiteJsonLd, jsonLdScript } from "@/lib/seo";
 
+export const metadata = {
+  alternates: { canonical: "/" },
+};
+
 export default function HomePage() {
   return (
     <div data-testid="home-page">

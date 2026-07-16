@@ -3,6 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 import { APPROACH } from "@/lib/content";
 
 export const metadata = {
+  alternates: { canonical: "/approach" },
   title: "Approach — Origami",
   description:
     "Listen. Architect. Ship. Scale. How Origami delivers senior engineering for culture-forward brands.",

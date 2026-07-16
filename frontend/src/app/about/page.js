@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
 export const metadata = {
+  alternates: { canonical: "/about" },
   title: "About",
   description:
     "A studio that builds digital platforms for hip-hop, real-money gaming and cultural icons.",

@@ -3,6 +3,7 @@ import { ArrowUpRight, MapPin } from "lucide-react";
 import { CAREERS } from "@/lib/content";
 
 export const metadata = {
+  alternates: { canonical: "/careers" },
   title: "Careers — Origami",
   description:
     "Join a senior-only team building digital platforms for hip-hop, gaming and cultural icons.",

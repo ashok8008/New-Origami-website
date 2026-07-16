@@ -72,7 +72,6 @@ export const metadata = {
     description:
       "Senior-only NY agency. Mobile apps, AI, gaming, auctions, fintech.",
   },
-  alternates: { canonical: "/" },
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION || undefined,
     yandex: process.env.NEXT_PUBLIC_YANDEX_VERIFICATION || "38ed732ac406aec5",
