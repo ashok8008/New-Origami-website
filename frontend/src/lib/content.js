@@ -114,6 +114,16 @@ export const SERVICES = [
   },
   {
     code: "03",
+    slug: "document-intelligence",
+    title: "Document Intelligence",
+    short: "Sovereign · Cited · Cost-transparent RAG",
+    desc:
+      "Turn your contracts, policies and regulations into an expert you can prove. Enterprise-grade RAG with page-level citations, single-tenant sovereign deployment, and a four-tier cost-transparent engine — an Origami product.",
+    isProduct: true,
+    productSlug: "document-intelligence",
+  },
+  {
+    code: "04",
     slug: "auctions-and-fan-drops",
     title: "Auctions & Fan Drops",
     short: "Commerce for culture",
@@ -121,7 +131,7 @@ export const SERVICES = [
       "End-to-end auction platforms, drop mechanics and fan-to-artist commerce — the stack behind HipHopGrails and the next wave of celebrity commerce.",
   },
   {
-    code: "04",
+    code: "05",
     slug: "class-ii-and-class-iii-games",
     title: "Class II & Class III Games",
     short: "Real-money gaming",
