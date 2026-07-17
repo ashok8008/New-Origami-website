@@ -84,7 +84,7 @@ function FieldError({ msg }) {
   return <div className="mt-1.5 text-signal text-xs" data-testid="field-error">{msg}</div>;
 }
 
-function TextInput({ name, type = "text", value, onChange, onBlur, placeholder, readOnly, maxLength, inputMode, pattern, autoComplete }) {
+function TextInput({ name, type = "text", value, onChange, onBlur, placeholder, readOnly, maxLength, inputMode, pattern, autoComplete, min, max }) {
   return (
     <input
       name={name}
@@ -98,6 +98,8 @@ function TextInput({ name, type = "text", value, onChange, onBlur, placeholder, 
       inputMode={inputMode}
       pattern={pattern}
       autoComplete={autoComplete}
+      min={min}
+      max={max}
       data-testid={`input-${name}`}
       className={`w-full px-4 py-3 border rounded-lg outline-none text-base ${
         readOnly ? "bg-paper-50 text-ink-soft border-ink-line" : "bg-white border-ink-line focus:border-signal"
@@ -284,6 +286,41 @@ export default function EmployeeOnboardingHub() {
     setT("pan_number", up);
     setErrors((e) => ({ ...e, pan_number: up && !PAN_RE.test(up) ? "Invalid PAN format (e.g. ABCDE1234F)" : "" }));
   }
+
+  // Date-of-joining bounds: 30 days ago → 2 years from today.
+  // Guard against manual year entry like "0001" or "262222".
+  const todayISO = new Date().toISOString().slice(0, 10);
+  const dojMin = (() => {
+    const d = new Date(); d.setDate(d.getDate() - 30);
+    return d.toISOString().slice(0, 10);
+  })();
+  const dojMax = (() => {
+    const d = new Date(); d.setFullYear(d.getFullYear() + 2);
+    return d.toISOString().slice(0, 10);
+  })();
+
+  function handleDojChange(_name, v) {
+    // v is a native YYYY-MM-DD string; browsers happily allow 5–6 digit years.
+    // Reject anything whose year isn't exactly 4 digits.
+    if (!v) {
+      setT("date_of_joining", "");
+      setErrors((e) => ({ ...e, date_of_joining: "" }));
+      return;
+    }
+    const m = /^(\d{1,6})-(\d{2})-(\d{2})$/.exec(v);
+    if (!m || m[1].length !== 4) {
+      setErrors((e) => ({ ...e, date_of_joining: "Enter a valid date (year must be 4 digits)" }));
+      return; // do NOT commit an invalid value
+    }
+    if (v < dojMin || v > dojMax) {
+      setT("date_of_joining", v);
+      setErrors((e) => ({ ...e, date_of_joining: `Date must be between ${dojMin} and ${dojMax}` }));
+      return;
+    }
+    setT("date_of_joining", v);
+    setErrors((e) => ({ ...e, date_of_joining: "" }));
+  }
+
   function handleAadhaarChange(v) {
     const digits = v.replace(/\D/g, "").slice(0, 12);
     setT("aadhaar_number", digits);
@@ -539,9 +576,24 @@ export default function EmployeeOnboardingHub() {
             {PERSONAL_FIELDS.map((f) => (
               <div key={f.name}>
                 <Label required>{f.label}</Label>
-                {f.type === "select"
-                  ? <SelectInput name={f.name} value={text[f.name]} onChange={setT} onBlur={onFieldBlur} options={f.options} />
-                  : <TextInput name={f.name} type={f.type} value={text[f.name]} onChange={setT} onBlur={onFieldBlur} />}
+                {f.type === "select" ? (
+                  <SelectInput name={f.name} value={text[f.name]} onChange={setT} onBlur={onFieldBlur} options={f.options} />
+                ) : f.name === "date_of_joining" ? (
+                  <>
+                    <TextInput
+                      name={f.name}
+                      type="date"
+                      value={text[f.name]}
+                      onChange={handleDojChange}
+                      onBlur={onFieldBlur}
+                      min={dojMin}
+                      max={dojMax}
+                    />
+                    <FieldError msg={errors.date_of_joining} />
+                  </>
+                ) : (
+                  <TextInput name={f.name} type={f.type} value={text[f.name]} onChange={setT} onBlur={onFieldBlur} />
+                )}
               </div>
             ))}
           </section>

@@ -321,6 +321,22 @@ def _validate_text_fields(data: dict[str, Any]) -> None:
     if not ACCOUNT_RE.match(data.get("account_number", "")):
         raise HTTPException(422, "Account number must be 9–18 digits.")
 
+    # Date of joining: must be YYYY-MM-DD, year 4 digits, within [30 days ago, +2 years]
+    from datetime import date, timedelta
+    doj_raw = (data.get("date_of_joining") or "").strip()
+    try:
+        doj = date.fromisoformat(doj_raw)
+    except ValueError:
+        raise HTTPException(422, "Date of joining is not a valid date.")
+    if doj.year < 1900 or doj.year > 9999 or len(doj_raw.split("-")[0]) != 4:
+        raise HTTPException(422, "Date of joining year must be exactly 4 digits.")
+    today = date.today()
+    if doj < today - timedelta(days=30) or doj > today + timedelta(days=730):
+        raise HTTPException(
+            422,
+            f"Date of joining must be between {today - timedelta(days=30)} and {today + timedelta(days=730)}.",
+        )
+
 
 @router.post("/api/newjoinee")
 async def submit_new_joiner(request: Request):
