@@ -359,12 +359,12 @@ export default function ProductDetail({ params }) {
             <span className="text-white/50">Name under NDA.</span>
           </h2>
           <p className="mt-6 max-w-2xl text-white/70 leading-relaxed">
-            Deployed in production for a top-tier regulated enterprise — reviewing thousands of contracts, policies and regulatory documents daily. Single-tenant on their private cloud, air-gapped from public internet. Full reference available under NDA on request.
+            Deployed in production for a top-tier regulated enterprise — currently powering <span className="text-white font-semibold">a single department</span> with <span className="text-white font-semibold">five more departments rolling out</span>. Single-tenant on their private cloud, air-gapped from public internet. Full reference available under NDA on request.
           </p>
           <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-8 text-white">
             {[
-              { k: "10k+", v: "documents ingested" },
-              { k: "1.2M+", v: "queries answered" },
+              { k: "50k+", v: "documents ingested (1 department, live)" },
+              { k: "5", v: "additional departments in rollout" },
               { k: "94%", v: "answered from cache or cheap-tier" },
               { k: "0", v: "hallucinated citations" },
             ].map((s) => (
