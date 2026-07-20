@@ -99,6 +99,11 @@ SEED_QUERIES = [
     "enterprise software development",
     "custom AI solutions",
     "AI product development company",
+    "what is EDI",
+    "EDI vs API integration",
+    "EDI modernization with AI",
+    "EDI 850 purchase order",
+    "HL7 vs X12 healthcare EDI",
 ]
 
 

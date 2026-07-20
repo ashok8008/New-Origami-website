@@ -84,6 +84,15 @@ def _priority_urls() -> list[str]:
         "programmatic-seo-for-b2b",
     ]
     urls += [f"{base}/guides/{g}" for g in guides]
+
+    insights = [
+        "what-is-edi-electronic-data-interchange-2026-guide",
+        "edi-vs-api-integration-2026",
+        "edi-modernisation-with-ai",
+        "edi-850-purchase-order-explained",
+        "hl7-vs-x12-healthcare-edi",
+    ]
+    urls += [f"{base}/insights/{s}" for s in insights]
     return urls
 
 
