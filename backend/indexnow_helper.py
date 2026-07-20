@@ -91,6 +91,14 @@ def _priority_urls() -> list[str]:
         "edi-modernisation-with-ai",
         "edi-850-purchase-order-explained",
         "hl7-vs-x12-healthcare-edi",
+        "how-to-hire-custom-software-development-company",
+        "build-vs-buy-custom-software-2026",
+        "saas-mvp-development-90-days-playbook",
+        "legacy-modernization-without-big-bang-rewrite",
+        "hipaa-compliant-software-development",
+        "fhir-first-modern-healthcare-integrations",
+        "ai-in-healthcare-five-real-use-cases",
+        "prior-authorization-automation-with-ai",
     ]
     urls += [f"{base}/insights/{s}" for s in insights]
     return urls

@@ -104,6 +104,14 @@ SEED_QUERIES = [
     "EDI modernization with AI",
     "EDI 850 purchase order",
     "HL7 vs X12 healthcare EDI",
+    "hire custom software development company",
+    "build vs buy software",
+    "SaaS MVP development 90 days",
+    "legacy modernization strangler pattern",
+    "HIPAA compliant software development",
+    "FHIR healthcare integration",
+    "healthcare AI use cases",
+    "prior authorization automation AI",
 ]
 
 
