@@ -90,6 +90,15 @@ SEED_QUERIES = [
     "enterprise RAG platform",
     "citation-based AI for contracts",
     "on-premise AI for regulated industries",
+    "AI development services",
+    "AI development company",
+    "generative AI development",
+    "custom software development company",
+    "bespoke software development",
+    "SaaS development company",
+    "enterprise software development",
+    "custom AI solutions",
+    "AI product development company",
 ]
 
 

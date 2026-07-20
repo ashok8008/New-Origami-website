@@ -4,10 +4,10 @@
 export const NAV = [
   { label: "About", href: "/about" },
   { label: "Products", href: "/products" },
+  { label: "AI Development", href: "/ai-development-services" },
+  { label: "Custom Software", href: "/custom-software-development" },
   { label: "Auctions", href: "/auctions" },
-  { label: "Class II & III Games", href: "/games" },
   { label: "AI", href: "/ai" },
-  { label: "Media", href: "/media" },
   { label: "Services", href: "/services" },
   { label: "Work", href: "/work" },
   { label: "Careers", href: "/careers" },

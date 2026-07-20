@@ -9,6 +9,7 @@ import {
   COMPARES,
   PRODUCTS,
 } from "@/lib/content";
+import { HUBS } from "@/lib/hubs";
 import {
   CITIES,
   GUIDES,
@@ -100,8 +101,26 @@ export default function sitemap() {
     priority: 0.6,
   }));
 
+  const hubs = HUBS.map((h) => ({
+    url: `${SITE}/${h.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.9,
+  }));
+
+  const hubCities = HUBS.flatMap((h) =>
+    CITIES.map((c) => ({
+      url: `${SITE}/${h.slug}/in/${c.slug}`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    }))
+  );
+
   return [
     ...core,
+    ...hubs,
+    ...hubCities,
     ...dyn("services", SERVICES),
     ...dyn("products", PRODUCTS, "slug", 0.9),
     ...dyn("work", PROJECTS, "slug", 0.8),
