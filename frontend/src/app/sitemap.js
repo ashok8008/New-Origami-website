@@ -43,6 +43,7 @@ export default function sitemap() {
     "approach",
     "careers",
     "contact",
+    "pricing",
     "new-york",
     "locations",
     "hire",

@@ -54,6 +54,7 @@ def _priority_urls() -> list[str]:
         f"{base}/approach",
         f"{base}/careers",
         f"{base}/contact",
+        f"{base}/pricing",
     ]
     services = [
         "mobile-app-development", "ai-and-llm-products", "auctions-and-fan-drops",
