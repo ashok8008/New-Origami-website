@@ -1,4 +1,5 @@
 import "./globals.css";
+import Script from "next/script";
 import {
   Inter,
   JetBrains_Mono,
@@ -116,6 +117,13 @@ export default function RootLayout({ children }) {
         <main className="relative z-10">{children}</main>
         <SiteFooter />
         <ClickTracker />
+        {/* Seorce AI/Search visibility tracker */}
+        <Script
+          id="seorce-tracker"
+          src="https://scripts.seorce.com/api?projectId=6a5f890ee81bef1813328162"
+          data-uuid="6a5f890ee81bef1813328162"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
