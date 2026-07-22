@@ -1,5 +1,22 @@
 # CHANGELOG — Origami
 
+## Feb 22, 2026 — Nav cleanup + Seorce tracking + Bing verify confirmation
+
+### Navigation consolidation
+- **Top nav reduced 9 → 7 items** to eliminate redundancy: `About · Services · AI · Products · Work · Insights · Careers`.
+- Removed from top nav (still live + linked from footer for SEO): `AI Development` (dup of AI), `Custom Software` (moved under Services), `Auctions` (moved under Services).
+- Services page expanded to **10 practice cards** with a new **Custom Software Development** card (deep-links to `/custom-software-development` hub) and **Auctions & Fan Drops** now deep-links to `/auctions` vertical via new `externalHref` field on `SERVICES` items.
+- Cleaned duplicate `code: "05"` collision in `SERVICES`; renumbered 01-10.
+- `NAV_EXTRA` (footer sitemap) expanded to include: AI, AI Development, Custom Software, Auctions, Pricing — preserving link equity for all removed nav items.
+
+### Third-party tracking
+- Added **Seorce AI/Search visibility tracker** (`projectId=6a5f890ee81bef1813328162`) via `next/script strategy="afterInteractive"` in root `layout.js`. Loads globally across all 1000+ pages.
+
+### Verifications
+- Confirmed `BingSiteAuth.xml` (user code `13C3941F1B447AC0B3166A42BB249137`) live at `https://origami.dev/BingSiteAuth.xml` — HTTP 200, `application/xml`.
+- Provided GSC + Bing Webmaster manual sitemap resubmission playbook to user.
+
+
 ## Feb 15, 2026 — PSEO explosion + AI-crawler visibility
 
 **Goal**: Grow Semrush organic keyword count from 39 → 2,000+ and unlock AI answer-engine citations (ChatGPT, Perplexity, Google AI Overview, Gemini, Claude, Brave, Kagi).
