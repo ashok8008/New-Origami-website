@@ -23,7 +23,7 @@ export default function ServicesPage() {
             Every surface,<br />engineered by<br /><span className="text-signal">people who ship.</span>
           </h1>
           <p className="mt-8 max-w-2xl text-ink-soft text-lg md:text-xl leading-relaxed">
-            Eight practices that overlap on purpose. Small, senior teams that
+            Ten practices that overlap on purpose. Small, senior teams that
             cover the full product lifecycle — from wireframe to store launch,
             scale and iterate.
           </p>
@@ -34,10 +34,10 @@ export default function ServicesPage() {
         <div className="max-w-[1440px] mx-auto px-6 md:px-10 grid grid-cols-1 md:grid-cols-2 gap-px bg-ink-line border border-ink-line">
           {SERVICES.map((s) => (
             <Link
-              key={s.code}
-              href={`/services/${s.slug}`}
+              key={`${s.code}-${s.slug}`}
+              href={s.externalHref || `/services/${s.slug}`}
               className="group bg-white hover:bg-paper-50 p-8 md:p-12 min-h-[260px] flex flex-col transition-colors"
-              data-testid={`services-card-${s.code}`}
+              data-testid={`services-card-${s.slug}`}
             >
               <div className="flex items-start justify-between">
                 <span className="font-mono text-[11px] uppercase tracking-[0.25em] text-signal">

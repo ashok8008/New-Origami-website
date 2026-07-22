@@ -4,6 +4,7 @@
 export const NAV = [
   { label: "About", href: "/about" },
   { label: "Services", href: "/services" },
+  { label: "AI", href: "/ai" },
   { label: "Products", href: "/products" },
   { label: "Work", href: "/work" },
   { label: "Insights", href: "/insights" },
@@ -161,14 +162,24 @@ export const SERVICES = [
   },
   {
     code: "04",
+    slug: "custom-software-development",
+    title: "Custom Software Development",
+    short: "End-to-end product engineering",
+    desc:
+      "Full-stack custom software for regulated, complex industries — from architecture and DevOps to launch and 24×7 SLAs. See our custom software practice hub.",
+    externalHref: "/custom-software-development",
+  },
+  {
+    code: "05",
     slug: "auctions-and-fan-drops",
     title: "Auctions & Fan Drops",
     short: "Commerce for culture",
     desc:
       "End-to-end auction platforms, drop mechanics and fan-to-artist commerce — the stack behind HipHopGrails and the next wave of celebrity commerce.",
+    externalHref: "/auctions",
   },
   {
-    code: "05",
+    code: "06",
     slug: "class-ii-and-class-iii-games",
     title: "Class II & Class III Games",
     short: "Real-money gaming",
@@ -176,7 +187,7 @@ export const SERVICES = [
       "Real-money gaming platforms for tribal and commercial operators. Server-drawn bingo, Class III RNG, compliance, RGS and integrations.",
   },
   {
-    code: "05",
+    code: "07",
     slug: "web-development",
     title: "Web Development",
     short: "Next.js, React, headless",
@@ -184,7 +195,7 @@ export const SERVICES = [
       "Marketing sites, product surfaces and back-office consoles built with Next.js, React and a POV on performance and accessibility.",
   },
   {
-    code: "06",
+    code: "08",
     slug: "design-and-brand",
     title: "Design & Brand",
     short: "Product, motion, systems",
@@ -192,7 +203,7 @@ export const SERVICES = [
       "Product, interface and motion design for the artists, operators and brands our engineering serves.",
   },
   {
-    code: "07",
+    code: "09",
     slug: "data-and-bi",
     title: "Data & BI",
     short: "Pipelines & dashboards",
@@ -200,7 +211,7 @@ export const SERVICES = [
       "Analytics pipelines, revenue dashboards and player/fan telemetry that turn activity into decisions.",
   },
   {
-    code: "08",
+    code: "10",
     slug: "dedicated-teams",
     title: "Dedicated Teams",
     short: "Staff augmentation",
