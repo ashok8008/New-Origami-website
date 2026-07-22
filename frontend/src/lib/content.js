@@ -3,18 +3,18 @@
 
 export const NAV = [
   { label: "About", href: "/about" },
-  { label: "Products", href: "/products" },
-  { label: "AI Development", href: "/ai-development-services" },
-  { label: "Custom Software", href: "/custom-software-development" },
-  { label: "Auctions", href: "/auctions" },
-  { label: "AI", href: "/ai" },
   { label: "Services", href: "/services" },
+  { label: "Products", href: "/products" },
   { label: "Work", href: "/work" },
+  { label: "Insights", href: "/insights" },
   { label: "Careers", href: "/careers" },
 ];
 
 export const NAV_EXTRA = [
-  { label: "Products", href: "/products" },
+  { label: "AI", href: "/ai" },
+  { label: "AI Development", href: "/ai-development-services" },
+  { label: "Custom Software", href: "/custom-software-development" },
+  { label: "Auctions", href: "/auctions" },
   { label: "Industries", href: "/industries" },
   { label: "Solutions", href: "/solutions" },
   { label: "Build with", href: "/build" },
@@ -24,7 +24,7 @@ export const NAV_EXTRA = [
   { label: "Hire", href: "/hire" },
   { label: "Guides", href: "/guides" },
   { label: "Glossary", href: "/glossary" },
-  { label: "Insights", href: "/insights" },
+  { label: "Pricing", href: "/pricing" },
   { label: "Approach", href: "/approach" },
   { label: "Contact", href: "/contact" },
 ];
