@@ -81,7 +81,8 @@ export const metadata = {
         process.env.NEXT_PUBLIC_BING_VERIFICATION ||
         "13C3941F1B447AC0B3166A42BB249137",
       "p:domain_verify":
-        process.env.NEXT_PUBLIC_PINTEREST_VERIFICATION || undefined,
+        process.env.NEXT_PUBLIC_PINTEREST_VERIFICATION ||
+        "5aa09d8142ea8fc16bc6ae750f084fcc",
       "naver-site-verification":
         process.env.NEXT_PUBLIC_NAVER_VERIFICATION || undefined,
       "facebook-domain-verification":
