@@ -2142,6 +2142,12 @@ export const CAREERS = [
     location: "Global",
     tags: ["Automation", "Regulated", "GLI"],
   },
+  {
+    role: "Business Development Executive",
+    type: "Hybrid · Full-time",
+    location: "Bengaluru",
+    tags: ["Outbound", "Enterprise SaaS", "AI Services", "Consultative Sales"],
+  },
 ];
 
 export const TESTIMONIALS = [
