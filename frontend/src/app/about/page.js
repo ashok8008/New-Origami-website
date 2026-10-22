@@ -129,19 +129,16 @@ export default function AboutPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-ink-line border border-ink-line">
-            {FOUNDERS.map((f, i) => (
+            {FOUNDERS.map((f) => (
               <div
                 key={f.name}
                 className="bg-white p-8 md:p-10 flex flex-col"
                 data-testid={`founder-${f.name.toLowerCase().replace(/\s+/g, "-")}`}
               >
-                <div className="font-mono text-sm text-signal">
-                  {String(i + 1).padStart(2, "0")}
-                </div>
-                <h3 className="mt-10 font-display text-2xl md:text-3xl font-bold tracking-tight leading-tight">
+                <h3 className="font-display text-2xl md:text-3xl font-bold tracking-tight leading-tight underline decoration-signal decoration-2 underline-offset-[6px]">
                   {f.name}
                 </h3>
-                <div className="mt-2 font-mono text-[11px] uppercase tracking-[0.22em] text-ink-muted">
+                <div className="mt-3 font-mono text-[11px] uppercase tracking-[0.22em] text-ink-muted">
                   {f.role}
                 </div>
                 <p className="mt-6 text-ink-soft text-[15px] leading-relaxed">
