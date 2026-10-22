@@ -66,3 +66,6 @@
 ## Feb 10, 2026 — Employee Onboarding Hub
 
 (Preserved from prior CHANGELOG — see git log for details.)
+
+## 2026-06 — Founder headshots
+- Added processed headshots for Yashwanth & Aparna (Aparna photo rotated upright, both cropped 4:5 with blurred background) at /frontend/public/founders/*.webp, rendered on /about founders cards. Ashok card shows "Portrait coming soon" placeholder.

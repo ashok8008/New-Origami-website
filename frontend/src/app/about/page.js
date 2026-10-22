@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
@@ -47,11 +48,13 @@ const FOUNDERS = [
   {
     name: "Yashwanth Reddy",
     role: "Co-founder & CTO",
+    photo: "/founders/yashwanth-reddy.webp",
     bio: "A career spanning media, entertainment and payment processing — environments where seamless experience and reliability are non-negotiable. Yashwanth leads Origami's engineering and architecture, turning complex problems into platforms built to scale.",
   },
   {
     name: "Aparna Chodavarapu",
     role: "Co-founder & CFO",
+    photo: "/founders/aparna-chodavarapu.webp",
     bio: "Engineering and team-leadership roots across aerospace, automotive and technology. Aparna runs Origami's financial strategy and operations with a pragmatic, detail-driven approach — focused on building a business that compounds.",
   },
 ];
@@ -132,9 +135,25 @@ export default function AboutPage() {
             {FOUNDERS.map((f) => (
               <div
                 key={f.name}
-                className="bg-white p-8 md:p-10 flex flex-col"
+                className="group bg-white p-8 md:p-10 flex flex-col"
                 data-testid={`founder-${f.name.toLowerCase().replace(/\s+/g, "-")}`}
               >
+                <div className="relative aspect-[4/5] mb-8 overflow-hidden bg-paper-50 border-b-2 border-signal">
+                  {f.photo ? (
+                    <Image
+                      src={f.photo}
+                      alt={`${f.name}, ${f.role} at Origami`}
+                      fill
+                      sizes="(min-width: 768px) 33vw, 100vw"
+                      className="object-cover object-top transition-transform duration-700 group-hover:scale-[1.03]"
+                      data-testid={`founder-photo-${f.name.split(" ")[0].toLowerCase()}`}
+                    />
+                  ) : (
+                    <div className="absolute inset-0 flex items-end p-6 font-mono text-[11px] uppercase tracking-[0.22em] text-ink-muted">
+                      Portrait coming soon
+                    </div>
+                  )}
+                </div>
                 <h3 className="font-display text-2xl md:text-3xl font-bold tracking-tight leading-tight underline decoration-signal decoration-2 underline-offset-[6px]">
                   {f.name}
                 </h3>

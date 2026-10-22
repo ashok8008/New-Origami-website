@@ -107,3 +107,5 @@ hiphopgrails, playsqor, acquire, videoshops, realprofits, getcashback, onlybeach
   - **Privacy**: `/newjoinee` excluded from sitemap and added to robots.txt `Disallow`.
   - **Bug fixed during dev**: `fastapi.UploadFile` ≠ `starlette.datastructures.UploadFile` class identity at runtime — isinstance check missed all uploads. Fixed by accepting either class via tuple-check.
   - Verified end-to-end: 14 files saved to correct subfolders, docx generated with 9 tables, manifest written.
+
+- 2026-06: Founder headshots (Yashwanth, Aparna) live on /about; Ashok photo pending from user.
