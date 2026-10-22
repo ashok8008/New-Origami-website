@@ -42,19 +42,16 @@ const FOUNDERS = [
   {
     name: "Ashok Reddy Gummalla",
     role: "Co-founder & CEO",
-    initials: "AR",
     bio: "A decade of operator-level experience with leading commerce brands across e-commerce, digital growth and customer acquisition. Ashok sets Origami's direction, owns partnerships and growth, and turns ambitious product ideas into measurable business outcomes.",
   },
   {
     name: "Yashwanth Reddy",
     role: "Co-founder & CTO",
-    initials: "YR",
     bio: "A career spanning media, entertainment and payment processing — environments where seamless experience and reliability are non-negotiable. Yashwanth leads Origami's engineering and architecture, turning complex problems into platforms built to scale.",
   },
   {
     name: "Aparna Chodavarapu",
     role: "Co-founder & CFO",
-    initials: "AC",
     bio: "Engineering and team-leadership roots across aerospace, automotive and technology. Aparna runs Origami's financial strategy and operations with a pragmatic, detail-driven approach — focused on building a business that compounds.",
   },
 ];
@@ -132,19 +129,16 @@ export default function AboutPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-ink-line border border-ink-line">
-            {FOUNDERS.map((f) => (
+            {FOUNDERS.map((f, i) => (
               <div
                 key={f.name}
                 className="bg-white p-8 md:p-10 flex flex-col"
                 data-testid={`founder-${f.name.toLowerCase().replace(/\s+/g, "-")}`}
               >
-                <div
-                  aria-hidden="true"
-                  className="w-16 h-16 rounded-full bg-signal/10 border border-signal/30 flex items-center justify-center font-display text-xl font-black text-signal"
-                >
-                  {f.initials}
+                <div className="font-mono text-sm text-signal">
+                  {String(i + 1).padStart(2, "0")}
                 </div>
-                <h3 className="mt-8 font-display text-2xl md:text-3xl font-bold tracking-tight leading-tight">
+                <h3 className="mt-10 font-display text-2xl md:text-3xl font-bold tracking-tight leading-tight">
                   {f.name}
                 </h3>
                 <div className="mt-2 font-mono text-[11px] uppercase tracking-[0.22em] text-ink-muted">
