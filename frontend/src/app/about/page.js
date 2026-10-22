@@ -43,6 +43,7 @@ const FOUNDERS = [
   {
     name: "Ashok Reddy Gummalla",
     role: "Co-founder & CEO",
+    photo: "/founders/ashok-reddy-gummalla.webp",
     bio: "A decade of operator-level experience with leading commerce brands across e-commerce, digital growth and customer acquisition. Ashok sets Origami's direction, owns partnerships and growth, and turns ambitious product ideas into measurable business outcomes.",
   },
   {

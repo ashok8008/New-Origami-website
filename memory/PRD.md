@@ -109,3 +109,4 @@ hiphopgrails, playsqor, acquire, videoshops, realprofits, getcashback, onlybeach
   - Verified end-to-end: 14 files saved to correct subfolders, docx generated with 9 tables, manifest written.
 
 - 2026-06: Founder headshots (Yashwanth, Aparna) live on /about; Ashok photo pending from user.
+- 2026-06: Ashok headshot added; custom 404 with popular links shipped (SEO polish item done).

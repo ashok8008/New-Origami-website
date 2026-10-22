@@ -69,3 +69,5 @@
 
 ## 2026-06 — Founder headshots
 - Added processed headshots for Yashwanth & Aparna (Aparna photo rotated upright, both cropped 4:5 with blurred background) at /frontend/public/founders/*.webp, rendered on /about founders cards. Ashok card shows "Portrait coming soon" placeholder.
+- Ashok headshot added (all 3 founders now have photos).
+- Custom 404 (app/not-found.js): headline, Back home/Talk to us, 9 popular-link grid, noindex/follow, returns HTTP 404.
