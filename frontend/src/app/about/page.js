@@ -38,6 +38,27 @@ const TIMELINE = [
   ["2025", "Expanded Class II & Class III gaming platform practice."],
 ];
 
+const FOUNDERS = [
+  {
+    name: "Ashok Reddy Gummalla",
+    role: "Co-founder & CEO",
+    initials: "AR",
+    bio: "A decade of operator-level experience with leading commerce brands across e-commerce, digital growth and customer acquisition. Ashok sets Origami's direction, owns partnerships and growth, and turns ambitious product ideas into measurable business outcomes.",
+  },
+  {
+    name: "Yashwanth Reddy",
+    role: "Co-founder & CTO",
+    initials: "YR",
+    bio: "A career spanning media, entertainment and payment processing — environments where seamless experience and reliability are non-negotiable. Yashwanth leads Origami's engineering and architecture, turning complex problems into platforms built to scale.",
+  },
+  {
+    name: "Aparna Chodavarapu",
+    role: "Co-founder & CFO",
+    initials: "AC",
+    bio: "Engineering and team-leadership roots across aerospace, automotive and technology. Aparna runs Origami's financial strategy and operations with a pragmatic, detail-driven approach — focused on building a business that compounds.",
+  },
+];
+
 export default function AboutPage() {
   return (
     <div data-testid="about-page">
@@ -84,6 +105,54 @@ export default function AboutPage() {
                   {v.title}
                 </h3>
                 <p className="mt-4 text-ink-muted leading-relaxed">{v.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FOUNDERS */}
+      <section className="py-24 md:py-32 border-b border-ink-line bg-white relative overflow-hidden" data-testid="about-founders">
+        <div className="absolute -right-40 top-20 w-[520px] h-[520px] sunburst pointer-events-none opacity-80" />
+        <div className="relative max-w-[1440px] mx-auto px-6 md:px-10">
+          <div className="grid grid-cols-12 gap-8 mb-16 items-end">
+            <div className="col-span-12 md:col-span-7">
+              <div className="font-mono text-[11px] uppercase tracking-[0.25em] text-signal mb-5">
+                /// Founders
+              </div>
+              <h2 className="font-display text-4xl md:text-6xl font-black leading-[0.95] tracking-tightest">
+                The people behind<br />
+                <span className="text-signal">Origami.</span>
+              </h2>
+            </div>
+            <div className="col-span-12 md:col-span-4 md:col-start-9 text-ink-soft text-lg leading-relaxed">
+              Three perspectives. One shared ambition — build things that
+              matter, for teams that take craft seriously.
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-ink-line border border-ink-line">
+            {FOUNDERS.map((f) => (
+              <div
+                key={f.name}
+                className="bg-white p-8 md:p-10 flex flex-col"
+                data-testid={`founder-${f.name.toLowerCase().replace(/\s+/g, "-")}`}
+              >
+                <div
+                  aria-hidden="true"
+                  className="w-16 h-16 rounded-full bg-signal/10 border border-signal/30 flex items-center justify-center font-display text-xl font-black text-signal"
+                >
+                  {f.initials}
+                </div>
+                <h3 className="mt-8 font-display text-2xl md:text-3xl font-bold tracking-tight leading-tight">
+                  {f.name}
+                </h3>
+                <div className="mt-2 font-mono text-[11px] uppercase tracking-[0.22em] text-ink-muted">
+                  {f.role}
+                </div>
+                <p className="mt-6 text-ink-soft text-[15px] leading-relaxed">
+                  {f.bio}
+                </p>
               </div>
             ))}
           </div>
